@@ -1,0 +1,781 @@
+{
+  "number": 220,
+  "title": "人工智能的机会在哪里",
+  "date": "2023-01-11",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202208/bg2022082517.webp",
+  "coverCaption": "重庆连日高温，导致嘉陵江水位急剧下降，江底的浅滩都露出来了，千厮门大桥的桥墩下完全没水了。（via）",
+  "summary": "OpenAI 公司的人工智能模型 DALL·E 2，最近向社会公众开放。 它可以根据文本生成图片，有点像童话里面的“魔镜”。你告诉魔镜想看什么，它就向你展示什么。目前的价格是15美元生成460张图片，平均每张图0.03美元（约为人民币两角）…",
+  "sections": [
+    {
+      "id": "封面图",
+      "title": "封面图",
+      "items": [
+        {
+          "content": "<p>重庆连日高温，导致嘉陵江水位急剧下降，江底的浅滩都露出来了，千厮门大桥的桥墩下完全没水了。（<a href=\"http://www.news.cn/local/2022-08/17/c_1128922377.htm\" target=\"_blank\" rel=\"noopener noreferrer\">via</a>）</p>",
+          "links": [
+            {
+              "text": "via",
+              "url": "http://www.news.cn/local/2022-08/17/c_1128922377.htm"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082517.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "本周话题-人工智能的机会在哪里",
+      "title": "本周话题：人工智能的机会在哪里",
+      "items": [
+        {
+          "content": "<p><a href=\"https://openai.com/blog/dall-e-now-available-in-beta/\" target=\"_blank\" rel=\"noopener noreferrer\">OpenAI 公司</a>的人工智能模型 <a href=\"https://openai.com/dall-e-2/\" target=\"_blank\" rel=\"noopener noreferrer\">DALL·E 2</a>，最近向社会公众开放。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082004.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它可以根据文本生成图片，有点像童话里面的“魔镜”。你告诉魔镜想看什么，它就向你展示什么。目前的<a href=\"https://www.163.com/dy/article/HCSNPB8F05118HA4.html\" target=\"_blank\" rel=\"noopener noreferrer\">价格</a>是15美元生成460张图片，平均每张图0.03美元（约为人民币两角）。</p>\n<p>人们马上发现，这个工具有实际用途。</p>\n<p>数据库查询软件 <a href=\"https://github.com/cube2222/octosql\" target=\"_blank\" rel=\"noopener noreferrer\">OctoSQL</a> 缺少一个 Logo，作者就描述了一下想要什么 Logo。</p>\n<blockquote>\n<p>一只可爱的小章鱼戴着黄色安全帽，玩耍着彩色珍珠，充满活力和喜悦，图片背景为黑色。</p>\n</blockquote>\n<p>DALL·E 2 给了他下面的图片。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082403.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个 Logo 现在就放在他的项目首页。当然，不是一次就得到了最后的成品，中间经过了多次调整，具体可以看<a href=\"https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/\" target=\"_blank\" rel=\"noopener noreferrer\">他的文章</a>。</p>\n<p>另一个开发者尝试生成博客文章的<a href=\"https://deephaven.io/blog/2022/08/08/AI-generated-blog-thumbnails/\" target=\"_blank\" rel=\"noopener noreferrer\">插图</a>。他有一篇 Docker 容器的介绍文章，插图描述是“一只蓝鲸背上有成堆的集装箱”，模型给出了下面的图片。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082404.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Go 语言数据流操作的文章，图片描述是“一个毛绒绒的蓝色地鼠，在多个显示器上编程”，得到了下图。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082405.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>上面的例子可以看出，<strong>对于个人开发者和小企业，这个工具简直是天上掉下来的免费设计师。</strong></p>\n<p>即使对于真正拥有设计师的大公司，它也很有用。有人拿着它生成的图片“宇航员在月球骑马”，在推特上面<a href=\"https://ark-invest.com/newsletters/issue-323/\" target=\"_blank\" rel=\"noopener noreferrer\">询问</a>艺术家：“<strong>如果让你画下面这张图，需要多久？</strong>”</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082005.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>回答的平均数是5.25个小时，而 DALL·E 2 实际只花了22秒。这意味着，<strong>人工智能可以节省99.9%的设计师时间！</strong> 这些节省出来的时间，就可以用在其他方面，为公司创造更大价值。</p>\n<p>其实，最经济的做法是，设计师负责跟客户（或项目经理）沟通，搞清楚对方想要什么设计，然后把需求输入软件，让 DALL·E 2 生成实际作品即可，最多再做一些人工的修补。</p>\n<p>说到这里，大家应该都看出来了，DALL·E 2 能部分替代设计师。它比设计师更快更便宜，又能完成实际工作，很可能会减少设计师的招聘需求，还可能拉低设计师的薪资。</p>\n<p>悲观的朋友也许觉得，这是人工智能抢走工作岗位的又一个例子。这种想法不算错，<strong>但是从相反的角度看，这恰恰是人工智能带来的机会。</strong></p>\n<p>以前请不起设计师的项目，现在可以有设计资源了；以前只有5000元设计费的项目，现在可以省下这笔钱，还能有多个设计可以选择。这就是人工智能为所有人创造的机会。</p>\n<p>我们不应该想着去跟人工智能竞争，那样的结局肯定是悲观的，<strong>而要把人工智能看成放大自己能力、扩大成果的一个机会。</strong></p>\n<p>人工智能正在遍地开花，影响的绝不仅仅是设计师：GitHub 公司的 Copilot 软件会自动生成代码（替代程序员），OpenAI 公司的 GPT-3 模型会生成文本（替代作家），Deepmind 公司的 Alphafold 模型会预测蛋白质结构（替代生化学家）…… 而且，它们还在以极快速度进化，每天都变得更加“智能”。</p>\n<p>我认为，理智的态度不是去挑战或否定人工智能，幻想人类有胜过它们之处，也不是感到焦虑和绝望。唯一可行的选择就是把它们看成是一个机会，它们是更好更值得学习和使用的工具，我们应该主动去了解这些模型，适应它们，使用它们，尽快将它们转化为自己的生产力。</p>\n<p>如果我是一个设计师，现在就会学习使用 DALL·E 2，看看怎么发挥它的最大作用。毕竟如果这种模型会成功，肯定离不开推广和操作它的人，机会也许就在这里，与其把它留给别人，不如早点拿在自己手里。</p>",
+          "links": [
+            {
+              "text": "OpenAI 公司",
+              "url": "https://openai.com/blog/dall-e-now-available-in-beta/"
+            },
+            {
+              "text": "DALL·E 2",
+              "url": "https://openai.com/dall-e-2/"
+            },
+            {
+              "text": "价格",
+              "url": "https://www.163.com/dy/article/HCSNPB8F05118HA4.html"
+            },
+            {
+              "text": "OctoSQL",
+              "url": "https://github.com/cube2222/octosql"
+            },
+            {
+              "text": "他的文章",
+              "url": "https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/"
+            },
+            {
+              "text": "插图",
+              "url": "https://deephaven.io/blog/2022/08/08/AI-generated-blog-thumbnails/"
+            },
+            {
+              "text": "询问",
+              "url": "https://ark-invest.com/newsletters/issue-323/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082004.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082403.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082404.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082405.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082005.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "稀土开发者大会资料",
+      "title": "稀土开发者大会资料",
+      "items": [
+        {
+          "content": "<p>上月底，<a href=\"https://juejin.cn/?utm_source=ryfzk\" target=\"_blank\" rel=\"noopener noreferrer\">稀土掘金社区</a>办了<a href=\"https://conf.juejin.cn/xdc2022/?utm_source=ryfzk\" target=\"_blank\" rel=\"noopener noreferrer\">第二届开发者大会</a>。</p>\n<p>周刊发过活动预告，希望大家报名看现场直播。因为他们这一次请了<a href=\"https://conf.juejin.cn/xdc2022/#s8?utm_source=ryfzk\" target=\"_blank\" rel=\"noopener noreferrer\">很多人</a>，两天排了18个技术专场，近百场演讲。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081506.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>那一天，我也上线看了。下面分享几个印象比较深的演讲，它们的视频和 PPT 现在都上网了。</p>",
+          "links": [
+            {
+              "text": "稀土掘金社区",
+              "url": "https://juejin.cn/?utm_source=ryfzk"
+            },
+            {
+              "text": "第二届开发者大会",
+              "url": "https://conf.juejin.cn/xdc2022/?utm_source=ryfzk"
+            },
+            {
+              "text": "很多人",
+              "url": "https://conf.juejin.cn/xdc2022/#s8?utm_source=ryfzk"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081506.webp"
+          ]
+        },
+        {
+          "title": "首",
+          "content": "<p>先，开幕式的当天上午是 Vue.js 创始人尤雨溪的演讲。</p>\n<p>他主要讲了两点。第一点是 React Hooks 写法的一些缺点，其他框架（包括 Vue.js）如何克服。</p>\n<p>第二点比较有趣。他提到，<strong>框架逐渐变成一个“中间层”。</strong> </p>\n<p>框架的上层是一些全栈框架（比如 Next.js 和 Nuxt），将前后端打通。下层是一些二进制工具（下图），都不是用 JS 写的，主要用原生的编译语言实现。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081407.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>因此在未来，前端框架可能会向“中间层工具”发展。</p>",
+          "links": [],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081407.webp"
+          ]
+        },
+        {
+          "title": "另",
+          "content": "<p>一个不错的演讲，来自微软工程师、<a href=\"https://dapr.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Dapr</a> 的维护者敖小剑。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081502.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他谈了一个 Java 开发者普遍关心的问题：<strong>微服务 + 容器 + serverless 这些云工具，正在蚕食大型 Java 系统的市场</strong>，那么 Java 和 Spring 框架应该怎样面对云原生的挑战？</p>\n<p>还有两个演讲也蛮有意思。（1）飞书的产品负责人陈满砚，介绍如何管理300人的团队，做出飞书这个产品。（2）中兴通讯的工程师陈旭，介绍可视化的多人实时编辑的算法实现。</p>",
+          "links": [
+            {
+              "text": "Dapr",
+              "url": "https://dapr.io/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081502.webp"
+          ]
+        },
+        {
+          "title": "现",
+          "content": "<p>在，<a href=\"https://conf.juejin.cn/xdc2022/?utm_source=ryfzk\" target=\"_blank\" rel=\"noopener noreferrer\">所有演讲视频</a>都上网了，就在稀土开发者大会的官网。</p>\n<p>这些演讲的 PPT 免费下载，一共78个文件，包括上面我提到的那几个。<strong>官方把这些 PPT 做成了一本完整的掘金小册</strong>，省得大家一个个下载了。 </p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082406.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><a href=\"https://juejin.cn/book/7127092198096502822?utm_source=ryfzk\" target=\"_blank\" rel=\"noopener noreferrer\">点击这里</a>或者扫描二维码，就可以免费阅读这些 PPT 了，它需要一个掘金账号。另外官方还有不少礼品，阅读小册的朋友都有机会抽奖，详见<a href=\"https://mp.weixin.qq.com/s/EUWEcOjQKque61Jc_PqZKA\" target=\"_blank\" rel=\"noopener noreferrer\">抽奖说明</a>。</p>\n<p>我顺便提一下，<a href=\"https://juejin.cn/course?utm_source=ryfzk\" target=\"_blank\" rel=\"noopener noreferrer\">“掘金小册”</a>其实是一个不错的知识变现渠道。如果你有值得分享的知识，愿意写成一本系统性的小册子，就可以申请在他们的官网上架。你自己定价，如果写得不错，官方还会帮你推广，有兴趣的朋友可以试试看。</p>",
+          "links": [
+            {
+              "text": "所有演讲视频",
+              "url": "https://conf.juejin.cn/xdc2022/?utm_source=ryfzk"
+            },
+            {
+              "text": "点击这里",
+              "url": "https://juejin.cn/book/7127092198096502822?utm_source=ryfzk"
+            },
+            {
+              "text": "抽奖说明",
+              "url": "https://mp.weixin.qq.com/s/EUWEcOjQKque61Jc_PqZKA"
+            },
+            {
+              "text": "“掘金小册”",
+              "url": "https://juejin.cn/course?utm_source=ryfzk"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082406.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "科技动态",
+      "title": "科技动态",
+      "items": [
+        {
+          "title": "地铁限电",
+          "content": "<p>由于高温限电，重庆地铁短暂地关闭了车站和车厢的照明，出现了在微光中乘坐地铁的奇特景像。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082518.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082519.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>车厢两端 LED 显示屏还亮着，使得整节车厢泛着红光，给人一种“赛博朋克”的感觉。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082513.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这些照片反映了现代社会对能源的依赖。提醒我们，一旦能源不足，城市将变成什么样。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082520.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "地铁限电",
+              "url": "https://www.cnbeta.com/articles/tech/1307717.htm"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082518.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082519.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082513.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082520.webp"
+          ]
+        },
+        {
+          "title": "物联网的可见光通信",
+          "content": "<p>家用电器如何连接手机？现在的方案都是电器内置蓝牙或 WiFi，这样大大增加了成本和复杂性。</p>\n<p>一家英国创业公司提出了可见光通信方案，家用电器配备 LED 发光二极管，不断闪烁发光传出信息。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202203/bg2022032005.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>手机使用摄像头接收光信号，进行解读。据称在5厘米的距离内，传输速率可达到 1.5kb/秒。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202203/bg2022032006.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>但是，家用电器接收手机信号，才是难题。这家公司称，它可以让家用电器接收手机闪光灯的闪烁，但没有透露细节。网友猜测，电器端可能需要红外线接收器，感知可见光。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202203/bg2022032007.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "物联网的可见光通信",
+              "url": "https://kiwink.io/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202203/bg2022032005.webp",
+            "https://cdn.beekka.com/blogimg/asset/202203/bg2022032006.webp",
+            "https://cdn.beekka.com/blogimg/asset/202203/bg2022032007.webp"
+          ]
+        },
+        {
+          "title": "世界最薄的机械表",
+          "content": "<p>一家瑞士高档手表品牌，推出了世界最薄的机械表，只有1.75毫米厚。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022070906.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022070909.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它堪称工程奇迹，内部结构复杂，各种零件都是薄到极致，而且还包含了表壳和蓝宝石水晶表面。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022070907.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022070908.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>在它的表盘上，时间显示区域其实非常小，只占据了大约六分之一的空间，在上部的中央位置。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022070910.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>表盘的左上角和左下角是旋转操作钮。右上角是外露的摆轮，右下角是合作方法拉利 Logo。</p>\n<p>它的售价也是天价，高达188.8万美元，全球限量发售150支。</p>",
+          "links": [
+            {
+              "text": "世界最薄的机械表",
+              "url": "https://www.hodinkee.com/articles/richard-mille-sets-a-new-record-for-the-worlds-thinnest-watch-with-the-rm-up-01-ferrari"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022070906.webp",
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022070909.webp",
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022070907.webp",
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022070908.webp",
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022070910.webp"
+          ]
+        },
+        {
+          "title": "正方形显示器",
+          "content": "<p>LG 公司最近发布了一款16:18的显示器。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022071002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>普通显示器的宽高比一般是16:9，所以这款显示器相当于两个普通显示器堆在一起。</p>\n<p>这种接近正方形的显示器现在越来越多，此前 <a href=\"https://www.eizo.com/products/flexscan/ev2730q/\" target=\"_blank\" rel=\"noopener noreferrer\">Ezio</a> 也发布过一款。正方形显示器的好处是，上部和下部可以同时打开两个应用，都能完整显示。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022071003.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>而且，对于图形和视频处理，它也有更大的显示面积。横屏和竖屏的视频，都可以最大面积地展示。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022071004.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它的价格会比普通显示器贵，就看消费者能否接受了。</p>",
+          "links": [
+            {
+              "text": "正方形显示器",
+              "url": "https://www.lg.com/us/monitors/lg-28mq780-b"
+            },
+            {
+              "text": "Ezio",
+              "url": "https://www.eizo.com/products/flexscan/ev2730q/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022071002.webp",
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022071003.webp",
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022071004.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "蒋尚义万字访谈",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082006.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>蒋尚义（1946－）曾担任台积电共同营运长，后来到了大陆，担任过中芯国际副董事长。</p>\n<p>今年三月，他接受美国“电脑历史博物馆”专访，回顾自己的半导体生涯。内容不错，值得一读，可以了解半导体行业和台积电。</p>",
+          "links": [
+            {
+              "text": "蒋尚义万字访谈",
+              "url": "https://mp.weixin.qq.com/s/Y22nMfoIh1h3J6cLaNii2w"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082006.webp"
+          ]
+        },
+        {
+          "title": "DuckDuckGo 发放 @duck.com 邮箱",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082516.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>DuckDuckGo 开始向所有用户免费开放 @duck.com 邮箱。这是一个邮件转发服务，会剥离邮件里面的追踪代码。如果你想要注册，需要先安装它的浏览器扩展。</p>",
+          "links": [
+            {
+              "text": "DuckDuckGo 发放 @duck.com 邮箱",
+              "url": "https://www.cnbeta.com/articles/tech/1308699.htm"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082516.webp"
+          ]
+        },
+        {
+          "title": "电动轮椅当电脑椅",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082003.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者探讨了一种可能性，能不能用电动轮椅，取代电脑椅？</p>",
+          "links": [
+            {
+              "text": "电动轮椅当电脑椅",
+              "url": "https://mp.weixin.qq.com/s/hxmC3wHTw4g_JvcRCoqPDQ"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082003.webp"
+          ]
+        },
+        {
+          "title": "为什么苹果一定会发布基于 ARM 的 Mac 电脑",
+          "content": "<p>一篇2014年的文章，作者正确预言 Mac 电脑会改用 ARM 架构 CPU，分析得有理有据，很有眼光。</p>",
+          "links": [
+            {
+              "text": "为什么苹果一定会发布基于 ARM 的 Mac 电脑",
+              "url": "https://www.mattrichman.net/why-apple-will-switch-to-arm-based-macs/"
+            }
+          ]
+        },
+        {
+          "title": "如何使用 Next.js 搭建博客",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022071103.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>如何使用 Next.js 在 Vercel 免费空间上搭建博客的教程。</p>",
+          "links": [
+            {
+              "text": "如何使用 Next.js 搭建博客",
+              "url": "https://www.joshwcomeau.com/blog/how-i-built-my-blog/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022071103.webp"
+          ]
+        },
+        {
+          "title": "Node.js 的性能差异：CJS vs ESM",
+          "content": "<p>这是 Node.js 官方仓库的一个 issue。有人发现，Node.js 处理 CJS 模块比 ESM 模块快10倍，而且 Node 18 的性能不如 Node 16。</p>",
+          "links": [
+            {
+              "text": "Node.js 的性能差异：CJS vs ESM",
+              "url": "https://github.com/nodejs/node/issues/44186"
+            }
+          ]
+        },
+        {
+          "title": "Tauri vs Electron：真实项目的比较",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082304.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Electron 是目前跨平台桌面软件的首选开发框架，Tauri 则是最近出现的一个替代品，试图解决前者的最大痛点：体积臃肿，资源占用高。</p>\n<p>作者特意用 Tauri 写了一个桌面应用。本文是他的使用感受，以及两者的全方位比较。</p>",
+          "links": [
+            {
+              "text": "Tauri vs Electron：真实项目的比较",
+              "url": "https://www.levminer.com/blog/tauri-vs-electron"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082304.webp"
+          ]
+        },
+        {
+          "title": "103状态码：加载提示",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Chrome 浏览器新增了 HTTP 协议的103状态码，表示“加载提示”（early hints），即提示浏览器可以预加载某个资源，用来取代已经下线的 HTTP/2 的<a href=\"https://developer.chrome.com/blog/removing-push/\" target=\"_blank\" rel=\"noopener noreferrer\">服务器推送</a>功能。</p>",
+          "links": [
+            {
+              "text": "103状态码：加载提示",
+              "url": "https://developer.chrome.com/blog/early-hints/"
+            },
+            {
+              "text": "服务器推送",
+              "url": "https://developer.chrome.com/blog/removing-push/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082002.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "mjml",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022063024.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>编写 HTML 邮件的工具。它提供了一套邮件组件，并能将这些组件转码为 HTML 代码。你可以试试它的 <a href=\"https://mjml.io/try-it-live\" target=\"_blank\" rel=\"noopener noreferrer\">PlayGround</a>。</p>",
+          "links": [
+            {
+              "text": "mjml",
+              "url": "https://mjml.io/"
+            },
+            {
+              "text": "PlayGround",
+              "url": "https://mjml.io/try-it-live"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022063024.webp"
+          ]
+        },
+        {
+          "title": "Upptime",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022070110.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个开源的网站状态监视服务，它使用 GitHub Actions 每五分钟查询一次网站是否在线，每六个小时把响应时间提交到 Git 仓库，生成一个网站（上图），供用户监控网站状态。</p>",
+          "links": [
+            {
+              "text": "Upptime",
+              "url": "https://github.com/upptime/upptime"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022070110.webp"
+          ]
+        },
+        {
+          "title": "Vanblog",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082503.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一款个人博客系统，支持众多功能，采用 Docker 部署，带有管理后台，前台为静态页面，提供自动 HTTPS 证书。（<a href=\"https://github.com/ruanyf/weekly/issues/2576\" target=\"_blank\" rel=\"noopener noreferrer\">@Mereithhh</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Vanblog",
+              "url": "https://vanblog.mereith.com/"
+            },
+            {
+              "text": "@Mereithhh",
+              "url": "https://github.com/ruanyf/weekly/issues/2576"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082503.webp"
+          ]
+        },
+        {
+          "title": "SVNAdmin",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082505.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>SVN 源代码仓库的 Web 管理界面，使用 PHP 开发。（<a href=\"https://github.com/ruanyf/weekly/issues/2578\" target=\"_blank\" rel=\"noopener noreferrer\">@witersen</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "SVNAdmin",
+              "url": "https://github.com/witersen/SvnAdminV2.0"
+            },
+            {
+              "text": "@witersen",
+              "url": "https://github.com/ruanyf/weekly/issues/2578"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082505.webp"
+          ]
+        },
+        {
+          "title": "gossip",
+          "content": "<p>这个工具可以把 GitHub Issue 转成一个静态博客，内容和评论都存放在 issue 中。博客使用 next.js 开发，可以自动部署到 Vercel 或 GitHub Pages。（<a href=\"https://github.com/ruanyf/weekly/issues/2581\" target=\"_blank\" rel=\"noopener noreferrer\">@qianxi0410</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "gossip",
+              "url": "https://github.com/qianxi0410/gossip"
+            },
+            {
+              "text": "@qianxi0410",
+              "url": "https://github.com/ruanyf/weekly/issues/2581"
+            }
+          ]
+        },
+        {
+          "title": "BgSub",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082509.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个网页工具，可以自动抠图，替换背景颜色或背景图片，完全在本地完成，不会上传服务器。（<a href=\"https://github.com/ruanyf/weekly/issues/2582\" target=\"_blank\" rel=\"noopener noreferrer\">@PearOCR</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "BgSub",
+              "url": "https://bgsub.cn/"
+            },
+            {
+              "text": "@PearOCR",
+              "url": "https://github.com/ruanyf/weekly/issues/2582"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082509.webp"
+          ]
+        },
+        {
+          "title": "一起听播客",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082506.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个开源网站，支持多人一起听播客，支持小宇宙和 Apple Podcast 中国区播客。（<a href=\"https://github.com/ruanyf/weekly/issues/2579\" target=\"_blank\" rel=\"noopener noreferrer\">@yenche123</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "一起听播客",
+              "url": "https://github.com/yenche123/podcast-together"
+            },
+            {
+              "text": "@yenche123",
+              "url": "https://github.com/ruanyf/weekly/issues/2579"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082506.webp"
+          ]
+        },
+        {
+          "title": "MiraPlayer",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082504.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个基于腾讯视频库 <a href=\"https://github.com/tnfe/FFCreator/blob/master/README.zh-CN.md\" target=\"_blank\" rel=\"noopener noreferrer\">FFCreator</a> 封装的前端视频播放器和编辑器组件。（<a href=\"https://github.com/ruanyf/weekly/issues/2577\" target=\"_blank\" rel=\"noopener noreferrer\">@milkliker</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "MiraPlayer",
+              "url": "https://github.com/miravideo/FFCreator"
+            },
+            {
+              "text": "FFCreator",
+              "url": "https://github.com/tnfe/FFCreator/blob/master/README.zh-CN.md"
+            },
+            {
+              "text": "@milkliker",
+              "url": "https://github.com/ruanyf/weekly/issues/2577"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082504.webp"
+          ]
+        },
+        {
+          "title": "Solon",
+          "content": "<p>一个轻量级 Java 应用开发框架，资源占用少，支持从 Spring Boot 迁移。（<a href=\"https://github.com/ruanyf/weekly/issues/2590\" target=\"_blank\" rel=\"noopener noreferrer\">@noear</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Solon",
+              "url": "https://solon.noear.org/"
+            },
+            {
+              "text": "@noear",
+              "url": "https://github.com/ruanyf/weekly/issues/2590"
+            }
+          ]
+        },
+        {
+          "title": "Codeberg",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022070111.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个 GitHub/GitLab 的替代品，用来自己托管 Git 代码仓库。</p>",
+          "links": [
+            {
+              "text": "Codeberg",
+              "url": "https://codeberg.org/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022070111.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "活动",
+      "title": "活动",
+      "items": [
+        {
+          "title": "微服务框架 CloudWeGo 技术沙龙",
+          "content": "<p>上周向大家介绍过字节的微服务框架 <a href=\"https://www.cloudwego.io/zh/\" target=\"_blank\" rel=\"noopener noreferrer\">CloudWeGo</a>，支持了字节内部<a href=\"https://segmentfault.com/a/1190000042226107\" target=\"_blank\" rel=\"noopener noreferrer\">10万+的微服务和1000万的容器实例</a>，已经完全开源给外部使用，内外是同一套代码。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081608.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>CloudWeGo 团队会在明天（8月27日）下午2点的字节跳动技术沙龙，<strong>直播分享字节系应用的后台架构</strong>（比如<a href=\"https://segmentfault.com/a/1190000042187351\" target=\"_blank\" rel=\"noopener noreferrer\">飞书的架构</a>），以及如何快速搭建企业级微服务应用。没报名的同学可以抓紧时间<a href=\"https://www.bagevent.com/event/8261894?bag_track=001\" target=\"_blank\" rel=\"noopener noreferrer\">报名</a>，还有机会赢取会务组准备的大量礼品。</p>\n<p>另外，这个框架是用 Go 写的，CloudWeGo 团队不满足于此，还想要更好的性能，所以尝试开发了<strong>国内首个 Rust 语言的 RPC 框架</strong>，也会在现场发布，欢迎关注。</p>",
+          "links": [
+            {
+              "text": "微服务框架 CloudWeGo 技术沙龙",
+              "url": "https://www.bagevent.com/event/8261894?bag_track=001"
+            },
+            {
+              "text": "CloudWeGo",
+              "url": "https://www.cloudwego.io/zh/"
+            },
+            {
+              "text": "10万+的微服务和1000万的容器实例",
+              "url": "https://segmentfault.com/a/1190000042226107"
+            },
+            {
+              "text": "飞书的架构",
+              "url": "https://segmentfault.com/a/1190000042187351"
+            },
+            {
+              "text": "报名",
+              "url": "https://www.bagevent.com/event/8261894?bag_track=001"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081608.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "据意查句",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081819.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>清华大学推出了一个搜索引擎，根据关键词搜索相关的诗文。比如搜索“郁闷”，就会返回各种跟郁闷相关的句子，参见<a href=\"https://www.163.com/dy/article/HDHB76F30511DSSR.html\" target=\"_blank\" rel=\"noopener noreferrer\">介绍文章</a>。</p>\n<p>另有一个汉语的<a href=\"https://wantwords.net/\" target=\"_blank\" rel=\"noopener noreferrer\">近义词搜索引擎</a>。</p>",
+          "links": [
+            {
+              "text": "据意查句",
+              "url": "https://wantquotes.net/"
+            },
+            {
+              "text": "介绍文章",
+              "url": "https://www.163.com/dy/article/HDHB76F30511DSSR.html"
+            },
+            {
+              "text": "近义词搜索引擎",
+              "url": "https://wantwords.net/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081819.webp"
+          ]
+        },
+        {
+          "title": "必应壁纸",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082507.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>周刊介绍过一个抓取必应每日壁纸的 <a href=\"https://github.com/niumoo/bing-wallpaper\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Actions 模板</a>，作者现在将其做成静态网站，可以在线浏览和下载壁纸，每日更新。（<a href=\"https://github.com/ruanyf/weekly/issues/2591\" target=\"_blank\" rel=\"noopener noreferrer\">@niumoo</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "必应壁纸",
+              "url": "https://bing.wdbyte.com/"
+            },
+            {
+              "text": "GitHub Actions 模板",
+              "url": "https://github.com/niumoo/bing-wallpaper"
+            },
+            {
+              "text": "@niumoo",
+              "url": "https://github.com/ruanyf/weekly/issues/2591"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082507.webp"
+          ]
+        },
+        {
+          "title": "音频博客《代码英雄》",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082508.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>红帽公司精心制作的一个音频播客。“Linux 中国”得到授权进行了文本翻译，将其带给国内的开发者。可惜的是，<a href=\"https://www.redhat.com/en/command-line-heroes\" target=\"_blank\" rel=\"noopener noreferrer\">英文版</a>已经更新到第九季，中文翻译才到第四季。（<a href=\"https://github.com/ruanyf/weekly/issues/2584\" target=\"_blank\" rel=\"noopener noreferrer\">@CherryLover</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "音频博客《代码英雄》",
+              "url": "https://linux.cn/talk/clh/"
+            },
+            {
+              "text": "英文版",
+              "url": "https://www.redhat.com/en/command-line-heroes"
+            },
+            {
+              "text": "@CherryLover",
+              "url": "https://github.com/ruanyf/weekly/issues/2584"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082508.webp"
+          ]
+        },
+        {
+          "title": "Bunny Fonts",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022062002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>谷歌网络字体的一个替代品，等同非官方镜像，另外也可以避免泄漏用户信息给谷歌。</p>",
+          "links": [
+            {
+              "text": "Bunny Fonts",
+              "url": "https://fonts.bunny.net/about"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022062002.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "50美元纸钞",
+          "content": "<p>下图是显微镜下的50美元纸钞。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022040303.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>可以看到，为了防伪，纸钞在红色底纹上，加入了蓝色安全纤维。并且，蓝纤维组成了两个五角星图案，右上角的五角星里面还有“USA FIFTY”的缩微字样。</p>",
+          "links": [
+            {
+              "text": "50美元纸钞",
+              "url": "https://www.hillelwayne.com/post/microscopy/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022040303.webp"
+          ]
+        },
+        {
+          "title": "*",
+          "content": "<p><em>活人售货机</em>*</p>\n<p>我在上海地铁上看见一个男子，透明挎包上贴着两行字。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082407.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>我忍不住好奇，拿出手机长焦，终于看清了：“可售商品，价格面议”。这难道是活人售货机？</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022082408.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082407.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022082408.webp"
+          ]
+        },
+        {
+          "title": "雪泥",
+          "content": "<p>积雪落到零度但还未结冰的河道里面，会形成一种雪和水的混合物，称为雪泥（snezhura）。</p>\n<p>这种景象非常罕见，下面就是在圣彼得堡拍到的雪泥照片。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022040610.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022040611.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "雪泥",
+              "url": "https://englishrussia.com/2022/04/01/rare-natural-phenomenon-observed-in-saint-petersburg/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022040610.webp",
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022040611.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "高级大头照服务",
+          "content": "<p>很多求职网站和社交网站，需要上传真人头像。</p>\n<p>如果有一张令人印象深刻的大头照，将大大增加你的人脉和成功机会。为了满足这种需求，美国正在兴起一种高级大头照的摄影服务。</p>\n<p>越来越多的专业摄影师发现，人们为了一张好看的大头像，愿意付出高价。他们就开始专门拍大头照。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081304.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这种专业的大头照非常贵，最便宜的也要200多美元一张。如果你想一次多拍几张，就要上千美元。</p>\n<p>有些摄影师还自带发型师和化妆师，为你做发型和化妆。这样的话，一张大头照就要收费1000美元或2000美元。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081305.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081306.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202208/bg2022081307.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>现在，拍摄互联网使用的头像照片，已经在美国成为一个获利丰厚的新产业。</p>\n<p>不过研究表明，这笔钱是值得的。如果大头照有吸引力，你的 LinkedIn 页面就会获得多得多的浏览量。带有大头照的页面获得的浏览量，是没有头像页面的21倍，获得的好友请求是9倍。</p>\n<p>反之，如果你的头像与老板心目中的形象不符，就会降低你拿到 offer 的概率。</p>",
+          "links": [
+            {
+              "text": "高级大头照服务",
+              "url": "https://www.wsj.com/articles/perfect-linkedin-profile-headshot-photo-is-worth-1-000-and-a-job-11660160047"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081304.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081305.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081306.webp",
+            "https://cdn.beekka.com/blogimg/asset/202208/bg2022081307.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "真",
+          "content": "<p>的想做一个项目，那就开始得越快越好。早点做出有价值的成果，你会吸引到客户；如果做不出来，你就可以早点放弃，节省自己的时间，并了解哪里行不通。</p>\n<p>-- <a href=\"https://dodov.dev/blog/dont-build-your-own-framework\" target=\"_blank\" rel=\"noopener noreferrer\">《不要建立自己的框架》</a></p>",
+          "links": [
+            {
+              "text": "《不要建立自己的框架》",
+              "url": "https://dodov.dev/blog/dont-build-your-own-framework"
+            }
+          ]
+        },
+        {
+          "title": "如",
+          "content": "<p>果你的旅行只是通过汽车/火车/飞机，你可能很难体会到骑自行车看到的世界有多丰富。一般来说，骑行的时候，你不会选择途径一个又一个沉闷的交通枢纽，而是沿着古老的路线，这些路线连接着数千年来人们的生活、历史和风景。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=31798326\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=31798326"
+            }
+          ]
+        },
+        {
+          "title": "年",
+          "content": "<p>轻时，我真的很烦产品经理，他们总是让我预估从未做过的任务的工期。</p>\n<p>现在我意识到，产品经理真的需要在日程表中填一个日期，这样他们才有东西交代。而且，我自己的数字至少比他们随便想一个数字，要更准确一些。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=31809794\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=31809794"
+            }
+          ]
+        },
+        {
+          "title": "现",
+          "content": "<p>在想靠开发手机 App 赚钱，太难了。市场完全不同了，客户已经厌倦下载更多的 App，更不用说为它们付费了。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=31835433\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=31835433"
+            }
+          ]
+        },
+        {
+          "title": "任",
+          "content": "<p>何一个人都是一条已经存在40亿年的生物繁殖链条的最终结果。40亿年中，这条链条每一环的繁殖都没有失败，才有了你。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=31848315\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=31848315"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "历史上的本周",
+      "title": "历史上的本周",
+      "items": [
+        {
+          "content": "<p>2021年（第 172 期）：<a href=\"https://www.ruanyifeng.com/blog/2021/08/weekly-issue-172.html\" target=\"_blank\" rel=\"noopener noreferrer\">我们会死于气候灾难吗？</a></p>\n<p>2020年（第 121 期）：<a href=\"https://www.ruanyifeng.com/blog/2020/08/weekly-issue-121.html\" target=\"_blank\" rel=\"noopener noreferrer\">为什么人类没有越来越闲？</a></p>\n<p>2019年（第 70 期）：<a href=\"https://www.ruanyifeng.com/blog/2019/08/weekly-issue-70.html\" target=\"_blank\" rel=\"noopener noreferrer\">世界进入负利率时代，这意味什么</a></p>\n<p>2018年（第 19 期）：<a href=\"https://www.ruanyifeng.com/blog/2018/08/weekly-issue-19.html\" target=\"_blank\" rel=\"noopener noreferrer\">电影《头号玩家》描绘未来的虚拟世界</a></p>",
+          "links": [
+            {
+              "text": "我们会死于气候灾难吗？",
+              "url": "https://www.ruanyifeng.com/blog/2021/08/weekly-issue-172.html"
+            },
+            {
+              "text": "为什么人类没有越来越闲？",
+              "url": "https://www.ruanyifeng.com/blog/2020/08/weekly-issue-121.html"
+            },
+            {
+              "text": "世界进入负利率时代，这意味什么",
+              "url": "https://www.ruanyifeng.com/blog/2019/08/weekly-issue-70.html"
+            },
+            {
+              "text": "电影《头号玩家》描绘未来的虚拟世界",
+              "url": "https://www.ruanyifeng.com/blog/2018/08/weekly-issue-19.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "鸣谢",
+      "title": "鸣谢",
+      "items": [
+        {
+          "content": "<p>国产软件 <a href=\"https://flowus.cn?promotionChannel=GW_RYF_01\" target=\"_blank\" rel=\"noopener noreferrer\">FlowUs</a> 提供个人专栏服务（查看<a href=\"https://ruanyf-weekly.flowus.cn/?code=FLOWUS&promotionChannel=WX_RYF_00\" target=\"_blank\" rel=\"noopener noreferrer\">周刊专栏</a>），集成了“文档+表格+网盘”，适合知识库、数据管理、文件存储多种用途。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202207/bg2022072108.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "FlowUs",
+              "url": "https://flowus.cn?promotionChannel=GW_RYF_01"
+            },
+            {
+              "text": "周刊专栏",
+              "url": "https://ruanyf-weekly.flowus.cn/?code=FLOWUS&promotionChannel=WX_RYF_00"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202207/bg2022072108.webp"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-220.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-220.md"
+}

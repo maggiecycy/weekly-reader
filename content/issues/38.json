@@ -1,0 +1,716 @@
+{
+  "number": 38,
+  "title": "第 38 期",
+  "date": "2019-07-17",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/201901/bg2019010401.jpg",
+  "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：公交站的电子墨水屏，上海，2018） 最近我总在想，手机支付是否真的方便…",
+  "sections": [
+    {
+      "id": "新闻",
+      "title": "新闻",
+      "items": [
+        {
+          "title": "新型偷车方式",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010402.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>加拿大多伦多出现了一种新型偷车方式。有些车钥匙会发出电波，只要靠近车辆，车门就会自动打开，主人也很大意，往往一回家，就将车钥匙放在门口的柜子上。</p>\n<p>半夜里，窃贼拿着信号捕捉器靠近房门，找到车钥匙的信号，再将其放大，传给车旁边的同伙，同伙将信号再对准车门。车门发现信号，就自动打开，然后车贼设法发动汽车，将它开走。</p>",
+          "links": [
+            {
+              "text": "新型偷车方式",
+              "url": "https://www.cbc.ca/news/canada/toronto/car-thefts-rising-1.4930890"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010402.jpg"
+          ]
+        },
+        {
+          "title": "废弃煤矿种粮食",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010403.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>很多煤矿地下有很长的矿道，一旦煤矿枯竭，这些矿道就没用了。英国科学家正在尝试，将这些矿道用来种粮食。</p>\n<p>矿道是巨大的温室，不用担心天气和季节，而且温度和湿度水平通常是恒定的，还有现成的水以及二氧化碳。矿道的照明将来自LED灯，或者光纤技术可以将太阳光反射到地面40米。科学家认为，在里面发展“垂直农业”，一来可以为矿山注入新的生命，二来可能比地面的粮食产量更高。</p>",
+          "links": [
+            {
+              "text": "废弃煤矿种粮食",
+              "url": "https://www.bbc.com/news/uk-wales-46221656"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010403.jpg"
+          ]
+        },
+        {
+          "title": "谷歌翻译改版",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010404.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>谷歌翻译最近改版了，除了 UI，最大变化是提供了单独的文件翻译，支持 .doc、.docx、.odf、.pdf、.ppt、.pptx、.ps、.rtf、.txt、.xls 或 .xlsx 等文档直接上传翻译。（@<a href=\"https://github.com/ruanyf/weekly/issues/123\" target=\"_blank\" rel=\"noopener noreferrer\">Anderson-Liu</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "谷歌翻译改版",
+              "url": "https://www.blog.google/products/translate/new-look-google-translate-web/"
+            },
+            {
+              "text": "Anderson-Liu",
+              "url": "https://github.com/ruanyf/weekly/issues/123"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010404.jpg"
+          ]
+        },
+        {
+          "title": "世界最长寿的人",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010405.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>法国老妇人 Jeanne Calment 是可以确认的世界最长寿的人，生于1875年2月21日，死于1997年8月4日，活了122岁。最近，莫斯科国立大学的一位博士质疑这可能是一个骗局。</p>\n<p>首先，该地区其他长寿老人的寿命，几乎都没有超过100岁，与 Jeanne Calment 相差太大，后者是一个突出的个例，这是很可疑的。其次，她过了100岁，行动还非常自如，也没有皮肤萎缩的迹象，这也很不寻常。最后，她早年的照片与晚年的照片，眼睛之间的距离不一致（上图）。因此，博士大胆推测，根据历史记录，1934年时 Jeanne Calment 的女儿死了，实际上可能是她本人死了，然后她女儿冒充了她，为了可以继续领取政府的年金。如果这个推测是真的，那么她女儿1997年去世，真实年龄是99岁。</p>",
+          "links": [
+            {
+              "text": "世界最长寿的人",
+              "url": "https://www.leafscience.org/valery-novoselov-investigating-jeanne-calments-longevity-record/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010405.jpg"
+          ]
+        },
+        {
+          "title": "高通公司的笔记本芯片",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010406.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>高通公司发布该公司的第一款笔记本专用 CPU“Snapdragon 8cx”。这款 ARM 芯片是7纳米制程，具有 4G 通信能力，可以在休眠时依然保持 4G 连接，而且它可以提供至少一整天的续航时间。</p>\n<p>已经有很多人猜测，不久的将来，Apple 的 MacBook 系列将使用 ARM 芯片，而不是今天使用的英特尔芯片。</p>",
+          "links": [
+            {
+              "text": "高通公司的笔记本芯片",
+              "url": "https://gizmodo.com/the-snapdragon-8cx-is-qualcomms-first-purpose-built-chi-1830914214"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010406.jpg"
+          ]
+        },
+        {
+          "title": "最后一代汽车内燃机",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010407.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>德国大众汽车公司表示，该公司计划2026年推出最后一代汽油和柴油车，然后放弃内燃机汽车，全部转向电动汽车的生产。这是为了减少二氧化碳排放以应对气候变化。上图是大众最新的电动车型 ID Neo。</p>\n<p>大众公司预计，到了2050年，除了充电设施不足的地区可能仍会有一些汽柴油车型，其他地区将全部是电动车。</p>",
+          "links": [
+            {
+              "text": "最后一代汽车内燃机",
+              "url": "https://www.detroitnews.com/story/business/autos/foreign/2018/12/05/vw-says-combustion-cars-will-fade-away/38677503/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010407.jpg"
+          ]
+        },
+        {
+          "title": "尿液生物砖",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010408.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开普敦大学（UCT）土木工程学院发明了一种尿液生成砖头的技术。它使用一种细菌分解尿液中的尿素，同时通过复杂的化学反应产生碳酸钙，进而形成砖头。本质上，这与贝壳的形成方式并无二致。这种技术不仅可以处理尿液，对防止地球变暖也有好处，因为生物砖是在室温下制造，而普通砖是在1400°C左右的温度下进行窑烧，会产生大量二氧化碳。</p>\n<p>尿液里面剩余的氮和钾，可以作为肥料。另外，尿液中的磷可转化为磷酸钙，磷酸钙是化肥的关键成分。</p>",
+          "links": [
+            {
+              "text": "尿液生物砖",
+              "url": "https://www.news.uct.ac.za/article/-2018-10-24-world-first-bio-bricks-from-urine"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010408.jpg"
+          ]
+        },
+        {
+          "title": "BFR 火箭",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010409.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>前往火星是对宇航员心理的巨大考验。前往火星的旅程将持续几个月，这期间，宇航员被限制在一个不超过中型房车的空间里面。即使到达火星，与地球之间的通信将有长达45分钟的延迟，你说一句话，要等45分钟才能听到答复。</p>\n<p>SpaceX 公司设计当中的载人飞船 Big Falcon Rocket（简称 BFR），安排了40个舱室，可容纳200人以上的乘客，每个舱室可以容纳五六个人。正常情况下，每次前往火星大约是100人，每个舱室住两到三个人。此外，还有公共区域供乘客使用，用于娱乐和社交。根据 SpaceX 公司的规划，计划在2024年首飞。</p>",
+          "links": [
+            {
+              "text": "BFR 火箭",
+              "url": "http://nautil.us/blog/-the-psychological-challenges-of-just-getting-to-mars"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010409.jpg"
+          ]
+        },
+        {
+          "title": "Oath 的价值",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010410.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>2015年，Verizon 公司以44亿美元的价格收购了美国在线 AOL，2017年又以45亿美元的价格收购了雅虎，然后将它们合并成了一家新公司 Oath。Oath 拥有美国在线和雅虎的所有网络资产，包括 Yahoo.com、AOL.com、赫芬顿邮报、Tumblr 和 TechCrunch。</p>\n<p>当时，Oath 经过核算，登记了实物资产大概50多亿美元，商誉为48亿美元。所谓商誉，就是收购价减去实物资产，可以理解成网站本身的价值。2018年底，Oath 宣布一次性注销商誉46亿美元，将其计为亏损。也就是说，雅虎如今几乎一钱不值。</p>",
+          "links": [
+            {
+              "text": "Oath 的价值",
+              "url": "https://www.nbcnews.com/tech/tech-news/verizon-signals-its-yahoo-aol-divisions-are-almost-worthless-n946846"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010410.jpg"
+          ]
+        },
+        {
+          "title": "_",
+          "content": "<p>_一句话新闻__</p>\n<p>* <a href=\"https://www.japantimes.co.jp/news/2018/12/21/national/number-babies-born-japan-2018-lowest-since-records-began-population-decline-highest/#.XB5Fk2VfhhH\" target=\"_blank\" rel=\"noopener noreferrer\">日本</a>2018年的新生儿数量只有92万人，是有史以来最低的，比上一年下降了2.5万。日本人口危机正在加速。</p>\n<p>* <a href=\"https://beta.scmp.com/news/china/article/2180453/chinas-change-4-lunar-spacecraft-poised-touch-down-dark-side-moon\" target=\"_blank\" rel=\"noopener noreferrer\">嫦娥四号飞船</a>于1月3日上午10点半成功在月球降落，成为有史以来第一个在月球背面登陆的飞行器。登陆后，它顺利放出了玉兔月球车，已经传回地球第一张月球背面的照片。</p>\n<p>* <a href=\"https://www.washingtonpost.com/business/2018/12/28/living-paycheck-paycheck-is-disturbingly-common-i-see-no-way-out/?noredirect=on&utm_term=.98e2d70f8fa5\" target=\"_blank\" rel=\"noopener noreferrer\">美联储</a>的一份报告披露，40%的美国成年人表示，紧急情况下他们拿不出400美元现金，必须去借款或者变卖资产。</p>\n<p>* <a href=\"https://spectrum.ieee.org/computing/networks/ethereum-plans-to-cut-its-absurd-energy-consumption-by-99-percent\" target=\"_blank\" rel=\"noopener noreferrer\">以太坊创始人 Vitalik Buterin</a> 表示，计划在一两年内，将以太坊的共识机制从挖矿（PoW）改成利益证明（PoS），可以将耗电量降低99%。</p>\n<p>* <a href=\"https://www.nytimes.com/2018/12/28/nyregion/how-to-dump-3000-pounds-of-confetti-on-times-square.html\" target=\"_blank\" rel=\"noopener noreferrer\">美国纽约时报广场</a>每年都要跨年倒数，一到12月31日晚上12点，满天落下闪光的彩屑。这些彩屑都是志愿者在周围高楼顶上，手工倾倒下来，今年一共有1.5吨。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010411.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "日本",
+              "url": "https://www.japantimes.co.jp/news/2018/12/21/national/number-babies-born-japan-2018-lowest-since-records-began-population-decline-highest/#.XB5Fk2VfhhH"
+            },
+            {
+              "text": "嫦娥四号飞船",
+              "url": "https://beta.scmp.com/news/china/article/2180453/chinas-change-4-lunar-spacecraft-poised-touch-down-dark-side-moon"
+            },
+            {
+              "text": "美联储",
+              "url": "https://www.washingtonpost.com/business/2018/12/28/living-paycheck-paycheck-is-disturbingly-common-i-see-no-way-out/?noredirect=on&utm_term=.98e2d70f8fa5"
+            },
+            {
+              "text": "以太坊创始人 Vitalik Buterin",
+              "url": "https://spectrum.ieee.org/computing/networks/ethereum-plans-to-cut-its-absurd-energy-consumption-by-99-percent"
+            },
+            {
+              "text": "美国纽约时报广场",
+              "url": "https://www.nytimes.com/2018/12/28/nyregion/how-to-dump-3000-pounds-of-confetti-on-times-square.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010411.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "教程",
+      "title": "教程",
+      "items": [
+        {
+          "title": "Chrome 开发者工具如何使用断点？",
+          "content": "<p>本文通过实例讲解，如何设置事件监听断点和 watch 表达式。</p>",
+          "links": [
+            {
+              "text": "Chrome 开发者工具如何使用断点？",
+              "url": "https://codeburst.io/learn-how-to-debug-javascript-with-chrome-devtools-9514c58479db"
+            }
+          ]
+        },
+        {
+          "title": "让你的生活更轻松的9个 Bash 快捷别名",
+          "content": "<p>本文介绍9个实用的 Bash 函数，你可以参考他的方式，将自己常用的操作封装成函数，然后设置别名。</p>",
+          "links": [
+            {
+              "text": "让你的生活更轻松的9个 Bash 快捷别名",
+              "url": "https://medium.com/@raimibinkarim/9-bash-aliases-to-make-your-life-easier-3e5855aa95fa"
+            }
+          ]
+        },
+        {
+          "title": "HTTP 头信息的安全设置",
+          "content": "<p>本文介绍跟网页安全相关的一些 HTTP 头信息。</p>",
+          "links": [
+            {
+              "text": "HTTP 头信息的安全设置",
+              "url": "https://int64software.com/blog/2018/11/05/hardening-website-security-part-1-http-security-headers/"
+            }
+          ]
+        },
+        {
+          "title": "25 个改变世界的芯片",
+          "content": "<p>本文列出了人类历史上25个最重要的集成电路。</p>",
+          "links": [
+            {
+              "text": "25 个改变世界的芯片",
+              "url": "https://spectrum.ieee.org/tech-history/silicon-revolution/25-microchips-that-shook-the-world"
+            }
+          ]
+        },
+        {
+          "title": "为什么复印店老板都是湖南人？",
+          "content": "<p>这是一篇2010年的论文，作者是北京大学社会学博士，他经过调查研究后发现，全国70%的复印店老板都是湖南新化人。（@<a href=\"https://github.com/ruanyf/weekly/issues/135\" target=\"_blank\" rel=\"noopener noreferrer\">yuanjingsong</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "为什么复印店老板都是湖南人？",
+              "url": "https://github.com/hangyan/Papers/blob/master/papers/%E6%96%B0%E5%8C%96%E5%A4%8D%E5%8D%B0%E4%BA%A7%E4%B8%9A%E7%9A%84%E7%94%9F%E5%91%BD%E5%8F%B2_%E5%86%AF%E5%86%9B%E6%97%97.pdf"
+            },
+            {
+              "text": "yuanjingsong",
+              "url": "https://github.com/ruanyf/weekly/issues/135"
+            }
+          ]
+        },
+        {
+          "title": "安卓设备如何启用加密 DNS？",
+          "content": "<p>DNS 查询默认是不加密的，本文介绍如何在安卓手机上通过 cloudflare 的服务，启用加密 DNS 服务。</p>",
+          "links": [
+            {
+              "text": "安卓设备如何启用加密 DNS？",
+              "url": "https://www.techrepublic.com/article/how-to-use-cloudflare-encrypted-dns-on-android/"
+            }
+          ]
+        },
+        {
+          "title": "IPFS 文件系统的简单解释",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010412.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文以一种通俗易懂的方式解释 IPFS 这个基于 IP 协议的文件系统的原理。</p>",
+          "links": [
+            {
+              "text": "IPFS 文件系统的简单解释",
+              "url": "https://achainofblocks.com/2018/10/05/ipfs-interplanetary-file-system-simply-explained/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010412.jpg"
+          ]
+        },
+        {
+          "title": "Erlang 语言的20年历史",
+          "content": "<p>2018年12月8日是 Erlang 语言发布20年的纪念日，本文从一个历史参与者的角度回顾了这20年。</p>",
+          "links": [
+            {
+              "text": "Erlang 语言的20年历史",
+              "url": "https://www.erlang-solutions.com/blog/twenty-years-of-open-source-erlang.html"
+            }
+          ]
+        },
+        {
+          "title": "如何写一个 Node 命令行验证码图像识别工具",
+          "content": "<p>Node 命令行工具的开发实例，从 0 开始写。（@<a href=\"https://github.com/ruanyf/weekly/issues/143\" target=\"_blank\" rel=\"noopener noreferrer\">ringcrl</a>__ __投稿）</p>",
+          "links": [
+            {
+              "text": "如何写一个 Node 命令行验证码图像识别工具",
+              "url": "https://www.chenng.cn/post/Node-command-line-tool-production.html"
+            },
+            {
+              "text": "ringcrl",
+              "url": "https://github.com/ruanyf/weekly/issues/143"
+            }
+          ]
+        },
+        {
+          "title": "为什么使用 F#?",
+          "content": "<p>F# 语言的特点介绍。</p>",
+          "links": [
+            {
+              "text": "为什么使用 F#?",
+              "url": "https://fsharpforfunandprofit.com/why-use-fsharp/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "CSS Animation 101",
+          "content": "<p>开源电子书《CSS Animation 101》，从零开始介绍 CSS 动画。</p>",
+          "links": [
+            {
+              "text": "CSS Animation 101",
+              "url": "https://github.com/cssanimation/css-animation-101"
+            }
+          ]
+        },
+        {
+          "title": "React 视频课程",
+          "content": "<p>React 的短视频课程，几分钟一集，共有45集。</p>",
+          "links": [
+            {
+              "text": "React 视频课程",
+              "url": "https://scrimba.com/g/glearnreact"
+            }
+          ]
+        },
+        {
+          "title": "开源人物肖像",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010413.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>该项目专门拍摄推动计算机革命的开源程序员的肖像。</p>",
+          "links": [
+            {
+              "text": "开源人物肖像",
+              "url": "http://facesofopensource.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010413.jpg"
+          ]
+        },
+        {
+          "title": "学习 C++",
+          "content": "<p>CodeCademy 的 C++ 在线课程。</p>",
+          "links": [
+            {
+              "text": "学习 C++",
+              "url": "https://www.codecademy.com/learn/learn-c-plus-plus"
+            }
+          ]
+        },
+        {
+          "title": "UI gradients",
+          "content": "<p>一个收集渐变色样式的网站。（@<a href=\"https://github.com/ruanyf/weekly/issues/124\" target=\"_blank\" rel=\"noopener noreferrer\">valenzhou</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "UI gradients",
+              "url": "https://uigradients.com"
+            },
+            {
+              "text": "valenzhou",
+              "url": "https://github.com/ruanyf/weekly/issues/124"
+            }
+          ]
+        },
+        {
+          "title": "rejected.us",
+          "content": "<p>该网站收集优秀程序员面试没通过的经历，用来鼓励面试失败者不要灰心。</p>",
+          "links": [
+            {
+              "text": "rejected.us",
+              "url": "https://rejected.us/"
+            }
+          ]
+        },
+        {
+          "title": "30秒系列",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010414.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>该系列专门收集30秒以内可以解答的问题。目前有以下6个库：（1）<a href=\"https://github.com/30-seconds/30-seconds-of-code\" target=\"_blank\" rel=\"noopener noreferrer\">30秒 JS 问题</a>；（2）<a href=\"https://30-seconds.github.io/30-seconds-of-css/\" target=\"_blank\" rel=\"noopener noreferrer\">30秒 CSS 问题</a>；（3）<a href=\"https://30secondsofinterviews.org/\" target=\"_blank\" rel=\"noopener noreferrer\">30秒面试问题</a>；（4）<a href=\"https://github.com/30-seconds/30-seconds-of-react\" target=\"_blank\" rel=\"noopener noreferrer\">30秒 React 问题</a>；（5）<a href=\"https://github.com/kriadmin/30-seconds-of-python-code\" target=\"_blank\" rel=\"noopener noreferrer\">30秒 Python 问题</a>；（6）<a href=\"https://github.com/appzcoder/30-seconds-of-php-code\" target=\"_blank\" rel=\"noopener noreferrer\">30秒 PHP 问题</a>。</p>",
+          "links": [
+            {
+              "text": "30秒系列",
+              "url": "https://github.com/30-seconds/30-seconds-of-code"
+            },
+            {
+              "text": "30秒 JS 问题",
+              "url": "https://github.com/30-seconds/30-seconds-of-code"
+            },
+            {
+              "text": "30秒 CSS 问题",
+              "url": "https://30-seconds.github.io/30-seconds-of-css/"
+            },
+            {
+              "text": "30秒面试问题",
+              "url": "https://30secondsofinterviews.org/"
+            },
+            {
+              "text": "30秒 React 问题",
+              "url": "https://github.com/30-seconds/30-seconds-of-react"
+            },
+            {
+              "text": "30秒 Python 问题",
+              "url": "https://github.com/kriadmin/30-seconds-of-python-code"
+            },
+            {
+              "text": "30秒 PHP 问题",
+              "url": "https://github.com/appzcoder/30-seconds-of-php-code"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010414.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "nnn",
+          "content": "<p>Linux 系统的命令行文件管理器，号称是最快的文件管理器。</p>",
+          "links": [
+            {
+              "text": "nnn",
+              "url": "https://github.com/jarun/nnn"
+            }
+          ]
+        },
+        {
+          "title": "Dweb.page",
+          "content": "<p>这是一个写入 IPFS 的网关，可以匿名分享文件，最大不超过 1GB，有效期三天。这里有一篇<a href=\"https://blog.florence.chat/tutorial-how-to-create-your-own-distributed-website-in-just-a-few-seconds-5100ccf068bc\" target=\"_blank\" rel=\"noopener noreferrer\">介绍</a>。</p>",
+          "links": [
+            {
+              "text": "Dweb.page",
+              "url": "https://github.com/PACTCare/Dweb.page"
+            },
+            {
+              "text": "介绍",
+              "url": "https://blog.florence.chat/tutorial-how-to-create-your-own-distributed-website-in-just-a-few-seconds-5100ccf068bc"
+            }
+          ]
+        },
+        {
+          "title": "vs",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010415.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>输入一个产品的名字，该工具会根据谷歌的自动搜索提示，生成一张图，上面是经常与该产品进行对比的其他产品。（@<a href=\"https://github.com/ruanyf/weekly/issues/99\" target=\"_blank\" rel=\"noopener noreferrer\">nivance</a>__ __投稿）</p>",
+          "links": [
+            {
+              "text": "vs",
+              "url": "https://github.com/anvaka/vs"
+            },
+            {
+              "text": "nivance",
+              "url": "https://github.com/ruanyf/weekly/issues/99"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010415.jpg"
+          ]
+        },
+        {
+          "title": "groupImg",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010416.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>groupImg 是一个 Python 脚本，使用 k-means 算法进行图片分类。我试了一下，效果不太好。但是代码简单，可以用作学习参考。</p>",
+          "links": [
+            {
+              "text": "groupImg",
+              "url": "https://github.com/victorqribeiro/groupImg"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010416.jpg"
+          ]
+        },
+        {
+          "title": "Earth Wind",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010417.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个查看全球风向的网站。</p>",
+          "links": [
+            {
+              "text": "Earth Wind",
+              "url": "https://earth.nullschool.net/#current/wind/surface/level/orthographic=-240.00,0.00,320"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010417.jpg"
+          ]
+        },
+        {
+          "title": "Maze Battles",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010418.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个在线的迷宫游戏网站，支持多人同时游戏。我玩了一局，还挺有意思。</p>",
+          "links": [
+            {
+              "text": "Maze Battles",
+              "url": "http://www.mazebattles.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010418.jpg"
+          ]
+        },
+        {
+          "title": "GAN Paint",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010419.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>很神奇的工具，可以任意在线重绘建筑物的照片，比如在大门上一划，就变成了墙。麻省理工学院人工智能实验室开发。</p>",
+          "links": [
+            {
+              "text": "GAN Paint",
+              "url": "http://gandissect.res.ibm.com/ganpaint.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010419.jpg"
+          ]
+        },
+        {
+          "title": "cloc",
+          "content": "<p>统计代码行数的工具，可以用于压缩文件（如zip tar等），包括空行和特殊字符的处理与统计，生成多种格式的结果。安装简单且轻量，对于阅读源码，分析项目代码的场景非常实用。（@<a href=\"https://github.com/ruanyf/weekly/issues/105\" target=\"_blank\" rel=\"noopener noreferrer\">tifazxy</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "cloc",
+              "url": "https://github.com/AlDanial/cloc"
+            },
+            {
+              "text": "tifazxy",
+              "url": "https://github.com/ruanyf/weekly/issues/105"
+            }
+          ]
+        },
+        {
+          "title": "ssh-chat",
+          "content": "<p>Go 语言实现的 SSH 服务端，用于登录用户之间的聊天，可以用 `ssh chat.shazow.net` 命令体验。（@<a href=\"https://github.com/ruanyf/weekly/issues/111\" target=\"_blank\" rel=\"noopener noreferrer\">zrt </a>投稿）</p>",
+          "links": [
+            {
+              "text": "ssh-chat",
+              "url": "https://github.com/shazow/ssh-chat"
+            },
+            {
+              "text": "zrt ",
+              "url": "https://github.com/ruanyf/weekly/issues/111"
+            }
+          ]
+        },
+        {
+          "title": "aminal",
+          "content": "<p>一个使用 Go 语言开发的命令行终端模拟器。</p>",
+          "links": [
+            {
+              "text": "aminal",
+              "url": "https://github.com/liamg/aminal"
+            }
+          ]
+        },
+        {
+          "title": "ExifShot",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010420.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个以美观的形式展示照片 EXIF 信息的在线工具。</p>",
+          "links": [
+            {
+              "text": "ExifShot",
+              "url": "https://exifshot.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010420.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "更少的土地，更多的粮食",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010421.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>未来几十年将发生气候灾难，这几乎是必然的。同时，世界人口还将继续增长，这就要求世界农业生产的大幅度改变，尽量减少对气候的破坏，同时为多出来的数十亿人口提供食物。</p>\n<p>现在的情况是，农业使用了世界大约40％的土地，并且占人类温室气体排放量的四分之一。根据预测，全球人口将从目前的72亿增长到2050年的近100亿，而且随着收入增加，每个人会消费更多的肉类，农业对环境的影响正在迅速扩大。</p>\n<p>2050年的世界农业需要比2010年多产出56％的卡路里。如果农民和牧场主通过开垦更多的森林来获得土地，那么根据计算，在现有的产出水平下，需要新增两个印度大小的土地，才能满足增加的粮食需求。另一方面，森林改造成农田的过程中，将释放大量的碳到大气中。</p>\n<p>可持续农业体系的关键，在于说服消费者少吃肉类和不要浪费粮食。牛肉和羊肉的生产，会释放出大量的碳。甚至鸡肉都是更好的选择，因为鸡肉的环境影响，只是牛肉的八分之一。目前，科学家还在研究如何让牛不排放甲烷（一种很强的温室气体）。</p>\n<p>减少排放的同时，还必须在现有耕地上种植更多的食物。但是，温度上升会降低作物产量，因此培育新的抗高温高产品种或防止土壤侵蚀，也很重要。另外，还可以发明一些其他措施，比如延长食物保鲜时间，防止腐烂。</p>\n<p>我们可能还需要减少农作物的非粮食用途，例如减少用于生产车用乙醇的玉米，它们会与粮食作物竞争土地。</p>",
+          "links": [
+            {
+              "text": "更少的土地，更多的粮食",
+              "url": "https://www.nytimes.com/2018/12/05/climate/agriculture-food-global-warming.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010421.jpg"
+          ]
+        },
+        {
+          "title": "优质平庸",
+          "content": "<p>2017年，有人发明了“优质平庸”（Premium Mediocre）这个词。它指的是一种营销手段，让消费者认为他们正在消费奢侈品，而实际上只是在消费普通商品，比如“精酿”啤酒、“手工”比萨饼、“烘焙师签名”汉堡等等都是“优质平庸”的例子。</p>\n<p>这种做法很简单，就是用一些额外的手段，让平庸的东西看上去更加优质，让消费者产生一种幻想，认为自己正在购买高级产品。营销人员通常采用的手段是，为商品名加上“首选”、“手工”、“收藏级”等词语。</p>\n<p>许多公司希望消费者愿意付出较高的价格，就用“负担得起的奢侈品”的定位来推销自己的产品。当然，他们销售的并不是奢侈品，而是把奢侈品的光环像面包粉一样，洒一点在平庸商品上面。这里的重点是，必须让消费者觉得，平庸的商品一点不平庸。</p>\n<p>“优质平庸”也延伸到了真正的奢侈品品牌。普通消费者买不起这些奢侈品，但是奢侈品公司仍然想赚他们的钱，就设法提供一些入门级的产品系列，将一些低成本的产品贴上自家的奢侈品品牌，比如 Prada 尼龙背包、路易威登帆布包、Gucci的塑料凉鞋等等。这个策略很成功，优质平庸市场的利润非常高，据统计，2015年小型皮具奢侈品的销售额达到57亿美元，预计到2020年将达到75亿美元。对于消费者来说，只要几百美元，就能买到奢侈品牌，很多人愿意尝试。</p>\n<p>这件事情的启示就是，商品的徽标比产品本身更重要，普通鸡蛋只能卖一块钱，但是标上“天然土鸡蛋”就能卖一块五。“优质平庸”的关键，就是商品有一个独一无二、消费者认同的徽标。</p>",
+          "links": [
+            {
+              "text": "优质平庸",
+              "url": "https://www.businessoffashion.com/articles/opinion/op-ed-how-premium-mediocre-conquered-fashion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "本周图片",
+      "title": "本周图片",
+      "items": [
+        {
+          "title": "主要技术公司收入来源图",
+          "content": "<blockquote>\n<p>- 苹果：iPhone 占 63% 的收入</p>\n<p>- 谷歌：广告占 88% 的收入</p>\n<p>- 微软：Office 占 28% 的收入</p>\n<p>- 亚马逊：商品销售占 72% 的收入</p>\n<p>- 脸书：广告占 97% 的收入</p>\n</blockquote>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010422.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "主要技术公司收入来源图",
+              "url": "https://medium.com/zerotomastery/programmers-guide-to-the-big-tech-companies-1bfc078e5a76"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010422.jpg"
+          ]
+        },
+        {
+          "title": "网站就是 Git 仓库",
+          "content": "<p>有人发现，eBay 日本的官网 `www.ebay.co.jp`  的就是一个 Git 仓库，而且可以浏览器访问 `.git` 目录。该漏洞现在已经修复。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010423.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "网站就是 Git 仓库",
+              "url": "https://slashcrypto.org/2018/11/28/eBay-source-code-leak/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010423.jpg"
+          ]
+        },
+        {
+          "title": "3D 打印的婚礼",
+          "content": "<p>一位 3D 打印工程师结婚时，现场各种用品都尽可能使用 3D 打印。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010424.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010425.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010426.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "3D 打印的婚礼",
+              "url": "https://www.technologyreview.com/s/612486/i-3-d-printed-every-bit-of-my-weddingincluding-my-bouquet/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010424.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010425.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010426.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "新奇",
+      "title": "新奇",
+      "items": [
+        {
+          "title": "鬼屋",
+          "content": "<p>我们常常看到鬼屋的影视作品。2015年，有一群英国人做了鬼屋的真实版。他们写好了剧本，租了一间乡间的老房子，精心布置好，然后用各种高技术，制造幽灵的效果。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010427.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>鬼魂是投影机播放的影像，那是事先请演员扮演，录制下来的。同时，还有配套的音频和气味。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201901/bg2019010428.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他们在网上发布消息，招募愿意亲身体验鬼屋的人。报名者先在网上填写资料，经过筛选以后，再付费来体验。体验过程需要两天，主要是要在鬼屋度过一晚。</p>\n<p>项目完成以后，团队将所有准备过程和幕后工作，都写成文档，做成一个<a href=\"http://crookedhouse.org/grym-home/\" target=\"_blank\" rel=\"noopener noreferrer\">网站</a>，把它永久记录下来。</p>",
+          "links": [
+            {
+              "text": "鬼屋",
+              "url": "http://crookedhouse.org/grym-home/"
+            },
+            {
+              "text": "网站",
+              "url": "http://crookedhouse.org/grym-home/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010427.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201901/bg2019010428.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "本周金句",
+      "title": "本周金句",
+      "items": [
+        {
+          "title": "任",
+          "content": "<p>何成功创业的实质都是指数增长。</p>\n<p>-- <a href=\"https://www.futureengine.org/articles/scooters-are-worth-10b\" target=\"_blank\" rel=\"noopener noreferrer\">《旧金山创业公司 Lime 和 Bird 比较》</a></p>",
+          "links": [
+            {
+              "text": "《旧金山创业公司 Lime 和 Bird 比较》",
+              "url": "https://www.futureengine.org/articles/scooters-are-worth-10b"
+            }
+          ]
+        },
+        {
+          "title": "如",
+          "content": "<p>果你在2018年购买了旗舰手机，又不玩游戏，那么可能在未来十年内你都不需要换手机。大多数人现在拥有的手机运算能力，已经远远超出了他们需要的水平。</p>\n<p>-- <a href=\"http://nymag.com/intelligencer/2018/12/global-u-s-growth-in-smartphone-growth-starts-to-decline.html\" target=\"_blank\" rel=\"noopener noreferrer\">《智能手机的销售已经进入衰退期》</a></p>",
+          "links": [
+            {
+              "text": "《智能手机的销售已经进入衰退期》",
+              "url": "http://nymag.com/intelligencer/2018/12/global-u-s-growth-in-smartphone-growth-starts-to-decline.html"
+            }
+          ]
+        },
+        {
+          "title": "你",
+          "content": "<p>最需要的东西之一，是对人生打击的弹性。无论怎样受伤，你都需要很快就复原。无论被击倒在地上多少次，都需要很快站起来。</p>\n<p>-- <a href=\"https://medium.com/the-naked-founder/fall-seven-times-stand-up-eight-c3c4bb01755e\" target=\"_blank\" rel=\"noopener noreferrer\">《摔倒七次，站起来八次》</a></p>",
+          "links": [
+            {
+              "text": "《摔倒七次，站起来八次》",
+              "url": "https://medium.com/the-naked-founder/fall-seven-times-stand-up-eight-c3c4bb01755e"
+            }
+          ]
+        },
+        {
+          "title": "谷",
+          "content": "<p>歌想改进 TCP 协议，但是 TCP 协议是操作系统内核实现的，实际上没法改进。所以，他们选择在 UDP 协议的基础上，重新实现了一个不同的 TCP 协议，叫做 QUIC 协议。 </p>\n<p>-- <a href=\"https://cryptologie.net/article/446/quic-crypto-and-simple-state-machines/\" target=\"_blank\" rel=\"noopener noreferrer\">《QUIC 协议的加密机制》</a></p>",
+          "links": [
+            {
+              "text": "《QUIC 协议的加密机制》",
+              "url": "https://cryptologie.net/article/446/quic-crypto-and-simple-state-machines/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "欢迎订阅",
+      "title": "欢迎订阅",
+      "items": [
+        {
+          "content": "<p>这个专栏每周五发布，同步更新在我的<a href=\"http://www.ruanyifeng.com/blog\" target=\"_blank\" rel=\"noopener noreferrer\">个人网站</a>、<a href=\"http://weixin.sogou.com/weixin?query=%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97\" target=\"_blank\" rel=\"noopener noreferrer\">微信公众号</a>和<a href=\"https://yuque.com/ruanyf/share/\" target=\"_blank\" rel=\"noopener noreferrer\">语雀</a>。</p>\n<p>微信搜索“__阮一峰的网络日志__”或者扫描二维码，即可订阅。</p>\n<p><img src=\"http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042311.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "个人网站",
+              "url": "http://www.ruanyifeng.com/blog"
+            },
+            {
+              "text": "微信公众号",
+              "url": "http://weixin.sogou.com/weixin?query=%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97"
+            },
+            {
+              "text": "语雀",
+              "url": "https://yuque.com/ruanyf/share/"
+            }
+          ],
+          "images": [
+            "http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042311.jpg"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-38.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-38.md"
+}

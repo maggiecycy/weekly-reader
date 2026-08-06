@@ -1,0 +1,753 @@
+{
+  "number": 134,
+  "title": "未来的游戏业比现在大100倍",
+  "date": "2021-05-19",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202011/bg2020111823.jpg",
+  "coverCaption": "山东省为了改善空气质量，今年冬季供热“煤改电”，部分地区不再燃煤，而是采用电热泵。（via Instagram）",
+  "summary": "最近，我看到一份资料，比较了各种娱乐方式的成本（美国的数据）。 根据上图，最贵的娱乐方式是电影，在电影院待一个小时，平均需要7美元。最便宜的娱乐方式是上网，付费视频一小时37美分，付费音乐33美分，网络游戏17美分。 这个统计没有考虑免费的…",
+  "sections": [
+    {
+      "id": "封面图",
+      "title": "封面图",
+      "items": [
+        {
+          "content": "<p>山东省为了改善空气质量，今年冬季供热“煤改电”，部分地区不再燃煤，而是采用电热泵。（via <a href=\"https://www.instagram.com/p/CHhc6LCH4JO/\" target=\"_blank\" rel=\"noopener noreferrer\">Instagram</a>）</p>",
+          "links": [
+            {
+              "text": "Instagram",
+              "url": "https://www.instagram.com/p/CHhc6LCH4JO/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111823.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "本周话题-未来的游戏业比现在大100倍",
+      "title": "本周话题：未来的游戏业比现在大100倍",
+      "items": [
+        {
+          "content": "<p>最近，我看到<a href=\"https://www.visualcapitalist.com/multi-billion-dollar-console-gaming-market/\" target=\"_blank\" rel=\"noopener noreferrer\">一份资料</a>，比较了各种娱乐方式的成本（美国的数据）。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111003.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>根据上图，最贵的娱乐方式是电影，在电影院待一个小时，平均需要7美元。最便宜的娱乐方式是上网，付费视频一小时37美分，付费音乐33美分，网络游戏17美分。</p>\n<p>这个统计没有考虑免费的网络服务，实际上，大部分人在网上看视频、听音乐、玩游戏，都没花钱。 <strong>互联网娱乐，实际上，是人类有史以来第一种（接近）免费的大众娱乐方式</strong>。</p>\n<p>一旦有了免费娱乐，收费娱乐就会开始萎缩。下面是<a href=\"https://www.the-numbers.com/market/\" target=\"_blank\" rel=\"noopener noreferrer\">美国历年电影票房</a>的统计。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111309.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>2019年的电影票房收入（红线）比1995年翻了一倍，但是卖出去的电影票数量（蓝线）其实没变化。也就是说，过去25年，美国的电影市场根本没有增长！票房增加只是因为电影票变贵了。并非巧合的是，25年前刚好是互联网诞生。</p>\n<p>可以预见，所有收费的现场娱乐方式，今后都会走下坡路：电影、主题公园、卡拉OK、密室逃脱等等。它们的市场只会萎缩，不会增长，因为没办法跟免费的互联网娱乐竞争，就像百货公司没办法跟网上购物竞争一样。</p>\n<p><strong>所有互联网娱乐里面，潜力最大的就是网络游戏。</strong> 因为其他娱乐方式（视频、音乐、小说）都是被动的，你只是看网站提供的内容，没法参与进去，只有游戏可以参与，因此吸引力和用户粘性最大。</p>\n<p>游戏业一直在扩张。以前，电子游戏爱好者基本上都是16岁~35岁的男性，现在不是了，女性和中老年人也是游戏玩家。根据同一份资料，美国36岁～65岁年龄段，女性玩家多于男性；36岁～50岁年龄段，男性玩家比例高于10岁～20岁年龄段。</p>\n<p>这意味着，电子游戏正在覆盖所有人口，成为一种全民的娱乐方式。加上它可以不花钱地无限消费，能够把视频、音频、情节、AR、VR、竞技、体育、社交做在一起，未来的发展空间大得难以想象。现在，游戏业已经是巨大的产业，但恐怕还不到三十年之后产业规模的百分之一。</p>",
+          "links": [
+            {
+              "text": "一份资料",
+              "url": "https://www.visualcapitalist.com/multi-billion-dollar-console-gaming-market/"
+            },
+            {
+              "text": "美国历年电影票房",
+              "url": "https://www.the-numbers.com/market/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111003.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111309.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "数据分析全套讲解视频",
+      "title": "数据分析全套讲解视频",
+      "items": [
+        {
+          "content": "<p>由于疫情，今年企业的招聘岗位有所减少，但是数据分析的相关岗位却有一定的增加。而且，数据分析能力几乎已成为每个岗位的必备技能。什么原因使得企业渴求“数据人才”？</p>\n<p>原因大概是，如今的企业每天从内部和外部，都能获得海量的数据，头部互联网企业甚至达到了 PB 的数据量。企业需要专业人才来分析和挖掘数据，提升企业利润。</p>\n<p>为了帮助大家提升数据分析能力，本周的课程资料是一份由 <strong>开课吧</strong> 赞助的，由廖雪峰老师历时3个月精心打磨的 <strong>《数据分析全套讲解》</strong> 学习视频。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111805.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这份资料在原有基础上进行了升级，分为基础和进阶两大部分，包含44个知识点纯干货内容，每天2小时，5天掌握数据分析必备技能。它能帮你全面迅速提升数据分析技能，还能指导你形成数据化思维，让分析有章可循。</p>\n<p>《基础篇-数据分析必备技能》</p>\n<blockquote>\n<p>- Excel 数据可视化</p>\n<p>- Python数据可视化</p>\n<p>- SQL 数据操作</p>\n<p>- K-means 聚类分析</p>\n<p>- 数据挖掘逻辑回归</p>\n</blockquote>\n<p>《进阶篇-常用数据分析方法论》</p>\n<blockquote>\n<p>- 数据集中趋势</p>\n<p>- 假设检验</p>\n<p>- 多元线性回归</p>\n<p>- 逻辑回归模型</p>\n<p>- 分类模型评估指标</p>\n<p>- AQI 分析与预测 </p>\n</blockquote>\n<p>这套全新的数据分析资料原价值1980元，开课吧现在提供了 <strong>168个免费名额</strong> （超额之后需要付费观看）。</p>\n<p>需要的朋友可以访问<a href=\"https://wx.kaikeba.com/vip_course/dvkoikuy19/metpa9yehn?tenant=wx5046bc7413796142\" target=\"_blank\" rel=\"noopener noreferrer\">这个链接</a>，或者微信扫码免费领取。由于后台是手动操作，领取时请大家耐心等待。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111806.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>此外，开课吧还联合廖雪峰老师及一线企业大牛，推出了付费课程 <strong>《大数据分析全栈工程师》</strong>，课程深度对标阿里P6+，帮助大家实现升职加薪！最新一期课程正在招生，欢迎扫描上面二维码咨询！</p>",
+          "links": [
+            {
+              "text": "这个链接",
+              "url": "https://wx.kaikeba.com/vip_course/dvkoikuy19/metpa9yehn?tenant=wx5046bc7413796142"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111805.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111806.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资讯",
+      "title": "资讯",
+      "items": [
+        {
+          "title": "氨动力船只",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020110803.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>丹麦正在建造一艘实验船，使用液态氨作为燃料。氨不含碳，所以燃烧不会产生二氧化碳，而且能量密集度高于氢燃料。液态氨的另一个优点是，它的运输和储存要比液态氢容易，氢气的液化点是零下253°C，而氨气只需要零下34度。</p>\n<p>氨气的最大问题是，燃烧会产生污染性的一氧化二氮，需要清除废气。氨气本身也是有毒的，大量接触会出现流泪、咽痛、呼吸困难，乃至头晕、头痛、恶心等，甚至导致肺水肿，引发死亡，因此需要小心处理和存储。</p>",
+          "links": [
+            {
+              "text": "氨动力船只",
+              "url": "https://www.bbc.com/news/business-54511743"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020110803.jpg"
+          ]
+        },
+        {
+          "title": "悬挂列车",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111107.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>11月10日，无人驾驶的悬挂列车在湖北武汉成功试验。试验轨道全长800米。悬挂列车只有一根轨道，列车悬挂在轨道下方，轨道由立柱支撑在空中，具有占地少、造价低、建设周期短等优势。我国目前只有几根试验线，还没有运营线路。</p>\n<p>悬挂列车在德国已经运营100多年，从未出过大事故，但也没有推广开来，历史上只有3条线路。澳大利亚悉尼运营了25年的悬挂列车，后来也被拆除，原因是大多数市民觉得轨道架有碍观瞻，与城市景观格格不入；二是挂在半空飞驰的列车，让乘客和地面上的人都没有安全感。如果悬挂列车在中国运营，上下班时间肯定会有超载，安全感的问题可能更严重。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111108.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111109.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "悬挂列车",
+              "url": "http://www.hb.xinhuanet.com/2020-11/10/c_1126719081.htm"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111107.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111108.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111109.jpg"
+          ]
+        },
+        {
+          "title": "真人版吃豆人",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202010/bg2020102508.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202010/bg2020102509.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>著名工程机械公司卡特彼勒（Caterpillar），为了纪念公司成立95周年，做了一个真人版的吃豆人游戏。他们先用挖土机，挖了一个 49.5米x 55米的迷宫，包含151个转角和1.2米高的隔墙，总共耗时70个工时。</p>\n<p>然后，工作人员远程操作各种机械，包括推土机、装载机、挖掘机等等，扮演吃豆人和妖怪，进行游戏。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202010/bg2020102510.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202010/bg2020102511.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202010/bg2020102512.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "真人版吃豆人",
+              "url": "https://www.equipmentjournal.com/on-the-job/pac-man-caterpillar-creates-gameboard-video/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202010/bg2020102508.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202010/bg2020102509.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202010/bg2020102510.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202010/bg2020102511.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202010/bg2020102512.jpg"
+          ]
+        },
+        {
+          "title": "自助核酸检测机",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111813.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111816.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>南方医科大学深圳医院推出“核酸检测自助采样机”，可以无需他人帮助，自助完成咽拭子采样。它解决了核酸检测费时费力，医务人员有感染风险的问题，尤其适合大规模人群的核酸检测。</p>\n<p>一次采集可获取四个有效部位样本，采样工具会自动触发拭子旋转，确保采集到上皮细胞。为了避免交叉感染，样本处理仓采用负压系统和紫外消毒系统，进气、排气均配有独立的 HEPA 滤膜。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111814.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111815.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111817.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "自助核酸检测机",
+              "url": "https://www.sznews.com/news/content/2020-11/11/content_23713265.htm"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111813.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111816.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111814.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111815.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111817.jpg"
+          ]
+        },
+        {
+          "title": "电动飞行翼装",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111503.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>宝马公司推出了全世界第一套电动的飞行翼装，只要穿上它，就能自由地在天空飞翔。传统的飞行翼装是无动力的，只能在天空滑翔，这种新的翼装依靠电力驱动。它的胸前有一对电动涡轮，能够提供5分钟的 15 kW 推力。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111504.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>三个试飞员在3000米高空的直升飞机上纵身跳下，飞行速度达到100公里/小时，全部都安全着陆。宝马公司说，它的最高速度可以达到300公里/小时。试飞员说，下一个愿望是在城市的高楼大厦之间飞翔。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111505.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111506.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111507.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "电动飞行翼装",
+              "url": "https://robbreport.com/motors/aviation/bmw-electrified-wingsuit-maiden-flight-1234580128/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111503.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111504.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111505.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111506.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111507.jpg"
+          ]
+        },
+        {
+          "title": "*",
+          "content": "<p><em>一句话消息</em>*</p>\n<blockquote>\n<p>- <a href=\"https://www.cbc.ca/news/canada/british-columbia/grizzly-bear-facial-recognition-software-1.5797525\" target=\"_blank\" rel=\"noopener noreferrer\">加拿大科学家</a>开发了 <a href=\"http://bearresearch.org/\" target=\"_blank\" rel=\"noopener noreferrer\">BearID</a> 项目，对熊进行脸部识别，用于进一步了解熊的行为。</p>\n</blockquote>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111110.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111111.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<blockquote>\n<p>- <a href=\"https://www.smh.com.au/politics/federal/australia-s-biodiversity-just-got-a-lot-richer-two-new-mammals-discovered-20201106-p56c77.html\" target=\"_blank\" rel=\"noopener noreferrer\">澳大利亚科学家</a>发现原认为是一个物种的飞袋鼠（glider），其实是三个相似的物种。它们长得很可爱。</p>\n</blockquote>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111114.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111115.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<blockquote>\n<p>- <a href=\"https://www.v2ex.com/t/725321\" target=\"_blank\" rel=\"noopener noreferrer\">V2EX 用户</a>贴出微软的惊人验证码。“一共验证5次，如果5秒内未选择，就会让你重新验证。5个做错一个，就会变10个；10个做错一个就要重来。”</p>\n</blockquote>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111809.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<blockquote>\n<p>- <a href=\"https://www.reuters.com/article/us-climate-change-britain/britain-to-ban-new-petrol-cars-and-vans-by-2030-on-road-to-net-zero-emissions-idUSKBN27X2Z0\" target=\"_blank\" rel=\"noopener noreferrer\">英国</a>宣布，十年后（2030年）将禁止在该国出售燃油车辆，2050年全国实现二氧化碳净排放为零。</p>\n</blockquote>",
+          "links": [
+            {
+              "text": "加拿大科学家",
+              "url": "https://www.cbc.ca/news/canada/british-columbia/grizzly-bear-facial-recognition-software-1.5797525"
+            },
+            {
+              "text": "BearID",
+              "url": "http://bearresearch.org/"
+            },
+            {
+              "text": "澳大利亚科学家",
+              "url": "https://www.smh.com.au/politics/federal/australia-s-biodiversity-just-got-a-lot-richer-two-new-mammals-discovered-20201106-p56c77.html"
+            },
+            {
+              "text": "V2EX 用户",
+              "url": "https://www.v2ex.com/t/725321"
+            },
+            {
+              "text": "英国",
+              "url": "https://www.reuters.com/article/us-climate-change-britain/britain-to-ban-new-petrol-cars-and-vans-by-2030-on-road-to-net-zero-emissions-idUSKBN27X2Z0"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111110.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111111.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111114.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111115.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111809.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "big-sur",
+      "title": "Big Sur",
+      "items": [
+        {
+          "content": "<p>本周，苹果公司发布了 macOS 的新版本 Big Sur，值得关注的新闻真不少。</p>",
+          "links": []
+        },
+        {
+          "title": "UI 比较",
+          "content": "<p>与 上一个版本 Catalina 相比，Big Sur 明显更平面化，减少了对比度和阴影，颜色也更活泼。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111406.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111405.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "UI 比较",
+              "url": "https://www.andrewdenty.com/blog/2020/07/01/a-visual-comparison-of-macos-catalina-and-big-sur.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111406.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111405.jpg"
+          ]
+        },
+        {
+          "title": "OCSP 服务器超载",
+          "content": "<p>许多用户升级后发现，只要不是从应用商店下载的应用，就无法打开，会失去响应。原因是苹果的 OCSP 服务器超载了，因为升级的人太多，都向 OCSP 服务器发出请求。</p>\n<p>OCSP 请求的作用是，验证应用的开发者证书是否有效。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111608.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "OCSP 服务器超载",
+              "url": "https://blog.cryptohack.org/macos-ocsp-disaster"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111608.jpg"
+          ]
+        },
+        {
+          "title": "苹果是否知道太多用户隐私？",
+          "content": "<p>OCSP 请求意味着，用户每打开一个应用，苹果公司都会得到通知，这是否暴露太多用户信息了？</p>",
+          "links": [
+            {
+              "text": "苹果是否知道太多用户隐私？",
+              "url": "https://sneak.berlin/20201112/your-computer-isnt-yours/"
+            }
+          ]
+        },
+        {
+          "title": "VPN 对苹果自家应用无效",
+          "content": "<p>更糟糕的是，Big sur 允许苹果自家的应用（比如应用商店）绕过防火墙和 VPN，与苹果服务器通信。因此，苹果公司总是可以拿到你的真实 IP 地址。</p>",
+          "links": [
+            {
+              "text": "VPN 对苹果自家应用无效",
+              "url": "https://thenextweb.com/plugged/2020/11/16/apple-apps-on-big-sur-bypass-firewalls-vpns-analysis-macos/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "C 语言的字符串连接解释",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111206.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这篇文章解释了 C 语言的一个基础知识：两个字符串连接在一起，背后是怎么实现的？</p>",
+          "links": [
+            {
+              "text": "C 语言的字符串连接解释",
+              "url": "https://blog.holbertonschool.com/code-review-string-concatenation-in-c/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111206.jpg"
+          ]
+        },
+        {
+          "title": "为什么手机热点的范围比路由器短？",
+          "content": "<p>StackOverflow 的问答，算是一个小知识吧。手机热点的范围（10米）要比路由器（30米以上）小得多。这主要因为 Wifi 是双向通信，而手机天线太小，能收到的信号范围有限。</p>",
+          "links": [
+            {
+              "text": "为什么手机热点的范围比路由器短？",
+              "url": "https://superuser.com/questions/1595771/why-is-the-range-of-a-mobile-wi-fi-hotspot-shorter-than-that-of-a-router"
+            }
+          ]
+        },
+        {
+          "title": "Rust 与 Go 的比较",
+          "content": "<p>一篇比较 Rust 和 Go 各自特点的长文，站在学习者的角度，介绍它们如何用不同的方式处理计算机问题，不涉及具体的语法。（<a href=\"https://github.com/ruanyf/weekly/issues/1490\" target=\"_blank\" rel=\"noopener noreferrer\">@douchuan</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Rust 与 Go 的比较",
+              "url": "https://bitfieldconsulting.com/golang/rust-vs-go"
+            },
+            {
+              "text": "@douchuan",
+              "url": "https://github.com/ruanyf/weekly/issues/1490"
+            }
+          ]
+        },
+        {
+          "title": "傅立叶变换的交互式介绍",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111501.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>通过一系列动画，解释什么是傅立叶变换。</p>",
+          "links": [
+            {
+              "text": "傅立叶变换的交互式介绍",
+              "url": "http://www.jezzamon.com/fourier/index.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111501.jpg"
+          ]
+        },
+        {
+          "title": "如何使用工具写出可维护的 Node.js 代码？",
+          "content": "<p>本文介绍使用各种工具（TypeScript、Prettier、Sentry、Prometheus等），提高 Node.js 代码的可维护性。</p>",
+          "links": [
+            {
+              "text": "如何使用工具写出可维护的 Node.js 代码？",
+              "url": "https://medium.com/teamzerolabs/2020-node-js-quick-upgrade-guide-cf671a83f4e7"
+            }
+          ]
+        },
+        {
+          "title": "华为、5G 和征服噪音的科学家",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111801.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>华为 5G 的核心技术来自土耳其科学家 Erdal Arikan 的发现，本文是美国《连线》杂志对 Erdal Arikan 的访问记，介绍了背后的情况。文章比较长，但值得一读。</p>",
+          "links": [
+            {
+              "text": "华为、5G 和征服噪音的科学家",
+              "url": "https://www.wired.com/story/huawei-5g-polar-codes-data-breakthrough/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111801.jpg"
+          ]
+        },
+        {
+          "title": "广电砸下百亿的CMMB手持电视",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111812.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>2006年10月，广电总局决定推广移动多媒体广播格式 CMMB，可以在手机上看电视。这是一个中国独有的标准，词首的 C 代表 China。前后一共投入超过100多亿，现在已经被淘汰了。作者在十多年后重新体验了一下 CMMB 设备看电视的感受。</p>",
+          "links": [
+            {
+              "text": "广电砸下百亿的CMMB手持电视",
+              "url": "https://finance.sina.com.cn/tech/2020-10-12/doc-iivhuipp9118153.shtml"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111812.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "Plasma Bigscreen",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020110703.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>专供大屏幕电视的 Linux 系统，用户界面基于 KDE 桌面。这里有一篇<a href=\"https://dot.kde.org/2020/03/26/plasma-tv-presenting-plasma-bigscreen\" target=\"_blank\" rel=\"noopener noreferrer\">介绍文章</a>。</p>",
+          "links": [
+            {
+              "text": "Plasma Bigscreen",
+              "url": "https://plasma-bigscreen.org/"
+            },
+            {
+              "text": "介绍文章",
+              "url": "https://dot.kde.org/2020/03/26/plasma-tv-presenting-plasma-bigscreen"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020110703.jpg"
+          ]
+        },
+        {
+          "title": "markdown-wasm",
+          "content": "<p>WebAssembly 版本的 markdown 解析器，比 JavaScript 写的解析器快两倍以上，而且体积很小（31KB）。</p>",
+          "links": [
+            {
+              "text": "markdown-wasm",
+              "url": "https://www.infoq.com/news/2020/10/markdown-wasm-fast-parser/"
+            }
+          ]
+        },
+        {
+          "title": "winapps",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020110802.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个在 Ubuntu 里面运行 Windows 应用的虚拟机，特点是 Windows 应用就像 Linux 的原生应用一样，直接运行，而不会出现 Windows 的系统环境。</p>",
+          "links": [
+            {
+              "text": "winapps",
+              "url": "https://github.com/Fmstrat/winapps"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020110802.jpg"
+          ]
+        },
+        {
+          "title": "nvidia-patch",
+          "content": "<p>Nvidia 显示卡配合 FFmpeg 进行视频编码时，有并发数量限制（3路并发），这个补丁可以突破这一限制。（<a href=\"https://github.com/ruanyf/weekly/issues/1498\" target=\"_blank\" rel=\"noopener noreferrer\">@richardyjzhang</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "nvidia-patch",
+              "url": "https://github.com/keylase/nvidia-patch"
+            },
+            {
+              "text": "@richardyjzhang",
+              "url": "https://github.com/ruanyf/weekly/issues/1498"
+            }
+          ]
+        },
+        {
+          "title": "lazykube",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111803.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>k8s 终端可视化管理器 。（<a href=\"https://github.com/ruanyf/weekly/issues/1499\" target=\"_blank\" rel=\"noopener noreferrer\">@elfgzp</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "lazykube",
+              "url": "https://github.com/TNK-Studio/lazykube"
+            },
+            {
+              "text": "@elfgzp",
+              "url": "https://github.com/ruanyf/weekly/issues/1499"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111803.jpg"
+          ]
+        },
+        {
+          "title": "md",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111207.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一款开源的微信公众号 Markdown 编辑器，基于 <a href=\"https://github.com/lyricat/wechat-format\" target=\"_blank\" rel=\"noopener noreferrer\">wechat-format</a> 进行了二次开发。（<a href=\"https://github.com/ruanyf/weekly/issues/1011\" target=\"_blank\" rel=\"noopener noreferrer\">@acbin</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "md",
+              "url": "https://github.com/doocs/md"
+            },
+            {
+              "text": "wechat-format",
+              "url": "https://github.com/lyricat/wechat-format"
+            },
+            {
+              "text": "@acbin",
+              "url": "https://github.com/ruanyf/weekly/issues/1011"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111207.jpg"
+          ]
+        },
+        {
+          "title": "APIJSON",
+          "content": "<p>腾讯的官方开源项目，自动化 RESTful 接口生成。前端描述自己需要的 JSON 数据，后端自动生成接口和文档。（<a href=\"https://github.com/ruanyf/weekly/issues/1493\" target=\"_blank\" rel=\"noopener noreferrer\">@TommyLemon</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "APIJSON",
+              "url": "https://github.com/Tencent/APIJSON"
+            },
+            {
+              "text": "@TommyLemon",
+              "url": "https://github.com/ruanyf/weekly/issues/1493"
+            }
+          ]
+        },
+        {
+          "title": "Post-Pages-to-IPFS",
+          "content": "<p>一个开源的在线工具，可以将文章发布到 IPFS 网络。一经发布就无法再删改，理论上可以永久储存。（<a href=\"https://github.com/ruanyf/weekly/issues/1494\" target=\"_blank\" rel=\"noopener noreferrer\">@SaltyLeo</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Post-Pages-to-IPFS",
+              "url": "https://github.com/SaltyLeo/Post-Pages-to-IPFS"
+            },
+            {
+              "text": "@SaltyLeo",
+              "url": "https://github.com/ruanyf/weekly/issues/1494"
+            }
+          ]
+        },
+        {
+          "title": "pap.er",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111210.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个 Mac 电脑的桌面应用，每天获取来自全球的新鲜精美壁纸。（<a href=\"https://github.com/ruanyf/weekly/issues/1492\" target=\"_blank\" rel=\"noopener noreferrer\">@RavenLite</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "pap.er",
+              "url": "https://paper.meiyuan.in/"
+            },
+            {
+              "text": "@RavenLite",
+              "url": "https://github.com/ruanyf/weekly/issues/1492"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111210.jpg"
+          ]
+        },
+        {
+          "title": "faker.js",
+          "content": "<p>根据你的需要，生成各种假数据，比如姓名、地址等，支持生成中文数据。（<a href=\"https://github.com/ruanyf/weekly/issues/1495\" target=\"_blank\" rel=\"noopener noreferrer\">@ifrontend-xyz</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "faker.js",
+              "url": "https://github.com/Marak/faker.js"
+            },
+            {
+              "text": "@ifrontend-xyz",
+              "url": "https://github.com/ruanyf/weekly/issues/1495"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "postgresql.conf 详解",
+          "content": "<p>PostgreSQL 数据库的配置文件`postgresql.conf`有270个参数，很难搞清楚该怎么设置。这个网站提供所有参数的详细解释。</p>",
+          "links": [
+            {
+              "text": "postgresql.conf 详解",
+              "url": "https://postgresqlco.nf/en/doc/param/"
+            }
+          ]
+        },
+        {
+          "title": "安卓学习路线图",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020110815.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这篇英语文章给出了安卓开发的学习路线图。</p>",
+          "links": [
+            {
+              "text": "安卓学习路线图",
+              "url": "https://roadmap.sh/android"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020110815.jpg"
+          ]
+        },
+        {
+          "title": "Ruby 学习指南",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111202.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一本英文的 Ruby 语言学习小册子。作者这样解释他的写作目的：</p>\n<blockquote>\n<p>“我来到书店，那里的 Java 书籍放满了一面墙，倒下来足以压垮我。我想写一本小小的 Ruby 书籍。它不会压跨你，而是像羽毛一样轻盈。这本书所以保持轻盈是有原因的：因为 Ruby 很容易学习。”</p>\n</blockquote>",
+          "links": [
+            {
+              "text": "Ruby 学习指南",
+              "url": "https://poignant.guide/book/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111202.jpg"
+          ]
+        },
+        {
+          "title": "Kubernetes 儿童图解指南",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111204.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一本在线阅读的英文儿童图画书，解释 Kubernetes 是什么。</p>",
+          "links": [
+            {
+              "text": "Kubernetes 儿童图解指南",
+              "url": "https://www.cncf.io/the-childrens-illustrated-guide-to-kubernetes/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111204.jpg"
+          ]
+        },
+        {
+          "title": "机器学习的线性代数简介",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111205.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一篇英语的长篇文章，通过 Python 语言学习线性代数。</p>",
+          "links": [
+            {
+              "text": "机器学习的线性代数简介",
+              "url": "https://pabloinsente.github.io/intro-linear-algebra"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111205.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "1961年 B-52 轰炸机空难",
+          "content": "<p>1961年1月24日，美国的一架 B-52 轰炸机空中加油时发生故障，在北卡罗来纳州坠毁。8个机组成员有5人弹射成功，其余3人则不幸丧生。</p>\n<p>更糟糕的是，这架轰炸机装载了两枚氢弹。其中一枚氢弹在降落伞的帮助下，完好无损地落到地面，后来被顺利回收。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020110503.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>但是，另一枚氢弹没有降落伞，撞入一个农场，六道引爆装置启动了五道，差一点就爆炸了。它完全陷入了地里，由于地下水流泛滥，发掘很困难，最终并没有被回收，放射性物质都留在原地，只把引爆装置取走了。</p>\n<p>这枚氢弹要是在美国本土爆炸了，世界历史将会改写。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020110504.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020110505.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "1961年 B-52 轰炸机空难",
+              "url": "https://en.wikipedia.org/wiki/1961_Goldsboro_B-52_crash"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020110503.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020110504.jpg",
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020110505.jpg"
+          ]
+        },
+        {
+          "title": "南非的钻石矿",
+          "content": "<p>南非的狄龙沼泽（Dillon Marsh）钻石矿，一共开采了760万克拉的钻石，相当于1.5吨。下图就是获取1.5吨的钻石，需要挖多大的坑。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020110506.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "南非的钻石矿",
+              "url": "http://dillonmarsh.com/diamonds.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020110506.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "幸运公式",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202011/bg2020111807.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个人有多幸运，可以用数学公式表达。</p>\n<blockquote>\n<p>你的幸运 = X 乘以 Y</p>\n</blockquote>\n<p>X 是你所做的准备，Y 是你遇到的机会。</p>\n<p>如果你的准备为零，那么无论遇到多大的机会，你都不会抓住。你会失去每一个机会。</p>\n<p>你准备得越充分，X 就越大，那么你就越幸运。哪怕遇到的只是一个小机会，也会被成倍的放大。</p>",
+          "links": [
+            {
+              "text": "幸运公式",
+              "url": "https://msjaber.com/luck/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202011/bg2020111807.jpg"
+          ]
+        },
+        {
+          "title": "密码泄漏到 GitHub，会发生什么？",
+          "content": "<p>几天前，我做了一个小实验，故意生成了一个假的 AWS 密钥，将其提交到公共存储库，看看会发生什么。</p>\n<p>我先向 GitHub 推送。</p>\n<p>- 15:27，我推送了带有密钥的提交。<br />- 15:34（7分钟后），我收到了 @GitGuardian 的电子邮件，通知我可能有密钥泄漏。<br />- 15:38（11分钟后），有人开始拿这个密钥入侵我的账户。</p>\n<p>接下来的2小时内，我又收到了5条警报，分别来自德国、荷兰、英国和乌克兰。根据 User-Agent，入侵的脚本机器人使用 Python 和 Node.js SDK。</p>\n<p>接着，我又向 GitLab 推送。</p>\n<p>- 16:24，我推送了带有密钥的提交。<br />- 17:26（62分钟后），第一次入侵来自法国。根据 User-Agent，入侵脚本使用了 Python SDK。</p>\n<p>我没有从 GitLab 收到任何提醒或警告。我知道 GitLab 确实提供了此功能，可悲的是，它们仅适用于付费用户。</p>\n<p>结论：</p>",
+          "links": [
+            {
+              "text": "密码泄漏到 GitHub，会发生什么？",
+              "url": "https://threadreaderapp.com/thread/1324360905237372929.html"
+            }
+          ]
+        },
+        {
+          "title": "入",
+          "content": "<p>侵者对 GitHub 的扫描多于 GitLab 。</p>",
+          "links": []
+        },
+        {
+          "title": "如",
+          "content": "<p>果使用 GitHub，则应使用 @GitGuardian。</p>",
+          "links": []
+        },
+        {
+          "title": "如",
+          "content": "<p>果使用 GitLab，最好升级到付费用户。</p>",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "4",
+          "content": "<p>G 上网的二氧化碳排放比 WIFI 上网高4～7倍。</p>\n<p>-- <a href=\"https://devblogs.microsoft.com/sustainable-software/carbon-aware-vs-carbon-efficient-applications/?WT.mc_id=green-8661-cxa\" target=\"_blank\" rel=\"noopener noreferrer\">《程序员的碳意识》</a></p>",
+          "links": [
+            {
+              "text": "《程序员的碳意识》",
+              "url": "https://devblogs.microsoft.com/sustainable-software/carbon-aware-vs-carbon-efficient-applications/?WT.mc_id=green-8661-cxa"
+            }
+          ]
+        },
+        {
+          "title": "为",
+          "content": "<p>什么许多人对新冠病毒在全世界造成的大量死亡感到麻木，因为对于我们大多数人来说，这场疫情的最惨痛经历是目击不到的。</p>\n<p>-- <a href=\"https://www.bbc.com/future/article/20200930-can-empathy-be-bad-for-you\" target=\"_blank\" rel=\"noopener noreferrer\">BBC</a></p>",
+          "links": [
+            {
+              "text": "BBC",
+              "url": "https://www.bbc.com/future/article/20200930-can-empathy-be-bad-for-you"
+            }
+          ]
+        },
+        {
+          "title": "2",
+          "content": "<p>011年，IBM 公司首次提出，正在开发的沃森（Watson）人工智能系统可能有一天可以治愈癌症。那时，该公司的年收入为1070亿美元，自那以后，业务规模每年都在缩小，2017年的年收入变成790亿美元。内部员工开始提出“公司应该停止研究癌症。”</p>\n<p>-- <a href=\"https://slate.com/business/2018/08/ibms-watson-how-the-ai-project-to-improve-cancer-treatment-went-wrong.html\" target=\"_blank\" rel=\"noopener noreferrer\">《沃森系统出了什么问题？》</a></p>",
+          "links": [
+            {
+              "text": "《沃森系统出了什么问题？》",
+              "url": "https://slate.com/business/2018/08/ibms-watson-how-the-ai-project-to-improve-cancer-treatment-went-wrong.html"
+            }
+          ]
+        },
+        {
+          "title": "特",
+          "content": "<p>斯拉公司希望避免开设传统的汽车经销店，主要通过互联网出售汽车。但是，这样做的前提是，它必须提供宽大的退货政策。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=24812391\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=24812391"
+            }
+          ]
+        },
+        {
+          "title": "1",
+          "content": "<p>820年，英格兰最著名的外科医生罗伯特·李斯特顿（Robert Liston）创造了一项世界记录，他做了历史上唯一一场死亡率达到300％的手术。</p>\n<p>他为一位肌肉坏死的病人截肢，沾过病人血液的手术刀不小心割伤了一位助手，旁边还有一位医师正在观摩手术。由于当时人们不知道细菌的存在，没有消毒意识，几天后，患者、助手、旁观医师相继死亡。</p>\n<p>-- <a href=\"https://medium.com/history-of-yesterday/the-surgery-with-a-300-mortality-rate-d64ecf6db6db\" target=\"_blank\" rel=\"noopener noreferrer\">《麻醉药发明之前的医学》</a></p>",
+          "links": [
+            {
+              "text": "《麻醉药发明之前的医学》",
+              "url": "https://medium.com/history-of-yesterday/the-surgery-with-a-300-mortality-rate-d64ecf6db6db"
+            }
+          ]
+        },
+        {
+          "title": "小",
+          "content": "<p>说家雷蒙德·卡佛（Raymond Carver）死后，人们在他的上衣口袋里发现一张折叠的纸，上面列出了他提醒自己别忘记的事情：</p>\n<p>- 鸡蛋<br />- 花生酱<br />- 热巧克力<br />- 澳大利亚<br />- 南极洲</p>\n<p>-- <a href=\"https://www.theparisreview.org/blog/2020/11/16/we-are-built-to-forget/\" target=\"_blank\" rel=\"noopener noreferrer\">《巴黎评论》杂志</a></p>",
+          "links": [
+            {
+              "text": "《巴黎评论》杂志",
+              "url": "https://www.theparisreview.org/blog/2020/11/16/we-are-built-to-forget/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "回顾",
+      "title": "回顾",
+      "items": [
+        {
+          "content": "<p>2019年的本周（第 83 期）：<a href=\"http://www.ruanyifeng.com/blog/2019/11/weekly-issue-83.html\" target=\"_blank\" rel=\"noopener noreferrer\">技术解决不了人类的对立</a></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201911/bg2019111703.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>2018年的本周（第 31 期）：<a href=\"http://www.ruanyifeng.com/blog/2018/11/weekly-issue-31.html\" target=\"_blank\" rel=\"noopener noreferrer\">程序员的退休信号</a></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111601.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "技术解决不了人类的对立",
+              "url": "http://www.ruanyifeng.com/blog/2019/11/weekly-issue-83.html"
+            },
+            {
+              "text": "程序员的退休信号",
+              "url": "http://www.ruanyifeng.com/blog/2018/11/weekly-issue-31.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201911/bg2019111703.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111601.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "订阅",
+      "title": "订阅",
+      "items": [
+        {
+          "content": "<p>这个周刊每周五发布，同步更新在<a href=\"http://www.ruanyifeng.com/blog\" target=\"_blank\" rel=\"noopener noreferrer\">阮一峰的网络日志</a>和<a href=\"http://weixin.sogou.com/weixin?query=%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97\" target=\"_blank\" rel=\"noopener noreferrer\">微信公众号</a>。</p>\n<p>微信搜索“阮一峰的网络日志”或者扫描二维码，即可订阅。</p>\n<p><img src=\"http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042311.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "阮一峰的网络日志",
+              "url": "http://www.ruanyifeng.com/blog"
+            },
+            {
+              "text": "微信公众号",
+              "url": "http://weixin.sogou.com/weixin?query=%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97"
+            }
+          ],
+          "images": [
+            "http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042311.jpg"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-134.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-134.md"
+}

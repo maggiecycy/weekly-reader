@@ -1,0 +1,3255 @@
+{
+  "latest": 406,
+  "syncedAt": "2026-08-06T09:03:28.520Z",
+  "total": 406,
+  "issues": [
+    {
+      "number": 406,
+      "title": "道可，道非，常道",
+      "date": "2026-08-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202607/bg2026072904.webp",
+      "summary": "上周（7月22日），华为公司的心声社区转发了《人民日报》对何庭波的专访。 何庭波是华为的半导体业务部总裁，最近提出“韬（τ）”定律受到关注。 华为转发这篇专访时，附上了一段任正非写的序言，标题是《道可，道非，常道》。这段序言很短，只有几句话…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html"
+    },
+    {
+      "number": 405,
+      "title": "资源，社会公平与算力",
+      "date": "2026-07-31",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202607/bg2026072311.webp",
+      "summary": "分享一个有趣的观点：资源太多，会造成社会不公平。我谈不上同意这个观点，就是觉得思路很奇特。 这是奥地利哲学家伊万·伊里奇（Ivan Illich）在1973年的著作《能源与公平》（Energy and Equity ）中提出的，他认为用电量…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-405.html"
+    },
+    {
+      "number": 404,
+      "title": "你需要知道的 AI 内存知识",
+      "date": "2026-08-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202607/bg2026071603.webp",
+      "summary": "自己在家运行 AI 模型，可以选择两种硬件。 一种是独立显卡，目前最顶级的消费级显卡是英伟达的 RTX 5090，带有 32GB 显存，售价3万元人民币左右。 另一种是采用板载芯片组（CPU + 板载显卡 + 板载内存）的家用电脑，比如采用…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-404.html"
+    },
+    {
+      "number": 403,
+      "title": "为什么 Dropbox 不成功",
+      "date": "2026-07-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202607/bg2026070704.webp",
+      "summary": "Dropbox，大家都知道吧？ 它成立于2007年，创始人是麻省理工学院的学生，经常丢失 U 盘，于是想到可以把文件上传到服务器。 他就创业了，做出了世界第一个“云盘”，当时是革命性产品。 这就是 Dropbox 的来历，它成立后快速走红，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-403.html"
+    },
+    {
+      "number": 402,
+      "title": "我在智念 AI 的日子（小说）",
+      "date": "2026-07-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202607/bg2026070202.webp",
+      "summary": "下面是一篇老外写的超短篇小说，也可能是 AI 写的，我不确定，但觉得很有趣，分享给大家。 为了易读，我做了一些修改，把内容“中国化”了。 ---",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-402.html"
+    },
+    {
+      "number": 401,
+      "title": "如何赚到10亿美元",
+      "date": "2026-07-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202606/bg2026060403.webp",
+      "summary": "保罗·格雷厄姆（Paul Graham）是美国最大的创业孵化器 Y Combinator 的创始人，公认的创业导师，《黑客与画家》的作者。 他现在已经退休了，离开硅谷，住在英国乡下。 今年6月10日，他应牛津大学的学生社团邀请，做了一次演讲…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-401.html"
+    },
+    {
+      "number": 400,
+      "title": "rsync 的争论",
+      "date": "2026-06-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202606/bg2026060505.webp",
+      "summary": "rsync 是计算机同步最常用的工具，属于服务器的基本命令。 最近，有人发现，它的最新版本 3.4.3 是由 Claude 生成的。这引发了轩然大波，怎么可以用 AI 去编写系统的基本命令呢，谁能保证不出错！ 项目的 GitHub 讨论区就…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-400.html"
+    },
+    {
+      "number": 399,
+      "title": "中国 AI 大厂访问记",
+      "date": "2026-06-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202606/bg2026060402.webp",
+      "summary": "今年5月上旬，一个美国访问团来到中国，访问了14家 AI 和机器人公司。 访问对象包括 DeepSeek、月之暗面、MiniMax、智谱、字节跳动、阿里、蚂蚁、小米、零一万物、宇树、魔搭社区等。 所有成员都是科技分析师，回到美国后，每个人都…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-399.html"
+    },
+    {
+      "number": 398,
+      "title": "Token 费用难以负担",
+      "date": "2026-06-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202605/bg2026052803.webp",
+      "summary": "上周，OpenClaw（龙虾）的创始人彼得·斯坦伯格（Peter Steinberger）贴出了自己的 Token 使用量。 他不是故意炫耀，自己用了多少 Token，而是为了介绍工具软件 CodexBar。这个菜单栏小工具可以统计你的 T…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-398.html"
+    },
+    {
+      "number": 397,
+      "title": "财富正在向 AI 集中",
+      "date": "2026-06-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202605/bg2026051711.webp",
+      "summary": "AI 相关的所有东西，最近都在上涨。 看看股票，就知道了。内存、储存、CPU、服务器、液冷、光通信、变压器……股价全部在涨，更不要提，前期已经涨过的芯片、模型、算力了，甚至铜和铝也在涨。 这些股票的上涨幅度之大，令人咂舌。就以内存为例，世界…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-397.html"
+    },
+    {
+      "number": 396,
+      "title": "互联网通信的替代方案",
+      "date": "2026-05-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202605/bg2026051414.webp",
+      "summary": "某天清晨，你醒来发现互联网断了，怎么办？ 我说的是彻底的中断，完全不能运作，整个城市无法上网。这种事件虽然可能性很小，但还是有可能，比如遭遇了自然灾害或战事。 假设一时半会无法恢复通信，那么有没有替代方案？也就是说，我们怎么自己组网。 虽然…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-396.html"
+    },
+    {
+      "number": 395,
+      "title": "软件开发的第三种方式",
+      "date": "2026-05-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202605/bg2026050602.webp",
+      "summary": "有一本很著名的软件开发著作，叫做《大教堂与集市》，大家了解吗？ 它提出软件开发有两种方式。 一种方式是大教堂（Cathedral），即软件经过精心规划，由一支专业的团队封闭式开发管理，全过程有严格的流程和管控，代码通常是闭源的。 另一种方式…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-395.html"
+    },
+    {
+      "number": 394,
+      "title": "第二次 API 开放浪潮",
+      "date": "2026-05-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202604/bg2026042008.webp",
+      "summary": "如果你在互联网行业足够久，大概会记得，以前有过一次 API 开放的浪潮。 那是15年前的2011年，云服务刚兴起不久，各种平台纷纷开放自己的 API。 那时，Facebook 和 Twitter 都发布了自己的 API，开放了平台数据。Gi…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-394.html"
+    },
+    {
+      "number": 393,
+      "title": "脑腐状态",
+      "date": "2026-05-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202604/bg2026041608.webp",
+      "summary": "最近学到一个新词“脑腐”（brain rot）。 它就是字面意思。有些人看上去是正常的，但是大脑已经变异了，有些部分腐烂了。 根据介绍文章，“脑腐”的症状就是思考能力下降，难以长时间集中注意力，进行深入的推理和反思。 一遇到比较难、需要反复…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-393.html"
+    },
+    {
+      "number": 392,
+      "title": "axios 投毒与好莱坞式骗术",
+      "date": "2026-04-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202604/bg2026040203.webp",
+      "summary": "上周，著名软件库 axios 被投毒了。黑客拿到了发布令牌，直接发了一个新版本，里面加入了木马。 软件投毒不是新鲜事，新鲜的是发布令牌怎么泄漏的。背后的故事简直是好莱坞电影，根本防不胜防。 axios 属于使用最广泛的 JS 软件库之一，每…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-392.html"
+    },
+    {
+      "number": 391,
+      "title": "AI 的贫富分化",
+      "date": "2026-04-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202604/bg2026040107.webp",
+      "summary": "我越来越觉得，AI 跟其他技术不一样，不仅带来技术变革，还会带来社会变革。 简单说，AI 会带来贫富分化。 其他技术实际上会消灭贫富分化，实现“消费者平等”，即穷人和富人消费的东西是一样的。 比如，大家喝一样的可口可乐，用一样的苹果手机，开…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-391.html"
+    },
+    {
+      "number": 390,
+      "title": "没有语料，大模型就是智障",
+      "date": "2026-04-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202603/bg2026032201.webp",
+      "summary": "如果现在做一个问卷调查，问大家“你觉得大模型是否具有智能？” 我相信，大多数人会是肯定的回答。 哪怕现在只是 AI 的初级阶段，大模型已经能够替代很多的人类智力劳动，确实非常神奇。 但是，我们不要忘记真实情况，大模型不是魔法，更不是具有自主…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-390.html"
+    },
+    {
+      "number": 389,
+      "title": "未来如何招聘程序员",
+      "date": "2026-04-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202602/bg2026022807.webp",
+      "summary": "前些天，讨论区有一个帖子，提出一个问题。 如果未来的代码都是 AI 写的，那么我们怎么招聘程序员呢？ 程序员负责代码，但代码是 AI 写的，不是程序员写的，那么应该怎么面试他呢？ 你仔细想想，这个问题比预想的难多了。 首先，考察他的代码能力…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-389.html"
+    },
+    {
+      "number": 388,
+      "title": "测试是新的护城河",
+      "date": "2026-04-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202603/bg2026030804.webp",
+      "summary": "Next.js 是目前排名第一的 JS 框架。平时遇到的 JS 全栈应用，我估计，一半用它开发。 两周前，这个框架被一则新闻颠覆了。 一个 Cloudflare 工程师宣布，他只用一个星期就用 AI 重新实现了 Next.js，起名为 vi…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-388.html"
+    },
+    {
+      "number": 387,
+      "title": "你是领先的",
+      "date": "2026-03-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202603/bg2026030503.webp",
+      "summary": "世界总人口现在是81亿，如果画成一个方块图，每个方块代表320万人。",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-387.html"
+    },
+    {
+      "number": 386,
+      "title": "当外卖员接入 AI",
+      "date": "2026-03-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202602/bg2026020702.webp",
+      "summary": "最近，美国有一条无人驾驶的新闻，引起很大反响。 Waymo 是一家无人驾驶公司，已经在多个美国城市开展出租车运营了。 它有一个最大的烦恼，就是乘客下车后，没关好车门或后备箱，导致车辆无法驶离。 奇怪的是，这样一家高科技公司，居然没有开发远程…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-386.html"
+    },
+    {
+      "number": 385,
+      "title": "马斯克害怕中国车企吗？",
+      "date": "2026-03-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202602/bg2026020701.webp",
+      "summary": "两周前，马斯克宣布，特斯拉公司将停产 Model S 和 Model X 两种车型。 他的解释是，生产线空出来，用来生产机器人和无人驾驶出租车。 这显然会打击特斯拉的汽车业务。它的家用轿车一共只有四款，现在一下子少了两款，而且是最贵的两款，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-385.html"
+    },
+    {
+      "number": 384,
+      "title": "为什么软件股下跌",
+      "date": "2026-03-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202602/bg2026020501.webp",
+      "summary": "大家知道，最近两三年，由于生成式 AI 的出现，美国股市大涨。 所有 AI 相关公司，股价都涨上了天：模型公司、应用公司、芯片公司、存储公司…… 但是，我最近看新闻，才知道有一类股票，不仅没涨，还下跌了。你真想不到，这种倒霉的股票就是软件股…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-384.html"
+    },
+    {
+      "number": 383,
+      "title": "你是第几级 AI 编程",
+      "date": "2026-02-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202601/bg2026012103.webp",
+      "summary": "史蒂夫·耶格（Steve Yegge）是一个著名的美国程序员。 他在亚马逊和谷歌都干过，但是他出名的不是写软件，而是写博客。 他喜欢在个人网站发布长篇大论，滔滔不绝地议论，直抒胸臆，毫不避讳。他的好多文章都在业内被广泛阅读，引起很大反响。 …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-383.html"
+    },
+    {
+      "number": 382,
+      "title": "独立软件的黄昏",
+      "date": "2026-02-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202601/bg2026011611.webp",
+      "summary": "软件可以分成两种：一种是公司开发的，另一种是个人开发的。后者就称为“独立软件”（indie software）。 它的历史非常悠久，从古至今，很多程序员依靠出售独立软件谋生。 有一种东西“共享软件”（Shareware），年轻的朋友未必知道…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-382.html"
+    },
+    {
+      "number": 381,
+      "title": "中国 AI 大模型领导者在想什么",
+      "date": "2026-02-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202601/bg2026011024.webp",
+      "summary": "上周六（1月10日），北京有一场“AGI-Next 前沿峰会”，由清华大学基础模型实验室主办。 中国顶尖的 AI 大模型领导者，很多都出席了。 - 唐杰：清华大学教授，智谱创始人 - 杨植麟：月之暗面 Kimi 创始人 - 林俊旸：阿里 Q…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-381.html"
+    },
+    {
+      "number": 380,
+      "title": "为什么人们拥抱“不对称收益”",
+      "date": "2026-02-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202512/bg2025121403.webp",
+      "summary": "前两周，我跟大家说，美国现在最流行“预测市场”。我当时没有统计数字，现在有了。 2025年11月，美国前两大预测市场—— Polymarket 和 Kalshi —— 一共成交了超过100亿美元。 看这个数字，大家可能没感觉。作为对比，美国…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-380.html"
+    },
+    {
+      "number": 379,
+      "title": "《硅谷钢铁侠》摘录",
+      "date": "2026-01-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202512/bg2025122503.webp",
+      "summary": "最近，我读了一本十年前的马斯克传记《硅谷钢铁侠》（中信出版社，2016）。 按理说，这本书已经过时了，这十年马斯克发生太多事情了。 我是睡觉前随手拿起来，翻了几页，看得津津有味，就读完了。 这本是马斯克的授权传记，他本人亲自接受了采访，还挺…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-379.html"
+    },
+    {
+      "number": 378,
+      "title": "预测是新的互联网热点",
+      "date": "2026-01-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202512/bg2025121101.webp",
+      "summary": "大家大概想不到，美国互联网的热点，现在不是 AI 网站，而是一种全新的网站，叫做“预测市场”（prediction market）。 这类网站像雨后春笋一样，每天都在冒出来。最有名的预测市场，目前是 PolyMarket。 预测市场的用途，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-378.html"
+    },
+    {
+      "number": 377,
+      "title": "14万美元的贫困线",
+      "date": "2026-01-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202512/bg2025120701.webp",
+      "summary": "一个人需要多少钱，才能摆脱贫困？ 我看到一篇美国人的文章，作者说，美国政府规定的贫困线是，四口之家的年收入不足3.12万美元。 根据统计，美国四口之家的年收入中位数是8万美元，远超贫困线。按照这个标准，贫困的美国家庭应该不多，8万美元可以让…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-377.html"
+    },
+    {
+      "number": 376,
+      "title": "太空数据中心的争议",
+      "date": "2026-01-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202512/bg2025120304.webp",
+      "summary": "AI 大发展，数据中心不够用了，建造和运营成本飞涨。 越来越多的人提出，数据中心可以建在太空。 先是马斯克说，SpaceX 公司考虑在地球轨道上，建造数据中心。 然后本周，北京市科委、中关村科学城管委会发布了《太空数据中心建设规划方案》。 …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-376.html"
+    },
+    {
+      "number": 375,
+      "title": "一扇门的 Bug",
+      "date": "2025-12-31",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202511/bg2025112516.webp",
+      "summary": "最离奇的软件 Bug，你听说过哪些？ 下面这个是我本周看到，绝对可以排进史上前十名。 我把它译出来，跟大家分享，以下是第一人称的叙述： 2013年，我在 Valve 公司从事游戏开发。 当时，第一代虚拟现实 VR 头盔 Oculus DK1…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-375.html"
+    },
+    {
+      "number": 374,
+      "title": "6GHz 的问题",
+      "date": "2025-12-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202511/bg2025111209.webp",
+      "summary": "本周的新闻，欧洲做出决定，6GHz 怎么分配。 欧洲把 6GHz 一分为二，较低的频段给 WiFi 使用，较高的频段留给手机通信。 这跟美国和中国都不一样，美国把整个 6GHz 分配给 WiFi，中国则是全部分配给手机通信。 我来说说，对于…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-374.html"
+    },
+    {
+      "number": 373,
+      "title": "数据模型是新产品的核心",
+      "date": "2025-12-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202511/bg2025111108.webp",
+      "summary": "（1） 著名计算机学家、Pascal 语言之父沃斯说过一句著名的话。 算法 + 数据结构 = 程序 他甚至写了一本书，书名就是这句话。 在他看来，数据结构跟算法一样，是最重要的事情，反倒是编程语言不怎么重要。 如果数据结构不对，程序十有八九…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-373.html"
+    },
+    {
+      "number": 372,
+      "title": "软件界面如何设计",
+      "date": "2025-12-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202511/bg2025110503.webp",
+      "summary": "（1） 软件的用户界面（UI）是一门大学问。有一个行业专门研究它，就叫做“UI 设计”。 我觉得，很多写软件的程序员，对 UI 设计毫无感觉，不知道什么样的界面好用又美观。 他们自己搞的图形界面，只要把所有功能都堆积在界面上，就觉得完成了，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-372.html"
+    },
+    {
+      "number": 371,
+      "title": "一个乐观主义者的专访",
+      "date": "2025-12-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202510/bg2025103001.webp",
+      "summary": "（1） 凯文·凯利（Kevin Kelly，简称 KK，1952-）是著名的作家和未来学家，曾经出版过《失控》等多本畅销书，在国内有很高的知名度。 老爷子今年73岁，依然充满了活力，个人网站 kk.org（下图）几乎每周更新。 如果仔细看首…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-371.html"
+    },
+    {
+      "number": 370,
+      "title": "正确的代码高亮",
+      "date": "2025-11-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202510/bg2025102301.webp",
+      "summary": "程序员一般都使用代码高亮，就是代码有不同的颜色（下图），方便阅读。 问题就来了，什么样的颜色组合，最适合阅读代码？ 大多数的人大概跟我一样，就挑自己觉得好看的。比如下图五颜六色的，我觉得很悦目。 不久前，我读到一篇文章，作者说：错了，好看的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-370.html"
+    },
+    {
+      "number": 369,
+      "title": "Tim 与罗永浩的对谈",
+      "date": "2025-11-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202510/bg2025101607.webp",
+      "summary": "10月10日，罗永浩的新节目《罗永浩的十字路口》，邀请了嘉宾“影视飓风”创始人 Tim（潘天鸿）。 他们进行了一场对谈，Tim 从头部 UP 主的角度，分享自己对视频行业怎么看，有意思的内容非常多。 他们谈了三个小时，谈得非常深入尽兴，整理…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-369.html"
+    },
+    {
+      "number": 368,
+      "title": "不要这样管理软件团队",
+      "date": "2025-11-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202510/bg2025100401.webp",
+      "summary": "我读到一篇文章，讨论软件团队怎么管理，写得很好。 文章举了 IT 公司常见的六种管理，看得我心有戚戚焉，分享给大家。 作者说，下面这些做法都属于低级管理，是经理人级别（manager），最好提升到领导者级别（leader）的高级管理。 （1…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-368.html"
+    },
+    {
+      "number": 367,
+      "title": "Nano Banana 的几个妙用",
+      "date": "2025-11-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202509/bg2025092501.webp",
+      "summary": "上个月，谷歌发布了图像模型 Gemini 2.5 Flash Image（项目名 Nano Banana）。 谷歌称它是目前“最先进的图像生成和编辑模型”。 我试用后，感觉确实很强，而且免费使用，打开官网（下图）就能用。 （备注：如果你访问…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-367.html"
+    },
+    {
+      "number": 366,
+      "title": "旧金山疯狂的 AI 广告",
+      "date": "2025-10-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202509/bg2025091801.webp",
+      "summary": "上期周刊提到，旧金山有一个广告牌，上面是一个谜语，指向某个 AI 公司的网址。 我原以为，这只是个别现象，但是本周看到了一篇报道，才发现我错了。 旧金山市已经为 AI 疯狂了，城里的 AI 广告铺天盖地。相比之下，中国的 AI 热潮只能算是…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-366.html"
+    },
+    {
+      "number": 365,
+      "title": "流量变现正在崩塌",
+      "date": "2025-10-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202509/bg2025091001.webp",
+      "summary": "上周，Cloudflare 创始人兼 CEO 马修·普林斯（Matthew Prince）接受了访谈。 他说了一个全新的观点，互联网“流量为王”的时代就要结束了，AI 将终结传统的互联网商业模式。 我觉得，他表达得很完整，很有说服力，不愧是…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-365.html"
+    },
+    {
+      "number": 364,
+      "title": "最难还原的魔方",
+      "date": "2025-10-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202508/bg2025083002.webp",
+      "summary": "说来奇怪，我认识的很多程序员，平时看上去没有共同点，但是一问，他们都喜欢魔方。 而且，水平都很厉害，一般来说不超3分钟，就能还原魔方。 有一段时间，我们办公室有好几个魔方，没事的时候，大家就拿在手里拧。 我想过一个问题：什么样的魔方最难还原…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-364.html"
+    },
+    {
+      "number": 363,
+      "title": "最好懂的神经网络解释",
+      "date": "2025-10-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202508/bg2025082708.webp",
+      "summary": "神经网络是 AI 的算法基础。 前些天，我在美国科普网站《量子杂志》（Quanta Magazine），读到一篇科普文章，用一个浅显的例子 + 插图，解释了神经网络，堪称我见过的最好懂的教程。 下面就是我整理出来的中文版。",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-363.html"
+    },
+    {
+      "number": 362,
+      "title": "GitHub 工程师谈系统设计",
+      "date": "2025-10-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202506/bg2025082101.webp",
+      "summary": "上周，我读到一篇文章，作者是 GitHub 的高级工程师肖恩·戈德克（sean goedecke）。 文章题目是《我所知的良好的系统设计》。 读完后，我觉得写得不错。GitHub 工程师总结经验，教大家设计一个良好的系统，不是空泛之谈。下面…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-362.html"
+    },
+    {
+      "number": 361,
+      "title": "暗网 Tor 安全吗？",
+      "date": "2025-09-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202508/bg2025081404.webp",
+      "summary": "家知道 Tor 浏览器吧？ 它是访问暗网（dark web）的主要工具。 所谓暗网，就是普通浏览器打不开、必须用专门工具访问的互联网。 之所以暗网要用专门工具访问，是因为它采用了特殊的设计，保证让访问者高度匿名，难以追踪。 如果你希望执行秘…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-361.html"
+    },
+    {
+      "number": 360,
+      "title": "Dan Wang 的新书",
+      "date": "2025-09-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202508/bg2025080704.webp",
+      "summary": "Dan Wang（我不知道他的中文名），7岁随家人移民北美，现在是知名的经济分析师，在斯坦福大学胡佛研究所任研究员。 他对中国问题的分析，非常有洞察力，在国外知识界很受重视。 2017年～2023年，他住在上海，并在国内各地旅行。 疫情后，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-360.html"
+    },
+    {
+      "number": 359,
+      "title": "Palantir 值得关注",
+      "date": "2025-09-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202507/bg2025073011.webp",
+      "summary": "Palantir（中译帕兰提尔，或者帕兰泰尔）是一家美国的高科技公司。 它在中国不出名，但在美国鼎鼎大名。最近两年，股价涨了十几倍，市值达到4000多亿美元，排进世界前30大公司，高于三星。 它有鲜明的意识形态，自称使命是“防止西方的衰落”…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-359.html"
+    },
+    {
+      "number": 358,
+      "title": "如何拯救一家濒临倒闭的创业公司",
+      "date": "2025-09-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202507/bg2025072406.webp",
+      "summary": "上周，Medium.com 的 CEO 发表了一篇长文，透露2022年曾经濒临倒闭。 “我们每月亏损260万美元。” 这不意外，它是一家博客托管平台，现在是短视频的时代，文字网站都活得很艰难。 “订阅用户在流失，平台上的垃圾文章越来越多。出…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-358.html"
+    },
+    {
+      "number": 357,
+      "title": "稳定币的博弈",
+      "date": "2025-08-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202507/bg2025071601.webp",
+      "summary": "稳定币（stable coin）是最近的热点，新闻媒体不断提及。 起因是今年5月，香港通过了《稳定币条例》，8月1日马上就要生效，允许企业申请牌照、发行稳定币。 可以想象，香港有了稳定币，对于大家来说，就多一个金融机会和金融工具。 但是，大…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-357.html"
+    },
+    {
+      "number": 356,
+      "title": "公司强推 AI 编程，我该怎么办",
+      "date": "2025-08-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202507/bg2025070311.webp",
+      "summary": "前两天，“黑客新闻”论坛有一个求助帖。 程序员求助，公司强制使用 AI 编程，他不想用，怎么办。 下面七嘴八舌，大家说了很多想法。这是现在的热点问题，我今天就来分享这个帖子。 2025年的现实就是，AI 编程（AI coding）已经从实验…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-356.html"
+    },
+    {
+      "number": 355,
+      "title": "两本《芯片战争》",
+      "date": "2025-08-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202507/bg2025070201.webp",
+      "summary": "前些日子，我想找芯片知识的书籍，想起有一本很有名的畅销书，叫做《芯片战争》。 搜索发现，《芯片战争》居然不止一本，而有两本书都叫这个名字。 《芯片战争》，余盛（华中科技大学出版社，2022） 《芯片战争》，[美]克里斯·米勒（浙江人民出版社…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-355.html"
+    },
+    {
+      "number": 354,
+      "title": "8000mAh 手机电池，说明了什么？",
+      "date": "2025-08-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202506/bg2025061805.webp",
+      "summary": "大家发现了吗，手机的电池正在越变越大。 你可以看一下你的手机，电池容量是多少。 仅仅三四年前，手机电池一般都是 4000mAh（毫安时），最多就到 5000mAh。 但是在去年（2024年），电池容量增加到了 6000mAh。今年（2025…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-354.html"
+    },
+    {
+      "number": 353,
+      "title": "苹果的“液态玻璃”是为了 AR",
+      "date": "2025-07-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202506/bg2025061804.webp",
+      "summary": "上周，苹果公司发布了新的设计风格“液态玻璃”（liquid glass）。 这种风格使用液体玻璃，作为控件（上图）。早先的扁平化风格，被一股脑抛弃。 下图左面是原来扁平化风格的 iPhone，右面是这次测试版的液态玻璃。 我知道的绝大部分人…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-353.html"
+    },
+    {
+      "number": 352,
+      "title": "Bug 追踪系统的正确样子",
+      "date": "2025-07-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202506/bg2025060801.webp",
+      "summary": "上周的话题是 GitHub Issues，把它当作笔记工具，很强悍。 但是，有些话来不及说。它的本职工作——Bug 追踪系统——并不好用。 你用它来管理 Bug，就会发现有设计缺陷，用起来不顺手。 现在还活着的、历史最悠久的 Bug 追踪系…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-352.html"
+    },
+    {
+      "number": 351,
+      "title": "GitHub Issues（几乎）是最好的笔记应用",
+      "date": "2025-07-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202506/bg2025060101.webp",
+      "summary": "Issues 是 GitHub 的 Bug 管理工具，所有代码仓库都默认启用。 它不仅可以管理 Bug，还可以用于其他用途。 比如，我把它当作投稿论坛，大家在那里提交自己的项目。 再比如，很多人把它当作内容管理系统，用来写博客，或者存放自己…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-351.html"
+    },
+    {
+      "number": 350,
+      "title": "Java 三十周年",
+      "date": "2025-07-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202505/bg2025052506.webp",
+      "summary": "上周是 Java 语言诞生三十周年。1995年5月23日，Sun 公司正式发布了这种语言。 三十年了，大家觉得 Java 算不算老语言？ 说实话，我一直以为，Java 跟 C++ 是同一时期的语言。但是实际上，Java 与 Python、J…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-350.html"
+    },
+    {
+      "number": 349,
+      "title": "神经网络算法的发明者",
+      "date": "2025-07-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202505/bg2025052105.webp",
+      "summary": "上周的《李飞飞自传》读后感，还有后续。 那篇文章的结尾是，2012年一支加拿大团队使用神经网络算法，夺得了 ImageNet 比赛冠军。 今天就来说说，这支加拿大团队的故事。 大家看了就知道了，神经网络算法是怎么诞生的，背后的推手又是谁。 …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-349.html"
+    },
+    {
+      "number": 348,
+      "title": "李飞飞，从移民到 AI 明星",
+      "date": "2025-06-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202505/bg2025051203.webp",
+      "summary": "大家知道李飞飞吧，AI 的明星教授。 她在斯坦福大学任教，是美国国家工程院等三院院士，担任过斯坦福 AI 实验室主任，以及谷歌云 AI 首席科学家。 她1976年出生于北京，在成都长大，16岁全家移民美国。 我一直好奇，她怎么走上 AI 这…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-348.html"
+    },
+    {
+      "number": 347,
+      "title": "冷启动的破解之道",
+      "date": "2025-06-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202505/bg2025050702.webp",
+      "summary": "新软件有一个超级难题，就是发布的时候，没有用户。 这叫做“冷启动”，比喻汽车在冬季发动，天寒地冻，很难点火成功。 我最近读了一本书，专门研究这个问题，新软件怎么才能有用户？ 书名就叫《冷启动问题》（The cold start proble…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-347.html"
+    },
+    {
+      "number": 346,
+      "title": "未来就是永恒感的丧失",
+      "date": "2025-06-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202504/bg2025042102.webp",
+      "summary": "有一类人叫做未来学家（Futurists），专门研究未来。 这类人通常很快被忘记，因为他们的预测基本不准。就算偶尔说对了，后人也会觉得稀松平常。 历史上最著名的未来学家，大概是一个叫做阿尔文·托夫勒（Alvin Toffler，1928—2…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-346.html"
+    },
+    {
+      "number": 345,
+      "title": "HDMI 2.2 影音可能到头了",
+      "date": "2025-06-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202504/bg2025041104.webp",
+      "summary": "今年一月，有一个消息，大家可能没关注，那就是 HDMI 接口发布了2.2版。 今天说说这件事，我冒着打脸的风险，猜测一下，这个标准可能到头了。 HDMI 接口是最常见的影音接口，每个人应该都接触过，电视机和显示器一般都用它连接信号源。 这个…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-345.html"
+    },
+    {
+      "number": 344,
+      "title": "制造业正在“零工化”",
+      "date": "2025-05-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202504/bg2025040904.webp",
+      "summary": "本周分享一篇北京大学张丹丹老师的文章。 她主要研究劳动经济学，也就是劳动力问题。 她注意到一个现象：零工越来越多。 所谓“零工”，就是不与用人单位签订劳动合同，也不缴纳社保的工人。 这里面包括两种情况。一种是派遣工，合同是跟人力中介签的。另…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-344.html"
+    },
+    {
+      "number": 343,
+      "title": "如何阻止 AI 爬虫",
+      "date": "2025-05-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202503/bg2025032602.webp",
+      "summary": "AI 大模型公司，正在疯狂收集训练数据。 它们派出无数爬虫，在互联网上无节制地抓取数据。爬虫数量之多、频率之高，堪比 DDoS 攻击。 上周，代码托管网站 SourceHut 的站长，公开发表文章（下图），痛斥 AI 爬虫太过份，服务器无法…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-343.html"
+    },
+    {
+      "number": 342,
+      "title": "面试的 AI 作弊——用数字人去面试",
+      "date": "2025-05-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202503/bg2025032010.webp",
+      "summary": "大家肯定想到了，AI 的能力现在这么强，一定有人用来作弊。 求职作弊是最简单的，求职信和履历都可以让 AI 生成，但是你未必能想到，面试也能 AI 作弊，派一个数字人来面试。 “数字人”技术几年前就有了，现在添加了 AI，简直如虎添翼，可以…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-342.html"
+    },
+    {
+      "number": 341,
+      "title": "低代码编程，恐怕不会成功",
+      "date": "2025-05-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202503/bg2025031213.webp",
+      "summary": "这十几年，一批批程序员前仆后继，去搞低代码编程（包括无代码编程）。光在我身边，就有三四批。 他们搞的低代码编程，我理解就是通过图形界面，拖拉各种组件，自动生成软件 UI 的底层代码，减少手工编码。 这个想法很好，确实很多人需要，尤其不懂编程…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-341.html"
+    },
+    {
+      "number": 340,
+      "title": "技术炒作三十年",
+      "date": "2025-04-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202503/bg2025030508.webp",
+      "summary": "大家有没有发现，每隔一段时间，媒体就会大肆炒作一种新技术，宣扬它将对人类产生巨大影响，全社会都在关注，人人都在谈论。 这种炒作就是大家常说的“风口”吧。突然之间，风就起来了，如果正好站在风口，猪也能飞起来。 你能举出多少个这种炒作的例子？ …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-340.html"
+    },
+    {
+      "number": 339,
+      "title": "代币是什么",
+      "date": "2025-04-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202502/bg2025022708.webp",
+      "summary": "现在，媒体经常出现一个词“代币”（token），今天就来谈谈这是什么？ 首先声明，代币属于加密货币，有交易市场。我完全不想碰这一块，只想谈谈它们的原理。 大家读了就能理解，它们为什么可以发行，可以交易。作为技术实验，这是很有意思的。 我想谈…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-339.html"
+    },
+    {
+      "number": 338,
+      "title": "重新思考 6G",
+      "date": "2025-04-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202502/bg2025021919.webp",
+      "summary": "重庆巫山的悬崖上，有一座民宿，可以俯瞰三峡，图片是民宿的后院。（via）",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-338.html"
+    },
+    {
+      "number": 337,
+      "title": "互联网创业几乎没了",
+      "date": "2025-04-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202501/bg2025012502.webp",
+      "summary": "上周我写了，AI 削弱互联网，网站行业前景黯淡。 发布后，我突然想到，如果这个判断正确，那么，互联网创业也差不多结束了。 我说的“互联网创业”，指的是那些纯粹线上、不涉及线下的创业项目。 大家有没有同样的感觉，互联网创业者正在急剧减少。 我…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-337.html"
+    },
+    {
+      "number": 336,
+      "title": "面对 AI，互联网正在衰落",
+      "date": "2025-04-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202501/bg2025013001.webp",
+      "summary": "这一段日子，新闻焦点全是 DeepSeek，其他重要事件就不显眼了。 我说的重要事件是，1月23日，就在 DeepSeek R1 模型发布三天后，OpenAI 公司推出了一个新的 AI 工具，叫做 Operator（操作员）。 我认为，这个…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-336.html"
+    },
+    {
+      "number": 335,
+      "title": "年底的未来已来",
+      "date": "2025-03-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202501/bg2025011515.webp",
+      "summary": "大概两周前，我就在想，龙年的最后一期周刊，要写什么？ 正好这一个月，有很多新发明、新技术发布。我想到，可以把它们放在一起，作为下一年的展望。 编辑过程中，它们勾起了我的一点回忆。 十年前，我接了一个活，为北京的一家杂志写文章，向普通读者介绍…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-335.html"
+    },
+    {
+      "number": 334,
+      "title": "年终笔记四则",
+      "date": "2025-03-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202501/bg2025011608.webp",
+      "summary": "下面是过去的笔记，我读到有意思的文章时，记录下来的感想，每一则都不长。 前几天翻阅，觉得可以放在一起，重新发布，今天先发四则。 ### 一、工作也有利息 银行存款有利息，存得越久，利息越多。 工作也是一样，也有利息。如果今年的工作可以节省明…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-334.html"
+    },
+    {
+      "number": 333,
+      "title": "一切都要支付两次",
+      "date": "2025-03-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202501/bg2025010604.webp",
+      "summary": "有一句古语“书非借不能读也”，大家可能都听过。 它的意思是，很多人买了书却不读，觉得不着急，拥有书就相当于已经开始学了，后面就慢慢来吧，反而是借来的书有急迫感会抓紧读完。 这种事情很多。网址保存成书签，就扔在那里了，再也不去看它了。 我最近…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-333.html"
+    },
+    {
+      "number": 332,
+      "title": "西蒙·威利森的年终总结，梁文锋的访谈",
+      "date": "2025-03-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202501/bg2025010104.webp",
+      "summary": "英国程序员西蒙·威利森（Simon Willison）最近两年非常出名，他的个人网站有很多文章，介绍 AI 的最新进展。 本周，他发表了很长一篇的2024年大模型回顾（非官方的中译），非常精彩。 他提到，AI 的发展速度快得难以想象。 一年…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-332.html"
+    },
+    {
+      "number": 331,
+      "title": "你可能是一个 NPC",
+      "date": "2025-02-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202412/bg2024122501.webp",
+      "summary": "最近，美国发生了一起轰动的大案，一家医疗保险公司的 CEO 当街被人击杀。 嫌疑人很快抓到了，是一个26岁的青年，名为路易吉·曼吉奥内（Luigi Mangione）。 媒体纷纷挖掘这个青年的背景，发现他是一个作家的粉丝。 就在几个月前，他…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-331.html"
+    },
+    {
+      "number": 330,
+      "title": "李开复梳理人工智能",
+      "date": "2025-02-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202412/bg2024121703.webp",
+      "summary": "前些日子，我读了李开复老师的两本书：《AI·未来》（浙江人民出版社，2018）和《AI·未来进行式》（浙江人民出版社，2022）。 这两本书都是面向社会大众解释 AI，不是技术类书籍，但是有一些段落，阐述 AI 概念。 李开复老师用通俗的语…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-330.html"
+    },
+    {
+      "number": 329,
+      "title": "示意图利器 D2",
+      "date": "2025-02-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202412/bg2024121117.webp",
+      "summary": "制作示意图的工具有很多。 我喜欢使用基于文本代码的作图工具，来绘制线框图，比如 Mermaid、Plantuml、Graphviz。 它们都能根据代码，生成图片，非常适合放入代码仓库，进行版本管理。 最近，我发现了一个更易用的同类工具 D2…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-329.html"
+    },
+    {
+      "number": 328,
+      "title": "AI 模型不是一门好生意",
+      "date": "2025-02-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202412/bg2024120405.webp",
+      "summary": "微软的 Microsoft 365 最近涨价了，涨幅最高的地区为41%。 微软解释，涨价原因是多了 AI 助手 Copilot 的成本。中国大陆因为没有 Copilot，所以不涨价。 无独有偶，OpenAI 也说要涨价，涨幅更夸张。新模型的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-328.html"
+    },
+    {
+      "number": 327,
+      "title": "没有链接的互联网",
+      "date": "2025-01-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202411/bg2024112802.webp",
+      "summary": "你能想象吗，没有链接的互联网是什么样？ 不用想了，这正在变成现实。 2017年，脸书（Facebook）出台了一项政策：只要帖子里面有（外部）链接，就会减少这个帖子的曝光。 也就是说，只要你贴了链接，别人就（几乎）看不见你的帖子了。这样做是…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-327.html"
+    },
+    {
+      "number": 326,
+      "title": "世界没有那么多财富",
+      "date": "2025-01-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202411/bg2024111911.webp",
+      "summary": "维基百科有一个页面“人均财富排名”。 它列出了不同国家/地区的人均财富，可以用来比较生活水平：人均财富越多，生活水平越高。 需要注意的是，它比的是财富，不是收入。 财富的范围更广泛，除了收入，还包括其他资产（比如房产、股票、汽车等等）。财富…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-326.html"
+    },
+    {
+      "number": 325,
+      "title": "VS Code 编辑器的下一站是 Zed？",
+      "date": "2025-01-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202411/bg2024110513.webp",
+      "summary": "程序员离不开编辑器，眼下最流行的代码编辑器肯定是 VS Code。 VS Code 其他都好，但有一个很大的缺点：性能。 它运行在 Electron 的沙箱里面，资源占用多，速度慢。我现在调用某些插件，就有明显的延迟。 它还有点臃肿，安装包…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-325.html"
+    },
+    {
+      "number": 324,
+      "title": "人类已知的最大质数",
+      "date": "2025-01-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202411/bg2024110209.webp",
+      "summary": "上个月，有一个不太引人注目的科学发现：人类已知的最大质数诞生了。 除了数学家，大概没人会对这个消息感兴趣，它离日常生活太远了。 但是，本周《华盛顿邮报》的一篇报道，却把这个发现跟普通人拉近了距离。 大家恐怕想不到，发现这个数字的人不是数学家…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-324.html"
+    },
+    {
+      "number": 323,
+      "title": "技术公司的口号比拼",
+      "date": "2025-01-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202410/bg2024101905.webp",
+      "summary": "技术公司一般有一个口号（slogan），用来介绍自己。 全世界最有名的公司口号，大概就是下面这个。 我最近读到一篇老外的文章，提出两个指标，判断口号的优劣。 - 清晰度（clarity）：口号是否准确传达了公司的特点。 - 影响力（impa…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-323.html"
+    },
+    {
+      "number": 322,
+      "title": "内容行业的内幕",
+      "date": "2024-12-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202410/bg2024100806.webp",
+      "summary": "有一个行业，这些年蒸蒸日上，快速增长，加入的人越来越多。 它就是内容行业，生产各种各样的内容：文字、图片、音乐、影视、短视频、直播…… 为什么内容行业这么兴旺？ 因为现代人的时间，都花在网上。网上有什么？就是有内容啊。人们越是投入互联网，内…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-322.html"
+    },
+    {
+      "number": 321,
+      "title": "傅盛回忆录",
+      "date": "2024-12-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202410/bg2024101507.webp",
+      "summary": "傅盛是谁？百度百科是这样写的。 1978年生于江西景德镇，2003年加入3721公司（后为奇虎360）。 2010年出任金山网络 CEO，2014年金山网络改名为猎豹移动，担任 CEO 至今。 最近，我读了一本他跟别人合著的书《创业就是要细…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-321.html"
+    },
+    {
+      "number": 320,
+      "title": "乒乓仓",
+      "date": "2024-12-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202410/bg2024100805.webp",
+      "summary": "如果有人给你一笔钱，让你准备一个商业计划，你会选择什么项目？ 很大可能，你根本想不出干什么。现在的商业计划太难了，所有领域的商业竞争空前激烈，几乎找不到高增长的领域。 但是前些日子，我看到一篇报道，关于一家美国创业公司的故事，觉得他们的点子…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-320.html"
+    },
+    {
+      "number": 319,
+      "title": "如何拍出爆款视频",
+      "date": "2024-12-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202409/bg2024092603.webp",
+      "summary": "MrBeast 是美国第一网红，可能也是世界第一网红。他是 Youtube 订阅者最多的频道，2024年9月拥有3.17亿粉丝。 他每个视频的拍摄成本至少100万美元，制作团队有250人，可想而知，他的视频收益多么可观。 他们公司的员工培训…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-319.html"
+    },
+    {
+      "number": 318,
+      "title": "创业咖啡馆的记忆",
+      "date": "2024-11-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202409/bg2024091402.webp",
+      "summary": "上周末，媒体在谈论中国风险投资的现状。我不禁想起，它曾经多么火爆。 大家还记得创业咖啡馆吗？ 我搜到了一组照片，拍摄于2015年1月6日的北京中关村“车库咖啡”。 （1）咖啡馆内部非常拥挤，创业者都忙于自己的项目，正常喝咖啡的人反而没有。 …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-318.html"
+    },
+    {
+      "number": 317,
+      "title": "驴子、老虎和狮子的寓言",
+      "date": "2024-11-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202409/bg2024091222.webp",
+      "summary": "本周看到一个很有趣的寓言，分享给大家。 有一天，驴子和老虎发生了争论。 驴子说：“草是蓝色的。” 老虎回答：“不对，草是绿色的。” 他们各执己见，互不相让，争论越来越激烈。 最后，两人决定将这个问题提交给狮子法官。 他们来到狮子面前，驴子大…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-317.html"
+    },
+    {
+      "number": 316,
+      "title": "你一生的故事",
+      "date": "2024-11-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202408/bg2024082216.webp",
+      "summary": "几年前，我读过一篇科幻小说，名字叫做《你一生的故事》（Story of your Life），有中译本。 这篇小说得过很多奖，还被好莱坞改编成电影《降临》（Arrival）。 它的作者是美国华裔小说家 Ted Chiang（中文名为姜峰楠）…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-316.html"
+    },
+    {
+      "number": 315,
+      "title": "一份谷歌离职报告",
+      "date": "2024-11-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202408/bg2024082605.webp",
+      "summary": "上周，我看到一篇有趣的文章。一位谷歌 SRE 工程师离职了。 她负责服务器的运维，平时要为网站故障写分析报告（postmortem），现在离职了，就为自己的离职也写了一份分析报告。 她写得非常坦率，说了心里话，也透露了很多谷歌公司的情况。信…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-315.html"
+    },
+    {
+      "number": 314,
+      "title": "《黑神话：悟空》可以产业化吗？",
+      "date": "2024-10-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202408/bg2024082215.webp",
+      "summary": "本周最瞩目的大事，无疑是《黑神话：悟空》的发布。 它是第一部中国公司制作的 3A 游戏大作，制作水准很高，引发了世界范围的兴趣。在经济上取得了巨大成功，总销量已经突破450万份，金额15亿人民币。 我认为，《黑神话：悟空》将来会写进历史。不…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-314.html"
+    },
+    {
+      "number": 313,
+      "title": "如果新加坡没有空调",
+      "date": "2024-10-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202408/bg2024081417.webp",
+      "summary": "最近半个月，上海的天气是地狱模式。 酷热无比，一连几天破40度，入夜也不降温，湿度又大，每天都是桑拿天。 这种痛苦感受，大家最近都有体会吧。因为不单上海，全国大部分地区，这段时间都是破纪录的高温。 今年夏天，史上最热。我很担心，明年更热，以…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-313.html"
+    },
+    {
+      "number": 312,
+      "title": "从英特尔看“美国制造”",
+      "date": "2024-10-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202408/bg2024080702.webp",
+      "summary": "上周，英特尔的股价，一天之内下跌了26%，是这家公司50年来最糟糕的一天。 英特尔是美国制造的指标公司。美国政府推动“美国制造”，希望高技术制造业回流本土，英特尔是这个计划的重要一环。 英特尔曾经是世界最大的半导体公司，即使到了今天，也是美…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-312.html"
+    },
+    {
+      "number": 311,
+      "title": "低利率与长期项目",
+      "date": "2024-10-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202407/bg2024072615.webp",
+      "summary": "先说一个经济新闻。 上周四，存款利率下调了，五年定期存款的年利率只有1.8%。 这是一个标志，表明现在进入了低利率时代。 不仅银行存款的利率低，项目的回报率也变低了。 现在要找一个高回报的项目非常难，就算找到，风险也很大。社会的平均投资回报…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-311.html"
+    },
+    {
+      "number": 310,
+      "title": "内容农场的 AI 赚钱术",
+      "date": "2024-10-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202407/bg2024072110.webp",
+      "summary": "内容农场指的是，通过炮制大量文章，以骗取点击、赚取流量的网站。 它会炮制数以万计的垃圾文章，每个页面充满了广告，冠以诱人的、关键词优化的标题，吸引读者点进去看。 以前，内容农场要聘请写手，到处搜罗资料，来生成内容。现在简单了，交给 AI 来…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-310.html"
+    },
+    {
+      "number": 309,
+      "title": "无人驾驶出租车的双面刃",
+      "date": "2024-09-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202407/bg2024071817.webp",
+      "summary": "武汉的无人驾驶出租车，是最近的热点新闻。 几百辆\"萝卜快跑\"公司的出租车，完全没有司机，正在武汉街头接送乘客（主要在东湖新技术开发区）。 我们可能都想过，总有一天，无人驾驶会变成现实，淘汰真人驾驶，但是没想到这么快。 不过，目前还不是彻底的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-309.html"
+    },
+    {
+      "number": 308,
+      "title": "工作找不到，博士能读吗？",
+      "date": "2024-09-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202407/bg2024071107.jpg",
+      "summary": "最近几年，我国的博士招生数量急剧增长。 2016年还是7万余人，2023年就增长到了15.33万人（上图只到2022年）。 最新消息是，2024年还会扩招。 博士招生增长这么快，我想多少跟这几年的就业形势有关系。 如果你因为就业压力，正在考…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-308.html"
+    },
+    {
+      "number": 307,
+      "title": "不要看重 Product Hunt",
+      "date": "2024-09-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202407/bg2024070203.webp",
+      "summary": "Product Hunt 是一个美国网站，专门分享新产品。 它的首页有一张实时榜单，显示当天最受欢迎的新产品，排名来自访问者的投票。 很多开发者非常看重这个网站，会在上面发布自己的作品，并把它的 Logo 挂上自己的产品页面，显示得到了多少…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-307.html"
+    },
+    {
+      "number": 306,
+      "title": "信息就像糖一样上瘾",
+      "date": "2024-09-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202406/bg2024062704.webp",
+      "summary": "工业革命有一个很少人提到的后果，就是人类可以大量生产糖了。 古时候，糖主要来自甘蔗和蜂蜜，难以大量生产。所以，古人的菜肴不放糖，主要依靠食物本身的甜味。可以想象，古代的大部分食物，尤其是日常食品，应该是不好吃的。 一旦糖大量生产，人类就疯狂…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-306.html"
+    },
+    {
+      "number": 305,
+      "title": "随机数，这是一个问题",
+      "date": "2024-08-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202406/bg2024061403.webp",
+      "summary": "今天谈谈，怎么生成真正的随机数。 这个问题超难，但有一些很有趣的内容。 首先，编程语言提供的随机数，是伪随机数。 V8 引擎的官网有一篇文章（下图），特别提醒大家这一点。它内置的随机数不是真随机数，而是伪随机数。 所谓伪随机数，并非真的随机…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-305.html"
+    },
+    {
+      "number": 304,
+      "title": "最受欢迎的颜色",
+      "date": "2024-08-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202406/bg2024061025.jpg",
+      "summary": "人类作为一个群体，有没有最受欢迎的颜色？ 虽然这个问题取决于“最受欢迎”的定义，但是有一个方法可以参考，而且很客观。 那就是看看，什么颜色的车卖得最好。 市场上，哪种颜色的车最多、最好卖，就说明公众强烈偏好这种颜色。 上周，美国的一个汽车网…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-304.html"
+    },
+    {
+      "number": 303,
+      "title": "技术封建主义",
+      "date": "2024-08-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202406/bg2024060301.webp",
+      "summary": "今天，介绍一本2024年的新书，在国外非常走红，因为提出了一个全新观点。 你是否以为，人类正在进入一个新时代——互联网高科技的时代？ 这本书说 NO，人类更像回到封建时代，只是多了高科技。 它的书名就叫《技术封建主义》（Techno Feu…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-303.html"
+    },
+    {
+      "number": 302,
+      "title": "创业虽然好，不敢推荐了",
+      "date": "2024-08-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202405/bg2024053001.webp",
+      "summary": "保罗·格拉汉姆（Paul Graham）是美国著名的“创业导师”，孵化过很多大名鼎鼎的互联网公司，比如 Airbnb、Reddit、Dropbox 等等。 二十年前，他写了一本书《黑客与画家》，谈了很多理由，为什么你应该创业。（无耻的插入：…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-302.html"
+    },
+    {
+      "number": 301,
+      "title": "OpenAI 的图书馆工位",
+      "date": "2024-07-31",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202405/bg2024052207.webp",
+      "summary": "OpenAI 是眼下最炙手可热、排名第一的 AI 公司。 大家大概没见过，这家公司的总部。 它的总部是旧金山市区的一栋三层小楼，原来是一家食品厂，后来改建为办公楼。 这栋小楼很不起眼，外面也没有大幅的标识，你根本想不到，里面正在开发人类最先…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-301.html"
+    },
+    {
+      "number": 300,
+      "title": "三十年，解决人生三大问题",
+      "date": "2024-07-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202405/bg2024051501.webp",
+      "summary": "我最近看到一篇文章，很有意思，分享给大家。 文章大意是，人的一生就是解决三个基本问题：事业、家庭和财务。 一份有成就的事业，一个幸福的家庭，一个健康的财务状况，人生就没有遗憾了。 我们的人生规划，就是朝着解决这三个问题努力。哪怕其中只有一个…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-300.html"
+    },
+    {
+      "number": 299,
+      "title": "AI 的关键是语料",
+      "date": "2024-07-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202404/bg2024042401.webp",
+      "summary": "大家有没有发现，现在打开新闻，都是 AI 模型的消息。 今天甲发布一个模型，明天乙发布一个模型，个个（听上去）都具备了不得的能力。 2023年5月有一个统计，那个时候，10亿参数以上的模型，中国已经发布了79个。一年过去了，现在恐怕上千了。…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-299.html"
+    },
+    {
+      "number": 298,
+      "title": "轮到硬件工程师吃香了",
+      "date": "2024-07-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202404/bg2024041903.webp",
+      "summary": "这一周，我看到一个美国的招聘数据，跟大家分享一下。 他们的硬件工程师招聘，创出了历史新高。 据统计，美国互联网公司的所有招聘岗位，2022年有6%是硬件岗位，目前这个比例上升到了16%。 这是前所未有的，也就是说，公司每招聘五个软件工程师，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-298.html"
+    },
+    {
+      "number": 297,
+      "title": "饮水鸟玩具",
+      "date": "2024-07-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202404/bg2024041107.webp",
+      "summary": "前几天，我看到有人介绍“饮水鸟”玩具，心痒痒，就从网上买了一个。 价格很便宜，十几元人民币。到手以后，我玩了一下，觉得很有意思，分享给大家。 它是一个物理学玩具，有点像永动机，只要把鸟头按到水杯里，让鸟嘴碰到冷水，它就会一直弹起、倒下、弹起…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-297.html"
+    },
+    {
+      "number": 296,
+      "title": "xz 后门的作者 Jia Tan 是谁？",
+      "date": "2024-06-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202404/bg2024040706.webp",
+      "summary": "互联网行业最近的重大事件，莫过于 xz 软件的后门。 xz 是一种压缩软件，大量用于 Linux 系统，比如系统管理器 systemD 就用它压缩日志。它是 Linux 的基本组件之一，每台服务器几乎都有它。 今年3月底，有人发现它的新版本…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-296.html"
+    },
+    {
+      "number": 295,
+      "title": "巧妙的灯泡钟",
+      "date": "2024-06-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202403/bg2024031801.webp",
+      "summary": "本周，分享一个构思很巧妙的灯泡钟。 它的灵感来自日晷。我们知道，日晷是一种古代计时工具，根据太阳投影的位置，判断当前的时间。 2008年，一位美国设计师突发奇想，能不能把日晷做成一个现代的时钟？ 他很快发现，这不可行。因为太阳投影的位置在每…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-295.html"
+    },
+    {
+      "number": 294,
+      "title": "崖门海战的感想",
+      "date": "2024-06-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202403/bg2024031918.webp",
+      "summary": "前一段日子，我在广东旅行，路过江门市。 我偶然发现，著名的崖门海战发生在这里，就去参观了。 如果你不知道，崖门海战是南宋军队最后被元军歼灭的地方，也就是南宋灭亡之地，位于今天的江门市新会区古井镇官冲村。具体时间是1279年3月19日，本周正…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-294.html"
+    },
+    {
+      "number": 293,
+      "title": "一周是一年的2%",
+      "date": "2024-06-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202403/bg2024031203.webp",
+      "summary": "纳特·弗里德曼（Nat Friedman）曾经是 GitHub 的 CEO，现在是一名风险投资家。 他的个人网站首页，写着一些自己的信条。其中有一条，让我很震动。 他写道：“一周是一年的2%。” 我一直觉得，每周七天是很短的时间，尤其是发布…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-293.html"
+    },
+    {
+      "number": 292,
+      "title": "所有代码都是技术债",
+      "date": "2024-05-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202403/bg2024030705.webp",
+      "summary": "代码是公司的资产，公司总是鼓励大家多写代码。但是，很多人（尤其是管理层）没有意识到，代码也是负债。 代码越多，债越多，这就是程序员常说的“技术债”。 今天我想谈谈，什么是“技术债”？为什么你拥有的代码太多，不是一件好事。 “技术债”（tec…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-292.html"
+    },
+    {
+      "number": 291,
+      "title": "AI 没有护城河",
+      "date": "2024-05-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202402/bg2024022901.webp",
+      "summary": "上周，魅族手机突然宣布，停止传统的智能手机新项目，All in AI。 魅族董事长沈子瑜公开说，“给魅族的智能手机时代一个完美的句号”，以后推出的将全部是 AI 设备。 看上去，魅族觉得，AI 比手机更有前途，所以决定停止老本行，改做 AI…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-291.html"
+    },
+    {
+      "number": 290,
+      "title": "苹果头盔的最大问题",
+      "date": "2024-05-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202402/bg2024020902.webp",
+      "summary": "春节前，苹果公司的 Apple Vision Pro 上架销售了。 这是近几年最创新的硬件设备，首批20万台一抢而空。 它只在美国销售，还没有官方的中文名。为了行文方便，我暂且就叫它“苹果头盔”吧。 虽然这么叫，但是苹果对它的定位可不是 V…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-290.html"
+    },
+    {
+      "number": 289,
+      "title": "宽容从何而来",
+      "date": "2024-05-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202401/bg2024013101.webp",
+      "summary": "今天，我想分享一个有趣的研究，跟“宽容”（tolerant）有关系。 “宽容”是一种很奇怪的东西，平时很少有人强调它，但是关键时刻，你又很需要它。 什么是宽容？ 《现代汉语词典》的定义是：（对待他人）宽大有气量，不计较或追究。在我看来，可以…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-289.html"
+    },
+    {
+      "number": 288,
+      "title": "技术写作的首要诀窍",
+      "date": "2024-05-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202401/bg2024011602.webp",
+      "summary": "技术写作非常重要，产品的开发、推广、维护都需要它。 跟大家想的不一样，技术写作的好坏，跟语文水平关系不大，更多是一个技巧问题。 因为技术写作的评价标准，不是艺术性，而是表达是否清楚明白。它不需要华丽的词藻、巧妙的比喻、深刻的感悟，只需要把问…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-288.html"
+    },
+    {
+      "number": 287,
+      "title": "禄丰恐龙谷记行",
+      "date": "2024-04-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202401/bg2024011103.webp",
+      "summary": "前些天，我在云南旅行，去了一次禄丰恐龙谷。 禄丰是云南楚雄州的一个县级市，以恐龙遗址闻名，那里的路灯、路牌、窨井盖都是恐龙元素。 以下摘自百度百科。 “禄丰位于滇中高原盆地，海拔1600米。1.9亿年前，这里曾是世界上最大动物--恐龙的诞生…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-287.html"
+    },
+    {
+      "number": 286,
+      "title": "蓝色指示灯的解决方案",
+      "date": "2024-04-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202401/bg2024010607.webp",
+      "summary": "你注意过吗，电子设备的指示灯是什么颜色？ 一般来说，黄色和绿色的指示灯，比较能够让人接受，感觉很平和。 怕就怕，蓝色指示灯。 科学家早就发现，长时间暴露在蓝光中对健康不利。 我来摘录一段。 “400nm～460nm 的高能短波蓝光才是影响人…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-286.html"
+    },
+    {
+      "number": 285,
+      "title": "为什么 PPT 不如备忘录",
+      "date": "2024-04-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202401/bg2024010316.webp",
+      "summary": "莱克斯·弗里德曼（Lex Fridman）是一个非常有名的美国主持人，他的播客节目影响很大，很多名人都愿意上他的节目，接受专访。 12月15日的节目嘉宾，是亚马逊公司的创始人贝佐斯。他们一共谈了两个多小时。 贝佐斯已经不担任亚马逊 CEO，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-285.html"
+    },
+    {
+      "number": 284,
+      "title": "YouTube 有多少个视频？",
+      "date": "2024-04-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202312/bg2023122614.webp",
+      "summary": "YouTube 是世界最大视频网站，全世界的人都在上传视频。 但是，它没有透露过，内部一共有多少个视频。 上周，网上出现了一篇有趣的文章，使用概率方法，估计 YouTube 的视频总数。 这篇文章非常有启发意义，面试可能也会出这一类的题目。…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-284.html"
+    },
+    {
+      "number": 283,
+      "title": "[年终感想] 没有目的地，向前走",
+      "date": "2024-03-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202312/bg2023120512.webp",
+      "summary": "又是年底，一年过去了。 大家往往会回顾，这一年实现了哪些目标，下一年要设定哪些目标。 今天，我想分享 BaseCamp 公司创始人 Jason Fried 的一篇短文，题目就叫《我从来没有目标》。 下面就是这篇文章的主要内容。 我不记得自己…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-283.html"
+    },
+    {
+      "number": 282,
+      "title": "电动皮卡 Cybertruck 的 48V 供电",
+      "date": "2024-03-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202312/bg2023120511.webp",
+      "summary": "这个月，特斯拉的 Cybertruck 开始在美国交付了。 它是一辆皮卡，造型很奇特，车斗上面有一个挡板，打开就可以装货。 这辆车创造了很多世界第一。 1. 世界第一辆不锈钢汽车。 1. 钢板据说可以防弹，而且因为车形具有棱角，普通车辆撞到…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-282.html"
+    },
+    {
+      "number": 281,
+      "title": "新基建的政策选择",
+      "date": "2024-03-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202312/bg2023120510.webp",
+      "summary": "上周某一天，我看到百度的热搜榜，置顶是一条新闻《加快新型基础设施建设》。 我很奇怪，这条新闻为什么置顶？ 基础设施建设不是一直在搞吗，为什么现在突然强调“新基建”？ 后来，我想了想。现在是年底，这会不会跟明年的政府工作安排有关。 这段时间，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-281.html"
+    },
+    {
+      "number": 280,
+      "title": "机器点餐与宅文化",
+      "date": "2024-03-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202311/bg2023112005.webp",
+      "summary": "现在的快餐店，都有点餐机。 你可以去柜台点餐，也可以机器点餐。 假设两者同样方便（都不用排队），你会选择哪一种，柜台点餐 vs 机器点餐？ 这个问题是一个荷兰程序员提出的。有一天，他在阿姆斯特丹的一家餐馆吃午餐，突然注意到，新进来的顾客更喜…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-280.html"
+    },
+    {
+      "number": 279,
+      "title": "网络社区的悲剧",
+      "date": "2024-02-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202311/bg2023112007.webp",
+      "summary": "今年上半年，国内知名的“天涯社区”宣布关闭。 当时，我看了新闻，很想写一篇文章：为什么网络社区搞不下去？ 这么多年，我看着一个个社区关门倒闭，包括我自己早年架设的论坛。长期繁荣的社区，几乎没有。 也没有任何一家互联网大厂，把社区当成核心业务…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-279.html"
+    },
+    {
+      "number": 278,
+      "title": "棘手的 AI 版权",
+      "date": "2024-02-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202311/bg2023111405.webp",
+      "summary": "AI 是一个新事物，带来了很多前所未有的问题。 最棘手、最有争议、也最有意思的，大概就是版权问题。 具体来说，就是下面这个问题：AI 训练（学习）时，能不能使用版权材料，从而具备模仿版权所有者的能力？ 举例来说，前一段时间，网上出现了“AI…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-278.html"
+    },
+    {
+      "number": 277,
+      "title": "工作台副屏的最佳选择",
+      "date": "2024-02-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202311/bg2023110515.webp",
+      "summary": "以前，我有一个习惯。在电脑旁边，放一个平板，作为副屏。 大屏幕干活，小屏幕做一些自己感兴趣的事情：看视频、查网页、听音乐、玩小游戏等等。 不少人都会这样吧。平板作为工作副屏，具有两大优势：可以运行手机 App，触摸屏比鼠标方便。 但是，我后…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-277.html"
+    },
+    {
+      "number": 276,
+      "title": "内容行业的衰落",
+      "date": "2024-02-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202310/bg2023102901.webp",
+      "summary": "现在的 AI 技术，每天都在进化。我有一种感觉，普通人大概没意识到，它马上就要改变人类社会了。 历史上，这种事一再发生。在你不知不觉中，某些大事件悄悄酝酿，突然就冲击到了你的生活，将你的人生全部打乱，你却毫无准备。 首当其冲，受到 AI 冲…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-276.html"
+    },
+    {
+      "number": 275,
+      "title": "彼得·蒂尔的实验",
+      "date": "2024-01-31",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202310/bg2023102101.webp",
+      "summary": "彼得·蒂尔（Peter Thiel，1967-）是美国著名的风险投资家。 他有两件事，非常有名。第一件，1998年参与创办 PayPal，四年后以15亿美元被收购，他获利5500万美元。 第二件，他是 Facebook 的第一个投资人。20…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-275.html"
+    },
+    {
+      "number": 274,
+      "title": "加密通信的最后一块拼图",
+      "date": "2024-01-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202310/bg2023101507.webp",
+      "summary": "十一期间，世界最大的 CDN 服务商 Cloudflare 发了一篇博客文章，宣称解决了“加密通信的最后一块拼图”。 这件事挺重要的，可能会影响很多人，本周我想好好谈谈。 我先问大家，HTTPS 链接是加密通信吗？ 你可以说它是，因为通信内…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-274.html"
+    },
+    {
+      "number": 273,
+      "title": "任正非的三篇最新谈话",
+      "date": "2024-01-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202310/bg2023100514.webp",
+      "summary": "上个月，华为连续放出了任正非的三篇最新谈话。 - 《与南开大学新闻与传播学院院长的谈话》，发生于2023年7月7日，发布于9月21日 - 《在高端技术人才使用工作组对标会上的讲话》，发生于2023年7月8日，发布于9月4日 - 《与国际大学…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-273.html"
+    },
+    {
+      "number": 272,
+      "title": "Unity 的安装费，游戏业的缩影",
+      "date": "2024-01-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202309/bg2023091706.webp",
+      "summary": "Unity 是一个顶级的游戏引擎，很多著名的手机游戏和网页游戏都用它开发，比如《王者荣耀》和《原神》。 它的官网这样说：“排名前1000名的手机游戏开发商，70%选择了 Unity”。 它按月收费，只要游戏的年收入超过20万美元，就要向它付…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-272.html"
+    },
+    {
+      "number": 271,
+      "title": "非线性的世界，线性的你",
+      "date": "2024-01-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202309/bg2023091205.webp",
+      "summary": "纳瓦尔（Naval Ravikant）是一位美国风险投资家，写过一组系列文章《如何致富》（How to get rich），非常出名。 他的文章后来结集出版，成了畅销书。国内引进了，中文书名叫做《纳瓦尔宝典：财富与幸福指南》，在豆瓣被列为“…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-271.html"
+    },
+    {
+      "number": 270,
+      "title": "“精益开发”的精益是什么？",
+      "date": "2023-12-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202309/bg2023090607.webp",
+      "summary": "最流行的软件开发模式，现在是“敏捷开发”（agile development）。 但是，很多人不知道，敏捷只是一种价值观，不是具体的方法。 它包含一些原则，实现这些原则有很多不同方法，下面是主要的几种。 - 极限编程（XP） - Scrum…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-270.html"
+    },
+    {
+      "number": 269,
+      "title": "为什么英雄不使用炸药",
+      "date": "2023-12-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202308/bg2023082610.webp",
+      "summary": "经典奇幻电影《指环王》，大家都看过吧？ 里面有一个细节，你肯定没注意。我也是听别人说才发现的：这个故事里面的好人，都不使用炸药。 炸药（或者炮弹）是最有效的攻城杀敌方法，但是人类之王阿拉贡从来不用，作战方法永远是举着宝剑冲入敌阵。 不仅人类…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-269.html"
+    },
+    {
+      "number": 268,
+      "title": "生产力是形容机器，不是形容人",
+      "date": "2023-12-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202308/bg2023081801.webp",
+      "summary": "程序员创业以后，还喜欢写书，真是绝无仅有。我只知道一个例子。 贾森·弗里德（Jason Fried）和戴维·汉森（David Heinemeier Hansson），是互联网公司 37signals 的主要创始人。他们除了写程序，就喜欢写书…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-268.html"
+    },
+    {
+      "number": 267,
+      "title": "5G 的春天要来了",
+      "date": "2023-12-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202308/bg2023081702.webp",
+      "summary": "本月初，国家广电总局的官网发了一条消息，外界几乎没注意到。 成都市正式启动 5G 广播电视的试验了。这就是说，广电总局要用 5G 发送电视信号了。 你可能觉得奇怪，5G 网络看电视，不是老早就有了吗，这还需要试验吗？ 我来科普一下，现有的互…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-267.html"
+    },
+    {
+      "number": 266,
+      "title": "自己做双语 EPUB 电子书",
+      "date": "2023-11-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202308/bg2023081010.webp",
+      "summary": "周刊的《工具》部分，每周都有一些很有用的软件，有些对我的帮助也很大。 《周刊（第254期）》有一个作者自荐的“沉浸式翻译”，就特别有用。 它是一个浏览器插件，主要功能是网页翻译，还可以指定翻译引擎。 但是，对于我最有用的是另一个功能——制作…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-266.html"
+    },
+    {
+      "number": 265,
+      "title": "WiFi 的后面是 LiFi",
+      "date": "2023-11-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202308/bg2023080303.webp",
+      "summary": "今年6月，IEEE（电气和电子工程师协会）通过了 802.11bb 标准。 它是光通信标准，也就是通过光上网，英文简写为 LiFi，一看就跟 WiFi 有血缘关系。其中，LiFi 的 L 代表了 Light（光）。 国内的报道并不多，但这是…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-265.html"
+    },
+    {
+      "number": 264,
+      "title": "Elasticsearch 的启示",
+      "date": "2023-11-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202307/bg2023072501.webp",
+      "summary": "上月的“红帽事件”，说明开源软件的“客服模式”行不通，我在上一期已经写了自己的看法。 那么，开源软件如何赚钱呢？既不能卖软件，又不能卖支持服务，该怎么办呢？ 我一直思考这个问题，觉得行业的发展、个人的前途，都跟它有关系。 我现在的看法是，只…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-264.html"
+    },
+    {
+      "number": 263,
+      "title": "开源软件如何赚钱？",
+      "date": "2023-11-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202307/bg2023072012.webp",
+      "summary": "众所周知，开源软件很难赚钱，尤其是 GPL 许可证的代码。 GPL 规定，必须向使用者提供源码，并且使用者有权重新发布源码。 这就是说，别人可以免费分发你的软件，所以你无法靠出售软件获利。 既然卖不了软件，那么能不能卖服务呢，出售代码的支持…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-263.html"
+    },
+    {
+      "number": 262,
+      "title": "告别密码",
+      "date": "2023-11-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202307/bg2023071309.webp",
+      "summary": "上网体验最差的环节，肯定是密码。 互联网发展了20多年，所有环节都巨大改善，只有密码除外，还是20年前的用法。 更准确的说，它的用户体验比20年前更差了。密码的强度要求现在越来越高，一般不能少于8个字符，还要包括特殊符号。另外，除了密码，通…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-262.html"
+    },
+    {
+      "number": 261,
+      "title": "黑客马拉松的正确方式",
+      "date": "2023-10-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202307/bg2023070601.webp",
+      "summary": "你参加过黑客马拉松（hackathon）吗？ 那是一种编程比赛，程序员聚集到一个地点（通常是会议室），在指定时间完成各自的项目，然后评出获胜者。 我知道的“黑客马拉松”都非常紧张，必须在48小时甚至24小时内拿出作品，晚上往往没时间睡觉，要…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-261.html"
+    },
+    {
+      "number": 260,
+      "title": "你的旅程不会停在 Day 1",
+      "date": "2023-10-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202306/bg2023062901.webp",
+      "summary": "我最近读到一篇文章，关于一张海报。 一个国外程序员说，他工作的上一家公司，到处贴着海报，鼓舞员工。 他没有点名，但是大家都知道，业内最喜欢贴海报的公司是 Facebook。 他说，有一张海报尤其让他恼火，写着一行字。 “这个旅程完成了1%。…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-260.html"
+    },
+    {
+      "number": 259,
+      "title": "如何免费使用 ChatGPT",
+      "date": "2023-10-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202306/bg2023061302.webp",
+      "summary": "国内媒体每天大量报道 ChatGPT，但是只字不提，它不对中国大陆用户开放。 OpenAI 要求验证手机号，国内的手机都通不过。也就是说，它不希望国内用户使用这个服务。 我们不揣测，它为什么这么做。但是我觉得，媒体不应该隐讳，也不要自嗨，应…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-259.html"
+    },
+    {
+      "number": 258,
+      "title": "卡马克的猫",
+      "date": "2023-10-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202306/bg2023060502.webp",
+      "summary": "推荐一本书《DOOM 启世录》（Masters of Doom），电子游戏名著，2003年在美国出版，第二年就出了中译本。 它详细讲述了电子游戏《DOOM》（毁灭战士）的故事，两个怀揣梦想的青年，如何一步步创造出这个游戏。 写得非常好，翻译…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-258.html"
+    },
+    {
+      "number": 257,
+      "title": "黄仁勋的 Nvidia 故事",
+      "date": "2023-09-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202305/bg2023053105.webp",
+      "summary": "黄仁勋大概是硅谷最有影响力的华人。 1993年，他跟两个朋友一起创办了芯片设计公司 Nvidia（中文名“英伟达”）。当时是小公司，可现在是美国第五大科技公司（仅次于苹果、微软、谷歌和亚马逊）。 十年前，如果你买了 Nvidia 的股票，现…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-257.html"
+    },
+    {
+      "number": 256,
+      "title": "最酷的乐高作品",
+      "date": "2023-09-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202305/bg2023052522.webp",
+      "summary": "乐高，大家都知道吧，一家世界著名的玩具公司，主要生产塑料积木。 你买来一包塑料零件，可以按照图纸组装，也可以搭成自己想要的形状。 前些天，国外网友用乐高，搭出一个你绝对想不到的东西：齿轮减速器。 我觉得太酷了，今天分享给大家。 它的动力来自…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-256.html"
+    },
+    {
+      "number": 255,
+      "title": "对待 AI 的正确态度",
+      "date": "2023-09-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202305/bg2023051818.webp",
+      "summary": "这些天，总有人问我，对于“前端已死”这个话题怎么看。 我的第一反应是，前端没死啊，很多企业还在招聘呢。 后来了解了，他们的意思是，前端正在降温，变得萧条，具体表现是技术发展放慢，没有大的热点，业务重要性下降，就业机会减少。 更让人担心的是，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-255.html"
+    },
+    {
+      "number": 254,
+      "title": "人生是一个长板问题",
+      "date": "2023-09-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202305/bg2023051012.jpg",
+      "summary": "大家可能听说过“水桶原理”：水桶的容量由最短的那块木板决定。 它的意思是，某些系统的关键，不在于发展最强点，而在于避免最弱点。99%的地方都没有问题，只要1%的地方出现问题，整个系统就会失败。 人体健康就是这样，有一个器官出现严重问题，哪怕…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-254.html"
+    },
+    {
+      "number": 253,
+      "title": "训练材料用完之日",
+      "date": "2023-08-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202305/bg2023050201.webp",
+      "summary": "现在的新闻报道，天天有 AI 的新闻，里面会提到很多模型。 分辨模型的强弱，有一个关键指标，就是看它有多少个参数。一般来说，参数的数量越多，模型就越强。 GPT-2 有15亿个参数，GPT-3 和 ChatGPT 有1750亿个，GPT-4…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-253.html"
+    },
+    {
+      "number": 252,
+      "title": "互联网创业变难了",
+      "date": "2023-08-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202304/bg2023042503.webp",
+      "summary": "一个老外发现，2010年以后，美国没有出现过新的大型互联网公司。 可以看到，上面这些巨头很早就成立了。他就下了一个结论，2010年以后的互联网创业，根本没有机会成为行业巨头。 我想了想，好像真是这样，想不起来哪一家国外的互联网巨头是近十年成…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-252.html"
+    },
+    {
+      "number": 251,
+      "title": "国产单板机值得推荐",
+      "date": "2023-08-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202304/bg2023041803.webp",
+      "summary": "前些天，添置设备的时候，我偶然瞅了一眼树莓派，被价格吓到了。 有些读者可能不了解，树莓派是什么，我简单说一下。 它是一块电路板，上面集成了 CPU、内存、各种 IO 接口，实际就是一台小主机。买来以后，自己装上系统，就可以当作家用电脑或者服…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-251.html"
+    },
+    {
+      "number": 250,
+      "title": "新技术的最大风险",
+      "date": "2023-08-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202304/bg2023041207.webp",
+      "summary": "这几天，我读到三篇文章，全部是工程师后悔使用了新技术。 第一篇文章《为什么我们放弃 Elm 语言》。 （说明一下，原文都是英文，为了方便展示，我把截图用“翻译”功能转成了中文。） 第二篇《GraphQL：从兴奋到幻灭》。 第三篇《为什么我后…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-250.html"
+    },
+    {
+      "number": 249,
+      "title": "最成功的软件企业家",
+      "date": "2023-08-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202304/bg2023040622.webp",
+      "summary": "谁是全世界最成功的软件企业家？ 不管标准是什么，弗兰克·斯洛特曼 (Frank Slootman) 一定在名单里面。 他是云计算公司 Snowflake 的 CEO，在此之前，还担任过另外两家软件公司（Data Domain 和 Servi…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-249.html"
+    },
+    {
+      "number": 248,
+      "title": "不要夸大 ChatGPT",
+      "date": "2023-07-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202303/bg2023032108.webp",
+      "summary": "ChatGPT 问世只有几个月，大家有没有发现，舆论的调门越来越高。 人们最初的震惊和赞叹，逐渐变成了非理性的鼓吹，很多人言之凿凿，断定 ChatGPT 将重塑人类社会。 举例来说，《经济学人》杂志称它会“翻天覆地”。 “GPT 也完全可以…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-248.html"
+    },
+    {
+      "number": 247,
+      "title": "扎克伯格的裁员信",
+      "date": "2023-07-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202303/bg2023032107.webp",
+      "summary": "去年11月，Meta 公司宣布大裁员，解雇13%的员工，大约11,000人。 过了四个月，上周二（3月14日），该公司突然宣布，还有第二轮，再解雇大约10,000人。 今天，我们不讨论裁员这件事本身，只说说扎克伯克的裁员信。 裁员信公开发在…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-247.html"
+    },
+    {
+      "number": 246,
+      "title": "永不丢失的网络身份",
+      "date": "2023-07-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202303/bg2023031406.webp",
+      "summary": "影视作品中，大家可能都见过这样的情节：某人从昏迷中醒来，丧失了记忆，无论如何想不起来“我是谁”。 他不知道自己的姓名、年龄、住址，没有身份证和其他证物，也没有任何知情人。 就这样，他变成了一个没有身份的人，丧失了曾经属于自己的一切。 不过，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-246.html"
+    },
+    {
+      "number": 245,
+      "title": "摩天大楼是反人类的",
+      "date": "2023-07-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202303/bg2023030709.jpeg",
+      "summary": "上周四（3月2日）晚上，香港尖沙咀一座42层摩天大楼起火，宛如一根火柱。火势凶猛，所幸大楼正在改建，没有人员伤亡。 这条新闻不禁让我想起，一个一直想说的观点：摩天大楼（即超高层建筑）的缺点很多，完全不应该推广。 中国是名符其实的“摩天大楼王…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-245.html"
+    },
+    {
+      "number": 244,
+      "title": "大数据已死",
+      "date": "2023-06-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202302/bg2023022804.webp",
+      "summary": "“大数据”这个词，大家想必耳熟能详。这是最大众化的 IT 词汇之一，全社会曾经都热衷于它。 百度指数显示，“大数据”从2011年开始进入搜索引擎，然后快速传播，在2017年～2019年之间达到顶峰。 那时，大家都认为，数据在未来将指数式增长…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-244.html"
+    },
+    {
+      "number": 243,
+      "title": "与孔子 AI 聊天",
+      "date": "2023-06-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202302/bg2023022201.webp",
+      "summary": "今年以来，最轰动的 IT 产品，非 ChatGPT 莫属。 它是一个 AI 聊天机器人，用户可以提出各种问题，它像学者一样回答。 它的原理就是使用算法模型，分析大量语料，得出词语分布的统计规律，然后生成符合人类思维的文本。 根据上面的原理，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-243.html"
+    },
+    {
+      "number": 242,
+      "title": "一次尴尬的服务器被黑",
+      "date": "2023-06-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202302/bg2023021201.webp",
+      "summary": "本周一凌晨（2月13日），我的个人网站服务器被黑了。 由于入侵者没有触发报警机制，我也没察觉。一觉醒过来，看到好多网友的邮件，让我快去看看网站，访问任何一个网页，都会跳转到 xxx 的外部网址，令人极度尴尬。 我查了一下服务器，发现果然如此…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-242.html"
+    },
+    {
+      "number": 241,
+      "title": "中国的增长动力在内陆",
+      "date": "2023-06-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202302/bg2023020201.webp",
+      "summary": "今年春节，我在度假，长沙、昆明和大理。 这些地方，我都了解，有些景点以前就去过。但是，有一件事我没料到。 那就是，这些城市的人气太旺了。 大年初一，长沙的黄兴路步行街，每一个摊位都在排长队。我在一家茶饮店排队20分钟，终于轮到了，店员告诉我…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-241.html"
+    },
+    {
+      "number": 240,
+      "title": "教育年限可以缩短吗？",
+      "date": "2023-05-31",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202301/bg2023013001.webp",
+      "summary": "春节前有一条大新闻，六十多年来第一次，国家统计局宣布中国人口下降了，比上年末减少了85万人。 这件事对国家、对我们每个人、对下一代，都会产生深远影响。今天，我就想谈谈这个话题。 进入正题前，让我们明确一点，这应该不是偶然的波动。根据其他国家…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-240.html"
+    },
+    {
+      "number": 239,
+      "title": "未来两种人会增加",
+      "date": "2023-05-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202301/bg2023011201.webp",
+      "summary": "我最近读了一篇美国专家的文章，谈怎么规划未来的城市。 他的分析很有见地，分享给大家。 他先预测未来社会将怎么变化，然后再根据社会的变化，重新设计我们的城市。 他说，未来社会的根本变化就是一点。两种人会大量增加：学生和退休人员。 一方面，学生…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-239.html"
+    },
+    {
+      "number": 238,
+      "title": "停止寻找的最佳时间",
+      "date": "2023-05-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202301/bg2023010507.webp",
+      "summary": "最近，我读了一本算法书，作者是美国科普作家布赖恩·克里斯蒂安（Brian Christian）。 英文书名叫做《Algorithms to Live By》（生活中的算法）。 我读的是中译本，书名译成《算法之美》（中信出版社，2018）。 …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-238.html"
+    },
+    {
+      "number": 237,
+      "title": "真实方位是如何暴露的？",
+      "date": "2023-05-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202212/bg2022122705.jpg",
+      "summary": "很多时候，开发者需要知道用户的地理方位。 最简单的方法，就是查看用户的 IP 地址，它能够确定地理方位。 如果你不想暴露真实方位，需要使用技术手段，伪装自己的 IP 地址。 但是，这个事情不是那么简单，真实方位其实很难隐藏。 上周，Hack…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-237.html"
+    },
+    {
+      "number": 236,
+      "title": "中国的阳光地带",
+      "date": "2023-05-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202212/bg2022121606.webp",
+      "summary": "入冬以后，上海都是冷飕飕的阴沉天气。偶尔有几天，太阳露一下脸。 每年的这个时候，我就想换一个城市过冬，去那种阳光充足的地方。 今年真的打算成行，我就想确定一下，中国阳光最多的是哪些城市。 气象学真的有这个统计，叫做“全年日照时数”（suns…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-236.html"
+    },
+    {
+      "number": 235,
+      "title": "青年失业率与选择创业",
+      "date": "2023-04-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202212/bg2022121414.webp",
+      "summary": "现在的青年失业率非常高。官方统计，今年7月份的16岁～24岁青年失业率达到了19.9%。 前景也不乐观。明年的高校毕业生创新高，超过1000万人加入求职大军。而且，市场上还有很多大龄失业者，也在找工作。 这样严峻的就业形势意味着，最终有相当…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-235.html"
+    },
+    {
+      "number": 234,
+      "title": "AI 聊天有多强？",
+      "date": "2023-04-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202212/bg2022120702.webp",
+      "summary": "上周最大的技术新闻是，OpenAI 公司发布了一款 AI 聊天软件 ChatGPT。 它其实不能算聊天软件，更像是一个“问不倒先生”，不管什么问题，都能告诉你答案。 它的回答质量之高，令人震惊，完全不像机器人，更像百科全书。 网友问它：“大…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-234.html"
+    },
+    {
+      "number": 233,
+      "title": "生活就像一个鱼缸",
+      "date": "2023-04-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202211/bg2022113002.webp",
+      "summary": "国际知名度最高的中国建筑事务所，大概是北京的 MAD 建筑事务所。 他们设计过很多著名的建筑，比如加拿大的梦露大厦、海口云洞图书馆等等，最大特点就是在城市里面创造了一些很奇特的形状。 MAD 创始人之一的马岩松，最近做了一个演讲，介绍他们的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-233.html"
+    },
+    {
+      "number": 232,
+      "title": "好用的平面设计软件",
+      "date": "2023-04-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202211/bg2022112303.webp",
+      "summary": "我不是设计师，但是经常有一些设计需求。 举例来说，照片加几个美术字，当作视频封面，或者发到朋友圈。再比如，对图片进行编辑，做成简单的海报或者幻灯片，放到文章和文档里面。 有一天晚上，我心血来潮，重新听了以前的校园民谣，那些学生时代听烂的歌曲…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-232.html"
+    },
+    {
+      "number": 231,
+      "title": "互联网公司需要多少员工？",
+      "date": "2023-03-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202211/bg2022111601.webp",
+      "summary": "马斯克收购推特之前，放话要解雇75%的员工。 等到真的入主推特，他大刀一挥，第一个周末解雇了3700人。推特的员工总数现在是7500人，所以实际解雇了50%。 这就引出了一个有点残酷的问题：互联网公司到底需要多少员工？ 如果推特少了50%、…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-231.html"
+    },
+    {
+      "number": 230,
+      "title": "电子产品的用电量",
+      "date": "2023-03-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202211/bg2022110906.webp",
+      "summary": "上周提到，手机充电器的功率已经超过 200W 了。 这个功率相当大。大家可能不知道，你家冰箱大概都不如它。普通的家用冰箱，功率就在 100W～200W 之间。 （图片说明：200升家用冰箱，功率一般是 140W，每天耗电1度左右。） 这是最…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-230.html"
+    },
+    {
+      "number": 229,
+      "title": "手机充电问题的解决",
+      "date": "2023-03-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202211/bg2022110203.webp",
+      "summary": "手机充电，大家每天要花多少时间，会不会觉得很烦人？ 不过，这个问题最近好像解决了。 上周，小米发布了 Redmi Note 12 手机的探索版。 它的最大亮点是，号称具有世界最快的快充，可以9分钟充满一块 4300mAh 的电池。 你没有看…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-229.html"
+    },
+    {
+      "number": 228,
+      "title": "人类和人生的意义",
+      "date": "2023-03-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202210/bg2022102605.webp",
+      "summary": "这几天睡觉前，我在读《季羡林文集》。 季羡林先生2009年就去世了，出版社请了他儿子季承写序言。 季承（1935-2018），中国科学院高能物理所高级工程师，曾任李政道先生主持的中国高等科学技术中心顾问，与李政道有着长达三十年的紧密合作。（…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-228.html"
+    },
+    {
+      "number": 227,
+      "title": "脸书的公司入职教育",
+      "date": "2023-03-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202210/bg2022101906.webp",
+      "summary": "互联网大厂都有入职教育。新人进厂以后，先培训几天，熟悉企业文化和制度。 讲师会给大家上课，每人发一本小册子，介绍企业理念。 我看过一些这样的小册子，可惜没有保存下来。现在想想，如果扫描放上网，肯定是很有趣的读物。 有一个脸书的前员工，把 F…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-227.html"
+    },
+    {
+      "number": 226,
+      "title": "谷歌出了什么问题？",
+      "date": "2023-02-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202209/bg2022093002.webp",
+      "summary": "上个月的最后一天（9月30日），谷歌无预警地宣布，关闭自家的游戏平台 Stadia。 这件事非常突然，自家员工前一天还在网上留言，请网友提供使用反馈。 新闻报道透露了当天的情景： “早上七点，Stadia 负责人给全体员工发邮件，告知八点半…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-226.html"
+    },
+    {
+      "number": 225,
+      "title": "NPC 演员也是一种职业",
+      "date": "2023-02-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202209/bg2022092009.webp",
+      "summary": "一位国外玩家提出一个设想：游戏 NPC 应该由真人扮演。 这个想法很有意思，我印象中，没有任何一个游戏这样做过。它很可能实现，值得好好聊聊。 NPC 指的是“非玩家角色”（non-player character），也就是游戏里面配合玩家的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-225.html"
+    },
+    {
+      "number": 224,
+      "title": "Figma 为什么赢了 Sketch",
+      "date": "2023-02-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202208/bg2022081107.webp",
+      "summary": "上周，Adobe 公司宣布，200亿美元收购设计软件 Figma。 这个收购价高得吓人。Figma 去年的收入是5000万美元，今年据说可以到4亿美元。就算这个预测是可靠的，收购价也达到了收入的50倍！ 作为比较，微软2018年收购 Git…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-224.html"
+    },
+    {
+      "number": 223,
+      "title": "程序员需要担心裁员吗？",
+      "date": "2023-02-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202209/bg2022091507.webp",
+      "summary": "Hacker News 论坛上面，一个欧洲程序员问大家：欧洲经济不景气，公司可能把他裁掉，他应该怎么办？ 很多人发表看法，我觉得很有参考价值。不少国内程序员大概也有类似担心，今天就结合国外网友的看法，说说程序员裁员这件事。 首先，程序员不需…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-223.html"
+    },
+    {
+      "number": 222,
+      "title": "四十年编程感想",
+      "date": "2023-01-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202209/bg2022090809.webp",
+      "summary": "上周，国外程序员论坛 Hacker News 有一篇热门文章《四十年编程感想》。 作者说，他8岁学编程，今年46岁，再过两年，就是学习编程四十周年了。他写了一大堆自己的感想，都是肺腑之言。 我觉得说得挺好，发人深思。他的文章很长，我摘录一些…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-222.html"
+    },
+    {
+      "number": 221,
+      "title": "全世界最繁荣的行业",
+      "date": "2023-01-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202209/bg2022090103.webp",
+      "summary": "前不久，我读到一篇老外的文章。 他说，全世界最繁荣的行业是视频业，视频业里面最繁荣的是直播。 我很有感触，今天就来谈谈直播。 他举了研究报告的几个数字，证明这个行业多么繁荣。 - 全球视频直播市场：2020年为302.9亿美元，2025年预…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-221.html"
+    },
+    {
+      "number": 220,
+      "title": "人工智能的机会在哪里",
+      "date": "2023-01-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202208/bg2022082517.webp",
+      "summary": "OpenAI 公司的人工智能模型 DALL·E 2，最近向社会公众开放。 它可以根据文本生成图片，有点像童话里面的“魔镜”。你告诉魔镜想看什么，它就向你展示什么。目前的价格是15美元生成460张图片，平均每张图0.03美元（约为人民币两角）…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-220.html"
+    },
+    {
+      "number": 219,
+      "title": "如何防止帐号被黑",
+      "date": "2023-01-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202208/bg2022081706.webp",
+      "summary": "上周有一起安全事件。两家著名的美国互联网公司——Twillo 和 Cloudflare——被攻击了，前者还被攻破了。 这两家都不是普通公司，技术很强，都采用了“双因素认证”，但还是被有效攻击了。它们事后披露了一些细节，我觉得值得谈一下，聊聊…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-219.html"
+    },
+    {
+      "number": 218,
+      "title": "葡萄酒，樱花，全球变暖",
+      "date": "2022-12-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202208/bg2022080705.webp",
+      "summary": "今年夏天，气温创了历史纪录，很多地方超过40度。 高温的日子非常难熬，白天根本无法户外活动。而且，一想到将来，就更让人沮丧：以后的每年夏天，难道都要在这么炎热的天气中度过吗？ 本周，我看到两个很有趣、也很沉重的气候分析，想跟大家分享。葡萄酒…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-218.html"
+    },
+    {
+      "number": 217,
+      "title": "沙特的新未来城",
+      "date": "2022-12-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202208/bg2022080408.webp",
+      "summary": "2017年，沙特宣布要在红海边上的沙漠里面，新建一座前所未有的城市，叫做“新未来城”（Neom）。 它的构想惊世骇俗，整个城市就只有一条路，长达170公里，所有建筑分布在路的两旁。这是一座线性城市。 我第一个感觉是不可思议，只有一条路，怎么…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-217.html"
+    },
+    {
+      "number": 216,
+      "title": "极简主义的胜利",
+      "date": "2022-12-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202207/bg2022072501.webp",
+      "summary": "你可能听说过，极简主义（minimalism）这个词。 它指的是一种美学风格，只保留最必不可少的成分，其他都省略，追求简约。比如，极简主义的网页设计，就只有标题、正文等主要内容，其他都是空白。 极简主义的室内装潢，简单空旷，只有必要的家具和…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-216.html"
+    },
+    {
+      "number": 215,
+      "title": "互联网最喜欢的行为模式",
+      "date": "2022-12-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202207/bg2022070112.webp",
+      "summary": "巴菲特说，他考察候选人，就看三个“i”。 - integrity（正直） - intelligence（智力） - initiative（主动） “正直”（integrity）和“智力”（intelligence）比较容易想到，大多数人会忽…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-215.html"
+    },
+    {
+      "number": 214,
+      "title": "你的地图是错的",
+      "date": "2022-11-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202207/bg2022070401.webp",
+      "summary": "2010年，美国旧金山举行 Web 2.0 峰会。 主办方在会上发布了一张《互联网地图》。 这张地图把互联网划分成不同的势力范围，比如，谷歌是搜索王国，脸书是社交王国，电商王国则是亚马逊和 EBay 双雄鼎立。 当时，脸书的创始人扎克伯格就…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-214.html"
+    },
+    {
+      "number": 213,
+      "title": "知识孤岛，知识软件",
+      "date": "2022-11-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202207/bg2022070501.webp",
+      "summary": "（一） 世界最大的问答网站 Stack Overflow，每年举办一次全世界程序员调查，2022年的结果已经出来了。 今年增加了一个问题： “哪些因素会影响你的工作效率？它们频繁发生吗？会花费你多少时间？” 大家猜猜看，回答是什么。 （二）…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-213.html"
+    },
+    {
+      "number": 212,
+      "title": "人生不短",
+      "date": "2022-11-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202206/bg2022063027.webp",
+      "summary": "本周，我读到一篇文章《人生不短》，写得很好。它的核心内容，就是下面的几句话。 （一） 人生很短，但是如果你知道，怎么利用好这些时间，它就不短。 人生刚好够实现自己的一个梦想，前提是你必须从一开始，就把所有精力专注于此。 如果你浪费时间，不够…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-212.html"
+    },
+    {
+      "number": 211,
+      "title": "虚拟商品可以拉动 GDP",
+      "date": "2022-11-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202206/bg2022062216.webp",
+      "summary": "本周，脸书宣布推出线上的虚拟服装商店，里面有很多名牌服装（比如 Prada），用户买来在虚拟世界穿。 我看到这个新闻，不禁想到以前就思考过的一个观点：虚拟商品的交易，可以拉动 GDP 增长，与实物商品的效果是一样的。 虚拟服装、游戏道具、表…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-211.html"
+    },
+    {
+      "number": 210,
+      "title": "为什么软件变得复杂",
+      "date": "2022-11-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202206/bg2022061615.webp",
+      "summary": "我一直认为，软件开发的最大关注点，就是避免复杂性。软件设计越简单越好，太多的程序员以构建复杂的解决方案为荣。 但是，本周有一篇文章让我反思，我的想法是不现实的：软件肯定会越变越复杂。 （一） 这篇文章的作者是 Saleforce 公司的前端…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-210.html"
+    },
+    {
+      "number": 209,
+      "title": "程序员是怎样的人",
+      "date": "2022-10-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202206/bg2022060910.webp",
+      "summary": "我最近看到一个令人深思的心理学实验，叫做“斯坦福监狱实验”（Stanford Prison Experiment），跟大家分享一下。 1971年，一个美国的心理学家在斯坦福大学心理学系的地下室，搭建了一个模拟监狱。 他找来一批志愿者，让他们…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-209.html"
+    },
+    {
+      "number": 208,
+      "title": "晋升制度的问题",
+      "date": "2022-10-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202205/bg2022050920.webp",
+      "summary": "我最近读到一篇文章，作者是谷歌表格（Google Sheets）的前主管 Zach Lloyd，现在已经离职创业了。他说自己烦透了谷歌的晋升制度。 我读完发现，谷歌的晋升制度跟国内大厂一模一样，员工行为也是晋升导向，产生的问题也是相似的，所…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-208.html"
+    },
+    {
+      "number": 207,
+      "title": "汽车行业的顶峰可能过去了",
+      "date": "2022-10-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202205/bg2022051601.webp",
+      "summary": "4月份的时候，小鹏汽车的董事长何小鹏说，如果上海和周边的供应链企业一直无法复工，五月份可能中国所有的整车厂都要停工停产了。 现在已经快要5月底了，上海还没有恢复常态，中国汽车业今年大概很困难了。我看到的最新统计是，四月份的中国汽车总产量和总…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-207.html"
+    },
+    {
+      "number": 206,
+      "title": "如何走出失望和怀疑",
+      "date": "2022-10-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202205/bg2022050903.webp",
+      "summary": "前些天，我收到私信。网友说，阮老师，请教你一个问题。 “经历此次上海疫情，对未来的信心深受打击，对现实也产生了怀疑，请问该如何面对这种情况呢？” 我看了这封信，深有同感。我已经在家50天了，还不知道何时结束。遇到这种事，不管是谁，心情恐怕都…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-206.html"
+    },
+    {
+      "number": 205,
+      "title": "互联网风口过去了吗？",
+      "date": "2022-09-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202205/bg2022050410.webp",
+      "summary": "疫情前，有人问马云，怎么看待互联网风口。马云说，风口来了猪都会飞，但风过去后摔死的一定都是猪。 过去一年，堪称互联网行业的寒冬。国内大厂普遍都在收缩业务，裁减人员。股票也是大跌，就连腾讯、阿里的股价也没有逃脱腰斩。 很多人在问，互联网风口过…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-205.html"
+    },
+    {
+      "number": 204,
+      "title": "如何度过疫情、裁员、还有战争",
+      "date": "2022-09-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/220204/bg2022041701.webp",
+      "summary": "最近的坏消息比较多，疫情、裁员、还有战争。一打开群组和朋友圈，转发的都是这些事情，很多人的心情受到影响。今天谈谈我的想法。 不少网友私信，问我在上海的近况。我都没有回复，总觉得隔离的生活没什么可说。小区封控一个月了，出不去，下楼就是做核酸和…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-204.html"
+    },
+    {
+      "number": 203,
+      "title": "英国的名校签证，伯克利的计算机教育",
+      "date": "2022-09-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202203/bg2022031706.webp",
+      "summary": "（一） 上周，我看到一条新闻，英国即将出台“名校签证”。世界顶尖大学的应届本科生，可以直接申请该签证，到英国找工作。 英国政府对“世界顶尖大学”的定义是，该大学在以下三个高校排行榜里面，至少有两个排名前50位。 - 泰晤士高等教育世界大学排…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-203.html"
+    },
+    {
+      "number": 202,
+      "title": "三个有启发的学习方法",
+      "date": "2022-09-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/220204/bg2022040401.webp",
+      "summary": "最近看到一些学习方法相关的内容，跟大家分享。 （一） 首先是一个国外开发者的小故事。 他刚入行时，在一家小公司工作。公司只有很少几个工程师，但是每个都很强，了解很多技术，前端、后端、系统维护都能上手。 而且，他们的开发效率极高，别的公司可能…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-202.html"
+    },
+    {
+      "number": 201,
+      "title": "中国需要成立半导体部",
+      "date": "2022-08-31",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202203/bg2022033001.webp",
+      "summary": "上个月，国家统计局公布了[《中国2021年统计公报》](http://www.stats.gov.cn/tjsj/zxfb/202202/t20220227_1827960.html)。 去年，中国进口最多的三样商品依次是集成电路、石油和铁…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-201.html"
+    },
+    {
+      "number": 200,
+      "title": "低期望，多尝试",
+      "date": "2022-08-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202203/bg2022031705.webp",
+      "summary": "（一） 马斯克最近在推特上，说了一件往事。2009年，他与著名投资家芒格共进午餐。 他对芒格说，自己打算投资做特斯拉。芒格极其不看好电动汽车，认为肯定会失败，一条条给他分析理由，劝他不要做。 马斯克听了很难过，对芒格说，你的理由我都同意。但…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-200.html"
+    },
+    {
+      "number": 199,
+      "title": "俄罗斯的 HTTPS 证书问题",
+      "date": "2022-08-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202203/bg2022031406.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-199.html"
+    },
+    {
+      "number": 198,
+      "title": "美国制造是否可能",
+      "date": "2022-08-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202203/bg2022030808.webp",
+      "summary": "上周，美国总统拜登对国会发表《国情咨文》，提到了美国制造。他这样说： “与其依赖外国供应链，不如在美国制造。通过降低生产成本，而不是降低美国人的工资，让更多的车辆和半导体在美国生产，减少依赖外国供应链。” 听出来了吗，拜登的药方是，工资不降…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-198.html"
+    },
+    {
+      "number": 197,
+      "title": "如果这个世界有快乐机",
+      "date": "2022-08-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202202/bg2022022702.webp",
+      "summary": "上个世纪70年代，哈佛大学的哲学教授诺齐克（Robert Nozick）提出一个问题， 如何证明享乐主义（追求快乐和满足）是人类的行为目的？ 当时，美国陷入越南战争的泥潭，社会弥漫着“享乐主义”的气氛，年轻人普遍觉得，人的行为就是为了追求快…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-197.html"
+    },
+    {
+      "number": 196,
+      "title": "掌机的未来",
+      "date": "2022-07-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202202/bg2022021916.webp",
+      "summary": "今天（2月25日），Valve 公司的掌上游戏机 Steam Deck 上市了。 它有非常出色的硬件，搭配世界最大的游戏平台 Steam，我预测会很抢手，可能一机难求。 它采用 AMD 公司的 x86 CPU，网上已经有拆机视频，完全就是一…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-196.html"
+    },
+    {
+      "number": 195,
+      "title": "你做过不在乎结果的项目吗？",
+      "date": "2022-07-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202202/bg2022021507.jpg",
+      "summary": "上个星期，美国的黑客新闻社区有一个热门帖子 《你做过不在乎结果的项目吗？》（第一部分，第二部分），得到了热烈的反响。 很多人贴出了自己的个人项目，都是业余时间出于爱好写的。推荐大家去看看，很多项目很有趣。 我不禁想到，这个问题如果放到国内，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-195.html"
+    },
+    {
+      "number": 194,
+      "title": "悲观者正确，乐观者成功",
+      "date": "2022-07-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202202/bg2022021008.webp",
+      "summary": "最近股市下跌，美国科技股大部分都是下图的走势。 我看到一篇文章说，原因是大家悲观了。疫情第三年了，可能接近尾声了。美国后面的日子，物价上涨，利率上调，需求回归平淡，科技业的好日子就要结束了。 这不禁让我想到了，一个始终困扰我的问题：未来到底…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-194.html"
+    },
+    {
+      "number": 193,
+      "title": "前端与后端，谁更难？",
+      "date": "2022-07-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202201/bg2022012012.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-193.html"
+    },
+    {
+      "number": 192,
+      "title": "最大的机会来自新技术",
+      "date": "2022-06-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202201/bg2022011326.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-192.html"
+    },
+    {
+      "number": 191,
+      "title": "一个程序员的财务独立之路",
+      "date": "2022-06-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202201/bg2022010201.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-191.html"
+    },
+    {
+      "number": 190,
+      "title": "产品化思维",
+      "date": "2022-06-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202112/bg2021122913.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-190.html"
+    },
+    {
+      "number": 189,
+      "title": "下一个内卷的行业",
+      "date": "2022-06-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202112/bg2021122211.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-189.html"
+    },
+    {
+      "number": 188,
+      "title": "音乐是反社交",
+      "date": "2022-06-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202112/bg2021120911.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-188.html"
+    },
+    {
+      "number": 187,
+      "title": "元宇宙会成功吗",
+      "date": "2022-05-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202111/bg2021113005.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-187.html"
+    },
+    {
+      "number": 186,
+      "title": "低纬度，高海拔，气候优势",
+      "date": "2022-05-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202112/bg2021120207.webp",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-186.html"
+    },
+    {
+      "number": 185,
+      "title": "美国宪法拍卖，一个区块链案例",
+      "date": "2022-05-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202111/bg2021112501.jpg",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-185.html"
+    },
+    {
+      "number": 184,
+      "title": "政府的存储需求有多大？",
+      "date": "2022-05-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202111/bg2021111401.jpg",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-184.html"
+    },
+    {
+      "number": 183,
+      "title": "腾讯的员工退休福利",
+      "date": "2022-04-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202111/bg2021110305.jpg",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-183.html"
+    },
+    {
+      "number": 182,
+      "title": "新人优惠的风险",
+      "date": "2022-04-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202111/bg2021110101.jpg",
+      "summary": "很多 App 都有“新人优惠”、“首单优惠”，提供很诱人的条件，吸引新用户。 最近，有一个案件跟“新人优惠”有关，很值得谈一下。 事情是这样的。2019年底，上海杨浦区某商场写字楼搞活动，只要是商场 App 的新用户，都可以获得500积分，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-182.html"
+    },
+    {
+      "number": 181,
+      "title": "移动支付应该怎么设计？",
+      "date": "2022-04-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202110/bg2021102402.jpg",
+      "summary": "支付宝和微信支付，垄断了中国的移动支付，两家合计的市场份额超过90%。 虽然它们用起来非常方便，可以说完美解决了手机付款，但是，作为整个国家移动支付的解决方案，我总觉得，现在的状况是有问题的。 支付宝和微信支付的最大问题，就是把用户锁在它们…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-181.html"
+    },
+    {
+      "number": 180,
+      "title": "你想住在中国哪里？",
+      "date": "2022-04-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202110/bg2021101801.jpg",
+      "summary": "很多人不喜欢一线城市“北上广深”，觉得生活压力大，房价奇高，空间局促嘈杂，想要离开。 但是离开以后，去哪里呢？哪个城市能够提供令人满意的生活方式，以及良好的社会经济状况？ 我最近读到时事评论家宁南山的一篇文章，觉得很有启发，跟大家分享一下。…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-180.html"
+    },
+    {
+      "number": 179,
+      "title": "AR 技术的打开方式",
+      "date": "2022-03-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202109/bg2021090604.jpg",
+      "summary": "前两天，我看到一条新闻，德国杜塞尔多夫开张了一家 AR 公园（增强现实公园）。 表面上，这就是一家普通的公园，草地、绿树、小溪流…… 但是，当你打开手机 App，使用摄像头，就会看到所有场景上面，都叠加了一个虚拟层。 天空漂浮着奇怪的生物。…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-179.html"
+    },
+    {
+      "number": 178,
+      "title": "家庭太阳能发电的春天",
+      "date": "2022-03-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202110/bg2021100601.jpg",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-178.html"
+    },
+    {
+      "number": 177,
+      "title": "iPad 的真正用途",
+      "date": "2022-03-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202109/bg2021091801.jpg",
+      "summary": "",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-177.html"
+    },
+    {
+      "number": 176,
+      "title": "中国法院承认 GPL 吗？",
+      "date": "2022-03-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202109/bg2021091605.jpg",
+      "summary": "开源软件通常带有许可证。大家一直很想知道，如果国内用户不遵守许可证，可以去法院告他吗？ 上周有一条新闻，深圳市中级人民法院一审判决，被告违反了 GPL 许可证，赔偿侵权费50万元。 很多程序员很兴奋，认为这代表 GPL 许可证得到中国法院的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-176.html"
+    },
+    {
+      "number": 175,
+      "title": "知识广度 vs 知识深度",
+      "date": "2022-03-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202109/bg2021090809.jpg",
+      "summary": "上一期谈到，“特长程序员”比“全能程序员”吃香。 网友发给我一个网址，国外有人已经谈过这个话题。 国外作者画了一张图，将世界上的程序员比喻成三种形状。 （1）大饼型：拥有知识广度，但没有知识深度。 （2）竹竿型：拥有知识深度，但没有知识广度…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-175.html"
+    },
+    {
+      "number": 174,
+      "title": "全能程序员 vs 特长程序员",
+      "date": "2022-02-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202109/bg2021090117.jpg",
+      "summary": "我读过一些篮球报道，里面说 NBA 球队不喜欢“全能型球员”，更喜欢“特长型球员”。 所谓“特长型球员”，指的是其他方面可能都不行，但是某一方面特别突出，比如防守特别好、三分特别准，或者篮板很强等等。球队愿意签这样的球员，关键时刻派上场，没…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-174.html"
+    },
+    {
+      "number": 173,
+      "title": "网络收音机的设计",
+      "date": "2022-02-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202108/bg2021082619.jpg",
+      "summary": "最近，我为家里的老人买了一台网络收音机。 老人的年纪很大（超过85岁），完全不懂互联网，操作智能手机会经常点错地方，不知道怎么恢复。平时唯一的消遣就是看电视，其实根本不爱看，但没有别的娱乐。这样的老人家在互联网时代非常弱势，但是人数还不少，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-173.html"
+    },
+    {
+      "number": 172,
+      "title": "我们会死于气候灾难吗？",
+      "date": "2022-02-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202108/bg2021080514.jpg",
+      "summary": "上周，联合国发布了一份《气候问题评估报告》，供各国政府参考。 国内媒体没怎么报道这件事，但在国际上，它都是各国的头版新闻。 一般来说，政府单位的报告都写得四平八稳、滴水不漏。但是，这份报告是罕见的例外，它写得非常明确尖锐，结论就是四个字：“…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-172.html"
+    },
+    {
+      "number": 171,
+      "title": "云服务流量有多贵？",
+      "date": "2022-02-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202108/bg2021080213.jpg",
+      "summary": "上月，Cloudflare 的官网发表了一篇罕见的文章，它的 CEO 抨击亚马逊网络服务，流量收费太贵。 今天就来谈谈，云服务流量到底贵到什么程度。 亚马逊是全世界最大的云服务商，提供各种网络基础设施。用过的人都知道，它的收费里面，硬件费用…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-171.html"
+    },
+    {
+      "number": 170,
+      "title": "软件订阅制的胜利",
+      "date": "2022-01-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202108/bg2021080408.jpg",
+      "summary": "上周，苹果公司最新一季的财报，披露了一个惊人的数据：它有 7亿 付费订阅用户。 这太可怕了。世界总人口目前大约是78亿，里面包含了小孩、老人、文盲、穷人。即使把他们都算在内，全世界每11个人里面，就有一个人购买苹果公司的软件服务。软件生意还…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-170.html"
+    },
+    {
+      "number": 169,
+      "title": "五菱汽车的产品设计",
+      "date": "2022-01-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202107/bg2021072902.jpg",
+      "summary": "很多年前，我就知道五菱汽车。大学时，一个广西同学去了那里就业，从此我就记住了，柳州有一家汽车厂。 当年，它很不起眼，主要生产面包车。据说，模仿的是日本三菱面包车，连牌子和名字都模仿了人家。 但是后来，这家公司逐渐摆脱了模仿，开始生产原创的家…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-169.html"
+    },
+    {
+      "number": 168,
+      "title": "游戏《底特律：变人》",
+      "date": "2022-01-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202107/bg2021071802.jpg",
+      "summary": "本周谈谈游戏。去年双十一，我抱着巨大的期望，买了热门游戏《死亡搁浅》（Death Streading）。付款时，看见很多老游戏都是二折，随手又挑了一部《底特律：变人》（Detroit: Become Human）。 如今，我必须说《死亡搁浅…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-168.html"
+    },
+    {
+      "number": 167,
+      "title": "广告拦截器太过分了",
+      "date": "2022-01-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202107/bg2021071518.jpg",
+      "summary": "上月的一期周刊，发生了怪事。我的个人网站有读者留言：“怎么少了两段内容，你是不是遗漏了？”他的浏览器里，有两段文字消失了。 后来找到原因，原来是广告拦截器把那两段隐藏了。本周，我想谈谈这件事。 有些读者可能不知道，什么是广告拦截器，我先科普…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-167.html"
+    },
+    {
+      "number": 166,
+      "title": "视频学习胜过读书吗？",
+      "date": "2021-12-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202107/bg2021070816.jpg",
+      "summary": "现在，网上的课程视频和讲座视频，越来越多。同样的内容，可以读书学习，也可以视频学习，大家喜欢哪一种？ 我比较喜欢读书，实在没耐心视频学习。 书籍只要随手一翻，就知道大概的内容了，哪些章节需要重点阅读。视频行吗？不行，只能从头到尾，看完整个视…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-166.html"
+    },
+    {
+      "number": 165,
+      "title": "全端 App 的时代",
+      "date": "2021-12-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202106/bg2021062410.jpg",
+      "summary": "上周，微软发布了 Windows 11。最出人意料的是，它可以运行安卓 App！ 仔细想想也不意外，苹果去年推出 M1 芯片，所有的 iPhone App 现在都能在 Mac 电脑上运行。 微软一定是看在眼里，急在心里，绝不能让 Windo…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-165.html"
+    },
+    {
+      "number": 164,
+      "title": "培训班 vs 大学，求职成功率比较",
+      "date": "2021-12-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202106/bg2021062409.jpg",
+      "summary": "进入互联网大厂工作，是很多同学的愿望。 十年前，实现这个愿望的唯一可靠途径，就是拿到大学的计算机专业学位。 过去十年中，出现了另一条途径：编程培训班。它面向社会招生，谁都可以报名，通过短期培训，让你学会软件开发，再去互联网公司求职。 很多人…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-164.html"
+    },
+    {
+      "number": 163,
+      "title": "你的城市有多少张病床？",
+      "date": "2021-12-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202106/bg2021061101.jpg",
+      "summary": "上周，我在知乎看到一个帖子。作者有一句话，令人印象深刻，这周再去看，已经找不到了。 作者说，年轻人纷纷涌进去大城市，奋斗拼搏，但是有一个指标，可以看出来，那些城市没有条件让大家都留下来。 什么指标呢？ 就是每千人医院床位数。 以深圳为例，那…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-163.html"
+    },
+    {
+      "number": 162,
+      "title": "生活就像《吃豆人》游戏",
+      "date": "2021-12-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202106/bg2021060914.jpg",
+      "summary": "有一个经典游戏，叫做《吃豆人》（Pac-Man）。1980年发布的，很多人现在还在玩。 游戏很简单，吃完迷宫里的豆子，就能过关，但是不能被妖怪抓住。四个妖怪的策略各有不同，红色的在后面追你，粉色的在前面拦截，蓝色的在路口埋伏，橘色的随机漂移…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-162.html"
+    },
+    {
+      "number": 161,
+      "title": "再见了，学术硕士",
+      "date": "2021-11-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202106/bg2021060320.jpg",
+      "summary": "最近有一条新闻，全国多所大学的重点专业（比如复旦的软件学院和经济学院）宣布， 从明年开始，不再招收学术型硕士了。 这条新闻很重要，对于考研的同学有极大的影响。我猜想，其它高校也会很快跟进，学术型硕士今后会越来越萎缩。 理由是去年7月，教育部…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-161.html"
+    },
+    {
+      "number": 160,
+      "title": "中年码农的困境",
+      "date": "2021-11-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202105/bg2021052614.jpg",
+      "summary": "科技爱好者周刊（第 160 期）：中年码农的困境 这里记录每周值得分享的科技内容，周五发布。 本杂志开源（GitHub: ruanyf/weekly），欢迎提交 issue，投稿或推荐科技内容。 周刊讨论区的帖子《谁在招人？》，提供大量程序…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-160.html"
+    },
+    {
+      "number": 159,
+      "title": "游戏开发者的年薪",
+      "date": "2021-11-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202105/bg2021052012.jpg",
+      "summary": "最近，推特上面有很多欧美的游戏开发者，晒自己的薪水，使用 #GameDevPaidMe 这个标签就能看到，从中可以了解国外程序员的收入。 下面是一个美国开发者的发言。 他有超过十年的开发经验，年薪是20多万美元。这还是在西雅图，如果在湾区，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-159.html"
+    },
+    {
+      "number": 158,
+      "title": "内容渠道的贬值",
+      "date": "2021-11-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202105/bg2021051305.jpg",
+      "summary": "上周，美国的 Verizon 公司宣布，将以前收购的两个网站—— AOL 和 Yahoo ——一起打包卖掉，一共50亿美元。 这是怎么回事呢？Verizon 是美国第二大通信商，运营 4G 和 5G 网络。几年前，它突然心血来潮，决定进军内…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-158.html"
+    },
+    {
+      "number": 157,
+      "title": "KK 给年轻人的建议",
+      "date": "2021-10-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202104/bg2021041105.jpg",
+      "summary": "凯文·凯利（Kevin Kelly，网名 KK）是著名的科技评论家，曾经担任《连线》（Wired）杂志的第一任主编，他的著作《失控》在国内外都非常有名。 去年4月28日，是他68岁的生日。老爷子在个人网站上，发表了一篇《给年轻人的68条建议…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-157.html"
+    },
+    {
+      "number": 156,
+      "title": "显卡缺货与异业竞争",
+      "date": "2021-10-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202104/bg2021042313.jpg",
+      "summary": "最近，我想再配一台电脑，结果发现买不到显卡。加密货币的价格暴涨，导致显卡早就被抢购一空。 家用计算机的显卡挖矿，六个月据说就可以回本，以后就都是利润了。如果多块显卡组成矿机，利润相当可观。所以，显卡都被用来挖矿了，市场已经没有现货了，只能买…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-156.html"
+    },
+    {
+      "number": 155,
+      "title": "数字货币是打破美元霸权的武器吗？",
+      "date": "2021-10-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202104/bg2021041107.jpg",
+      "summary": "前些天，硅谷风险投资家彼得·泰尔（Peter Thiel）公开说，美国应该限制比特币。因为比特币是中国的金融武器，用来削弱美元。 他说，中国故意把比特币的价格炒高，吸引资金，使得比特币的影响越来越大。这就破坏了美元的地位。 我想讨论一下这种…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-155.html"
+    },
+    {
+      "number": 154,
+      "title": "1982年的信息社会预言",
+      "date": "2021-10-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202104/bg2021041108.jpg",
+      "summary": "美国未来学家约翰·奈斯比特（John Naisbitt）上周去世了，享年92岁。 1982年，他出版了一本预测未来的书，叫做《大趋势》（Megatrends），非常畅销，全球累计销量超过1400万册。 该书1984年引进国内，中文版也是轰动…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-154.html"
+    },
+    {
+      "number": 153,
+      "title": "机器翻译是对译者的侮辱吗？",
+      "date": "2021-09-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202103/bg2021032508.jpg",
+      "summary": "上个月，豆瓣网有一条新闻。北京语言大学的一个研究生，对乌拉圭小说《休战》的中译本打了差评。 “机翻痕迹严重，糟蹋了原作。还是老话，没有金刚钻别揽瓷器活。希望出版社找西班牙语科班出身的译者，翻译这些名家。” 译者看见了这条评论，非常生气，你凭…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-153.html"
+    },
+    {
+      "number": 152,
+      "title": "从北大到技校",
+      "date": "2021-09-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202103/bg2021033008.jpg",
+      "summary": "最近，我看到一条新闻。十年前，有一个学生申请从北京大学转学去技校。十年过去了，他现在怎么样，媒体报道他的现状。 这个学生名叫周浩，从青海考入北大生命科学学院。大家知道，生命科学是学术性很强的一个专业，要学物理、化学、医学、生物化学等许多理论…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-152.html"
+    },
+    {
+      "number": 151,
+      "title": "NFT 是什么，听说能赚钱",
+      "date": "2021-09-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202103/bg2021032509.jpg",
+      "summary": "最近，美国有一个东西非常火爆，叫做 NFT，价格飞涨到了离奇的地步。 请看这样一条新闻。一个网名叫做 Beeple 的艺术家，从2007年5月1日开始，每天在 Instagram 发布一张数字艺术的图片，就像下面这种。 到了今年，他已经连续…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-151.html"
+    },
+    {
+      "number": 150,
+      "title": "当音乐还是稀缺的时候",
+      "date": "2021-09-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202103/bg2021031604.jpg",
+      "summary": "上周，磁带的发明者、飞利浦公司的荷兰工程师 Lou Ottens 去世了。 这让我想起了往事。这里的年轻读者，可能从没有听过磁带，但是20多年前，它是我们接触流行音乐的唯一渠道。 那时，电台的音乐频道会播歌，要想反复听，就必须录音，或者购买…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-150.html"
+    },
+    {
+      "number": 149,
+      "title": "新能源汽车，谁会是赢家？",
+      "date": "2021-09-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202103/bg2021030804.jpg",
+      "summary": "过去的一年，新能源汽车突然成了明星，电动车公司的股价都上涨了许多倍。 我对这件事一直有怀疑，不那么看好那些电动车公司。这两周，他们的股价开始跌了，所以我想赶紧把自己的想法写出来，不要再拖了。 关于电动车，最基本的一点就是，它属于电子产品。汽…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-149.html"
+    },
+    {
+      "number": 148,
+      "title": "微增长时代",
+      "date": "2021-08-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202103/bg2021030103.jpg",
+      "summary": "中国经济高速增长了40年，我们每个人都受益。但是接下来，可能不会增长这么快了。 我最近读到一篇微信公号的文章，很赞同它的观点，忍不住想分享给大家。文章的大意是，中国经济的微增长时代已经到来。下面就是他的推理逻辑，大家看看是不是这么一回事。 …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-148.html"
+    },
+    {
+      "number": 147,
+      "title": "寻找你愿意忍受的痛苦",
+      "date": "2021-08-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202102/bg2021021705.jpg",
+      "summary": "约翰·乌歇尔（John Urschel）是一个职业橄榄球运动员。 2017年退役后，他改行研究数学，先在宾夕法尼亚大学拿到数学硕士，现在麻省理工学院攻读数学博士。 约翰·乌歇尔从小就对数学有兴趣，在他还打球的2015年，就在学术杂志上发表过…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-147.html"
+    },
+    {
+      "number": 146,
+      "title": "网课应该怎么上？",
+      "date": "2021-08-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202102/bg2021021403.jpg",
+      "summary": "2020年，在线教育行业大爆发，许多公司都获得了巨额投资。 按理说，一个行业发展得这么快，它的产品应该有很多优势。但是在我看来，网课现在没优势，效果不如课堂教学，完全没有发挥出应有的长处。 现在的网课，基本上就是简单复制了课堂教学。 老师在…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-146.html"
+    },
+    {
+      "number": 145,
+      "title": "大家不出门，经济怎么办？",
+      "date": "2021-08-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202102/bg2021020303.jpg",
+      "summary": "最近，我和一个朋友聊天。他说了一个观点，令我印象深刻。 他说，大家都低估了外卖行业的深远影响。外卖的兴起，是一件具有重大历史意义的事件。 他的理由是，以前的网络经济，只是日常生活的补充。 比如网络购物是有些东西附近不容易买到，你去网上买；网…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-145.html"
+    },
+    {
+      "number": 144,
+      "title": "提高收入的根本途径",
+      "date": "2021-07-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202101/bg2021011601.jpg",
+      "summary": "我看到一个故事，很有启发，给大家讲一下。 挪威和孟加拉是两个截然不同的国家，但是它们有一个共同点：渔业都是两国的主要产业，很多人以打渔为生。 挪威渔民非常有钱，挪威是世界上最富裕的国家之一，人均 GDP 接近8万美元。 孟加拉国属于世界最贫…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-144.html"
+    },
+    {
+      "number": 143,
+      "title": "世界尽头与冷酷仙境",
+      "date": "2021-07-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202101/bg2021010706.jpg",
+      "summary": "上一期周刊谈到，2020年是科技发展辉煌的一年。但是， 对于普通人来说，今后的日子其实更不容易了，生存难度变大了。 让我从美国人不爱储蓄，开始说起。你可能听说过，美国人不存钱，钱到手就花了。 可是，2020年出现了一个奇观，美国的个人储蓄率…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-143.html"
+    },
+    {
+      "number": 142,
+      "title": "2020年才是21世纪元年",
+      "date": "2021-07-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202012/bg2020123102.jpg",
+      "summary": "刚刚过去的2020年，无疑是人类历史上糟糕的一年。 但是，从技术角度看，2020年却是辉煌的一年。人类社会可能在2020年以后，进入一个完全不一样的阶段。 风险投资家、《从零到一》的作者 Peter Thiel 说， 2020年才是21世纪…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-142.html"
+    },
+    {
+      "number": 141,
+      "title": "封闭系统的胜利",
+      "date": "2021-07-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202101/bg2021010101.jpg",
+      "summary": "去年的一件大事，苹果公司发布 M1 芯片。 它的表现好得惊人，比原先英特尔的芯片更快、更省电、还更便宜。 为什么 M1 芯片的表现这么好？ 一个原因是，它其实不能算作 CPU，而是一个单片系统 （System on a Chip，简称 So…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-141.html"
+    },
+    {
+      "number": 140,
+      "title": "印度人的工资是多少？",
+      "date": "2021-06-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202012/bg2020123004.jpg",
+      "summary": "两周前有一条新闻。台湾科技企业纬创在印度的 iPhone 代工厂发生“暴动”事件，2000个印度工人大肆打砸公司用品，现场一片狼藉。 据称，薪资问题是引发“暴动”的主因。 “员工对于公司没有按时支付承诺的工资，感到相当的愤怒。虽然公司答应向…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-140.html"
+    },
+    {
+      "number": 139,
+      "title": "生物学的可怕进展",
+      "date": "2021-06-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202012/bg2020122303.jpg",
+      "summary": "上周，一家美国网站发表了一篇 mRNA 疫苗的文章，我看了大吃一惊。 mRNA 是一种全新的技术，第一次用来研发疫苗。大家猜猜看，研发时间花了多久？ 答案令人跌破眼镜。Moderna 公司的 mRNA 疫苗是2020年1月11日开始研发，两…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-139.html"
+    },
+    {
+      "number": 138,
+      "title": "失业难以避免，重构人生规划",
+      "date": "2021-06-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202012/bg2020121503.jpg",
+      "summary": "最近读到了一段话，引起了我的思考。 \"工作对于人生至关重要。它提供了收入，身份和意义，失业的创伤仅次于亲人的死亡。\" 我完全同意这段话。因为我父母的人生就是这样，上了一辈子的班，如果把工作的部分去掉，就没有其他值得一说的东西了。 对于许多人…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-138.html"
+    },
+    {
+      "number": 137,
+      "title": "Slack 被收购，以及企业的技术选型",
+      "date": "2021-06-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202012/bg2020120908.jpg",
+      "summary": "Slack 是一个非常优秀的团队通信协作软件，如果你没用过，我很推荐试试看。 它在全世界有众多的用户，去年的收入是8.33亿美元。 上周，它把自己卖给了 Salesforce，售价高达277亿美元（约1800亿人民币）。从此，Slack 不…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-137.html"
+    },
+    {
+      "number": 136,
+      "title": "利特伍德奇迹定律",
+      "date": "2021-06-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202012/bg2020120303.jpg",
+      "summary": "这个星期，我读到一篇文章，谈怎么理财。 作者说，储蓄和投资的观念应该是相反的。储蓄要悲观，相信自己会遇到很多意外事件，所以要尽量多储蓄；投资则要乐观，相信这个社会一定会向前发展，经济不断增长，所以要积极投资。 他的理由很有意思，提到了利特伍…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-136.html"
+    },
+    {
+      "number": 135,
+      "title": "什么行业适合创业？",
+      "date": "2021-05-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202011/bg2020112601.jpg",
+      "summary": "一个美国风险投资家解释他如何选择风投项目，我觉得很新奇。 他画了一个坐标系，然后把项目的行业放在里面。 上图的坐标系，竖轴是交易规模，位置越向上，表示交易金额越高；横轴是交易频率，位置越向右，表示交易次数越多。 根据这两个坐标轴，所有行业可…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-135.html"
+    },
+    {
+      "number": 134,
+      "title": "未来的游戏业比现在大100倍",
+      "date": "2021-05-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202011/bg2020111823.jpg",
+      "summary": "最近，我看到一份资料，比较了各种娱乐方式的成本（美国的数据）。 根据上图，最贵的娱乐方式是电影，在电影院待一个小时，平均需要7美元。最便宜的娱乐方式是上网，付费视频一小时37美分，付费音乐33美分，网络游戏17美分。 这个统计没有考虑免费的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-134.html"
+    },
+    {
+      "number": 133,
+      "title": "贵州变瑞士，有没有可能？",
+      "date": "2021-05-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202011/bg2020111123.jpg",
+      "summary": "上个月，我第一次去贵州，玩了一周。这次旅行让我想起一篇大学里读过的文章。 浙江大学的一位老师访问瑞士后，发现瑞士的地理条件与贵州省很像：平地很少，全境都是高山，没有出海口，不合适发展工业和农业。但是， 瑞士属于世界最富的国家，贵州却是中国最…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-133.html"
+    },
+    {
+      "number": 132,
+      "title": "快能力和慢能力",
+      "date": "2021-05-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202011/bg2020110415.jpg",
+      "summary": "美国著名投资家芒格（Charles Munger）是巴菲特的合伙人，以投资思想丰富而著称。 我想分享他的一段话，普通人应该怎么找到自己的竞争力。 如果你想成为一流的网球运动员，你很快就会发现，这是没有希望的。 但是，如果你想成为一流的水暖工…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-132.html"
+    },
+    {
+      "number": 131,
+      "title": "你的头脑是二值逻辑，还是三值逻辑？",
+      "date": "2021-04-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202010/bg2020102809.jpg",
+      "summary": "本周，我发布了《微信小程序入门教程》，分成四次连载，帮助初学者学会写微信小程序。 这是免费教程，不收任何费用，有兴趣的同学可以看看，相信比其他教程更简单清晰。",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-131.html"
+    },
+    {
+      "number": 130,
+      "title": "低龄化的互联网",
+      "date": "2021-04-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202010/bg2020100715.jpg",
+      "summary": "现在，很多人拍视频为生。每天拍若干条，上传到门户网站，靠网站分红和商业合作赚钱。 对他们来说，视频的播放量就是一切，直接决定了收入的多少。他们最关心的一个问题：什么题材会有大量的观众？ 我最近好像知道答案了。 我发现，亲子类的视频，也就是跟…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-130.html"
+    },
+    {
+      "number": 129,
+      "title": "创业的凸函数和凹函数",
+      "date": "2021-04-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202010/bg2020100716.jpg",
+      "summary": "著名畅销书《黑天鹅》的作者纳西姆·塔勒布（Nassim Taleb），以前是纽约大学的数学教授，后来从事数理金融和风险管理。他写了很多科普文章，使用数学概念去分析各种现象。 他有一个说法，我觉得很新奇。 他说创业的时候，要考虑创业方向是凸函…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-129.html"
+    },
+    {
+      "number": 128,
+      "title": "这个社会是否正在变成“赛博朋克”？",
+      "date": "2021-04-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202010/bg2020100714.jpg",
+      "summary": "下个月，热门游戏《赛博朋克2077》就要上市了，发布了好多新闻和预告片。我突然觉得，“赛博朋克”这个词（Cyberpunk）很值得谈一下。 “赛博朋克”是两个英语单词的组合：Cyber（赛博）和 punk（朋克）。 “赛博”表示网络技术，比…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-128.html"
+    },
+    {
+      "number": 127,
+      "title": "未来人人开发软件，几乎没人编码",
+      "date": "2021-03-31",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202009/bg2020092801.jpg",
+      "summary": "现在，少儿编程培训班很流行，一到周末，家长们就送孩子去学计算机。 虽然我很赞成从小学习计算机，但总感到有点疑惑： 编程正变得越来越容易，门槛越来越低，小朋友们真有必要牺牲周末的睡眠和体育时间，专门去学编程语言（比如 Python）吗？ 上个…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-127.html"
+    },
+    {
+      "number": 126,
+      "title": "内卷化是什么？",
+      "date": "2021-03-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202009/bg2020091402.jpg",
+      "summary": "最近，我经常看到“内卷化”这个词，不理解什么意思。 网上找到的解释： “内卷化，指一种社会或文化模式在某一发展阶段达到一种确定的形式后，便停滞不前或无法转化为另一种高级模式的现象。”（百度百科） 看了这个定义，我还是不太明白。为什么发展停滞…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-126.html"
+    },
+    {
+      "number": 125,
+      "title": "数字人民币要取代谁",
+      "date": "2021-03-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202009/bg2020091705.jpg",
+      "summary": "数字人民币，已经传了很久了，但它到底是什么东西，媒体却不提。 本周，人民银行的副行长写了一篇文章，第一段就回答了这个问题。 “数字人民币主要定位于流通中现金。……国家有必要利用新技术对现金进行数字化，为数字经济发展提供通用性的基础货币。” …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-125.html"
+    },
+    {
+      "number": 124,
+      "title": "华为如何考核员工",
+      "date": "2021-03-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202009/bg2020090407.jpg",
+      "summary": "最近，华为的一份内部文件出现在网上。 8月31日，任正非对新员工讲话，透露了一个消息。华为将把所有职位分成三类：职员类，专家类和管理类，每一类都有不同的考核方法。 （1）职员类 主要指后勤人员（比如物业和保安）。这一类人员不用对利润负责，不…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-124.html"
+    },
+    {
+      "number": 123,
+      "title": "互联网公司与湘军的军制",
+      "date": "2021-03-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202008/bg2020083102.jpg",
+      "summary": "大学里，我读过一本历史学著作，罗尔纲的《湘军兵志》。 湘军是清朝末年曾国藩在湖南省组建的一支军队，清朝全靠它，打败了太平天国。这里有一个疑问：为什么国家的正规军（绿营）接连战败，但是一支地方的民兵部队却能连克强敌？湘军到底有何不同？ 经过研…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-123.html"
+    },
+    {
+      "number": 122,
+      "title": "谈谈互联网公司的高估值",
+      "date": "2021-02-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202008/bg2020081802.jpg",
+      "summary": "上周，贝壳找房在美国上市，第一天的市值就超过了中国最大的房地产公司万科。 虽然两家公司不太一样（贝壳找房是二手房交易平台，万科是开发商），但这种估值还是挺让人震惊的。贝壳找房还在亏损，而万科每年有500多亿人民币的利润，但市场依然认为前者更…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-122.html"
+    },
+    {
+      "number": 121,
+      "title": "为什么人类没有越来越闲？",
+      "date": "2021-02-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202008/bg2020081305.jpg",
+      "summary": "很多人相信，随着科技的发展，未来的人们会有很多空闲时间，因为机器会干活。 这种观点是不对的。即使有高度智能的机器，未来的工人也不会空闲，可能还会更忙，至少资本主义制度是如此。 将近100年前的1930年，经济学家凯恩斯预言，在一个世纪之内，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-121.html"
+    },
+    {
+      "number": 120,
+      "title": "只有开放才能打败封锁",
+      "date": "2021-02-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202008/bg2020080205.jpg",
+      "summary": "美国搞技术封锁，不允许中国企业使用美国技术。今天就来谈谈，应该怎么应对这种局面。 华为最近宣布，9月15日以后，手机的麒麟芯片无法生产了，可能将成为绝响，因为台积电迫于美国的禁令，不再接受华为的订单了。 此前，华为手机已经不能预装谷歌服务框…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-120.html"
+    },
+    {
+      "number": 119,
+      "title": "降雨量和保险博弈",
+      "date": "2021-02-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202007/bg2020072903.jpg",
+      "summary": "前几天，我看到了一个很新奇的保险：上下班降雨险。 只要上下班遇到大雨，保险公司就会赔偿。 根据地点和季节而不同，赔偿标准都不一样，下图是上海的赔付标准。 根据上表，上海只要1月达到中雨（一个小时内降雨超过2.5毫米），保险公司就会赔付12元…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-119.html"
+    },
+    {
+      "number": 118,
+      "title": "高考志愿怎么填",
+      "date": "2021-01-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202007/bg2020072417.jpg",
+      "summary": "前不久，亲戚朋友咨询我，高考志愿的填写建议。 我建议选择理工科，不一定是电子技术和计算机，科技类的专业都可以。本科打好数学、物理、工程的基础，具体方向以后都可以转。 理由很简单，对于普通人家的子弟，理工科会比文科更容易谋生和赚钱。 最近，有…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-118.html"
+    },
+    {
+      "number": 117,
+      "title": "我不想让你记住我的脸",
+      "date": "2021-01-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202007/bg2020071803.jpg",
+      "summary": "上海电视台最近报道：“本市徐汇区漕河泾街道的薛家宅小区，正在推行门禁系统的人脸识别。小区居民必须在指定时间，到社区办公区录入自己的脸。” 人脸识别系统将来就安装在每栋楼的门口，居民进出的时候，就识别一下。 我的第一反应是惊吓，以后每天何时到…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-117.html"
+    },
+    {
+      "number": 116,
+      "title": "世界的未来是一个火药桶",
+      "date": "2021-01-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202007/bg2020071304.jpg",
+      "summary": "7月12日凌晨，哈尔滨医生、天文摄影爱好者姜雪鹏拍到了 C/2020F3 彗星。他表示这颗彗星特别明亮，北半球已经好多年没有见到这么亮的彗星了。该彗星大约在北京时间凌晨4点出现北半球东北方仰角15度的方向，持续5到10分钟。",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-116.html"
+    },
+    {
+      "number": 115,
+      "title": "保护你的 DNA，不要泄漏",
+      "date": "2021-01-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202007/bg2020070117.jpg",
+      "summary": "上周，美国佛罗里达州通过了《DNA 隐私法》，成为美国第一个对 DNA 立法的州。它明文规定 DNA 属于个人隐私，保险公司不得获取 DNA 测试的结果。 为什么 DNA 不能让保险公司知道？ 因为 DNA 包含了一个人所有的遗传信息，你有…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-115.html"
+    },
+    {
+      "number": 114,
+      "title": "U 盘化生存和 Uber-job",
+      "date": "2020-12-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202006/bg2020062707.jpg",
+      "summary": "最近，我学到了几个新词，跟大家分享一下。 （1）零工经济：指的是越来越多的就业，属于“打零工”性质。稳定的长期工作越来越难找，只找得短期的临时雇佣，许多人就靠长期打零工养活自己。 （2）斜杠青年：指的是从事过多种职业的年轻人。因为他简历的“…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-114.html"
+    },
+    {
+      "number": 113,
+      "title": "暴力犯罪为什么越来越少？",
+      "date": "2020-12-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202006/bg2020062203.jpg",
+      "summary": "一个台湾网友在推特说，根据统计，台湾的暴力犯罪在过去20年惊人地下降，2019年已经比最高峰时减少了94.2%。 他问，到底是什么原因，让暴力犯罪在一代人的时间里只剩5.8%？人性的变化，还是社会结构的变化？ 我也有类似的体会，周围的暴力犯…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-113.html"
+    },
+    {
+      "number": 112,
+      "title": "如何培养领导力",
+      "date": "2020-12-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202006/bg2020060512.jpg",
+      "summary": "喷气式客机“空中客车”在法国图卢兹组装，零件来自世界各地。有些零件太大，只能海运，上图是 Airbus 专用零件船。（出处）",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-112.html"
+    },
+    {
+      "number": 111,
+      "title": "智能电视的误区",
+      "date": "2020-12-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202005/bg2020052902.jpg",
+      "summary": "国内的智能电视机，现在都自带系统，一打开就是各种菜单，有直播、影视、游戏、应用等等。 我不赞成这样的设计，也不愿意购买这样的电视机。 这是因为电视机的使用年限很长，可能达到10年。内置的操作系统不可能跟着更新这么久，事实上很多电视机自从出厂…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-111.html"
+    },
+    {
+      "number": 110,
+      "title": "如果不能去美国上市",
+      "date": "2020-12-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202005/bg2020052905.jpg",
+      "summary": "中国的优秀技术公司，在国内上市的并不多，大部分在美国上市。如果以后美国不允许中国企业上市，那对国内会有什么影响？ 这是一个假设的问题，还没有真的发生。但是，看上去很有可能。这里不讨论经济影响和政治影响，只关注对国内行业环境的影响。 说实话，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-110.html"
+    },
+    {
+      "number": 109,
+      "title": "播客的价值",
+      "date": "2020-11-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202005/bg2020052114.jpg",
+      "summary": "Spotify 最近购买了乔·罗根（Joe Rogan）播客节目的独家播放权，价格据说达到了一亿美元。 “播客”是 podcast 的中文音译，指的是谈话类的互联网音频节目，主要供用户收听。乔·罗根的节目是美国最有影响力的播客之一，每期采访…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-109.html"
+    },
+    {
+      "number": 108,
+      "title": "第 108 期",
+      "date": "2020-11-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202005/bg2020051711.jpg",
+      "summary": "本周向大家推荐一本书，我前一阵子读完的《隆美尔战时文件》，觉得很好看。 隆美尔是二战时德军的著名将领，以战术高超著称。他在北非时，兵力处在劣势，但是令盟军吃尽苦头。这本书的内容，当然都跟历史和军事有关，但是对于人生和创业也有借鉴意义。 隆美…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-108.html"
+    },
+    {
+      "number": 107,
+      "title": "第 107 期",
+      "date": "2020-11-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202005/bg2020051001.jpg",
+      "summary": "美国风险投资家 Naval Ravikant 有一个很有名的长推特，一共40条，题目叫做《如何致富，不靠运气》，谈了他的商业观。 和菜头翻译过中文版。另外，Naval Ravikant 后来还有一篇长文，详细解释这些观点。 他认为，致富其实…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-107.html"
+    },
+    {
+      "number": 106,
+      "title": "第 106 期",
+      "date": "2020-11-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202004/bg2020042905.jpg",
+      "summary": "今天，谈谈一个新的英语词汇 \"digital nomad\"，中文意思是\"数字游民\"。 它指的是以数字技术为生，没有固定住所的人。这样的人靠互联网赚钱，只要能上网，住在哪里都可以。 他们通常会搬到风景优美、气候温和、物价便宜的地方。国外有一个…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-106.html"
+    },
+    {
+      "number": 105,
+      "title": "第 105 期",
+      "date": "2020-10-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202004/bg2020042703.jpg",
+      "summary": "最近，我了解了一下，周围朋友们的情况。 互联网行业现在其实不错的，虽然遇到了疫情，还是很兴旺。电商、线上教育、网络游戏、远程办公等，这些今年都是增长的。 但是，根据媒体的报道，线下的实体行业就很困难，疫情冲击太大，需求大减。餐馆、旅行社、宾…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-105.html"
+    },
+    {
+      "number": 104,
+      "title": "第 104 期",
+      "date": "2020-10-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202004/bg2020041808.jpg",
+      "summary": "美国阿拉斯加州举行的巨型卷心菜比赛，前三名合影。第一名（中间那颗）重达41.9公斤。（出处）",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-104.html"
+    },
+    {
+      "number": 103,
+      "title": "第 103 期",
+      "date": "2020-10-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202004/bg2020041604.jpg",
+      "summary": "美国犹他州国家公园的工作人员，进入山洞为一只冬眠的熊安装追踪项圈。不料，这头熊没有睡着，瞪大眼镜看着他们。好在它没有攻击工作人员，麻药也很快发生了作用。（出处）",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-103.html"
+    },
+    {
+      "number": 102,
+      "title": "第 102 期",
+      "date": "2020-10-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202004/bg2020040505.jpg",
+      "summary": "3月26日，位于武汉的东风日产汽车厂复工，员工午餐保持距离。（法新社）",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-102.html"
+    },
+    {
+      "number": 101,
+      "title": "第 101 期",
+      "date": "2020-09-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202003/bg2020032702.jpg",
+      "summary": "3月5日，米兰一位大学教授对着空教室远程讲课。以后，远程教育可能会成为常态，现场上课反而是少数的情况。（出处）",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-101.html"
+    },
+    {
+      "number": 100,
+      "title": "第 100 期",
+      "date": "2020-09-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202003/bg2020032205.jpg",
+      "summary": "美国最近将基准利率降到了0%。我觉得，大家对这件事不太关注，觉得跟自己没关系，或者觉得这是临时措施。 事实恰恰相反。我觉得，这是最重要的几个长期经济迹象之一，对每个人都会产生影响，而且比疫情本身的影响更深远持久。 它说明了一件事，高利率的时…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-100.html"
+    },
+    {
+      "number": 99,
+      "title": "第 99 期",
+      "date": "2020-09-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202002/bg2020020707.jpg",
+      "summary": "这几天，教育部公布了2020年研究生招生规模，今年会多招18.9万人，比去年增长20%。 这是为了落实国务院的要求，因为今年有疫情，高校毕业生的就业形势非常严峻，扩大研究生招生，可以减少就业压力。 这固然是不得已的措施，但也反映了我们国家的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-99.html"
+    },
+    {
+      "number": 98,
+      "title": "第 98 期",
+      "date": "2020-09-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202002/bg2020020201.jpg",
+      "summary": "我们经常需要表达自己的想法，怎样才能清晰地说出来，让别人记住你要表达的意思？ 请看下面这段话，你对它留下深刻印象吗？ 修改一下，是不是效果好了很多。 这里不是推荐大家使用问答体，而是想要展示两个小技巧，可以快速提升表达效果。 （1）拆分。 …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-98.html"
+    },
+    {
+      "number": 97,
+      "title": "第 97 期",
+      "date": "2020-09-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202001/bg2020011901.jpg",
+      "summary": "上海现在有很多付费自习室，提供一个安静的学习环境，有的收费要超过20元/小时。生意应该很不错，否则不会开这么多家。 网上有一个视频，采访那些顾客，为什么来自习？ 答案都是一样的：为了考试。各种各种的考试：研究生入学、公务员、会计上岗证、司法…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-97.html"
+    },
+    {
+      "number": 96,
+      "title": "第 96 期",
+      "date": "2020-08-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202001/bg2020011804.jpg",
+      "summary": "上海市教委通知，本市中小学3月2日开学，但是不到校，在家收看线上课程。 这些课程都是由教委统一录制，动员“全市各学科一千多名优秀骨干教师，共分为12个频道，涵盖小学一年级到高中三年级。” 上面是录制现场的照片。看上去跟平时讲课没有区别，就是…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-96.html"
+    },
+    {
+      "number": 95,
+      "title": "第 95 期",
+      "date": "2020-08-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201912/bg2019122902.jpg",
+      "summary": "知乎有一个问题《疫情给中国带来的积极意义是什么？》，有人在下面说，疫情改变了很多观念。 1. 90%以上的会都是可以不开的。 2. 许多班是可以不加的 3. 许多养闲人的工作岗位是可以没有的。 这一次，大部分互联网公司，包括阿里和腾讯，被迫…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-95.html"
+    },
+    {
+      "number": 94,
+      "title": "第 94 期",
+      "date": "2020-08-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201911/bg2019113001.jpg",
+      "summary": "硅谷著名的风险投资家 Naval ，在推特说了一句金句，一万多人点赞。 他说：“既懂得制造，又懂得销售，你就是无敌的。” 他的意思是，一家成功的公司，必须同时具备两种能力：优秀的制造能力和优秀的销售能力。 成功的公司，不仅要懂得如何创造出优…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-94.html"
+    },
+    {
+      "number": 93,
+      "title": "第 93 期",
+      "date": "2020-08-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201912/bg2019121509.jpg",
+      "summary": "这段假期，我在家常常玩电子游戏。 有人说过，世界上有两种游戏。一种是追求明确目标的游戏，比如战胜所有对手，完成目标就取得了游戏胜利；另一种是没有明确目标的游戏，只是为了讲一个故事，或者体验在游戏世界的漫游。 我发现，我对第一种游戏越来越厌倦…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-93.html"
+    },
+    {
+      "number": 92,
+      "title": "第 92 期",
+      "date": "2020-07-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201912/bg2019121006.jpg",
+      "summary": "最近，我有一个猜想。 我们知道，人眼有“视觉暂留”现象：影像消失后，人眼仍能保留影像100毫秒～400毫秒。这就是电影的原理，每秒播放24张图片，影像就动起来了。 我就想问，那么有没有“听觉暂留”呢？我们听到的声音是连贯的，有没有可能其实也…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-92.html"
+    },
+    {
+      "number": 91,
+      "title": "第 91 期",
+      "date": "2020-07-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201912/bg2019120910.jpg",
+      "summary": "最近，我读完了《我在印度的701天》，作者是孔子学院派到印度理工学院的汉语老师。 原文是天涯论坛的一个长篇连载，后来结集出版。如果你想了解当代印度社会的第一手观察，从一个中国人的视角，我推荐这本书。 书中提了一个问题，世界第二大运动是什么？…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-91.html"
+    },
+    {
+      "number": 90,
+      "title": "第 90 期",
+      "date": "2020-07-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201912/bg2019120604.jpg",
+      "summary": "程序员当久了以后，如果项目顺利，一般都有机会组建或者负责团队，开始管人。 管人其实比开发更难。技术是死的，人是活的，随时会变。把大家团结起来，一起奋斗，很不容易。 我认识的许多程序员，都不愿意管人。一个创业的朋友开一个工作室，他说这几年有好…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-90.html"
+    },
+    {
+      "number": 89,
+      "title": "第 89 期",
+      "date": "2020-07-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201912/bg2019120302.jpg",
+      "summary": "前不久，我认识了一个朋友，他以前在某个小型电商公司做网络销售，负责提高网站的销售额。 他提到，老板那时每个月要他们填报表，自己给自己设指标，下个月要销售多少。 他说，这个怎么估计呢，我也不知道下个月会销售多少，受到太多不可控因素的影响了。我…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-89.html"
+    },
+    {
+      "number": 88,
+      "title": "第 88 期",
+      "date": "2020-07-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201911/bg2019113002.jpg",
+      "summary": "最近，我读到两段话，都是用蛇比喻企业管理。 第一段话出自 Netscape 公司的首席执行官 James Barksdale。 在 Netscape，我们有三条规则。 第一条规则是，如果你看到一条蛇，不要打电话给管理委员会，不要打电话给朋友…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-88.html"
+    },
+    {
+      "number": 87,
+      "title": "第 87 期",
+      "date": "2020-06-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201912/bg2019121703.jpg",
+      "summary": "多年前，我推荐过一篇文章，给所有新加入互联网行业的工程师。它的题目叫做《不要自称为程序员》，其中说得最好的、最核心的建议是下面这段话。 企业最关心的（或者说唯一在乎的）事情，就是增加收入、降低成本。 企业实际上需要的不是程序员，而是能够帮助…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-87.html"
+    },
+    {
+      "number": 86,
+      "title": "第 86 期",
+      "date": "2020-06-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201911/bg2019112713.jpg",
+      "summary": "最近，我看到一个心理测试《你是不是一个完美主义者？》，题目还挺有意思的。 （1）你是不是经常为自己设定目标，而且最终往往达不到那些目标？ （2）当一件事做得不够好时，你是否有再试一次的想法？ （3）你是否休息时仍想着学习、工作、或者其他还没…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-86.html"
+    },
+    {
+      "number": 85,
+      "title": "第 85 期",
+      "date": "2020-06-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201911/bg2019112509.jpg",
+      "summary": "最近，我看一个教授的讲座视频，介绍访问美国的感受。 他说，全世界的人都去美国，各种各样的人都有，有上层人，也有底层的难民。美国是世界最大的移民国家，三教九流，各种文化背景的人，你在美国都能看到。 美国这个国家很杂，奇怪的是，它不乱。按理说，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-85.html"
+    },
+    {
+      "number": 84,
+      "title": "第 84 期",
+      "date": "2020-06-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201911/bg2019111702.jpg",
+      "summary": "每次看到 IT 公司的招聘广告，我往往有一种感觉，很多工作是一次性工作。所谓“一次性工作”，就是企业用完人之后，就会把人裁掉，就像一次性筷子一样。 IT 竞争太激烈，市场和技术变化太快，企业都是敏捷开发，要求项目快速见效，招聘都是为项目服务…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-84.html"
+    },
+    {
+      "number": 83,
+      "title": "第 83 期",
+      "date": "2020-05-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201911/bg2019111703.jpg",
+      "summary": "TechCrunch 创始人迈克尔·阿灵顿，最近说了一句话： “我来到推特以后，才发现不管怎么沟通，一半人总是会讨厌另一半人。” 我理解他的意思。人与人的对立，原以为是互相不了解造成的。互联网拉近了人们的距离，让我们彼此更了解，所以理论上，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-83.html"
+    },
+    {
+      "number": 82,
+      "title": "第 82 期",
+      "date": "2020-05-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201911/bg2019110813.jpg",
+      "summary": "本周推荐一篇文章，一个美国的高级工程师谈如何选职业。 作者原来是一个外行，但是通过努力，进入了一家机器学习公司，现在发展得很好。他从自己的经历，得出一个观点： 就业要选择发展最快的行业。 停滞发展、或者缓慢发展的公司，完全是一个零和游戏。 …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-82.html"
+    },
+    {
+      "number": 81,
+      "title": "第 81 期",
+      "date": "2020-05-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201911/bg2019110707.jpg",
+      "summary": "最近，我看到一个网友的推特发言。 年轻时，我觉得亲戚们都是前车之鉴，我要避免重蹈他们的生活、性格、工作与处世态度。 直到现在这年纪，我觉得我跟他们越来越像了，于是感慨人生早就在家族基因注定。如果没有碰上基因突变，一个人的一生就是父母两边家族…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-81.html"
+    },
+    {
+      "number": 80,
+      "title": "第 80 期",
+      "date": "2020-05-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201910/bg2019103101.jpg",
+      "summary": "很多程序员创业，会选择做开发工具，给其他程序员使用，专攻开发者市场。 背后的想法很简单：我知道程序员需要什么工具，我给你写，如果你觉得好用，就让你的公司采购我的软件。这种模式在国外或许可行，但是我觉得，在国内很困难。 企业级开发工具创业，在…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-80.html"
+    },
+    {
+      "number": 79,
+      "title": "第 79 期",
+      "date": "2020-04-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201910/bg2019102417.jpg",
+      "summary": "最近，我想买一个自动炒菜机，就不用再忍受油烟了。 超市有很多半成品的配菜，买来以后直接倒进炒菜机。开好定时，机器就自动开始炒菜了。 没有油烟，也不用在旁边看着，时间一到，过来吃就可以了。味道不一定多好，但是下饭没有问题。我觉得很适合我的需要…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-79.html"
+    },
+    {
+      "number": 78,
+      "title": "第 78 期",
+      "date": "2020-04-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201910/bg2019101707.jpg",
+      "summary": "有一句有名的话：“只要站在风口，猪也能飞起来”。事业起飞的简单方法就是，起风时你正好在风口。 共享单车、AR、区块链、人工智能，这些都是过去或者现在的风口。那么，下一个风口在哪里？ 我最近有一个感觉，游戏业将是下一个风口。 未来几年中，很可…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-78.html"
+    },
+    {
+      "number": 77,
+      "title": "第 77 期",
+      "date": "2020-04-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201910/bg2019100907.jpg",
+      "summary": "十一长假，我看完了韩国电视剧《阿尔布拉罕宫的回忆》。 我推荐大家也去看看这个电视剧，不是因为有多好看，而是因为它反映了未来的娱乐业、游戏业的方向。 在电视剧中，主人公遇到了一款 AR 游戏，游戏的虚拟世界与真实世界发生了重合。它应该是世界第…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-77.html"
+    },
+    {
+      "number": 76,
+      "title": "第 76 期",
+      "date": "2020-04-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201910/bg2019100301.jpg",
+      "summary": "我一直觉得，找工作应该找自己热爱的职业。很多人不同意。 他们说，我热爱的东西，没法当做职业。旅行、美食、看电影，这样的爱好怎么当做职业呢？ 我最近想到怎么办了，只要照着我说的做，任何爱好都能变成职业。 很简单，只要把自己的爱好拍成视频，上传…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-76.html"
+    },
+    {
+      "number": 75,
+      "title": "第 75 期",
+      "date": "2020-04-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201909/bg2019092604.jpg",
+      "summary": "全世界都在制造电动汽车，美国一家媒体认为，汽车工人将大量失业，我觉得很有道理。 传统汽车是机械装置，需要大量零件，单单是动力传动系统就多达2,000个零件。 （图片说明：汽油发动机的复杂构造。） 但是，电动汽车是一个电子装置，核心是电动机和…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-75.html"
+    },
+    {
+      "number": 74,
+      "title": "第 74 期",
+      "date": "2020-03-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201909/bg2019091910.jpg",
+      "summary": "大家有没有感觉，互联网上免费的东西越来越少了。 打开很多网站或 App，都要求你付费：听歌要钱，视频要钱，下载要钱，读一篇文章也要钱。这当然无可厚非，但是我总觉得，纯粹的信息收费不是一个好的商业模式，除非有增值服务。 这有两个原因。 第一个…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-74.html"
+    },
+    {
+      "number": 73,
+      "title": "第 73 期",
+      "date": "2020-03-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201909/bg2019091206.jpg",
+      "summary": "很多人家里买了跑步机，练了一阵子，就渐渐不用了，放在角落积灰。我家就是这样。 跑步 App 诞生的时候，也面临这个问题。如何让三分钟热度的用户坚持下来，不要放弃？ 它想了很多办法， 我认为最有用的一招，就是数据记录。 昨天跑了几公里，今天跑…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-73.html"
+    },
+    {
+      "number": 72,
+      "title": "第 72 期",
+      "date": "2020-03-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201909/bg2019090502.jpg",
+      "summary": "最近，美国一家图书馆整理仓库时，发现一本旧书里面夹了一张珍贵的古代哲学家手稿。 这条新闻让我想到，这种事情不可能出现在当代人身上，因为当代人根本没有手稿。 以前，人们写一篇文章，甚至便条和收据，都可能保留下来。以后不会了，因为人们不在纸上写…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-72.html"
+    },
+    {
+      "number": 71,
+      "title": "第 71 期",
+      "date": "2020-03-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201908/bg2019082601.jpg",
+      "summary": "我家附近有一所重点中学，校门口拉起了大红条幅：“热烈祝贺我校三名同学考入北大清华”。 这不禁让我想到，很多科技公司的创始人都不是一流名校毕业。马云是杭州师范学院，马化腾是深圳大学，任正非是重庆建筑工程学院，丁磊是成都电子科大，周鸿祎是西安交…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-71.html"
+    },
+    {
+      "number": 70,
+      "title": "第 70 期",
+      "date": "2020-02-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201908/bg2019082201.jpg",
+      "summary": "本周有两条新闻，大家可能没注意。 第一条是丹麦发放全世界第一笔负利率贷款，利率是-0.5%。银行借你一万元，一年后你还9950元。 据说原因是，银行没有足够的贷款业务，为了减少存款，已经向企业存款收费了。既然存款可以收费，那么贷款负利率也能…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-70.html"
+    },
+    {
+      "number": 69,
+      "title": "第 69 期",
+      "date": "2020-02-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201908/bg2019081403.jpg",
+      "summary": "一件事“做得好”比较好，还是“做得快”比较好？ 鱼和熊掌不能得兼，你怎么选择：做得好，付出的代价可能是耗时长、成本高；做得快，意味着完成度低、不是精品。 我很赞同一篇文章的结论：做得快更好。 做得快不仅可以让你在单位时间内完成更多的工作，而…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-69.html"
+    },
+    {
+      "number": 68,
+      "title": "第 68 期",
+      "date": "2020-02-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201908/bg2019080702.jpg",
+      "summary": "一个月之前，我在周刊讨论区发了一个帖子《谁在招人？》，欢迎企业免费张贴招聘/实习信息。现在已经有30多家公司的100多个岗位，找工作的朋友可以关注。 有的读者私下问我：“大部分公司没写报酬，工资会不会给得低？”我心想，你怎么会有这种担心！普…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-68.html"
+    },
+    {
+      "number": 67,
+      "title": "第 67 期",
+      "date": "2020-02-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201908/bg2019080109.jpg",
+      "summary": "历史上，美国密苏里州有一个巨大的地下石灰矿场，里面的道路密密麻麻，就像迷宫一样。现在，它当作物流仓库使用。 最近，有人在里面骑自行车漫游，将视频传到网上，引起轰动，这个场景简直像视频游戏一样。人们已经在讨论，是否可以把现实增强 AR 游戏引…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-67.html"
+    },
+    {
+      "number": 66,
+      "title": "第 66 期",
+      "date": "2020-01-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201907/bg2019072414.jpg",
+      "summary": "本期周刊很高兴得到北京 开课吧 公司的支持，他们是国内领先的在线教育平台。 开课吧根据阿里、头条、美团等公司2019年的面试题，梳理了一份完整的 《“高级前端工程师”面试知识图谱》 ，XMind 格式，通过周刊这个平台带给需要的朋友，希望对…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-66.html"
+    },
+    {
+      "number": 65,
+      "title": "周刊开设\"谁在招人\"的招聘服务",
+      "date": "2020-01-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201907/bg2019071806.jpg",
+      "summary": "本期开始，周刊增加一个 《招聘信息》 栏目，正在找工作的同学，可以直接看周刊的结尾。 如果贵公司正在招人，欢迎把招聘信息发到周刊。 我在讨论区建了一个帖子，那里是免费的。如果希望发到正式的周刊上面，推送到所有读者，请与我联系（Email: …",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-65.html"
+    },
+    {
+      "number": 64,
+      "title": "第 64 期",
+      "date": "2020-01-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201907/bg2019071101.jpg",
+      "summary": "这里我要感谢互联网在线教育公司——三节课，赞助了本期周刊。三节课是新职业教育领域里的明星公司，刚刚完成了新一轮融资。 他们有一个很不错的《数据分析师课程》，正好跟本期的话题吻合。接下来，就向大家介绍一下这门课程。 最终，不管你从事哪一类岗位…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-64.html"
+    },
+    {
+      "number": 63,
+      "title": "第 63 期",
+      "date": "2020-01-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201907/bg2019070402.jpg",
+      "summary": "日本航天局的小型飞行器 Hayabusa2，已经围绕小行星 Ryugu 运行了将近一年。最近，发回了一张非常清晰的小行星表面照片，距离地面只有9米。 这张照片是非常了不起的。这个飞行器只有冰箱大小，重量600公斤，以每秒15英里的速度飞行了…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-63.html"
+    },
+    {
+      "number": 62,
+      "title": "第 62 期",
+      "date": "2020-01-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201906/bg2019062801.jpg",
+      "summary": "很多地方都有铁丝网，不便于拍照。加拿大 Jean Lesage 国际机场为了方便游客，特别在铁丝网上面挖了一个拍照孔，让游客可以更好地拍摄飞机的起飞和降落。为了防止断的铁丝割伤手，拍照孔周围有一圈保护框。 机场一共找了10个最合适拍照的地点…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-62.html"
+    },
+    {
+      "number": 61,
+      "title": "第 61 期",
+      "date": "2019-12-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201906/bg2019062101.jpg",
+      "summary": "中国的高铁采用轮轨技术，为了更快的速度，下一代高铁可能会采用磁浮技术。5月23日，磁浮试验样车在青岛下线，目前只是原型列车，已经能够实现静态悬浮。真正的磁浮工程列车计划在明年问世，2021年开始全面测试，设计时速高达600公里。 目前，世界…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-61.html"
+    },
+    {
+      "number": 60,
+      "title": "第 60 期",
+      "date": "2019-12-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201906/bg2019061401.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 中国历史的第一课，总是教大家，我国很早就有人类活动，周口店发现的北京猿人已有20…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-60.html"
+    },
+    {
+      "number": 59,
+      "title": "第 59 期",
+      "date": "2019-12-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201906/bg2019060701.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：浦东滨江，上海，2018年） 关于未来有很多预测，最新的一种预测是，未来…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-59.html"
+    },
+    {
+      "number": 58,
+      "title": "第 58 期",
+      "date": "2019-12-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201905/bg2019053101.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 据我观察，经营最好的自媒体，似乎都是美妆类的，介绍化妆品和服饰。 那些频道天天更…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-58.html"
+    },
+    {
+      "number": 57,
+      "title": "第 57 期",
+      "date": "2019-11-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201905/bg2019052401.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：陆家嘴，上海，2018） 前些日子，一个运营的女同学问我：“为什么程序员…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-57.html"
+    },
+    {
+      "number": 56,
+      "title": "第 56 期",
+      "date": "2019-11-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201905/bg2019051701.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：昆山森林公园，苏州，2018） 一篇新闻报道提到，美国就业行情最好的十种…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-56.html"
+    },
+    {
+      "number": 55,
+      "title": "第 55 期",
+      "date": "2019-11-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201905/bg2019051001.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 ： （题图：昆山火车站，苏州，2018） 关于 996 工作制，已经有很多评论和…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-55.html"
+    },
+    {
+      "number": 54,
+      "title": "第 54 期",
+      "date": "2019-11-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201905/bg2019050301.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：鸣号自动侦测系统，上海，2019。） 能够获得暴利的职业，都有一个共同特…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-54.html"
+    },
+    {
+      "number": 53,
+      "title": "第 53 期",
+      "date": "2019-10-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201904/bg2019042601.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 日本东京最近举行了一次“DNA 相亲会”。参加活动的男女互不认识，婚介公司根据双…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-53.html"
+    },
+    {
+      "number": 52,
+      "title": "第 52 期",
+      "date": "2019-10-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201904/bg2019041901.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 据报道，汉王科技开发了一个“课堂呵护系统”，已经在北京牛栏山一中、内蒙古赤峰四中…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-52.html"
+    },
+    {
+      "number": 51,
+      "title": "第 51 期",
+      "date": "2019-10-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201904/bg2019041201.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 一个程序员的 MacBook 送修了，他只好重新使用10年前的笔记本电脑（上图）…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-51.html"
+    },
+    {
+      "number": 50,
+      "title": "第 50 期",
+      "date": "2019-10-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201904/bg2019040501.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：杭州，2018） 前几天，我听一个广播节目。主持人问，现在很多人开网约车…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-50.html"
+    },
+    {
+      "number": 49,
+      "title": "第 49 期",
+      "date": "2019-10-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201903/bg2019032901.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：千岛湖，浙江，2018） 一个美国程序员分享自己的工作方法，其中有一条是…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-49.html"
+    },
+    {
+      "number": 48,
+      "title": "第 48 期",
+      "date": "2019-09-25",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201903/bg2019032201.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 上图是世界最著名的程序员之一：Bill Joy。 四十年前，他20岁出头，在加州…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-48.html"
+    },
+    {
+      "number": 47,
+      "title": "第 47 期",
+      "date": "2019-09-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201903/bg2019031501.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 如果你长期看这个周刊，可能知道我的观点：人工智能将导致大量失业，因为算法将取代大…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-47.html"
+    },
+    {
+      "number": 46,
+      "title": "第 46 期",
+      "date": "2019-09-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201903/bg2019030801.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：西子宾馆，杭州，2018） 现在，很多网站使用大数据算法，很精确地知道用…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-46.html"
+    },
+    {
+      "number": 45,
+      "title": "第 45 期",
+      "date": "2019-09-04",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201903/bg2019030101.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 美国科幻小说大师阿西莫夫，写过一本回忆录《人生舞台》。他在里面提到，成名后，他的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-45.html"
+    },
+    {
+      "number": 44,
+      "title": "第 44 期",
+      "date": "2019-08-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201902/bg2019022201.jpg",
+      "summary": "每周分享第 44 期（20190222） 这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：杭州西湖，2018年） 最近，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-44.html"
+    },
+    {
+      "number": 43,
+      "title": "第 43 期",
+      "date": "2019-08-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201902/bg2019021501.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 上图是一架小飞机停在草地，一个人从上面跳下来。 这张图取自一篇2018年12月发…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-43.html"
+    },
+    {
+      "number": 42,
+      "title": "第 42 期",
+      "date": "2019-08-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201901/bg2019020101.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 通知：下周春节假期，周刊暂停一期。 呆伯特漫画的作者亚当斯（ Scott Ada…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-42.html"
+    },
+    {
+      "number": 41,
+      "title": "第 41 期",
+      "date": "2019-08-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201901/bg2019012501.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：杭州，2018） 有几个网友留言问我，怎么看互联网“裁员潮”。我就来谈几…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-41.html"
+    },
+    {
+      "number": 40,
+      "title": "第 40 期",
+      "date": "2019-07-31",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201901/bg2019011801.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 我知道一个朋友，他很喜欢咖啡。 但是，他喜欢的不是喝咖啡，而是制作咖啡。选购咖啡…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-40.html"
+    },
+    {
+      "number": 39,
+      "title": "第 39 期",
+      "date": "2019-07-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201901/bg2019011101.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 新年的1月2日，苹果公司发布了一份公开信，长达1400字。主要内容是，由于大中华…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-39.html"
+    },
+    {
+      "number": 38,
+      "title": "第 38 期",
+      "date": "2019-07-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201901/bg2019010401.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：公交站的电子墨水屏，上海，2018） 最近我总在想，手机支付是否真的方便…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-38.html"
+    },
+    {
+      "number": 37,
+      "title": "第 37 期",
+      "date": "2019-07-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201812/bg2018122834.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：安吉，浙江，2018） 前些日子，武侠小说泰斗金庸先生去世了。 他可能是…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-37.html"
+    },
+    {
+      "number": 36,
+      "title": "第 36 期",
+      "date": "2019-07-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201812/bg2018122129.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：安吉，浙江，2018） 美国一个编程培训班的老板，写了一篇文章。他说自己…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-36.html"
+    },
+    {
+      "number": 35,
+      "title": "第 35 期",
+      "date": "2019-06-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201812/bg2018121401.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 媒体报道，50岁以上的日本男性每四人就有一人独自生活，女性每七人就有一人独自生活…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-35.html"
+    },
+    {
+      "number": 34,
+      "title": "第 34 期",
+      "date": "2019-06-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201812/bg2018120701.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，或推荐你自己的项目，请前往 GitHub 的 ruanyf/weekly 提交 issue。 由于微信不允许外部链接，你需要点击页尾左下角的“阅读原文”，才能访问文中的链接。…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-34.html"
+    },
+    {
+      "number": 33,
+      "title": "第 33 期",
+      "date": "2019-06-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201811/bg2018113001.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，请前往 GitHub 的 ruanyf/weekly 提交 issue。 上周六是台北市长选举。原定下午四点结束投票，但是排队的人太多，于是改成只要四点你还在排队，就可以投票…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-33.html"
+    },
+    {
+      "number": 32,
+      "title": "第 32 期",
+      "date": "2019-06-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201811/bg2018112301.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：陆家嘴，上海，2018） 最近，我看到一个小寓言，很值得跟大家分享。 三个建筑工人正在砌砖头…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-32.html"
+    },
+    {
+      "number": 31,
+      "title": "第 31 期",
+      "date": "2019-05-29",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201811/bg2018111601.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：天荒坪，安吉，2018） 计算机科学家 Tim Bray 最近写了一篇博客，他觉得自己可能应…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-31.html"
+    },
+    {
+      "number": 30,
+      "title": "第 30 期",
+      "date": "2019-05-22",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201811/bg2018110901.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，请前往 GitHub 的 ruanyf/weekly 提交 issue。 上个月谷歌宣布，社交应用 G+ 将在10个月后关闭。 主要原因有两个。一是缺乏用户，90%的用户会话…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-30.html"
+    },
+    {
+      "number": 29,
+      "title": "第 29 期",
+      "date": "2019-05-15",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201811/bg2018110201.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，请前往 GitHub 的 ruanyf/weekly 提交 issue。 1968年，计算机学家梅尔文·E·康威发表了一篇著名论文，后来被称为康威定律（Conway's la…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-29.html"
+    },
+    {
+      "number": 28,
+      "title": "第 28 期",
+      "date": "2019-05-08",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201810/bg2018102601.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，请前往 GitHub 的 ruanyf/weekly 提交 issue。 第24期时，我引用了一个开发者对年轻程序员的告诫。 在软件开发中，技术变化如此之快，你花费了大量时间…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-28.html"
+    },
+    {
+      "number": 27,
+      "title": "第 27 期",
+      "date": "2019-05-01",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201810/bg2018101901.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎大家去 GitHub 的 ruanyf/weekly 提交 issue，进行投稿。 2005年，斯坦福大学邀请乔布斯在毕业典礼演讲。这个演讲后来成为经典，《乔布斯传》说\"或许有些演…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-27.html"
+    },
+    {
+      "number": 26,
+      "title": "第 26 期",
+      "date": "2019-04-24",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201810/bg2018101201.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 Basecamp 是 IT 行业很有名的一家公司，提供团队协作工具，同时也是 Rails on Ruby 框架的创造者。这家公司的特别之处在于，它不仅写软件，还写畅销书！ 它的两位老板…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-26.html"
+    },
+    {
+      "number": 25,
+      "title": "第 25 期",
+      "date": "2019-04-17",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201810/bg2018100501.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 上周我看到一个报道，9月23日是安卓手机的十周年纪念日。 十年前的2008年9月23日，HTC 发布了世界上第一台安卓手机 G1，3.2英寸屏幕，320x480分辨率，256MB内存，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-25.html"
+    },
+    {
+      "number": 24,
+      "title": "第 24 期",
+      "date": "2019-04-10",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201809/bg2018092801.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：浦东滨江，上海，2018。） Hacker News 上面，有人问：\"新人进入软件行业，应该学什么？\" 很多热心人提供建议。有人说： \"你应该好好学习一门语言。精通一门计算机语…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-24.html"
+    },
+    {
+      "number": 23,
+      "title": "第 23 期",
+      "date": "2019-04-03",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201809/bg2018092101.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：鲁迅公园，上海，2018。） 很多人都说，当今社会趋向阶级固化，贫穷世袭。这种说法有根据吗？ 纽约大学的社会学家就做了一次调查，企图给出实证数据。最近，他们公布了结果。 社会学…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-23.html"
+    },
+    {
+      "number": 22,
+      "title": "第 22 期",
+      "date": "2019-03-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201809/bg2018091401.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 2008年，英国摄影师大卫·斯莱特（David Slater）来到印度尼西亚，拍摄一种珍贵的猕猴。他把照相机固定在三脚架上，放在丛林中，然后躲在远处偷偷观察猕猴。猴子很快发现了照相机，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-22.html"
+    },
+    {
+      "number": 21,
+      "title": "第 21 期",
+      "date": "2019-03-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201809/bg2018090701.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 漫画家蔡志忠有一个演讲，题目叫做《努力是没有用的》。读完这份演讲稿，我觉得他说的有道理。 有些人非常勤奋，别人休息和娱乐的时候，都在工作学习。但是努力了一辈子，人生也没有显著的提升，就…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-21.html"
+    },
+    {
+      "number": 20,
+      "title": "第 20 期",
+      "date": "2019-03-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201808/bg2018083101.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：特洛伊遗址，土耳其，2014。游客付费后，可以穿上古罗马士兵的服装，拍照留念。） 本周，我向大家推荐一篇好文章《大学的替代方案》。作者与许多成功的企业家一样，没有读完大学，他从…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-20.html"
+    },
+    {
+      "number": 19,
+      "title": "第 19 期",
+      "date": "2019-03-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201808/bg2018082401.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 上周，我看了电影《头号玩家》（Ready Player One）。这是今年的新片，如果你还没看过，我推荐去看一下。不是因为它有多精彩，而是因为这部电影就是未来的真实场景。 未来存在两种…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-19.html"
+    },
+    {
+      "number": 18,
+      "title": "第 18 期",
+      "date": "2019-02-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201808/bg2018081701.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 上周（8月4日），委内瑞拉总统马杜罗发表公众演讲，结果天空中出现了两个无人飞行器，慢慢靠近人群。每个飞行器都携带了1公斤的炸药，企图暗杀马杜罗。一个飞行器被击落，另一个飞行器出现操作故…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-18.html"
+    },
+    {
+      "number": 17,
+      "title": "第 17 期",
+      "date": "2019-02-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201808/bg2018081001.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （图片说明：2018年6月的气温与1951-1980年平均气温的对比，来自推特@SimonLeeWx） 今天夏天，全球高温创纪录。日本和韩国都是史上最高温，西班牙葡萄牙接近48度的欧洲…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-17.html"
+    },
+    {
+      "number": 16,
+      "title": "第 16 期",
+      "date": "2019-02-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201808/bg2018080301.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 影视作品经常出现，病人的心脏停止跳动，医生使用两块电极板对心脏电击。它叫除颤器（defibrillator），通过放电刺激心脏恢复跳动。 除颤器必须在心跳停止以后立刻使用，拖延越久，希…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-16.html"
+    },
+    {
+      "number": 15,
+      "title": "第 15 期",
+      "date": "2019-02-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201807/bg2018072701.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：集盒商城，杭州，2018） 很多网友问，《每周分享》的来源是什么，你从哪里得知这些消息？ 我的消息来源主要是下面几个。 Hacker News GitHub RSS 订阅 Tw…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-15.html"
+    },
+    {
+      "number": 14,
+      "title": "第 14 期",
+      "date": "2019-01-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201807/bg2018072001.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 上周，特斯拉汽车的老板马斯克（Elon Musk）来中国，7月11日在上海建立全球第二家工厂，7月12日在北京建立研发中心，当天下午就回美国。他日程太赶没时间吃饭，媒体拍到他与中国员工…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-14.html"
+    },
+    {
+      "number": 13,
+      "title": "第 13 期",
+      "date": "2019-01-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201807/bg2018071301.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：武林门码头，杭州，2017）",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-13.html"
+    },
+    {
+      "number": 12,
+      "title": "第 12 期",
+      "date": "2019-01-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201807/bg2018070601.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：佘山，上海，2018。） 我看到一篇报道，美国2016年的社会福利支出，占到政府总支出的73%。这就是说，美国政府的大部分支出，都用在养老金、医疗保险、失业救济这些方面了。现在…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-12.html"
+    },
+    {
+      "number": 11,
+      "title": "第 11 期",
+      "date": "2019-01-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201806/bg2018062901.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：虎跑后山，杭州，2016。 很多人去虎跑泉游玩，却不知道，泉眼后面的山是可以爬上去的，山顶有很棒的视野。翻过山就是九溪，可以一直走到龙井村或杨梅岭。） ============…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-11.html"
+    },
+    {
+      "number": 10,
+      "title": "第 10 期",
+      "date": "2019-01-02",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201806/bg2018062201.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：卢日尼基体育场，莫斯科，2014。世界杯开幕式的转播，让我意识到自己去过那个体育场。那天想去莫斯科大学玩，路过一个体育场，大门紧锁，空无一人。） 我经常收到来信，询问怎样才能变…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-10.html"
+    },
+    {
+      "number": 9,
+      "title": "第 9 期",
+      "date": "2018-12-26",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201806/bg2018061401.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 这个周末是端午节，我要陪家人旅行，所以提前一天发布，祝大家端午节快乐。 （题图：星愿公园，上海，2017） 一个网友看了我的新书《未来世界的幸存者》，留言说：\"现在已经是未来了，大多数…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-9.html"
+    },
+    {
+      "number": 8,
+      "title": "第 8 期",
+      "date": "2018-12-19",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201806/bg2018060801.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：烟台山历史保护区，烟台，2017。我小时候的商店都是这种样子。） 最近，日本厚生劳动省公布了正式的统计数据。2017年，日本全国一共出生了94.6万个新生儿，这是有史以来最低的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-8.html"
+    },
+    {
+      "number": 7,
+      "title": "第 7 期",
+      "date": "2018-12-12",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201805/bg2018053001.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：海底都是矿泉水瓶。） 我看到一篇《国家地理》杂志的报道。地球最深的地方是太平洋的马里亚纳海沟，深达海平面下11公里。2016年，一艘潜水艇到达那里，拍了一批照片回来。最近，科学…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-7.html"
+    },
+    {
+      "number": 6,
+      "title": "第 6 期",
+      "date": "2018-12-05",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201805/bg2018052501.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 最近，我有一个行程，可能要去日本。我还没去过日本呢，听说日本人普遍听不懂英语，我又不会说日语，这可怎么办？ 突然想到，\"谷歌翻译\"这个 APP 也许能解决语言问题。它有一个\"对话实时翻…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-6.html"
+    },
+    {
+      "number": 5,
+      "title": "第 5 期",
+      "date": "2018-11-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/201805/bg2018051801.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 （题图：世博公园，上海，2018） 本周，服务器遭受攻击，网站下线50多个小时。我一度以为，《每周分享》不能按时发了。现在，攻击停了，但你不知道，什么时候它还会回来。这件事情的细节，我…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-5.html"
+    },
+    {
+      "number": 4,
+      "title": "第 4 期",
+      "date": "2018-11-21",
+      "coverImage": "http://www.ruanyifeng.com/blogimg/asset/2018/bg2018051101.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 今年5月5日是马克思诞生200周年的纪念日，中新社的记者来到伦敦的马克思墓地，写了一篇《墓地见闻》。 马克思墓地位于伦敦北部的海格特公墓内。该公墓是伦敦最大公墓之一，安葬着16万名已故…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-4.html"
+    },
+    {
+      "number": 3,
+      "title": "第 3 期",
+      "date": "2018-11-14",
+      "coverImage": "http://www.ruanyifeng.com/blogimg/asset/2018/bg2018050401.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西。 （题图：杭州的一家画廊，2017） 本周开始，这个专栏每周五发布，希望为大家的周末提供一些阅读材料。另一个考虑是，我希望这个专栏有可读性，不要太偏向机器，而要偏向人。放到周五发，就是为了提醒自己，…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-3.html"
+    },
+    {
+      "number": 2,
+      "title": "第 2 期",
+      "date": "2018-11-07",
+      "coverImage": "http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042801.jpg",
+      "summary": "这里记录过去一周，我看到的值得分享的东西。 （题图：青岛火车站） 上周发了第一期以后，有朋友问为什么写这个专栏？ 我想了想，除了整理收藏夹，主要原因还是我希望自己多发声。长久以来，我一直努力，每周更新博客，但是现在做不到：简单的题材不值得写…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-2.html"
+    },
+    {
+      "number": 1,
+      "title": "第 1 期",
+      "date": "2018-10-31",
+      "coverImage": "http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042301.png",
+      "summary": "这里记录过去一周，我看到的值得分享的东西。 长久以来，我一直用各种方式，尝试整理我的收藏夹。最近想到，把它写成文章，共享出来，也许效果更好。",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-1.html"
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "number": 251,
+  "title": "国产单板机值得推荐",
+  "date": "2023-08-16",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202304/bg2023041803.webp",
+  "coverCaption": "第40届潍坊国际风筝会4月15日开幕，天空到处漂浮着奇特的风筝。（via）",
+  "summary": "前些天，添置设备的时候，我偶然瞅了一眼树莓派，被价格吓到了。 有些读者可能不了解，树莓派是什么，我简单说一下。 它是一块电路板，上面集成了 CPU、内存、各种 IO 接口，实际就是一台小主机。买来以后，自己装上系统，就可以当作家用电脑或者服…",
+  "sections": [
+    {
+      "id": "封面图",
+      "title": "封面图",
+      "items": [
+        {
+          "content": "<p>第40届潍坊国际风筝会4月15日开幕，天空到处漂浮着奇特的风筝。（<a href=\"http://www.news.cn/photo/2023-04/15/c_1129526643_2.htm\" target=\"_blank\" rel=\"noopener noreferrer\">via</a>）</p>",
+          "links": [
+            {
+              "text": "via",
+              "url": "http://www.news.cn/photo/2023-04/15/c_1129526643_2.htm"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041803.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "本周话题-国产单板机值得推荐",
+      "title": "本周话题：国产单板机值得推荐",
+      "items": [
+        {
+          "content": "<p>前些天，添置设备的时候，我偶然瞅了一眼树莓派，被价格吓到了。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041907.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>有些读者可能不了解，树莓派是什么，我简单说一下。</p>\n<p>它是一块电路板，上面集成了 CPU、内存、各种 IO 接口，实际就是一台小主机。买来以后，自己装上系统，就可以当作家用电脑或者服务器使用。</p>\n<p><strong>这类把电脑主机集成为一块电路板的产品，统称为单板机</strong>（single-board computer）。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041909.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>单板机有大有小，树莓派属于微型单板机，以前的价格是很便宜的。</p>\n<p>2019年6月，树莓派 4B 发布，官方定价是35美元（内存 2G）到55美元（内存 8G）。也就是说，那时最贵也就是人民币400元左右。</p>\n<p>疫情期间，价格一直上涨。去年2月，我买了一块 8G 内存的树莓派 4B，花了800元，当时觉得太贵了。</p>\n<p>大家猜猜看，现在多少钱？</p>\n<p>2023年4月，8G 内存的型号是人民币1400元左右，2G 是900元左右。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041910.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>你能想像吗，四年前投产的一块电路板，不仅没有贬值，价格居然上涨了两三倍！看来我们需要改变观念了，电子产品也能保值增值……</p>\n<p>我的看法是，现在这种价格，根本不用考虑树莓派了，已经完全不值得了。<strong>市场上有很多价格更便宜、性能更强的替代品。</strong></p>\n<p>我推荐国产单板机。以前，国内模仿树莓派的产品，比较低档和粗糙，被称为“山寨板”。但是，现在完全不一样了。</p>\n<p>这几年，<strong>国产单板机大跃进</strong>，不仅做工精良，功能齐备，而且有不少创新的设计，外形也漂亮，堪称精品。看看下面的产品，你动不动心？</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041913.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041912.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041911.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>别看这些单板机体积小，功能一点都不弱，一般的任务都能胜任，便宜便携又省电，扩展性也好。当然，图形性能和运算能力肯定是受限的，计算量大的任务不适合。</p>\n<p>我陆陆续续买过几台，都很满意。Youtube 上面，很多外国程序员购买了，也是赞不绝口，非常推荐。</p>\n<p>国产单板机的现状是，硬件令人满意，主要缺点在于软件。它们的技术文档、配套软件、开发工具、社区生态比较缺，跟国外的差距很大。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041914.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>在这里，我想特别提一下<strong>瑞芯微的 RK3588 芯片</strong>。它是 ARM 架构的 CPU，自从华为被美国制裁以后，它大概是国内设计的最强 ARM 芯片了，性能据说在高通的骁龙855到骁龙865之间。</p>\n<p>最新的国产单板机很多配备了这块芯片，我建议大家多关注，因为它的性能足够强，内存大，接口多，可以有很多玩法，比如用来做安卓的桌面电脑。</p>\n<p>树莓派在它面前毫无性价比，它比树莓派性能强两三倍，提供的接口更多，价格还便宜三分之一。</p>\n<p>总之，国产单板机的竞争力很强，我觉得厂家、消费者、政府都应该努力，好好扶植这一类产品，形成拳头产业，对外占据国际市场，对内促进中国软硬件整体水平的提高。</p>",
+          "links": [],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041907.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041909.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041910.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041913.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041912.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041911.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041914.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "如何提高抗风险能力",
+      "title": "如何提高抗风险能力",
+      "items": [
+        {
+          "content": "<p>上周，<a href=\"https://baike.baidu.com/item/%E5%AD%99%E6%98%8E%E5%B1%95/55347274\" target=\"_blank\" rel=\"noopener noreferrer\">孙明展老师</a>从广州联系我，他们又要搞活动了。</p>\n<p>这是我认识他的第六年。他从世界500强保险公司辞职创业，开了一家<strong>第三方家庭资产规划咨询服务公司</strong>，专门做家庭资产规划咨询和财商教育。</p>\n<p>当时，他看到我的周刊，就找我合作，觉得程序员这个群体很需要这些服务。他们每年搞活动的时候，就到周刊发消息，转眼已经第六年了。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041606.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他们的活动是一个纯粹的咨询活动，不收取任何费用，<strong>一对一地回答大家的理财保险等相关问题，承诺不推销任何产品。</strong> 活动目的就是普及家庭保障规划、教育规划、养老规划等干货知识，推广他们的品牌。</p>\n<p>任何保险、孩子教育、未来养老规划等方面的问题，到时都可以向专业的顾问免费咨询，比如医疗保险需要买吗、怎么看懂“免责条款”、怎么规划自己未来养老储蓄问题等等。</p>\n<p>今年活动主题是 <strong>《如何提高抗风险能力》</strong>。他们会给出一些针对性的建议，怎么防范财务风险，尽量让资产保值增值。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041702.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>大家可以微信搜索个人公号<a href=\"https://mp.weixin.qq.com/s/awQIJW4m8DS6joloxWPljQ\" target=\"_blank\" rel=\"noopener noreferrer\">“孙明展”</a>，或者访问<a href=\"https://www.trussan.com/\" target=\"_blank\" rel=\"noopener noreferrer\">官网</a>，先了解一下，里面有很多内容，包括保险科普文章和自有品牌“谱蓝”的介绍（上图）。</p>\n<p>他们的公司相当正规，发展得很好，员工有几百人，还拿到了 B 轮投资，做了自己的咨询软件引擎。</p>\n<p>活动中，理财师除了回答问题，还会根据每个人的情况，进行家庭财务分析，指出风险所在，为你设计一套<strong>家庭财务保障方案</strong>，包括存款、投资、保险等金融产品的配置，兼顾抗风险和养老的需求，尽量做到保值增值。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022060406.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>欢迎大家参加，微信扫描下方二维码，或者点击<a href=\"https://media.trussan.com/index.php?s=/planClick/bp/aW1wb3J0aWQ9MjA5NjUmcG9zaXRpb249MQ%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\">这个链接</a>，就可以报名，前100名还可以获赠一份《家庭财务宝典》。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041605.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "孙明展老师",
+              "url": "https://baike.baidu.com/item/%E5%AD%99%E6%98%8E%E5%B1%95/55347274"
+            },
+            {
+              "text": "“孙明展”",
+              "url": "https://mp.weixin.qq.com/s/awQIJW4m8DS6joloxWPljQ"
+            },
+            {
+              "text": "官网",
+              "url": "https://www.trussan.com/"
+            },
+            {
+              "text": "这个链接",
+              "url": "https://media.trussan.com/index.php?s=/planClick/bp/aW1wb3J0aWQ9MjA5NjUmcG9zaXRpb249MQ%3D%3D"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041606.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041702.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022060406.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041605.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "科技动态",
+      "title": "科技动态",
+      "items": [
+        {
+          "title": "气候变暖与全垒打",
+          "content": "<p>美国气象学家的一项研究发现，2010年开始，美国棒球大联盟的明星击球手，每年可以多打出50个全垒打。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041405.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>气象学家认为，这与全球气候变暖有关。气温上升后，空气分子移动加快，使得空气密度降低，从而减少了空气阻力，让球可以飞得更远。</p>\n<p>经过计算，气温每升高1摄氏度，全垒打的可能性就会增加1%。以此类推，很多田径项目都会受到气候变暖的影响，从而使得成绩变好。</p>",
+          "links": [
+            {
+              "text": "气候变暖与全垒打",
+              "url": "https://thehill.com/changing-america/sustainability/climate-change/3938917-goner-climate-change-helping-batters-hit-more-home-runs-study/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041405.webp"
+          ]
+        },
+        {
+          "title": "模拟火星舱",
+          "content": "<p>美国宇航局正在招募4名志愿者，参加今年6月开始的模拟火星舱实验。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041506.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这4人将在模拟的火星舱里面生活一年，用来了解哪些资源是人类在火星长期生存所必需的。</p>\n<p>模拟舱是 3D 粘土打印的，预计火星上就采用这种方法建造房屋。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041504.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他们的外部环境也尽量布置得像火星，窗外都是红土地。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041503.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>模拟舱内部面积为150平方米，包括四间单人宿舍、一间公用卫生间、工作区、医疗区和休息区。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041505.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>为了尽量逼真，他们与外界的通信将有22分钟的延迟，那是无线电信号从地球到火星的时间。平时，除了科学实验，他们还需要自己栽培西红柿和绿叶蔬菜。</p>",
+          "links": [
+            {
+              "text": "模拟火星舱",
+              "url": "https://www.theguardian.com/science/2023/apr/12/nasa-texas-humans-prepare-mars"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041506.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041504.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041503.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041505.webp"
+          ]
+        },
+        {
+          "title": "摄像头测量血压",
+          "content": "<p>澳大利亚和伊拉克的研究人员，开发了一种基于摄像头的血压测量法，不需要任何身体接触。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202212/bg2022122209.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这种技术近距离拍摄一个人10秒，就能从前额的两个区域提取心脏信号，使用算法算出血压。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202212/bg2022122210.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>研究人员称，准确率可以达到90%。不过，这个准确率值得怀疑，智能手表直到今天都不能准确测量血压，何况不接触人体的摄像头。</p>",
+          "links": [
+            {
+              "text": "摄像头测量血压",
+              "url": "https://petapixel.com/2022/12/07/researchers-develop-way-to-measure-blood-pressure-using-a-camera-and-ai/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202212/bg2022122209.webp",
+            "https://cdn.beekka.com/blogimg/asset/202212/bg2022122210.webp"
+          ]
+        },
+        {
+          "title": "超薄太阳能电池",
+          "content": "<p>麻省理工学院发明了超薄太阳能电池，像纸张一样薄，每平方米仅重100克。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202212/bg2022122301.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>传统的玻璃太阳能板，每平方米重达10.7公斤，是这种超薄板的100倍。它又薄又轻，可以做成一块毯子，铺在屋顶上，大大降低安装成本。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202212/bg2022122302.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>而且，它还能用在以前无法放置太阳能板的地方，比如船帆、无人机机翼、帐篷等，甚至贴在玻璃窗上，对于户外需要负重的场合也特别有用。</p>",
+          "links": [
+            {
+              "text": "超薄太阳能电池",
+              "url": "https://spectrum.ieee.org/thin-film-solar-panels"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202212/bg2022122301.webp",
+            "https://cdn.beekka.com/blogimg/asset/202212/bg2022122302.webp"
+          ]
+        },
+        {
+          "title": "博物馆疗法",
+          "content": "<p>现代人有巨大的压力，许多人患有忧郁症和焦虑症。为了帮助这些患者，比利时医生想出了一种新的“博物馆疗法”。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202209/bg2022092112.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>医生要求病人，跟朋友或家人一起参观布鲁塞尔市的博物馆。</p>\n<p>背后的想法是，忧郁症和焦虑症的病因，部分与缺乏户外活动和社交活动有关。</p>\n<p>病人走出房间，与亲友一起参加户外活动，来到安静、放松、又有很多陌生人的博物馆，有助于心态恢复平静。</p>",
+          "links": [
+            {
+              "text": "博物馆疗法",
+              "url": "https://www.theguardian.com/world/2022/sep/17/museums-on-prescription-brussels-tests-cultural-visits-to-treat-anxiety"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202209/bg2022092112.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "中国创作者的 AI 运用",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041401.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>《中国新闻周刊》的一篇报道，介绍国内创作者使用 AI 写小说、画插图、作曲。</p>",
+          "links": [
+            {
+              "text": "中国创作者的 AI 运用",
+              "url": "https://finance.sina.com.cn/tech/internet/2023-04-14/doc-imyqirfn0665866.shtml"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041401.webp"
+          ]
+        },
+        {
+          "title": "如何在 AWS 租用 GPU",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041801.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>自己玩 AI 模型，算力和资金是一个大问题，一般都要租用云服务商的 GPU。作者尝试了各家服务商，这是在 AWS 租 GPU 的详细流程。（<a href=\"https://github.com/ruanyf/weekly/issues/3054\" target=\"_blank\" rel=\"noopener noreferrer\">@cocomany</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "如何在 AWS 租用 GPU",
+              "url": "https://mp.weixin.qq.com/s/47DW9OBNOS0_fUxDAicARQ"
+            },
+            {
+              "text": "@cocomany",
+              "url": "https://github.com/ruanyf/weekly/issues/3054"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041801.webp"
+          ]
+        },
+        {
+          "title": "Intl.Segmenter 的分词用法",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202301/bg2023010403.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Intl.Segmenter 是浏览器内置的 API，支持各种语言的分词（包括中文），本文介绍它的简单用法。</p>",
+          "links": [
+            {
+              "text": "Intl.Segmenter 的分词用法",
+              "url": "https://www.stefanjudis.com/today-i-learned/how-to-split-javascript-strings-with-intl-segmenter/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202301/bg2023010403.webp"
+          ]
+        },
+        {
+          "title": "五年独立开发者的教训",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041906.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>五年前，作者辞职做一个独立开发者，本文回顾了他的三个教训。</p>",
+          "links": [
+            {
+              "text": "五年独立开发者的教训",
+              "url": "https://allisonseboldt.com/5-years-of-indie-hacking/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041906.webp"
+          ]
+        },
+        {
+          "title": "Bun vs Node 性能比较",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202303/bg2023030711.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Bun 是一个新兴的 JavaScript 服务器运行环境，目标是兼容 Node.js 的 API，但是比后者更快。作者比较了一下两者的性能差异。</p>",
+          "links": [
+            {
+              "text": "Bun vs Node 性能比较",
+              "url": "https://grifel.dev/bun-dev-experience/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202303/bg2023030711.webp"
+          ]
+        },
+        {
+          "title": "一人运营的时事通讯价值几百万美元",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202301/bg2023011301.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>美国有一个 TLDR Newsletter，每天通过邮件发送时事新闻。它是一个人运营的，年收入超过500万美元，本文介绍他是怎么做的。</p>",
+          "links": [
+            {
+              "text": "一人运营的时事通讯价值几百万美元",
+              "url": "https://growthinreverse.com/tldr/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202301/bg2023011301.webp"
+          ]
+        },
+        {
+          "title": "我为什么选择不稳定的排序算法",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202301/bg2023011303.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者原为 V8 引擎团队的成员，负责排序算法。他解释，为什么他为 V8 选择了不稳定的排序算法，即排序的成员排列顺序可能与原始顺序不同。</p>\n<p>不过，标准后来改了，现在已经变成了稳定排序算法。</p>",
+          "links": [
+            {
+              "text": "我为什么选择不稳定的排序算法",
+              "url": "https://medium.com/@erik_68861/sorting-algorithms-that-dont-hate-you-165ba313bbc2"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202301/bg2023011303.webp"
+          ]
+        },
+        {
+          "title": "Firefox 自动去除 Cookie 横幅",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041905.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>很多国外网站都有 Cookie 横幅，让用户点击是否接受 Cookie，非常烦人。Firefox 浏览器的最新版，加入了自动去除该横幅的功能。</p>",
+          "links": [
+            {
+              "text": "Firefox 自动去除 Cookie 横幅",
+              "url": "https://www.ghacks.net/2023/04/17/firefox-may-interact-with-cookie-prompts-automatically-soon/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041905.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "nango",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202302/bg2023020804.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个<a href=\"https://github.com/NangoHQ/nango\" target=\"_blank\" rel=\"noopener noreferrer\">开源</a>的 Web 服务，自动获取和管理各种 OAuth 认证的 token，可以自己架设。</p>",
+          "links": [
+            {
+              "text": "nango",
+              "url": "https://www.nango.dev/"
+            },
+            {
+              "text": "开源",
+              "url": "https://github.com/NangoHQ/nango"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202302/bg2023020804.webp"
+          ]
+        },
+        {
+          "title": "docker-rollout",
+          "content": "<p>这个工具可以不停机更新 Docker Compose 里面的某个服务。原理是同时新建两个实例，用已更新的实例替换未更新的实例。</p>",
+          "links": [
+            {
+              "text": "docker-rollout",
+              "url": "https://github.com/Wowu/docker-rollout"
+            }
+          ]
+        },
+        {
+          "title": "Web LLM",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041601.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个软件通过 WebGPU API，在浏览器里面运行 LLM 模型，可以离线运行，并且不限定模型。</p>\n<p>当然，它不能用来训练大模型，而且表现肯定不如 ChatGPT，但是能在浏览器里面运行，大大降低了自己架设 LLM 的门槛，而且非常适合一些离线任务（比如总结文档），详见这篇<a href=\"https://simonwillison.net/2023/Apr/16/web-llm/\" target=\"_blank\" rel=\"noopener noreferrer\">测评</a>。</p>",
+          "links": [
+            {
+              "text": "Web LLM",
+              "url": "https://mlc.ai/web-llm/"
+            },
+            {
+              "text": "测评",
+              "url": "https://simonwillison.net/2023/Apr/16/web-llm/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041601.webp"
+          ]
+        },
+        {
+          "title": "OpenAI 接口应用",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041802.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>使用 Express 搭建的 Node.js 应用，用来连接 OpenAI API 进行聊天。代码开源。这是前端代码，另有<a href=\"https://github.com/KiritoCheng/openai-server\" target=\"_blank\" rel=\"noopener noreferrer\">后端代码</a>。（<a href=\"https://github.com/ruanyf/weekly/issues/3055\" target=\"_blank\" rel=\"noopener noreferrer\">@KiritoCheng</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "OpenAI 接口应用",
+              "url": "https://github.com/KiritoCheng/openai-public"
+            },
+            {
+              "text": "后端代码",
+              "url": "https://github.com/KiritoCheng/openai-server"
+            },
+            {
+              "text": "@KiritoCheng",
+              "url": "https://github.com/ruanyf/weekly/issues/3055"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041802.webp"
+          ]
+        },
+        {
+          "title": "Animated Drawings",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041402.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个工具使用 AI 模型，将手绘的人物草图变成一段动画。</p>",
+          "links": [
+            {
+              "text": "Animated Drawings",
+              "url": "https://github.com/facebookresearch/AnimatedDrawings"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041402.webp"
+          ]
+        },
+        {
+          "title": "scrutiny",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022111403.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>实时检查硬盘 S.M.A.R.T 健康状态的工具，Docker 安装，自带 Web UI。</p>",
+          "links": [
+            {
+              "text": "scrutiny",
+              "url": "https://github.com/AnalogJ/scrutiny"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022111403.webp"
+          ]
+        },
+        {
+          "title": "browsertunnel",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022111405.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个软件可以将用户信息，通过网页的 DNS 请求传回服务器。注意，不是 HTTP 请求，而是使用查询域名的 DNS 请求夹带额外信息。这种监视用户的方法，很难发现，也很难阻止。</p>",
+          "links": [
+            {
+              "text": "browsertunnel",
+              "url": "https://github.com/veggiedefender/browsertunnel"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022111405.webp"
+          ]
+        },
+        {
+          "title": "Upbase",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022111406.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个网页应用，将项目管理、日程安排、聊天、文档等功能做到了一起，目标是成为团队协作的一站式工具。</p>",
+          "links": [
+            {
+              "text": "Upbase",
+              "url": "https://upbase.io/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022111406.webp"
+          ]
+        },
+        {
+          "title": "Bot Aquarium",
+          "content": "<p>一个 Linux 系统运行的虚拟机，特点是完全交给 OpenAI 控制。</p>\n<p>你描述想用虚拟机完成的任务，它把这段描述传给 OpenAI，并且自动执行返回的命令。等到虚拟机出来了执行结果（比如报错），它再自动把执行结果提交给 OpenAI，不断重复这个过程，直到任务完成。</p>",
+          "links": [
+            {
+              "text": "Bot Aquarium",
+              "url": "https://github.com/fafrd/aquarium"
+            }
+          ]
+        },
+        {
+          "title": "Autodoc",
+          "content": "<p>使用 LLM 模型自动生成代码文档。作者的想法是将它加入持续构建，每次代码变更，就会同时自动更新文档。</p>",
+          "links": [
+            {
+              "text": "Autodoc",
+              "url": "https://github.com/context-labs/autodoc"
+            }
+          ]
+        },
+        {
+          "title": "SceneXplain",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023040613.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>用户上传一张图片，它会给出图片的详细文字描述，号称比其他模型效果好。</p>",
+          "links": [
+            {
+              "text": "SceneXplain",
+              "url": "https://scenex.jina.ai/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023040613.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "计算机程序的构造和解释（JavaScript 版）",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202302/bg2023020807.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这是名著《SICP》（计算机程序的构造和解释）一书的官方 JavaScript 版，并且是麻省理工学院的官方版本，可以免费阅读，参见<a href=\"https://mitpress.mit.edu/9780262543231/structure-and-interpretation-of-computer-programs/\" target=\"_blank\" rel=\"noopener noreferrer\">介绍</a>。</p>",
+          "links": [
+            {
+              "text": "计算机程序的构造和解释（JavaScript 版）",
+              "url": "https://sourceacademy.org/sicpjs/index"
+            },
+            {
+              "text": "介绍",
+              "url": "https://mitpress.mit.edu/9780262543231/structure-and-interpretation-of-computer-programs/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202302/bg2023020807.webp"
+          ]
+        },
+        {
+          "title": "WebGPU 基础知识",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041603.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网站提供 WebGPU 开发知识的英文教程。</p>",
+          "links": [
+            {
+              "text": "WebGPU 基础知识",
+              "url": "https://webgpufundamentals.org/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041603.webp"
+          ]
+        },
+        {
+          "title": "GPT Unicorn",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041404.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网站每天让 GPT-4 画一只独角兽（SVG 格式），放上网页，从而记录下模型的进化。</p>\n<p>可以看到，即使是同一个模型处理同一个问题，每天返回的结果都是不一样的，上图是4月13日的结果。</p>",
+          "links": [
+            {
+              "text": "GPT Unicorn",
+              "url": "https://gpt-unicorn.adamkdean.co.uk/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041404.webp"
+          ]
+        },
+        {
+          "title": "Vercel AI Playground",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023041903.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Vercel 公司架设的 AI 实验页面，用户可以方便地选择不同的模型，比较它们的生成结果。</p>",
+          "links": [
+            {
+              "text": "Vercel AI Playground",
+              "url": "https://play.vercel.ai/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023041903.webp"
+          ]
+        },
+        {
+          "title": "Playlist Genius",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023040201.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>描述一下你想听的音乐，该网站会自动生成一张 Spotify 的歌单。</p>",
+          "links": [
+            {
+              "text": "Playlist Genius",
+              "url": "https://www.playlistgeniusai.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023040201.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "修复贝鲁特玻璃文物",
+          "content": "<p>2020年8月4日，黎巴嫩首都贝鲁特的港口，发生化学危险品大爆炸。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023042006.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>该市的博物馆受到爆炸影响，靠近窗口的一个展柜被震破，里面74个玻璃器皿和玻璃窗的碎片散落了一地。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022110805.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>工作人员以难以想象的耐心，收集整理了所有碎片，尝试将文物修复。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022110806.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>由于难度太高，这些碎片最终送到了伦敦的大英博物馆，由专家进行修复。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022110807.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022110808.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>下面就是四件已经修复的文章。迄今一共修复了26件，还有46件等待修复。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022110809.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "修复贝鲁特玻璃文物",
+              "url": "https://www.britishmuseum.org/blog/conserving-beiruts-shattered-glass"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023042006.webp",
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022110805.webp",
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022110806.webp",
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022110807.webp",
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022110808.webp",
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022110809.webp"
+          ]
+        },
+        {
+          "title": "无人机还原古代建筑",
+          "content": "<p>一组荷兰艺术家使用无人机，“还原”古代建筑的本来样子。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022110810.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022110811.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202211/bg2022110812.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "无人机还原古代建筑",
+              "url": "https://www.timeout.com/news/these-incredible-drone-displays-show-what-unfinished-buildings-could-look-like-103122"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022110810.webp",
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022110811.webp",
+            "https://cdn.beekka.com/blogimg/asset/202211/bg2022110812.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "开门研究与关门研究",
+          "content": "<p>以下摘自美国计算机科学家理查德·汉明的著名演讲<a href=\"https://www.ruanyifeng.com/blog/2016/04/you-and-your-research.html\" target=\"_blank\" rel=\"noopener noreferrer\">《你和你的研究》</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023042002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>贝尔实验室的科学家都有自己的办公室。</p>\n<p>我注意到，如果你把办公室的门关上，你今天和明天就会完成更多的工作，而且你的工作效率比大多数人都高。</p>\n<p>但是10年后不知何故，你并不十分清楚哪些问题值得解决；你所做的所有辛勤工作的重要性都无关紧要。</p>\n<p>开门工作的人会受到各种干扰，但他也偶尔会得到关于世界是什么、以及什么可能是重要的事情的线索。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202304/bg2023042001.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>我认为，那些开门工作的人和最终做重要事情的人之间存在着很好的相关性。</p>\n<p>尽管那些关着门工作的人通常更努力，但不知何故，他们似乎会做错事，虽然不是大问题，但足以让他们错过伟大的荣誉。</p>",
+          "links": [
+            {
+              "text": "开门研究与关门研究",
+              "url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html"
+            },
+            {
+              "text": "《你和你的研究》",
+              "url": "https://www.ruanyifeng.com/blog/2016/04/you-and-your-research.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023042002.webp",
+            "https://cdn.beekka.com/blogimg/asset/202304/bg2023042001.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "如",
+          "content": "<p>果一个人使用 C 语言，那往往不是因为他选择了 C 语言，而是 C 语言选择了他。</p>\n<p>如果你开发的是操作系统、编译器、硬件驱动，那么你没有选择，只能使用 C 语言。</p>\n<p>-- <a href=\"https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html\" target=\"_blank\" rel=\"noopener noreferrer\">《1x 开发人员的经验法则》</a></p>",
+          "links": [
+            {
+              "text": "《1x 开发人员的经验法则》",
+              "url": "https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html"
+            }
+          ]
+        },
+        {
+          "title": "大",
+          "content": "<p>型 IT 公司的工作有一个弊端，就是你在工作中学到的大部分知识（比如说 90%），对下一份工作完全没有用。</p>\n<p>它们都是关于一个大组织如何运作的具体知识，涉及其他地方根本不存在的内部工具和业务概念。</p>\n<p>-- <a href=\"https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html\" target=\"_blank\" rel=\"noopener noreferrer\">《1x 开发人员的经验法则》</a></p>",
+          "links": [
+            {
+              "text": "《1x 开发人员的经验法则》",
+              "url": "https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html"
+            }
+          ]
+        },
+        {
+          "title": "科",
+          "content": "<p>学家对真实的东西感兴趣，商人对有用的东西感兴趣。</p>\n<p>-- <a href=\"https://commoncog.com/no-truth-in-business-only-knowledge/\" target=\"_blank\" rel=\"noopener noreferrer\">《商业没有真相，只有知识》</a></p>",
+          "links": [
+            {
+              "text": "《商业没有真相，只有知识》",
+              "url": "https://commoncog.com/no-truth-in-business-only-knowledge/"
+            }
+          ]
+        },
+        {
+          "title": "虽",
+          "content": "<p>然我的工作是软件工程师，我一直设法在工作中多接触数学，这样我就不会在余下的职业生涯中被归类为软件工程师。金融/数学问题比用户体验更让我感兴趣。</p>\n<p>-- <a href=\"https://evjang.com/2015/08/17/internship-experiences.html\" target=\"_blank\" rel=\"noopener noreferrer\">《我在 Pixar、Google 和 Two Sigma 的实习经历》</a></p>",
+          "links": [
+            {
+              "text": "《我在 Pixar、Google 和 Two Sigma 的实习经历》",
+              "url": "https://evjang.com/2015/08/17/internship-experiences.html"
+            }
+          ]
+        },
+        {
+          "title": "每",
+          "content": "<p>天，我会接触到250个广告和无数的娱乐选择，它们大部分都是由想卖给我东西的公司资助的。</p>\n<p>这就是世界对我产生影响的方式。我是一个作家，我的小说大量使用这些流行元素，这与100年前的小说家写花园散步和步行到河边取水的生活，并没有什么不同，人类的日常生活已经变了。</p>\n<p>-- <a href=\"https://www.salon.com/1996/03/09/wallace_5/\" target=\"_blank\" rel=\"noopener noreferrer\">大卫·福斯特·华莱士</a>，美国小说家</p>",
+          "links": [
+            {
+              "text": "大卫·福斯特·华莱士",
+              "url": "https://www.salon.com/1996/03/09/wallace_5/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "历史上的本周",
+      "title": "历史上的本周",
+      "items": [
+        {
+          "content": "<p><a href=\"http://www.ruanyifeng.com/blog/2022/04/weekly-issue-204.html\" target=\"_blank\" rel=\"noopener noreferrer\">如何度过疫情、裁员、还有战争</a>（2022 #204）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2021/04/weekly-issue-154.html\" target=\"_blank\" rel=\"noopener noreferrer\">1982年的信息社会预言</a>（2021 #154）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2020/04/weekly-issue-104.html\" target=\"_blank\" rel=\"noopener noreferrer\">语音合成的用途</a>（2020 #104）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2019/05/weekly-issue-54.html\" target=\"_blank\" rel=\"noopener noreferrer\">可扩展性最好的活动</a>（2019 #54）</p>",
+          "links": [
+            {
+              "text": "如何度过疫情、裁员、还有战争",
+              "url": "http://www.ruanyifeng.com/blog/2022/04/weekly-issue-204.html"
+            },
+            {
+              "text": "1982年的信息社会预言",
+              "url": "http://www.ruanyifeng.com/blog/2021/04/weekly-issue-154.html"
+            },
+            {
+              "text": "语音合成的用途",
+              "url": "http://www.ruanyifeng.com/blog/2020/04/weekly-issue-104.html"
+            },
+            {
+              "text": "可扩展性最好的活动",
+              "url": "http://www.ruanyifeng.com/blog/2019/05/weekly-issue-54.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "鸣谢",
+      "title": "鸣谢",
+      "items": [
+        {
+          "content": "<p>周刊得到国内新一代知识管理与协作平台 <a href=\"https://flowus.cn?promotionChannel=GW_RYF_01\" target=\"_blank\" rel=\"noopener noreferrer\">FlowUs</a> 的帮助，深表感谢。</p>\n<p><a href=\"https://flowus.cn?promotionChannel=GW_RYF_01\" target=\"_blank\" rel=\"noopener noreferrer\">FlowUS</a>  = 文档 + 表格 + 网盘。你可以用它写文档、做主页、管理数据、存储文件等等。</p>\n<p>每一期周刊同时发布在<a href=\"https://ruanyf-weekly.flowus.cn/?code=FLOWUS&promotionChannel=WX_RYF_00\" target=\"_blank\" rel=\"noopener noreferrer\"> FlowUs 专栏</a>，欢迎大家也去开通自己的专栏和主页。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202303/bg2023030205.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "FlowUs",
+              "url": "https://flowus.cn?promotionChannel=GW_RYF_01"
+            },
+            {
+              "text": "FlowUS",
+              "url": "https://flowus.cn?promotionChannel=GW_RYF_01"
+            },
+            {
+              "text": " FlowUs 专栏",
+              "url": "https://ruanyf-weekly.flowus.cn/?code=FLOWUS&promotionChannel=WX_RYF_00"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202303/bg2023030205.webp"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-251.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-251.md"
+}

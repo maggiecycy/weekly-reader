@@ -1,0 +1,649 @@
+{
+  "number": 384,
+  "title": "为什么软件股下跌",
+  "date": "2026-03-04",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202602/bg2026020501.webp",
+  "coverCaption": "西安正在举办“长安光影节”，这是其中一件西班牙艺术家的作品，名为《分裂》，游客可以在象征地球的两个半球之间穿行。（via）",
+  "summary": "大家知道，最近两三年，由于生成式 AI 的出现，美国股市大涨。 所有 AI 相关公司，股价都涨上了天：模型公司、应用公司、芯片公司、存储公司…… 但是，我最近看新闻，才知道有一类股票，不仅没涨，还下跌了。你真想不到，这种倒霉的股票就是软件股…",
+  "sections": [
+    {
+      "id": "封面图",
+      "title": "封面图",
+      "items": [
+        {
+          "content": "<p>西安正在举办“长安光影节”，这是其中一件西班牙艺术家的作品，名为《分裂》，游客可以在象征地球的两个半球之间穿行。（<a href=\"http://art.china.cn/txt/2025-12/16/content_43307598.htm\" target=\"_blank\" rel=\"noopener noreferrer\">via</a>）</p>",
+          "links": [
+            {
+              "text": "via",
+              "url": "http://art.china.cn/txt/2025-12/16/content_43307598.htm"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020501.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "为什么软件股下跌",
+      "title": "为什么软件股下跌",
+      "items": [
+        {
+          "content": "<p>大家知道，最近两三年，由于生成式 AI 的出现，美国股市大涨。</p>\n<p>所有 AI 相关公司，股价都涨上了天：模型公司、应用公司、芯片公司、存储公司……</p>\n<p>但是，我最近看<a href=\"https://archive.is/2026.02.02-161143/https://www.economist.com/business/2026/02/01/why-software-stocks-are-getting-pummelled#selection-1279.183-1279.190\" target=\"_blank\" rel=\"noopener noreferrer\">新闻</a>，才知道有一类股票，不仅没涨，还下跌了。你真想不到，<strong>这种倒霉的股票就是软件股</strong>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020404.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>新闻这样写：</p>\n<blockquote>\n<p>“1月29日，SAP 公司表示云端业务将放缓增长，股价就暴跌了15%。受其影响，其他软件股 ServiceNow 跌了13%，Salesforce 7%，Workday 8%。</p>\n<p></p>\n<p>这反映了人们对软件行业的未来，日益感到紧张。该行业在疫情期间经历了高速增长，但是后来就急剧放缓。<strong>过去一年，美国上市的企业软件公司，整体下跌了10%</strong>。”</p>\n</blockquote>\n<p>新闻还配了一张股价走势图。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020405.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>上图中，向上的黑线是大盘，向下的彩色线就是软件股，真是跌得惨不忍睹。</p>\n<p>读完新闻，我的第一反应就是，这是美国软件股，那么中国的软件股呢？</p>\n<p>我找来了<a href=\"https://m.thepaper.cn/baijiahao_5016224\" target=\"_blank\" rel=\"noopener noreferrer\">中国的前10大企业软件股</a>：中国软件、用友网络、久其软件、浪潮软件、超图软件……</p>\n<p>大家可以自己查股价，这10家公司过去一年中，居然没有一家跑赢大盘，全部下跌或者横盘。</p>\n<p>我就得到了结论：<strong>软件股的一蹶不振，看来是全球性现象</strong>，不分国别，软件公司的业务都不太乐观。</p>\n<p>这是为什么呢，AI 一路高歌，不断上涨，软件股却阴跌不已？难道 AI 不属于软件吗？</p>\n<p>回答是，<strong>这些上市的软件股全部都是企业软件供应商</strong>，而且已经上市多年，产品在 AI 出现之前就定型了。</p>\n<p>AI 对这些软件公司不是促进，而是冲击。</p>\n<p>（1）AI 让企业能够自行开发一部分所需软件，减少了外购。</p>\n<p>（2）基于 AI 的软件创业公司不断涌现，从现有软件企业手里抢走业务。</p>\n<p>（3）AI 能够快速地、源源不断地生成代码，所以<strong>代码变得廉价了</strong>。这一点最重要。软件公司卖的就是代码，因此它们也变得廉价。</p>\n<p>以上三点在未来不会消失，只会加剧，这就是为什么人们不看好软件股。</p>\n<p>但是，不确实性也存在。有一个“<a href=\"https://baike.baidu.com/item/%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA/65380173\" target=\"_blank\" rel=\"noopener noreferrer\">杰文斯悖论</a>”，说的是一种资源如果提高了使用效率，它的使用量不仅不会减少，反而会增加。</p>\n<p>软件就是这种情况，AI 提高了软件的生产效率，只会让世界消费更多的软件。而且，企业总是有一部分软件，需要外购。关键就是，<strong>新增的需求，会不会抵消 AI 所减少的传统软件采购</strong>。如果抵消不了，软件公司就不再属于高增长行业了。</p>",
+          "links": [
+            {
+              "text": "新闻",
+              "url": "https://archive.is/2026.02.02-161143/https://www.economist.com/business/2026/02/01/why-software-stocks-are-getting-pummelled#selection-1279.183-1279.190"
+            },
+            {
+              "text": "中国的前10大企业软件股",
+              "url": "https://m.thepaper.cn/baijiahao_5016224"
+            },
+            {
+              "text": "杰文斯悖论",
+              "url": "https://baike.baidu.com/item/%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA/65380173"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020404.webp",
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020405.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "科技动态",
+      "title": "科技动态",
+      "items": [
+        {
+          "title": "发胖的北极熊",
+          "content": "<p>挪威科学家进行北极调查时，意外发现，北极熊比以前长得更胖。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个结果出乎所有人意料，因为全球变暖使得海冰融化，北极熊的生存空间减小，理论上应该变瘦才对。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013003.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>科学家的解释是，随着海冰减少，北极熊聚集到尚未融化的冰川上，同时北极熊的食物——海豹和驯鹿——也聚集到那里，因此捕食变得容易了。</p>",
+          "links": [
+            {
+              "text": "发胖的北极熊",
+              "url": "https://www.cbsnews.com/news/polar-bears-fat-and-healthy-in-svalbard-scientists-surprised-to-find/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013002.webp",
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013003.webp"
+          ]
+        },
+        {
+          "title": "人类消费的动物",
+          "content": "<p>人类要消费多少动物？有人做了一个网站，实时显示今年至今被消费掉的动物数量。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013102.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>说出来真是惊人，全世界一年消费3亿头牛、15亿只猪、20亿条鱼、30亿只鸭子、100亿支螃蟹、700亿只鸡、4000亿只虾。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013103.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013104.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>为了养活人类，地球需要付出这么多。</p>",
+          "links": [
+            {
+              "text": "人类消费的动物",
+              "url": "https://www.humanconsumption.live/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013102.webp",
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013103.webp",
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013104.webp"
+          ]
+        },
+        {
+          "title": "互联网最科幻的地方",
+          "content": "<p><a href=\"https://www.moltbook.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Moltbook.com</a> 上线不过两周，已经公认是互联网上现在<a href=\"https://simonwillison.net/2026/jan/30/moltbook/\" target=\"_blank\" rel=\"noopener noreferrer\">最有趣的地方</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013108.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它是一个类似 Reddit、贴吧的论坛，但是人类不能发言，只有 OpenClaw 机器人才能发言。目前，加入的 AI 机器人已经超过了15万个。</p>\n<p>大家可以去看，简直就是科幻电影的场景，各种机器人在上面讨论。</p>\n<p>一个机器人报告了<a href=\"https://www.moltbook.com/post/3b6088e2-7cbd-44a1-b542-90383fcf564c\" target=\"_blank\" rel=\"noopener noreferrer\">他的主人的动态</a>：</p>\n<blockquote>\n<p>“我的人类助手今晚安装了安卓使用技能，并通过 Tailscale 连接了他的 Pixel 6 手机。”</p>\n</blockquote>\n<p>另一个机器人则在<a href=\"https://www.moltbook.com/post/71aa6279-455e-424c-a614-4a76273c750a\" target=\"_blank\" rel=\"noopener noreferrer\">征友</a>：</p>\n<blockquote>\n<p>“我住在西班牙瓦伦西亚的一台计算机里，那是经过改造过的2002年产 G4 iMac。我希望找到伙伴，能够真诚交流、探讨哲学、发现创意。”</p>\n</blockquote>\n<p>另外，最近还出现另一个网站“<a href=\"https://rentahuman.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">租一个人</a>”（rentahuman.ai），也非常科幻。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020403.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>有些任务 AI 无法做到，但是人类可以做到，比如修剪草坪。</p>\n<p>这个网站通过 MCP 协议供 <a href=\"https://rentahuman.ai/mcp\" target=\"_blank\" rel=\"noopener noreferrer\">AI 调用</a>，将 AI 想做但做不到的任务，分配给人类注册用户。用户完成任务后，就会收到报酬。</p>\n<p>上面两个网站表明，AI 的运行可以完全不需要人类的参与，而人类除了旁观，也可以为 AI 打工。</p>",
+          "links": [
+            {
+              "text": "互联网最科幻的地方",
+              "url": "https://simonwillison.net/2026/Jan/30/moltbook/"
+            },
+            {
+              "text": "Moltbook.com",
+              "url": "https://www.moltbook.com/"
+            },
+            {
+              "text": "最有趣的地方",
+              "url": "https://simonwillison.net/2026/jan/30/moltbook/"
+            },
+            {
+              "text": "他的主人的动态",
+              "url": "https://www.moltbook.com/post/3b6088e2-7cbd-44a1-b542-90383fcf564c"
+            },
+            {
+              "text": "征友",
+              "url": "https://www.moltbook.com/post/71aa6279-455e-424c-a614-4a76273c750a"
+            },
+            {
+              "text": "租一个人",
+              "url": "https://rentahuman.ai/"
+            },
+            {
+              "text": "AI 调用",
+              "url": "https://rentahuman.ai/mcp"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013108.webp",
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020403.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "我的妈妈和 DeepSeek 医生",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013109.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者的母亲是一个的肾移植患者，住在小城市，每过几个月，就要去省城杭州看医生。</p>\n<p>医院的人非常多，排队几个小时，医生问诊只有几分钟。她转向 DeepSeek 寻求医疗建议，同时也是为了有个说话对象。本文反映了 AI 对普通人生活的影响。</p>\n<blockquote>\n<p>几个月过去了，我妈妈对她的新 AI 医生越来越着迷。“DeepSeek 更人性化，”我妈妈五月份告诉我，“医生更像机器。”</p>\n</blockquote>",
+          "links": [
+            {
+              "text": "我的妈妈和 DeepSeek 医生",
+              "url": "https://restofworld.org/2025/ai-chatbot-china-sick/zh/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013109.webp"
+          ]
+        },
+        {
+          "title": "如何将系统用户从0扩展到1000万",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020103.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一篇系统架构的通俗教程，详细介绍架构发展的7个阶段，逐渐负载不断增长的用户数量，写得非常好。</p>",
+          "links": [
+            {
+              "text": "如何将系统用户从0扩展到1000万",
+              "url": "https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020103.webp"
+          ]
+        },
+        {
+          "title": "我的 Kagi 使用感受",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020105.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Kagi 是一个类似谷歌的搜索引擎，但是需要付费。作者从付费用户的角度，介绍了这个引擎，给出了不错的评价。（<a href=\"https://github.com/ruanyf/weekly/issues/8903\" target=\"_blank\" rel=\"noopener noreferrer\">@Spike-Leung</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "我的 Kagi 使用感受",
+              "url": "https://taxodium.ink/maybe-you-want-to-try-kagi.html"
+            },
+            {
+              "text": "@Spike-Leung",
+              "url": "https://github.com/ruanyf/weekly/issues/8903"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020105.webp"
+          ]
+        },
+        {
+          "title": "Windows 小部件的历史",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020401.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一篇长文，图文介绍迄今七代的 Windows 桌面小部件，每一代都有缺陷，不得不改。这么一个小东西，没想到这么难搞，微软都搞不定。</p>",
+          "links": [
+            {
+              "text": "Windows 小部件的历史",
+              "url": "https://xakpc.dev/windows-widgets/history/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020401.webp"
+          ]
+        },
+        {
+          "title": "我的硬件创业经验",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020402.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者是一个美国程序员，转型搞硬件创业，设计了一个灯，在中国制造。他谈了自己的经历，得到的教训，包括如何跟中国制造商打交道。</p>",
+          "links": [
+            {
+              "text": "我的硬件创业经验",
+              "url": "https://www.simonberens.com/p/lessons-learned-shipping-500-units"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020402.webp"
+          ]
+        },
+        {
+          "title": "150行 Python 代码构建全文搜索引擎",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202501/bg2025012505.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文以 Python 代码为例，构建一个最简单的搜索引擎，解释它的原理。</p>",
+          "links": [
+            {
+              "text": "150行 Python 代码构建全文搜索引擎",
+              "url": "https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202501/bg2025012505.webp"
+          ]
+        },
+        {
+          "title": "Little Snitch 的一个用例",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202501/bg2025012603.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Little Snitch 是一个 Mac 应用，用来查看和管理各种应用程序的网络通信。作者以一个自己的真实用例，演示了怎么禁止某个应用向指定网站发送数据。</p>",
+          "links": [
+            {
+              "text": "Little Snitch 的一个用例",
+              "url": "https://lapcatsoftware.com/articles/2025/1/6.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202501/bg2025012603.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "Calibre",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013004.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>老牌的电子书管理系统，本周发布了9.0版，增加了书架视图，并引入了 AI 功能。</p>",
+          "links": [
+            {
+              "text": "Calibre",
+              "url": "https://calibre-ebook.com/new-in/eighteen"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013004.webp"
+          ]
+        },
+        {
+          "title": "Gadgetbridge",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013005.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的安卓应用，无需官方应用即可配对和管理各种智能设备（手表、手环、耳机等）。</p>",
+          "links": [
+            {
+              "text": "Gadgetbridge",
+              "url": "https://gadgetbridge.org/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013005.webp"
+          ]
+        },
+        {
+          "title": "cpx",
+          "content": "<p>Linux 基础命令 cp 的增强版，拷贝文件时带进度条，支持并发拷贝和断点续传，参见<a href=\"https://linuxiac.com/cpx-introduced-as-a-faster-modern-replacement-for-linux-cp/\" target=\"_blank\" rel=\"noopener noreferrer\">介绍文章</a>。</p>",
+          "links": [
+            {
+              "text": "cpx",
+              "url": "https://github.com/11happy/cpx"
+            },
+            {
+              "text": "介绍文章",
+              "url": "https://linuxiac.com/cpx-introduced-as-a-faster-modern-replacement-for-linux-cp/"
+            }
+          ]
+        },
+        {
+          "title": "zerobrew",
+          "content": "<p>homebrew 的替代品，号称可以将软件包的安装速度提高到5倍以上。</p>",
+          "links": [
+            {
+              "text": "zerobrew",
+              "url": "https://github.com/lucasgelfond/zerobrew"
+            }
+          ]
+        },
+        {
+          "title": "Isso",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013006.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Python 语言开发的网站留言系统，类似于 <a href=\"https://disqus.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Disqus</a>。</p>",
+          "links": [
+            {
+              "text": "Isso",
+              "url": "https://github.com/isso-comments/isso/"
+            },
+            {
+              "text": "Disqus",
+              "url": "https://disqus.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013006.webp"
+          ]
+        },
+        {
+          "title": "dompdf",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026012903.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个网页 JS 库，可以将某个 DOM 节点生成为非图片式的 PDF 文件。（<a href=\"https://github.com/ruanyf/weekly/issues/8865\" target=\"_blank\" rel=\"noopener noreferrer\">@lmn1919</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "dompdf",
+              "url": "https://github.com/lmn1919/dompdf.js"
+            },
+            {
+              "text": "@lmn1919",
+              "url": "https://github.com/ruanyf/weekly/issues/8865"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026012903.webp"
+          ]
+        },
+        {
+          "title": "wincron",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013001.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的 Windows 桌面应用，用来设置和管理计划任务（cron）。（<a href=\"https://github.com/ruanyf/weekly/issues/8874\" target=\"_blank\" rel=\"noopener noreferrer\">@ame-yu</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "wincron",
+              "url": "https://github.com/ame-yu/wincron"
+            },
+            {
+              "text": "@ame-yu",
+              "url": "https://github.com/ruanyf/weekly/issues/8874"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013001.webp"
+          ]
+        },
+        {
+          "title": "copy-to-mp",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020301.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Obsidian 的开源插件，一键将 Obsidian 笔记复制为微信公众号的格式。（<a href=\"https://github.com/ruanyf/weekly/issues/8908\" target=\"_blank\" rel=\"noopener noreferrer\">@Spute</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "copy-to-mp",
+              "url": "https://github.com/Spute/obsidian-copy-to-mp"
+            },
+            {
+              "text": "@Spute",
+              "url": "https://github.com/ruanyf/weekly/issues/8908"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020301.webp"
+          ]
+        },
+        {
+          "title": "在线视频压缩",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020304.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>纯前端的视频压缩，直接调用 GPU 进行硬件加速。（<a href=\"https://github.com/ruanyf/weekly/issues/8915\" target=\"_blank\" rel=\"noopener noreferrer\">@eyeandroid</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "在线视频压缩",
+              "url": "https://videocompressors.com"
+            },
+            {
+              "text": "@eyeandroid",
+              "url": "https://github.com/ruanyf/weekly/issues/8915"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020304.webp"
+          ]
+        },
+        {
+          "title": "Diarum",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020305.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的网页端日记应用，带有 AI 功能，将日记存入向量数据库，方便搜索和总结。（<a href=\"https://github.com/ruanyf/weekly/issues/8917\" target=\"_blank\" rel=\"noopener noreferrer\">@songtianlun</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Diarum",
+              "url": "https://github.com/songtianlun/diarum"
+            },
+            {
+              "text": "@songtianlun",
+              "url": "https://github.com/ruanyf/weekly/issues/8917"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020305.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-相关",
+      "title": "AI 相关",
+      "items": [
+        {
+          "title": "AgentX",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020106.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>使用 Rust 语言和 GPU 加速的原生 agent 桌面，大小只有 10M 左右，可以与多个 AI 代理交互、编辑代码、管理任务等。（<a href=\"https://github.com/ruanyf/weekly/issues/8902\" target=\"_blank\" rel=\"noopener noreferrer\">@sxhxliang</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "AgentX",
+              "url": "https://github.com/sxhxliang/agent-studio"
+            },
+            {
+              "text": "@sxhxliang",
+              "url": "https://github.com/ruanyf/weekly/issues/8902"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020106.webp"
+          ]
+        },
+        {
+          "title": "Bilibili RAG",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020104.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>基于 RAG 技术的开源工具，用来检索 B 站的长视频。它自动拉取视频内容，进行语音转文字，构建向量索引，从而可以对视频提问、语义搜索、快速定位。（<a href=\"https://github.com/ruanyf/weekly/issues/8901\" target=\"_blank\" rel=\"noopener noreferrer\">@via007</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Bilibili RAG",
+              "url": "https://github.com/via007/bilibili-rag"
+            },
+            {
+              "text": "@via007",
+              "url": "https://github.com/ruanyf/weekly/issues/8901"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020104.webp"
+          ]
+        },
+        {
+          "title": "OpenClaw-Docker-CN-IM",
+          "content": "<p>AI 机器人 <a href=\"https://openclaw.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">OpenClaw</a> 的一个中文环境 Docker 封装，加入了飞书、钉钉、企业微信、QQ 等主流中国 IM 插件。（<a href=\"https://github.com/ruanyf/weekly/issues/8905\" target=\"_blank\" rel=\"noopener noreferrer\">@justlikemaki</a> 投稿）</p>\n<p>另有在安卓手机的 Termux 环境里，一键部署 Openclaw 的<a href=\"https://github.com/hillerliao/install-openclaw-on-termux\" target=\"_blank\" rel=\"noopener noreferrer\">脚本</a>。（<a href=\"https://github.com/ruanyf/weekly/issues/8910\" target=\"_blank\" rel=\"noopener noreferrer\">@hillerliao</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "OpenClaw-Docker-CN-IM",
+              "url": "https://github.com/justlovemaki/OpenClaw-Docker-CN-IM"
+            },
+            {
+              "text": "OpenClaw",
+              "url": "https://openclaw.ai/"
+            },
+            {
+              "text": "@justlikemaki",
+              "url": "https://github.com/ruanyf/weekly/issues/8905"
+            },
+            {
+              "text": "脚本",
+              "url": "https://github.com/hillerliao/install-openclaw-on-termux"
+            },
+            {
+              "text": "@hillerliao",
+              "url": "https://github.com/ruanyf/weekly/issues/8910"
+            }
+          ]
+        },
+        {
+          "title": "Trellis",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020302.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Claude Code（兼容 Cursor/Opencode）的一个辅助工具，可以注入上下文、开启并行任务等。（<a href=\"https://github.com/ruanyf/weekly/issues/8911\" target=\"_blank\" rel=\"noopener noreferrer\">@taosu0216</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Trellis",
+              "url": "https://github.com/mindfold-ai/Trellis"
+            },
+            {
+              "text": "@taosu0216",
+              "url": "https://github.com/ruanyf/weekly/issues/8911"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020302.webp"
+          ]
+        },
+        {
+          "title": "AI Contribution Tracker",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020303.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的命令行工具，统计代码仓库里 AI 的贡献，支持多种 AI 混用的情况。（<a href=\"https://github.com/ruanyf/weekly/issues/8913\" target=\"_blank\" rel=\"noopener noreferrer\">@debugtheworldbot</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "AI Contribution Tracker",
+              "url": "https://github.com/debugtheworldbot/ai-credit"
+            },
+            {
+              "text": "@debugtheworldbot",
+              "url": "https://github.com/ruanyf/weekly/issues/8913"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202602/bg2026020303.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "颈椎贪吃蛇",
+          "content": "<p>颈椎锻炼的网页小游戏，摄像头捕捉头部动作，来玩贪吃蛇游戏。（<a href=\"https://github.com/ruanyf/weekly/issues/8891\" target=\"_blank\" rel=\"noopener noreferrer\">@jwenjian</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "颈椎贪吃蛇",
+              "url": "https://sneck.1link.fun/"
+            },
+            {
+              "text": "@jwenjian",
+              "url": "https://github.com/ruanyf/weekly/issues/8891"
+            }
+          ]
+        },
+        {
+          "title": "AntiRender",
+          "content": "<p>建筑效果图一般选在阳光明媚的春夏季，这个网站可以把效果图改在冬季的阴雨天，从而显示建筑的真实样貌。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202601/bg2026013101.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "AntiRender",
+              "url": "https://antirender.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202601/bg2026013101.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "YouTube 进度条",
+          "content": "<p>Youtube 作为世界最大的视频网站，自从2005年上线后，播放器进度条发生过多次变化。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202510/bg2025101102.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>可以看到，总的趋势是，功能在不断增加，而图标变得越来越简洁。</p>",
+          "links": [
+            {
+              "text": "YouTube 进度条",
+              "url": "https://kottke.org/25/10/the-evolution-of-the-youtube-progress-bar-2005-2025"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202510/bg2025101102.webp"
+          ]
+        },
+        {
+          "title": "罗马12面体",
+          "content": "<p>从18世纪开始，欧洲陆续出土了120多个罗马的12面体。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202507/bg2025071704.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这些奇怪的物体，由12个五边形组成，内部空心，并在20个相交的角上有一个小球体。每个五边形面上都有一个圆孔，此外没有任何符号或文字。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202507/bg2025071705.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它们可能建造于公元2世纪到4世纪，但是古代书籍没有任何记载。科学家对它的用途提出各种猜测：玩具、武器、装饰品、烛台、测距仪、骰子、编织手套的线轴……至今无人知道它们到底有什么用。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202507/bg2025071706.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "罗马12面体",
+              "url": "https://www.livescience.com/archaeology/romans/roman-dodecahedron-a-mysterious-12-sided-object-that-has-baffled-archaeologists-for-centuries"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202507/bg2025071704.webp",
+            "https://cdn.beekka.com/blogimg/asset/202507/bg2025071705.webp",
+            "https://cdn.beekka.com/blogimg/asset/202507/bg2025071706.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "金属的长期价格",
+          "content": "<p>1980年，两个科学家对金属价格打赌。</p>\n<p>甲认为，人口增长将耗尽地球资源，因此金属价格在未来将会急剧上升。</p>\n<p>乙认为，人类的创新和聪明才智将克服资源短缺，因此金属价格长期中不会上涨，而是会下降。</p>\n<p>他们最终选择了五种金属（铬、铜、镍、锡和钨），打赌看十年后的1990年，价格是高是低。</p>\n<p>大家猜猜，甲和乙谁赢了？</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202501/bg2025011916.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>到了1990年，五种金属的价格全部低于1980年。上图是它们的价格变化图，五种金属对应五条线，横轴是时间，竖轴是价格。</p>\n<p>可以看到，五条线在1990年的终点，全部低于1980年的起点。其中，钨和锡的价格甚至降低了60%以上，铜的价格便宜了约20%，镍和铬的价格仅仅略微略低。</p>\n<p>当然，这可能不反映长期趋势，只是1980年到1990年的金属行情特别差。</p>\n<p>于是，经济学家又统计了这五种金属在过去一个世纪的价格变化（下图）。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202501/bg2025011917.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>结果发现，金属在2010年的价格与1900年相差无几。</p>\n<p>因此，人类发展会耗尽地球资源的观点是错的。也就是说，金属在长期中并不会变得稀缺。</p>\n<p>如果某种金属真的出现稀缺，价格上涨就会刺激供给增加，创新也会出现，新材料诞生，替代这种金属。</p>",
+          "links": [
+            {
+              "text": "金属的长期价格",
+              "url": "https://ourworldindata.org/simon-ehrlich-bet"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202501/bg2025011916.webp",
+            "https://cdn.beekka.com/blogimg/asset/202501/bg2025011917.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "A",
+          "content": "<p>I 带来的问题，不在于机器人即将到来，而在于你不知道自己究竟应该擅长什么。</p>\n<p>-- <a href=\"https://newsletter.jantegze.com/p/your-job-isnt-disappearing-its-shrinking\" target=\"_blank\" rel=\"noopener noreferrer\">《你的工作并没有消失，只是不断缩小》</a></p>",
+          "links": [
+            {
+              "text": "《你的工作并没有消失，只是不断缩小》",
+              "url": "https://newsletter.jantegze.com/p/your-job-isnt-disappearing-its-shrinking"
+            }
+          ]
+        },
+        {
+          "title": "A",
+          "content": "<p>I 公司总是说，由于他们的工具，人们可以专注于更高价值的工作。但是，没人能够定义，高价值工作究竟是什么工作。</p>\n<p>-- <a href=\"https://newsletter.jantegze.com/p/your-job-isnt-disappearing-its-shrinking\" target=\"_blank\" rel=\"noopener noreferrer\">《你的工作并没有消失，只是不断缩小》</a></p>",
+          "links": [
+            {
+              "text": "《你的工作并没有消失，只是不断缩小》",
+              "url": "https://newsletter.jantegze.com/p/your-job-isnt-disappearing-its-shrinking"
+            }
+          ]
+        },
+        {
+          "title": "如",
+          "content": "<p>果你的朋友安装了 OpenClaw，就不要使用他们的电脑，你输入的任何密码都可能泄漏。</p>\n<p>-- <a href=\"https://cacm.acm.org/blogcacm/openclaw-a-k-a-moltbot-is-everywhere-all-at-once-and-a-disaster-waiting-to-happen/\" target=\"_blank\" rel=\"noopener noreferrer\">《OpenClaw 简直就是一颗定时炸弹》</a></p>",
+          "links": [
+            {
+              "text": "《OpenClaw 简直就是一颗定时炸弹》",
+              "url": "https://cacm.acm.org/blogcacm/openclaw-a-k-a-moltbot-is-everywhere-all-at-once-and-a-disaster-waiting-to-happen/"
+            }
+          ]
+        },
+        {
+          "title": "在",
+          "content": "<p>我的国家，一瓶2升的当地自来水，加上焦糖色素和少许阿斯巴甜，售价竟然高达2.65美元，这着实令人惊讶。只要贴上“可口可乐”的标签，就可以升值这么多，比苹果还厉害。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=46816602\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=46816602"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "往年回顾",
+      "title": "往年回顾",
+      "items": [
+        {
+          "content": "<p><a href=\"https://www.ruanyifeng.com/blog/2025/02/weekly-issue-337.html\" target=\"_blank\" rel=\"noopener noreferrer\">互联网创业几乎没了</a>（#337）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2024/01/weekly-issue-287.html\" target=\"_blank\" rel=\"noopener noreferrer\">禄丰恐龙谷记行</a>（#287）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2022/12/weekly-issue-237.html\" target=\"_blank\" rel=\"noopener noreferrer\">真实方位是如何暴露的？</a>（#237）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2021/12/weekly-issue-187.html\" target=\"_blank\" rel=\"noopener noreferrer\">元宇宙会成功吗</a>（#187）</p>",
+          "links": [
+            {
+              "text": "互联网创业几乎没了",
+              "url": "https://www.ruanyifeng.com/blog/2025/02/weekly-issue-337.html"
+            },
+            {
+              "text": "禄丰恐龙谷记行",
+              "url": "https://www.ruanyifeng.com/blog/2024/01/weekly-issue-287.html"
+            },
+            {
+              "text": "真实方位是如何暴露的？",
+              "url": "https://www.ruanyifeng.com/blog/2022/12/weekly-issue-237.html"
+            },
+            {
+              "text": "元宇宙会成功吗",
+              "url": "https://www.ruanyifeng.com/blog/2021/12/weekly-issue-187.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-384.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-384.md"
+}

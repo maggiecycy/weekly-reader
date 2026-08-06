@@ -1,0 +1,663 @@
+{
+  "number": 338,
+  "title": "重新思考 6G",
+  "date": "2025-04-16",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202502/bg2025021919.webp",
+  "summary": "重庆巫山的悬崖上，有一座民宿，可以俯瞰三峡，图片是民宿的后院。（via）",
+  "sections": [
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021919.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>重庆巫山的悬崖上，有一座民宿，可以俯瞰三峡，图片是民宿的后院。（<a href=\"https://news.qq.com/rain/a/20231001A03MJW00\" target=\"_blank\" rel=\"noopener noreferrer\">via</a>）</p>",
+          "links": [
+            {
+              "text": "via",
+              "url": "https://news.qq.com/rain/a/20231001A03MJW00"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021919.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "重新思考-6g",
+      "title": "重新思考 6G",
+      "items": [
+        {
+          "content": "<p>上周，国际电气电子工程师学会（IEEE）的网络杂志《科技纵览》（IEEE Spectrum），发表了一篇文章<a href=\"https://spectrum.ieee.org/5g-bandwidth\" target=\"_blank\" rel=\"noopener noreferrer\">《重新思考 6G》</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021901.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它提出一个很有意思的观点：<strong>带宽需求可能已经饱和了</strong>。</p>\n<p>文章的大意是，对于绝大多数的普通用户来说，目前的网速已经够用了。上网速度即使进一步提高，消费者很可能无感。</p>\n<p>它的证据是，手机的 5G 网络从2018年开始部署，已经6年多了，至今没有出现杀手级应用。<strong>绝大多数应用的网速需求，4G 网络就能满足</strong>。</p>\n<p>为了让大家有一个概念，我简单列一下网速的数量级，4G 是每秒 100 Mb，5G 是每秒 1 Gb（1Gb 等于 1000Mb），拟议中的 6G 是每秒 10 Gb。</p>\n<p>注意，这里的“b”是小写，表示比特位（bit）。平时使用的 MB 和 GB 的“B”是大写，表示字节（Byte），一个字节等于8个比特位。</p>\n<p>大家知道吗，最吃带宽的应用，网速需求是多少？</p>\n<p>视频应用对网速的需求最大，Netflix 的 4K 视频，网速要求是每秒 15 Mb，4G 网络下可以同时打开三、四个窗口播放。</p>\n<p>只有极少数应用，网速需求达到了 5G 的门槛。 目前，网速要求最高的应用之一是微软飞行模拟器2024，达到了每秒 180 Mb。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021902.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这就是说，现阶段根本没有应用，必须用到每秒 1Gb 的网速。大多数用户从 4G 升级到 5G，不会有明显感知，更不要说将来从 5G 升级到 6G 了。</p>\n<p><u>结论就是，（对于普通用户）网络带宽可能到头了，目前的 5G 网速足以满足绝大多数人的需求</u>。</p>\n<p>这有点像民航飞机，过去50年，大型喷气式民航飞机的飞行速度，基本没有变化，一直是每小时900公里左右。并不是造不出更快的飞机，而是这个速度是最佳平衡点，旅客可以接受，飞行成本也不会过高。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021903.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>通信网络可能也到了这个阶段。5G 够用了，升级到 6G 不是那么迫切，也许很长一段时间都不会发生。一方面，市场需求不大，另一方面，即使升级到 6G，设备和流量的价格也会非常高昂，消费者很可能没有意愿买单。</p>\n<p>这意味着，过去几十年来，一直轰轰烈烈、巨额投资的通信设备市场，将要放缓。电信公司的网络建设投资，将会大幅减少。</p>\n<p>一旦通信公司不再能通过网络升级获得新客户，就必须采用其他手段，来发展业务：（1）流量降价；（2）提高网络的覆盖范围，减少信号差的地区；（3）提升客户服务。</p>\n<p>当民航的飞行速度不再提高后，就出现了廉价航空公司。可以预期，未来也会出现廉价的通信商，出售非常便宜的流量。</p>",
+          "links": [
+            {
+              "text": "《重新思考 6G》",
+              "url": "https://spectrum.ieee.org/5g-bandwidth"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021901.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021902.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021903.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-动态-两则",
+      "title": "AI 动态（两则）",
+      "items": [
+        {
+          "content": "<p>### AI 的研究模式 </p>\n<p>2025年，AI 大模型的进展是什么？</p>\n<p><strong>答案肯定是研究模式</strong>。早期一问一答的对话，已经进化到了思考和推理。</p>\n<p>遇到需要深入思考的问题，AI 会先思考框架、拆解步骤，再查找大量文献资料，分析整合出最后的结果，思考步骤还是很全面的。</p>\n<p>国外，Google、OpenAI、Perplexity 等公司都已经纷纷上线了 Deep Research。国内，对标 Perplexity 的“<a href=\"https://metaso.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">秘塔 AI</a>”也上线了新的研究模式。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025022004.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它的背后是“双模型架构”：需要深度推理的部分，由满血版 DeepSeek R1 完成，需要快速响应的信息搜索、资料整合部分，由秘塔自研的模型完成。</p>\n<p>下面是<a href=\"https://metaso.cn/s/tfrWtdF\" target=\"_blank\" rel=\"noopener noreferrer\">一个例子</a>，你要写一篇论文《基于区块链的碳信用交易系统》，研究模式就会给出思考步骤，最终生成研究框架。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025022003.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>再加上秘塔 AI 自己的学术数据库，保证了参考资料的真实性，使用下来发现有些回答会好于 DS 官网。</p>\n<p>体验到这些是<strong>完全免费</strong>的，而且操作零难度。大家有需要研究和分析的问题，可以去<a href=\"https://metaso.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">试试看</a>。</p>\n<p>### VS Code 使用 DeepSeek 的方法</p>\n<p>在 VS Code 编辑器，怎么使用 DeepSeek 模型？</p>\n<p>国内用户的最简单方法，大概就是 <a href=\"https://zjsms.com/iPg5wXhX/\" target=\"_blank\" rel=\"noopener noreferrer\">MarsCode 编程助手</a>。</p>\n<p>它最新的 VSCode 插件（1.1.62版本）和 JetBrains 插件（1.2.1.15版本），都支持 DeepSeek。已经安装的朋友，IDE 内直接更新，新安装可以去<a href=\"https://zjsms.com/iPg5wXhX/\" target=\"_blank\" rel=\"noopener noreferrer\">官网下载</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021906.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>使用时，在 AI 对话框下方，点击模型按钮，目前有三个模型：doubao-1.5-pro、DeepSeek R1/V3（满血版）。不需要任何配置，<strong>全部免费使用</strong>。</p>\n<p>这三个模型的能力都很强，插件效果（代码解释、注释、修复、优化、上下文问答）都表现更好了，大家可以自己比较。其中，DeepSeek R1 模型在后台由火山方舟部署，TPS（每秒 Token 生成速度）、TTFT（首 token 出现等待时间）等指标，<a href=\"https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247514264&idx=1&sn=d3ffa53fce70b6dc148c4a6e9df3537a&scene=58&subscene=0\" target=\"_blank\" rel=\"noopener noreferrer\">第三方测评结果</a>称，其 DS 方案性能排名表现优异。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021907.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这一次，MarsCode 官方正在举办“体验有礼”活动，<u>在社交平台（小红书、CSDN、掘金开发者社区）分享自己的使用截图和不少于30字的使用心得</u>，艾特他们的官方账号“@豆包MarsCode”，就可以在他们的官方微信账号参与抽奖，中奖率高。</p>\n<p>另外，MarsCode 团队上个月发布了一款 AI 原生的 IDE ———— <a href=\"https://sourl.cn/6P5AGW\" target=\"_blank\" rel=\"noopener noreferrer\">Trae</a>，注重提升整体的 AI 体验，大家也可以试试。</p>",
+          "links": [
+            {
+              "text": "秘塔 AI",
+              "url": "https://metaso.cn/"
+            },
+            {
+              "text": "一个例子",
+              "url": "https://metaso.cn/s/tfrWtdF"
+            },
+            {
+              "text": "试试看",
+              "url": "https://metaso.cn/"
+            },
+            {
+              "text": "MarsCode 编程助手",
+              "url": "https://zjsms.com/iPg5wXhX/"
+            },
+            {
+              "text": "官网下载",
+              "url": "https://zjsms.com/iPg5wXhX/"
+            },
+            {
+              "text": "第三方测评结果",
+              "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247514264&idx=1&sn=d3ffa53fce70b6dc148c4a6e9df3537a&scene=58&subscene=0"
+            },
+            {
+              "text": "Trae",
+              "url": "https://sourl.cn/6P5AGW"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025022004.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025022003.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021906.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021907.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "科技动态",
+      "title": "科技动态",
+      "items": [
+        {
+          "title": "时间码的身份验证",
+          "content": "<p>很多应用采用一次性时间码（TOTP），按照当前时间和用户生成一串数字，来验证用户身份。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021507.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个程序员想到，完全可以用这种方法，验证是否见到了本人。</p>\n<p>举例来说，A 和 B 从未见过，如何在见面时，确认来的是本人？</p>\n<p>他们可以访问<a href=\"https://ksze.github.io/PeerAuth/\" target=\"_blank\" rel=\"noopener noreferrer\">这个网址</a>，输入双方的名称，系统分别为他们生成一个二维码。</p>\n<p>他们将自己的二维码，保存到手机的验证器，以便生成时间码。见面时，如果双方的时间码一致，就表明来的是本人。</p>",
+          "links": [
+            {
+              "text": "时间码的身份验证",
+              "url": "https://www.schneier.com/blog/archives/2025/02/pairwise-authentication-of-humans.html"
+            },
+            {
+              "text": "这个网址",
+              "url": "https://ksze.github.io/PeerAuth/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021507.webp"
+          ]
+        },
+        {
+          "title": "机载大地磁场探测器",
+          "content": "<p>中国科学院最近研制了，中国首套机载大地磁场探测器。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021908.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>建设高原铁路，需要了解沿线的磁场情况。但是，沿线都是无人居住的高原山区，人工勘探很危险，成本也非常高。</p>\n<p>科研人员就将磁场探测器，安装在一个环形支架上，吊挂在直升飞机下方。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021909.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>飞机在飞行过程中，就能读取磁场数据，完成探测。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021910.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021911.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "机载大地磁场探测器",
+              "url": "https://www.cas.cn/cm/202502/t20250219_5047510.shtml"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021908.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021909.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021910.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021911.webp"
+          ]
+        },
+        {
+          "title": "被缚的机器狗",
+          "content": "<p>一个日本艺术家创作了一个叫做《被缚的机器狗》的作品。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021916.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>只见两条机器狗被铁链拴住，不停走来走去，有时会趴着休息。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021917.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>如果有人经过，它们会冲过来，好像要攻击似的。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021918.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>但是，铁链把它们拉住了，它们最后只能退回去，悻悻得叫几声。</p>\n<p>看着这个作品，给人的感觉很复杂：恐怖、怜悯、荒谬……</p>",
+          "links": [
+            {
+              "text": "被缚的机器狗",
+              "url": "https://www.instagram.com/p/DGE5M9Yuhwm/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021916.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021917.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021918.webp"
+          ]
+        },
+        {
+          "title": "*",
+          "content": "<p><em>其他</em>*</p>\n<p>（1）NBA 的苹果 Vision Pro 应用，添加了<a href=\"https://www.uploadvr.com/nba-apple-vision-pro-app-tabletop-view/\" target=\"_blank\" rel=\"noopener noreferrer\">直播的 3D 桌面模式</a>，球场的实时画面变成了一张 3D 棋盘。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021506.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>（2）美国宇航局宣布，一颗名为“2024 YR4”、直径40米～90米的<a href=\"https://www.qlwb.com.cn/detail/25693204.html\" target=\"_blank\" rel=\"noopener noreferrer\">小行星</a>，在2032年撞击地球的概率是三十分之一（3.1%）。如果相撞，可能毁灭一个城市。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021912.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "直播的 3D 桌面模式",
+              "url": "https://www.uploadvr.com/nba-apple-vision-pro-app-tabletop-view/"
+            },
+            {
+              "text": "小行星",
+              "url": "https://www.qlwb.com.cn/detail/25693204.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021506.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021912.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "废弃 Create React App",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021505.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>React 官方宣布，正式废弃 Create React App，建议通过框架来使用，也就是不建议直接用 React。</p>",
+          "links": [
+            {
+              "text": "废弃 Create React App",
+              "url": "https://react.dev/blog/2025/02/14/sunsetting-create-react-app"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021505.webp"
+          ]
+        },
+        {
+          "title": "Unicode 字符的迷你柱状图",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202408/bg2024082702.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文介绍怎么使用 Unicode 字符，来生成迷你的柱状图（上图）。</p>",
+          "links": [
+            {
+              "text": "Unicode 字符的迷你柱状图",
+              "url": "https://blog.jonudell.net/2021/08/05/the-tao-of-unicode-sparklines/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202408/bg2024082702.webp"
+          ]
+        },
+        {
+          "title": "多页应用不输给单页应用",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202411/bg2024111805.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>单页应用（SPA）是网页应用的主流，本文提出多页应用也可以做到 SPA 的各种优点。</p>",
+          "links": [
+            {
+              "text": "多页应用不输给单页应用",
+              "url": "https://htmx.org/essays/you-cant/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202411/bg2024111805.webp"
+          ]
+        },
+        {
+          "title": "详解 Linux 硬链接和软链接",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202411/bg2024111910.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Linux 有两种特殊文件：硬链接和软链接，本文详细解释它们的区别。</p>",
+          "links": [
+            {
+              "text": "详解 Linux 硬链接和软链接",
+              "url": "https://bhoot.dev/2024/on-linux-file-and-links/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202411/bg2024111910.webp"
+          ]
+        },
+        {
+          "title": "了解 CSS 的 overflow: clip",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202411/bg2024112001.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>CSS 的 overflow 属性，有一个 clip 值，可以截去溢出部分。通过它，可以做出很多页面效果。</p>",
+          "links": [
+            {
+              "text": "了解 CSS 的 overflow: clip",
+              "url": "https://ishadeed.com/article/overflow-clip/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202411/bg2024112001.webp"
+          ]
+        },
+        {
+          "title": "什么是网页的元信息？",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202409/bg2024090301.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文介绍如何在网页中插入元信息（比如作者、关键词、内容描述等等），便于计算机检索。</p>",
+          "links": [
+            {
+              "text": "什么是网页的元信息？",
+              "url": "https://www.thisdaysportion.com/posts/dublin-core-what-is-it-good-for"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202409/bg2024090301.webp"
+          ]
+        },
+        {
+          "title": "如何安装 ADB",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202501/bg2025010503.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>ADB 是电脑连接安卓手机必需的，本文分别介绍 Windows/macOS/Linux 如何安装 ADB。</p>",
+          "links": [
+            {
+              "text": "如何安装 ADB",
+              "url": "https://www.xda-developers.com/install-adb-windows-macos-linux/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202501/bg2025010503.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "ElevenReader",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021607.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个手机 App（支持 iOS 和安卓），把电子书转成有声书，支持中文，但是内置的老外语音读起来很生硬。</p>",
+          "links": [
+            {
+              "text": "ElevenReader",
+              "url": "https://elevenreader.io/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021607.webp"
+          ]
+        },
+        {
+          "title": "GIXY",
+          "content": "<p>一个开源的命令行工具，检查 NGINX 的配置文件是否有错误。</p>",
+          "links": [
+            {
+              "text": "GIXY",
+              "url": "https://github.com/dvershinin/gixy"
+            }
+          ]
+        },
+        {
+          "title": "uchū",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021803.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一款互联网调色板，提供预设的 CSS 配色方案。它采用新的`oklch()`函数声明颜色，这里有一篇<a href=\"https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl\" target=\"_blank\" rel=\"noopener noreferrer\">`oklch()`的介绍文章</a>。</p>",
+          "links": [
+            {
+              "text": "uchū",
+              "url": "https://uchu.style/"
+            },
+            {
+              "text": "`oklch()`的介绍文章",
+              "url": "https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021803.webp"
+          ]
+        },
+        {
+          "title": "Bun Shell",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202407/bg2024072603.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>使用 Bun 作为解释器的 Shell 环境，可以在命令行直接运行 JavaScript 脚本。</p>",
+          "links": [
+            {
+              "text": "Bun Shell",
+              "url": "https://bun.sh/blog/the-bun-shell"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202407/bg2024072603.webp"
+          ]
+        },
+        {
+          "title": "Spotube",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202407/bg2024072604.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个另类的 Spotify 跨平台客户端，从 Spotify 获取数据，然后播放来自其他音源（比如 YouTube）的音频，从而不必购买会员。</p>",
+          "links": [
+            {
+              "text": "Spotube",
+              "url": "https://github.com/KRTirtho/spotube"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202407/bg2024072604.webp"
+          ]
+        },
+        {
+          "title": "Kener",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202407/bg2024072609.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个自托管的状态页，用来监控指定网站是否正常在线。类似工具还有 <a href=\"https://github.com/louislam/uptime-kuma\" target=\"_blank\" rel=\"noopener noreferrer\">Uptime Kuma</a>。</p>",
+          "links": [
+            {
+              "text": "Kener",
+              "url": "https://github.com/rajnandan1/kener"
+            },
+            {
+              "text": "Uptime Kuma",
+              "url": "https://github.com/louislam/uptime-kuma"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202407/bg2024072609.webp"
+          ]
+        },
+        {
+          "title": "gtrash",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202407/bg2024072618.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Linux 和 Mac 系统的被删除文件的垃圾桶，可以在终端里面还原文件，参见<a href=\"https://linuxiac.com/gtrash-linux-command/\" target=\"_blank\" rel=\"noopener noreferrer\">介绍文章</a>。</p>",
+          "links": [
+            {
+              "text": "gtrash",
+              "url": "https://github.com/umlx5h/gtrash"
+            },
+            {
+              "text": "介绍文章",
+              "url": "https://linuxiac.com/gtrash-linux-command/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202407/bg2024072618.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-工具",
+      "title": "AI 工具",
+      "items": [
+        {
+          "title": "DeepSRT",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021503.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个 Chrome 插件，观看 Youtube 视频时，在浏览器侧边栏展示视频总结和字幕。（<a href=\"https://github.com/ruanyf/weekly/issues/6108\" target=\"_blank\" rel=\"noopener noreferrer\">@tsungmin</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "DeepSRT",
+              "url": "https://chromewebstore.google.com/detail/deepsrt-experience-the-fa/mdaaadlpcanoofcoeanghbmpbdbhladd"
+            },
+            {
+              "text": "@tsungmin",
+              "url": "https://github.com/ruanyf/weekly/issues/6108"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021503.webp"
+          ]
+        },
+        {
+          "title": "Deep Research Web UI",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021504.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>AI 深度研究的前端 UI，可以接入各种大模型，结合搜索引擎和网页抓取，对各种主题进行迭代式深入研究。（<a href=\"https://github.com/ruanyf/weekly/issues/6110\" target=\"_blank\" rel=\"noopener noreferrer\">@AnotiaWang</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Deep Research Web UI",
+              "url": "https://github.com/AnotiaWang/deep-research-web-ui"
+            },
+            {
+              "text": "@AnotiaWang",
+              "url": "https://github.com/ruanyf/weekly/issues/6110"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021504.webp"
+          ]
+        },
+        {
+          "title": "AI 翻译助手",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021701.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的 AI 翻译网站。（<a href=\"https://github.com/ruanyf/weekly/issues/6121\" target=\"_blank\" rel=\"noopener noreferrer\">@321208008</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "AI 翻译助手",
+              "url": "https://github.com/ItusiAI/AI-Translation-Assistant-Pro"
+            },
+            {
+              "text": "@321208008",
+              "url": "https://github.com/ruanyf/weekly/issues/6121"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021701.webp"
+          ]
+        },
+        {
+          "title": "GitSeek",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025022001.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>给定一个代码库，使用自然语言搜索需要的代码片段。（<a href=\"https://github.com/ruanyf/weekly/issues/6132\" target=\"_blank\" rel=\"noopener noreferrer\">@i-richardwang</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "GitSeek",
+              "url": "https://gitseek.dev/"
+            },
+            {
+              "text": "@i-richardwang",
+              "url": "https://github.com/ruanyf/weekly/issues/6132"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025022001.webp"
+          ]
+        },
+        {
+          "title": "AI 多人聊天室",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025022002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个开源的、基于 React和 Cloudflare Pages 的 AI 聊天室，跟多个 AI 模型同时聊天。（<a href=\"https://github.com/ruanyf/weekly/issues/6133\" target=\"_blank\" rel=\"noopener noreferrer\">@maojindao55</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "AI 多人聊天室",
+              "url": "https://github.com/maojindao55/botgroup.chat"
+            },
+            {
+              "text": "@maojindao55",
+              "url": "https://github.com/ruanyf/weekly/issues/6133"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025022002.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "四级词汇手册",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021501.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>使用 DeepSeek 编写的四级词汇手册，提供单词的词义、词根、例句、辅助记忆、助记图像等。（<a href=\"https://github.com/ruanyf/weekly/issues/6107\" target=\"_blank\" rel=\"noopener noreferrer\">@vxiaozhi</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "四级词汇手册",
+              "url": "https://github.com/vxiaozhi/vocabulary-book-by-deepseek"
+            },
+            {
+              "text": "@vxiaozhi",
+              "url": "https://github.com/ruanyf/weekly/issues/6107"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021501.webp"
+          ]
+        },
+        {
+          "title": "唐韵",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021502.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一款界面简洁的古诗词网站。（<a href=\"https://github.com/ruanyf/weekly/issues/6086\" target=\"_blank\" rel=\"noopener noreferrer\">@LLSean</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "唐韵",
+              "url": "https://www.chinesepoems.org/"
+            },
+            {
+              "text": "@LLSean",
+              "url": "https://github.com/ruanyf/weekly/issues/6086"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021502.webp"
+          ]
+        },
+        {
+          "title": "News Digest",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021805.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>欧美科技网站头条新闻的 AI 摘要，实时更新。</p>",
+          "links": [
+            {
+              "text": "News Digest",
+              "url": "https://news-digest-nine.vercel.app/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021805.webp"
+          ]
+        },
+        {
+          "title": "Discuo",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202501/bg2025010602.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个极简主义的论坛，不需要注册就能发言，类似于 Reddit，可以创建各种频道。</p>",
+          "links": [
+            {
+              "text": "Discuo",
+              "url": "https://discuo.com"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202501/bg2025010602.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "饼图与柱状图",
+          "content": "<p>同样的百分比数据，分别使用饼图和柱状图表示，可读性不一样。</p>\n<p>首先是饼图。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021601.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>其次是柱状图。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021602.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>大家觉得，哪张图更易读？</p>\n<p>一般来说，柱状图更易读，饼图比较难读。原因是人类比较长度的能力远强于比较角度的能力。</p>",
+          "links": [
+            {
+              "text": "饼图与柱状图",
+              "url": "https://perthirtysix.com/visualizing-data-is-an-art"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021601.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021602.webp"
+          ]
+        },
+        {
+          "title": "瑞士护照",
+          "content": "<p>新版的瑞士护照，每一页都有紫外线水印。</p>\n<p>紫外线灯下，护照封面会显示瑞士国徽（一个十字）。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021913.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>其他页面会显示山脉的等高线和地图。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021914.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025021915.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "瑞士护照",
+              "url": "https://www.swissinfo.ch/chi/politics/%E6%96%B0%E7%89%88%E7%91%9E%E5%A3%AB%E6%8A%A4%E7%85%A7%E4%B8%8A%E6%9E%B6/48023134"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021913.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021914.webp",
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025021915.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "旅行50年的一点经验",
+          "content": "<p>作者：凯文·凯利</p>\n<p>我已经认真旅行了50多年，学到了很多东西。</p>\n<p>旅行有两种模式。一种是休息模式，人们通过旅行来逃避常规的工作，进行放松和重振精神。这种模式下，你会去轻松的地方，悠闲地度过假期。</p>\n<p>另一种是体验模式，你旅行是为了发现新事物，获得新体验，投入一场结果不确定的冒险，遇见异类。这种旅行是一种学习，我的经验主要适合这种模式。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202502/bg2025022005.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>很多人旅行有一个误区，就是想看遍所有地方。因为你很可能再也不会来了，所以忍不住想最大化你的行程。既然我们在 X，而 Y 和 Z 又很近，我们不妨去看看 Y 和 Z 吧……</p>\n<p>其实，在更少的地方待更长的时间，远比把时间花在一堆地方好得多。你更应该放慢旅行的速度，多休息。</p>\n<p>旅行最难忘的时刻——与陌生人的交谈、被邀请参观、发现隐藏的地点——通常发生在你停下来的时候。</p>\n<p>你可以前往旅行成本最低的地方，从而同样的预算，就可以待更长的时间。而且，便宜的、非主流的目的地通常值得一游。</p>\n<p>为了获得最佳的旅行体验，你要么投入很多钱，要么投入很多时间。这两种选择中，时间比金钱好得多。因为金钱可以买到时间，但金钱买不到时间所能提供的东西。</p>",
+          "links": [
+            {
+              "text": "旅行50年的一点经验",
+              "url": "https://kk.org/thetechnium/50-years-of-travel-tips/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202502/bg2025022005.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "我",
+          "content": "<p>发现，AI 大模型生成代码时，总是优先使用2022年11月 ChatGPT 发布之前流行的技术。AI 给予这些技术的优先待遇，将扩展它们的采用和寿命。</p>\n<p>-- <a href=\"http://vale.rocks/posts/ai-is-stifling-tech-adoption\" target=\"_blank\" rel=\"noopener noreferrer\">《人工智能正在抑制技术采用》</a></p>",
+          "links": [
+            {
+              "text": "《人工智能正在抑制技术采用》",
+              "url": "http://vale.rocks/posts/ai-is-stifling-tech-adoption"
+            }
+          ]
+        },
+        {
+          "title": "我",
+          "content": "<p>认为欧洲真的要加强。在过去的20年里，美国经济和中国经济的增长速度远远快于欧洲经济</p>\n<p>如果不放松对人工智能技术的严格限制，欧洲有可能成为一个“博物馆”。</p>\n<p>-- <a href=\"https://finance.sina.cn/7x24/2025-02-20/detail-inemcpfi9161031.d.html\" target=\"_blank\" rel=\"noopener noreferrer\">克里斯特松</a>，瑞典首相</p>",
+          "links": [
+            {
+              "text": "克里斯特松",
+              "url": "https://finance.sina.cn/7x24/2025-02-20/detail-inemcpfi9161031.d.html"
+            }
+          ]
+        },
+        {
+          "title": "在",
+          "content": "<p>商业领域，最先做到的人有优势。但是，在研究和学术领域，成功往往不属于最先理解的人，而属于理解得最好的人，真正的优势来自于深刻、基础性的见解。</p>\n<p>-- <a href=\"http://muratbuffalo.blogspot.com/2025/02/my-time-at-mit.html\" target=\"_blank\" rel=\"noopener noreferrer\">《我在麻省理工学院的时光》</a></p>",
+          "links": [
+            {
+              "text": "《我在麻省理工学院的时光》",
+              "url": "http://muratbuffalo.blogspot.com/2025/02/my-time-at-mit.html"
+            }
+          ]
+        },
+        {
+          "title": "先",
+          "content": "<p>行者开辟了道路，后来者用更少的计算资源迅速缩小差距，这就存在了先发劣势。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=43112313\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=43112313"
+            }
+          ]
+        },
+        {
+          "title": "以",
+          "content": "<p>谦逊和好奇的态度对待工作时，你会学到更多，参与得更充分。初学者的心态是一种财富。保持真实的自我有助于你找到自己真正的使命。</p>\n<p>-- <a href=\"http://muratbuffalo.blogspot.com/2025/02/my-time-at-mit.html\" target=\"_blank\" rel=\"noopener noreferrer\">《我在麻省理工学院的时光》</a></p>",
+          "links": [
+            {
+              "text": "《我在麻省理工学院的时光》",
+              "url": "http://muratbuffalo.blogspot.com/2025/02/my-time-at-mit.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "往年回顾",
+      "title": "往年回顾",
+      "items": [
+        {
+          "content": "<p><a href=\"http://www.ruanyifeng.com/blog/2024/03/weekly-issue-291.html\" target=\"_blank\" rel=\"noopener noreferrer\">AI 没有护城河</a>（#291）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2023/02/weekly-issue-241.html\" target=\"_blank\" rel=\"noopener noreferrer\">中国的增长动力在内陆</a>（#241）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2022/01/weekly-issue-191.html\" target=\"_blank\" rel=\"noopener noreferrer\">一个程序员的财务独立之路</a>（#191）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2021/01/weekly-issue-141.html\" target=\"_blank\" rel=\"noopener noreferrer\">封闭系统的胜利</a>（#141）</p>",
+          "links": [
+            {
+              "text": "AI 没有护城河",
+              "url": "http://www.ruanyifeng.com/blog/2024/03/weekly-issue-291.html"
+            },
+            {
+              "text": "中国的增长动力在内陆",
+              "url": "http://www.ruanyifeng.com/blog/2023/02/weekly-issue-241.html"
+            },
+            {
+              "text": "一个程序员的财务独立之路",
+              "url": "http://www.ruanyifeng.com/blog/2022/01/weekly-issue-191.html"
+            },
+            {
+              "text": "封闭系统的胜利",
+              "url": "http://www.ruanyifeng.com/blog/2021/01/weekly-issue-141.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-338.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-338.md"
+}

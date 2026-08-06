@@ -1,0 +1,654 @@
+{
+  "number": 210,
+  "title": "为什么软件变得复杂",
+  "date": "2022-11-02",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202206/bg2022061615.webp",
+  "coverCaption": "中国科学家绘制的世界首幅、最详细的1:250万月球全月地质图发布，统计出月球包含12341个撞击坑、17种岩石、14类地质构造。（via）",
+  "summary": "我一直认为，软件开发的最大关注点，就是避免复杂性。软件设计越简单越好，太多的程序员以构建复杂的解决方案为荣。 但是，本周有一篇文章让我反思，我的想法是不现实的：软件肯定会越变越复杂。 （一） 这篇文章的作者是 Saleforce 公司的前端…",
+  "sections": [
+    {
+      "id": "封面图",
+      "title": "封面图",
+      "items": [
+        {
+          "content": "<p>中国科学家绘制的世界首幅、最详细的1:250万月球全月地质图发布，统计出月球包含12341个撞击坑、17种岩石、14类地质构造。（<a href=\"http://www.cnsa.gov.cn/n6758823/n6758838/c6840495/content.html\" target=\"_blank\" rel=\"noopener noreferrer\">via</a>）</p>",
+          "links": [
+            {
+              "text": "via",
+              "url": "http://www.cnsa.gov.cn/n6758823/n6758838/c6840495/content.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061615.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "本周话题-为什么软件变得复杂",
+      "title": "本周话题：为什么软件变得复杂",
+      "items": [
+        {
+          "content": "<p>我一直认为，软件开发的最大关注点，就是避免复杂性。软件设计越简单越好，太多的程序员以构建复杂的解决方案为荣。</p>\n<p>但是，本周有一篇文章让我反思，我的想法是不现实的：<strong>软件肯定会越变越复杂。</strong></p>\n<p>（一）</p>\n<p>这篇文章的作者是 Saleforce 公司的前端工程师诺拉·劳森（Nolan Lawson），题目就叫做<a href=\"https://nolanlawson.com/2022/06/09/the-collapse-of-complex-software/\" target=\"_blank\" rel=\"noopener noreferrer\">《复杂软件的崩溃》</a>（下图）。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061407.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>大家可能知道，Salesforce 是一家世界级软件公司，专门开发企业软件，以产品复杂而闻名。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061406.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>所以，这件事情很讽刺。一家出产复杂软件的公司，自家的著名程序员公开说，复杂软件会崩溃。</p>\n<p>当然，他在文章里面没提 Salesforce 的名字，但是怎么读都像在写亲身经历。下面摘录一段他的原文和配图，大家品味一下。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061408.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<blockquote>\n<p>“任何在科技行业工作足够长的人，尤其是在大公司工作的人，都曾见过下面的场景。</p>\n<p></p>\n<p>有一个遗留系统，很大很复杂，没有人完全理解它是如何工作的。</p>\n<p></p>\n<p>架构师被要求“修复”系统，他们找来一块大的白板，把这个大系统分解成很多方框和箭头。对于遇到的问题，他们的解决方案就是……添加更多方框和箭头。没有任何一个可以从系统中消去，每个人都只是加上自己的那部分。</p>\n</blockquote>\n<p>这一段是不是写得很形象，就像是日常场景的描述。</p>\n<p>根据他的文章，我整理了一下，Saleforce 内部的情况大概是这样的。</p>\n<blockquote>\n<p>1. 客户的需求非常复杂。为了满足这些需求，大型软件不可避免变得复杂。</p>\n<p>1. 软件公司的管理者真正在意的不是系统的复杂性，而是利润。只要软件能赚钱，高层并不在意软件变得复杂。</p>\n<p>1. 软件复杂性都落到少数架构师和高级程序员的头上。每个人加上自己的解决方案（方框和箭头），让软件越来越复杂，然后不可避免地，他们就会在一段时间后离开公司。</p>\n<p>1. 复杂系统最终变得难以理解和维护，唯一的解决方法就是放弃旧系统，从头开始写一个新系统。</p>\n</blockquote>\n<p>所以，诺拉·劳森的结论很悲观：<strong>怎么解决软件的复杂性？解决不了。最后就是你走人，公司把软件推倒重来。</strong></p>\n<p>这就是一个大厂高级程序员的真实想法。国内的情况其实差不多，上面的描述完全适用于 BAT 内部的复杂系统。</p>\n<p>（二）</p>\n<p>诺拉·劳森还说了一个观点。大家通常认为，复杂系统往往会在经济繁荣的时候崩溃，因为业务太多，支撑不过来，但他认为不是这样的，<strong>系统崩溃往往发生在经济收缩期。</strong></p>\n<p>经济繁荣时期，软件公司会大量雇佣新员工，投入更多的财力和人力，支撑复杂系统。等到经济收缩期，公司开始减少投入、冻结招聘或裁员，复杂系统可能就会在这个时候出问题，变得难以维护。</p>\n<p>现在就是经济收缩期，那么接下来，会不会就是软件故障的高发期，我们将看到很多复杂系统的崩溃？</p>",
+          "links": [
+            {
+              "text": "《复杂软件的崩溃》",
+              "url": "https://nolanlawson.com/2022/06/09/the-collapse-of-complex-software/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061407.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061406.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061408.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "前端高频面试题-2022版",
+      "title": "前端高频面试题（2022版）",
+      "items": [
+        {
+          "content": "<p>这两年，客观地说，前端开发的热度有所下降。主要原因是前端技术逐步稳定，以及智能手机的普及度见顶了。</p>\n<p>但是，前端依然是 IT 行业中最活跃的分支。一年一度的 <a href=\"https://octoverse.github.com/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub 调查</a>中，JavaScript 多年来一直稳居第一，TypeScript 更是快速上升到今年的第四位，仅次于 Python 和 Java。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061616.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>技术稳定带来的一个后果，就是新框架、新工具少了，大家更关注已有框架/工具的改进和功能增加。</p>\n<p>大厂的前端团队也转向了精细化探索，注重如何做得更细、更好，垂直化的技术领域（比如可视化、工程化等）得到了更多的关注。企业的用人要求也越来越高，从能够上手工作就可以要人，变成了要求深入某个领域。</p>\n<p>总的来说，<ins>现在的前端开发处在下图右侧的那个椭圆，比前一个阶段的难度上升了</ins>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061617.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>如果你已经有一定的前端开发基础，近期打算应聘前端岗位，这里有一份有用的资料，可以帮助大家准备面试。</p>\n<p>这份资料就是 <strong>《前端大厂的高频面试题（2022版）》</strong>，一共有174页，收集了最新的面试题，由国内著名的程序员培训平台“极客时间”联系国内大厂制作。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061620.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>所有的题目都分门别类，由浅入深排列，每道题都附有答案详解，方便大家知识梳理、准备面试。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061618.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>此外，还会额外赠送 <strong>《三位资深程序员的面试跳槽经验分享》</strong>，分享技术之外的跳槽准备、简历准备、面试应对……这些值得借鉴的前人经验。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061619.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>微信扫描上方二维码，就可以 <strong>免费领取</strong> 这份前端面试资料。添加客服后，请耐心等待，后台是手动通过的。</p>\n<p>最后提醒一下，<ins>这份资料不适合刚刚学习前端的学生，更适合有前端开发基础和编程经验的从业人员。</ins></p>",
+          "links": [
+            {
+              "text": "GitHub 调查",
+              "url": "https://octoverse.github.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061616.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061617.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061620.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061618.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061619.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "科技动态",
+      "title": "科技动态",
+      "items": [
+        {
+          "title": "虚拟接吻",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022043003.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>卡内基梅隆大学开发了一种新技术，让 VR 头盔的佩戴者可以感受到虚拟接吻。具体做法是，头盔向嘴唇发射超声波，里面包含了一些微小颗粒，让嘴唇、牙齿甚至舌头产生触感。</p>\n<p>上图可以看到，VR 头盔的下方安装了一排超声波发生器，对准红点的位置发射。科学家开玩笑，可以用它开发“接吻机”。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022043004.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>除了产生嘴唇的触感，这种技术还可以在游戏中，让用户感受到风拂过脸部、蜘蛛网碰到脸，甚至食物和饮料进入嘴里的虚拟感受。</p>\n<p>上图是一只巨大的虚拟蜘蛛将大量毒药倾泻到用户身上，用户可以感觉到毒药溅到嘴唇上。</p>",
+          "links": [
+            {
+              "text": "虚拟接吻",
+              "url": "https://gizmodo.com/vr-researches-simulate-kisses-with-ultrasonic-transduce-1848849489"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022043003.webp",
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022043004.webp"
+          ]
+        },
+        {
+          "title": "LED 篮球场",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022060807.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>5月30日，国际篮联正式宣布，允许篮球世界杯等大赛启用 LED 篮球场。</p>\n<p>传统的篮球场都是木地板，木头具有弹性，可以吸收震动，保护球员。现在，最新的 LED 玻璃也已经能够提供足够的弹性。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022060808.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>LED 球场有很多好处，省去了划线的麻烦，能够快速切换成篮球场、手球场、排球场、羽毛球场。</p>\n<p>并且，它自身能发光，可以作为显示屏，实时显示比赛数据，并且配合球场活动，营造气氛。在黑暗中，界线依然保持醒目。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022060809.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "LED 篮球场",
+              "url": "http://www.lanxiongsports.com/posts/view/id/22687.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022060807.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022060808.webp",
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022060809.webp"
+          ]
+        },
+        {
+          "title": "树皮字体",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202205/bg2022050302.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202205/bg2022050306.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>五年前，一个丹麦艺术家将字体刻在一棵树上，想看看随着树木的成长，字体会变成什么样，也就是大自然会怎样呈现字体。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202205/bg2022050307.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>下面是字母 a 和 o 在五年中的变化。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202205/bg2022050303.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202205/bg2022050304.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这些字体应用到印刷品，就是下面的样子。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202205/bg2022050305.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他发现，这些字母主要是横向成长，变得更宽更粗，高度反而变化不大。这说明，树木成形后，树干高度就基本不再变化了，开始不断长粗。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202205/bg2022050308.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "树皮字体",
+              "url": "https://bjoernkarmann.dk/occlusion-grotesque"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202205/bg2022050302.webp",
+            "https://cdn.beekka.com/blogimg/asset/202205/bg2022050306.webp",
+            "https://cdn.beekka.com/blogimg/asset/202205/bg2022050307.webp",
+            "https://cdn.beekka.com/blogimg/asset/202205/bg2022050303.webp",
+            "https://cdn.beekka.com/blogimg/asset/202205/bg2022050304.webp",
+            "https://cdn.beekka.com/blogimg/asset/202205/bg2022050305.webp",
+            "https://cdn.beekka.com/blogimg/asset/202205/bg2022050308.webp"
+          ]
+        },
+        {
+          "title": "禁止白炽灯泡",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202205/bg2022050502.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>拜登政府宣布，美国将禁止销售每瓦产生低于45流明的灯泡。这实际上禁掉了白炽灯泡。</p>\n<p>这个决定是为了提高照明的能量效率。一般来说，白炽灯泡每瓦的发光量在10流明左右，LED 灯泡则可以达到每瓦100流明以上。</p>",
+          "links": [
+            {
+              "text": "禁止白炽灯泡",
+              "url": "https://www.cnbc.com/2022/04/26/biden-blocks-sales-of-inefficient-lightbulbs-reversing-trump-policy-.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202205/bg2022050502.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "我为什么与中国游戏发行商签约又分手",
+          "content": "<p>这是一篇日本独立游戏开发者的文章，被译成了中文。作者以亲身经历，解释了目前的独立游戏的发行制度和现状。</p>",
+          "links": [
+            {
+              "text": "我为什么与中国游戏发行商签约又分手",
+              "url": "https://www.chuapp.com/?a=index&c=Article&id=288712"
+            }
+          ]
+        },
+        {
+          "title": "Intel 4 工艺宣布",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061609.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>上周，英特尔公司正式宣布了 Intel 4 工艺。这是英特尔公司第一次将 EUV 技术用于 CPU 的生产，实现了7纳米的制程，开始追赶台积电。本文介绍该工艺的一些情况。</p>",
+          "links": [
+            {
+              "text": "Intel 4 工艺宣布",
+              "url": "https://finance.sina.com.cn/tech/2022-06-14/doc-imizirau8363822.shtml"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061609.webp"
+          ]
+        },
+        {
+          "title": "我如何搭建家用 NAS",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022060906.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文详细记录了作者选购硬件、安装软件，搭建一台 22TB 的家用 NAS （网络存储）服务器的过程，可以当作自己架设 NAS 的参考。这里是中文翻译，另有<a href=\"https://mtlynch.io/budget-nas/\" target=\"_blank\" rel=\"noopener noreferrer\">英文原文</a>。（<a href=\"https://github.com/ruanyf/weekly/issues/2444\" target=\"_blank\" rel=\"noopener noreferrer\">@yangchuansheng</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "我如何搭建家用 NAS",
+              "url": "https://icloudnative.io/posts/budget-nas/"
+            },
+            {
+              "text": "英文原文",
+              "url": "https://mtlynch.io/budget-nas/"
+            },
+            {
+              "text": "@yangchuansheng",
+              "url": "https://github.com/ruanyf/weekly/issues/2444"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022060906.webp"
+          ]
+        },
+        {
+          "title": "最简单的任务管理系统",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022021201.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文介绍作者自己发明的最简单任务管理系统，就是把每天的任务写在卡片上，用一个架子放在眼前，做完一件就划掉一件。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022021202.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "最简单的任务管理系统",
+              "url": "https://ugmonk.com/blogs/journal/analog-the-simplest-productivity-system"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022021201.webp",
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022021202.webp"
+          ]
+        },
+        {
+          "title": "使用 Cloudflare + Backblaze B2 打造一个免费的图像 CDN",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022021604.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文是一篇详细的教程，教你怎么把图片托管在 Backblaze B2 对象存储，然后连接到 Cloudflare 的 CDN 服务。两者都有免费额度，对于小网站来说，不用花钱就解决了图片的存储和带宽问题。</p>",
+          "links": [
+            {
+              "text": "使用 Cloudflare + Backblaze B2 打造一个免费的图像 CDN",
+              "url": "https://www.backblaze.com/blog/free-image-hosting-with-cloudflare-transform-rules-and-backblaze-b2/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022021604.webp"
+          ]
+        },
+        {
+          "title": "如何用 iOS 快捷指令防止沉迷？",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202201/bg2022010401.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者发现自己在社交媒体上，浪费了大量时间。他想出了一个办法，制作了一个 iOS 快捷指令（shortcuts），只要一打开社交 App，就会跳出提示“请专心工作”。</p>",
+          "links": [
+            {
+              "text": "如何用 iOS 快捷指令防止沉迷？",
+              "url": "https://nick.comer.io/post/ios-shortcuts"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202201/bg2022010401.webp"
+          ]
+        },
+        {
+          "title": "我的免费摄影软件工作流",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022040609.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者是一个专业的摄影师，完全采用免费软件处理数码照片。本文介绍他的解决方案。</p>",
+          "links": [
+            {
+              "text": "我的免费摄影软件工作流",
+              "url": "https://blog.fidelramos.net/photography/photography-workflow#5-replication-with-syncthing"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022040609.webp"
+          ]
+        },
+        {
+          "title": "我在单个服务器上托管几十个网站",
+          "content": "<p>作者详细介绍，他如何在一个服务器上托管几十个网站，大部分是 API 调用。这里最大的难题还不是把服务架起来，而是如何同时维护和管理它们。</p>",
+          "links": [
+            {
+              "text": "我在单个服务器上托管几十个网站",
+              "url": "https://cprimozic.net/blog/my-selfhosted-websites-architecture/#backup--disaster-recovery"
+            }
+          ]
+        },
+        {
+          "title": "如何估算流入加密货币的资金",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022020302.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>多少资金流入了加密货币市场？这显然是无法准确计算的，作者想到了一个办法，可以间接估算。那就是看稳定币每月增长的发行量，上图是过去两年稳定币每个月的增长百分比。</p>",
+          "links": [
+            {
+              "text": "如何估算流入加密货币的资金",
+              "url": "https://tomtunguz.com/how-much-money-flowing-into-crypto/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022020302.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "CloudMP3.cc",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022041702.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个云服务，可以将 SoundCloud 上面的音频，转成 mp3 下载。</p>",
+          "links": [
+            {
+              "text": "CloudMP3.cc",
+              "url": "https://cloudmp3.cc/en/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022041702.webp"
+          ]
+        },
+        {
+          "title": "ToolJet",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202203/bg2022031912.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个低代码框架，用来开发内部工具。部署到服务器后，它有一个 Web 界面，通过拖拽，就可以连接各种数据源，生成各种应用或管理面板。</p>",
+          "links": [
+            {
+              "text": "ToolJet",
+              "url": "https://github.com/ToolJet/ToolJet"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202203/bg2022031912.webp"
+          ]
+        },
+        {
+          "title": "i 微信读书",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061503.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Chrome 浏览器插件，配合网页版微信读书使用，支持划线摘抄句子、划线生成分享图片、一键导出笔记等功能。（<a href=\"https://github.com/ruanyf/weekly/issues/2439\" target=\"_blank\" rel=\"noopener noreferrer\">@secreter</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "i 微信读书",
+              "url": "https://secreter.github.io/ireader/index.html"
+            },
+            {
+              "text": "@secreter",
+              "url": "https://github.com/ruanyf/weekly/issues/2439"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061503.webp"
+          ]
+        },
+        {
+          "title": "Sogou C++ Workflow",
+          "content": "<p>搜狗公司开源的 C++ 服务器引擎，支撑搜狗几乎所有后端 C++ 在线服务，提供了大量异步服务的功能。（<a href=\"https://github.com/ruanyf/weekly/issues/2446\" target=\"_blank\" rel=\"noopener noreferrer\">@Barenboim</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Sogou C++ Workflow",
+              "url": "https://github.com/sogou/workflow"
+            },
+            {
+              "text": "@Barenboim",
+              "url": "https://github.com/ruanyf/weekly/issues/2446"
+            }
+          ]
+        },
+        {
+          "title": "FastGit",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061504.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>GitHub 有时在国内不容易打开，这里有一个服务是 GitHub 的镜像加速器。提醒一下，如果要登陆 GitHub，使用这种服务会有安全顾虑，大家自己权衡。（<a href=\"https://github.com/ruanyf/weekly/issues/2448\" target=\"_blank\" rel=\"noopener noreferrer\">@dllen</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "FastGit",
+              "url": "https://doc.fastgit.org/zh-cn/guide.html"
+            },
+            {
+              "text": "@dllen",
+              "url": "https://github.com/ruanyf/weekly/issues/2448"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061504.webp"
+          ]
+        },
+        {
+          "title": "Go-Ldap-Admin",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061505.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个国产软件，基于 Go+Vue 实现的 openLDAP 管理后台，可以作为打通 IM（钉钉、企业微信、飞书）与支持 ldap 认证的应用的桥梁。（<a href=\"https://github.com/ruanyf/weekly/issues/2450\" target=\"_blank\" rel=\"noopener noreferrer\">@eryajf</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Go-Ldap-Admin",
+              "url": "http://ldapdoc.eryajf.net/"
+            },
+            {
+              "text": "@eryajf",
+              "url": "https://github.com/ruanyf/weekly/issues/2450"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061505.webp"
+          ]
+        },
+        {
+          "title": "Japa",
+          "content": "<p>一个 Node.js 的测试框架，简单快速，功能也很多，而且可以直接运行测试脚本，不必通过测试框架来运行。</p>",
+          "links": [
+            {
+              "text": "Japa",
+              "url": "https://japa.dev/"
+            }
+          ]
+        },
+        {
+          "title": "@xata.io/screenshot",
+          "content": "<p>这个网页脚本可以生成当前页面的截图。</p>",
+          "links": [
+            {
+              "text": "@xata.io/screenshot",
+              "url": "https://github.com/xataio/screenshot"
+            }
+          ]
+        },
+        {
+          "title": "GitLens",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202203/bg2022031915.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个 VSCode 的插件，大大增强了 Git 集成，可以在编辑器里面执行很多 Git 操作，特别适合多人合作的项目。</p>",
+          "links": [
+            {
+              "text": "GitLens",
+              "url": "https://www.gitkraken.com/gitlens/features"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202203/bg2022031915.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deno-框架",
+      "title": "Deno 框架",
+      "items": [
+        {
+          "content": "<p>Deno 是 JavaScript 语言的服务器运行环境，跟 Node.js 是竞争关系。</p>\n<p>Deno 本身的开发已经接近稳定了，下一步只要有一个好用的框架，就能推广了。</p>",
+          "links": []
+        },
+        {
+          "title": "Fresh 框架",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061401.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>上周，基于 Deno 的 Fresh 框架发布了预览。</p>\n<p>该框架直接使用 TypeScript 脚本，号称零配置、零构建，页面由服务端渲染，客户端不需要 JS 生成内容，也没有多余的 JS 脚本，追求小而快，值得关注。</p>",
+          "links": [
+            {
+              "text": "Fresh 框架",
+              "url": "https://fresh.deno.dev/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061401.webp"
+          ]
+        },
+        {
+          "title": "Aleph.js",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061402.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Aleph.js 是另一个基于 Deno 的全栈框架，类似于 Next.js，目前处于早期开发阶段，也可以关注。</p>",
+          "links": [
+            {
+              "text": "Aleph.js",
+              "url": "https://alephjs.org/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061402.webp"
+          ]
+        },
+        {
+          "title": "Express",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202206/bg2022061403.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>顺便提一下，老牌的 Node.js 框架 Express，最近要发布5.0版了。这是一件大事，因为4.0版是八年前发布的。这篇文章介绍了<a href=\"https://fusebit.io/blog/new-express-5-features/\" target=\"_blank\" rel=\"noopener noreferrer\">5.0版的新特性</a>。</p>",
+          "links": [
+            {
+              "text": "Express",
+              "url": "https://expressjs.com/"
+            },
+            {
+              "text": "5.0版的新特性",
+              "url": "https://fusebit.io/blog/new-express-5-features/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202206/bg2022061403.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "可视化作品",
+      "title": "可视化作品",
+      "items": [
+        {
+          "title": "全球海底光缆",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022041001.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网页提供了一个互动式的地球，上面有全世界海底光缆和骨干机房的位置。</p>",
+          "links": [
+            {
+              "text": "全球海底光缆",
+              "url": "http://he.net/3d-map/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022041001.webp"
+          ]
+        },
+        {
+          "title": "极光",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022041002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网页构造了一个极地的背景，让你手绘动态的极光效果。</p>",
+          "links": [
+            {
+              "text": "极光",
+              "url": "https://www.drawaurora.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022041002.webp"
+          ]
+        },
+        {
+          "title": "波斯波利斯",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/220204/bg2022041004.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>波斯波利斯是古代波斯帝国的首都，位于现在的伊朗，已经是一片废墟了。这个页面还原了这座雄伟的帝国都城，重建了 3D 街景，让你在其中漫游。</p>",
+          "links": [
+            {
+              "text": "波斯波利斯",
+              "url": "https://persepolis.getty.edu/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/220204/bg2022041004.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "咸海",
+          "content": "<p>哈萨克斯坦曾经有一个巨大的湖泊，叫做咸海，面积68000平方公里，相当于两个海南岛，是世界第四大湖泊。</p>\n<p>但是，从1960年代开始，前苏联建造了很多灌溉工程，从咸海大量引水，又没有补充，导致咸海快速干涸，目前已经接近消失了。</p>\n<p>1985年的咸海。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022022001.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>1997年的咸海。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022022002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>2014年的咸海。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022022003.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "咸海",
+              "url": "https://zh.wikipedia.org/wiki/%E9%B9%B9%E6%B5%B7"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022022001.webp",
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022022002.webp",
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022022003.webp"
+          ]
+        },
+        {
+          "title": "住宅墙",
+          "content": "<p>加拿大有一个小镇，靠近北极，终年刮着强劲的北风。</p>\n<p>为了挡风，当地修建了高50米，长1.3公里的挡风墙，同时这堵墙里面还是住宅、商业和教育设置，里面可以住人。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022022006.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022022007.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>因为有了这堵住宅墙，小镇居民就拥有了一个无风的、温暖的小气候。 </p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022022008.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022022009.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "住宅墙",
+              "url": "https://www.houseporn.ca/landscape/article/the_wall_housing_structure_in_fermont_quebec"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022022006.webp",
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022022007.webp",
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022022008.webp",
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022022009.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "如何增加牙膏的销量",
+          "content": "<p>1950年代，一家国外的牙膏公司，向公众征求能够大幅提高销售额的点子。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202202/bg2022020805.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>几天之后，有一个人来应征，声称他有办法让销售额快速增长40%，而且实施起来不需要很大成本。他要价10万美元。</p>\n<p>公司管理层犹豫了数周，最后还是同意了给钱。</p>\n<p>等到法律手续和付款流程完成后，这个人给出装有一张小纸条的信封，小纸条上只有四个英文单词：</p>\n<blockquote>\n<p>“Make The Hole Bigger”</p>\n</blockquote>\n<p>这句话翻译成中文，就是“让牙膏开口更大一点”。</p>\n<p>此前，管状牙膏的开口一般是5毫米直径。稍加计算就可以知道，当直径从5毫米增加到6毫米时，假设挤出的牙膏长度不变，挤出量会增加44%。</p>\n<p>原先顾客用一管牙膏的时间，现在要1.4管牙膏才能满足需求。看似很小的改变，却刷新了这家公司的销售记录，创造了历史。</p>",
+          "links": [
+            {
+              "text": "如何增加牙膏的销量",
+              "url": "https://www.ifanr.com/app/1448161"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202202/bg2022020805.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "一",
+          "content": "<p>件事最可怕的时刻，总是在你开始做之前。</p>\n<p>-- <a href=\"https://gretchenrubin.com/2016/08/according-stephen-king-scariest-moment-always-____\" target=\"_blank\" rel=\"noopener noreferrer\">斯蒂芬·金</a></p>",
+          "links": [
+            {
+              "text": "斯蒂芬·金",
+              "url": "https://gretchenrubin.com/2016/08/according-stephen-king-scariest-moment-always-____"
+            }
+          ]
+        },
+        {
+          "title": "对",
+          "content": "<p>于那些没有想象力的人来说，保持常态就是他们的理想。</p>\n<p>-- <a href=\"https://quotefancy.com/quote/782361/C-G-Jung-Normality-is-a-fine-ideal-for-those-who-have-no-imagination\" target=\"_blank\" rel=\"noopener noreferrer\">荣格</a></p>",
+          "links": [
+            {
+              "text": "荣格",
+              "url": "https://quotefancy.com/quote/782361/C-G-Jung-Normality-is-a-fine-ideal-for-those-who-have-no-imagination"
+            }
+          ]
+        },
+        {
+          "title": "I",
+          "content": "<p>T 行业与传统制造业有一个重要区别，就是 IT 行业有着严重的垄断。</p>\n<p>全世界的智能手机有70亿部，比汽车多出5倍（14亿辆）。但是，智能手机制造商比汽车制造商少了好几个数量级。搜索引擎、社交网络、操作系统都是这样，几个巨头就垄断了整个市场。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=28896320\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=28896320"
+            }
+          ]
+        },
+        {
+          "title": "电",
+          "content": "<p>动汽车虽然售价高，但是每公里的行驶成本低，因此用得越久越划算。这就要求汽车厂商制造耐用的电动汽车。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=30914512\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 读者",
+              "url": "https://news.ycombinator.com/item?id=30914512"
+            }
+          ]
+        },
+        {
+          "title": "2",
+          "content": "<p>021年只有两种人在写博客，一种是试图建立受众并从中获利的人，另一种是只想写出想法、而没有任何目标的人。</p>\n<p>这两种人的行为都非常好。选择做你喜欢的事，坚持下去，它们最终都可以对他人产生价值。</p>\n<p>-- <a href=\"https://bhupesh.me//what-i-have-learned-from-blogging-so-far-retrospect/\" target=\"_blank\" rel=\"noopener noreferrer\">《我从博客中学到的东西》</a></p>",
+          "links": [
+            {
+              "text": "《我从博客中学到的东西》",
+              "url": "https://bhupesh.me//what-i-have-learned-from-blogging-so-far-retrospect/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "历史上的本周",
+      "title": "历史上的本周",
+      "items": [
+        {
+          "content": "<p>2021年（第 162 期）：<a href=\"https://www.ruanyifeng.com/blog/2021/06/weekly-issue-162.html\" target=\"_blank\" rel=\"noopener noreferrer\">生活就像《吃豆人》游戏</a></p>\n<p>2020年（第 111 期）：<a href=\"https://www.ruanyifeng.com/blog/2020/06/weekly-issue-111.html\" target=\"_blank\" rel=\"noopener noreferrer\">智能电视的误区</a></p>\n<p>2019年（第 60 期）：<a href=\"https://www.ruanyifeng.com/blog/2019/06/weekly-issue-60.html\" target=\"_blank\" rel=\"noopener noreferrer\">一本介绍人类起源的学术自传</a></p>\n<p>2018年（第 9 期）：<a href=\"https://www.ruanyifeng.com/blog/2018/06/weekly-issue-9.html\" target=\"_blank\" rel=\"noopener noreferrer\">身份证可以植入人体</a></p>",
+          "links": [
+            {
+              "text": "生活就像《吃豆人》游戏",
+              "url": "https://www.ruanyifeng.com/blog/2021/06/weekly-issue-162.html"
+            },
+            {
+              "text": "智能电视的误区",
+              "url": "https://www.ruanyifeng.com/blog/2020/06/weekly-issue-111.html"
+            },
+            {
+              "text": "一本介绍人类起源的学术自传",
+              "url": "https://www.ruanyifeng.com/blog/2019/06/weekly-issue-60.html"
+            },
+            {
+              "text": "身份证可以植入人体",
+              "url": "https://www.ruanyifeng.com/blog/2018/06/weekly-issue-9.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "订阅",
+      "title": "订阅",
+      "items": [
+        {
+          "content": "<p>这个周刊每周五发布，同步更新在<a href=\"http://www.ruanyifeng.com/blog\" target=\"_blank\" rel=\"noopener noreferrer\">阮一峰的网络日志</a>和<a href=\"http://weixin.sogou.com/weixin?query=%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97\" target=\"_blank\" rel=\"noopener noreferrer\">微信公众号</a>。</p>\n<p>微信搜索“阮一峰的网络日志”或者扫描二维码，即可订阅。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202103/bg2021030402.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "阮一峰的网络日志",
+              "url": "http://www.ruanyifeng.com/blog"
+            },
+            {
+              "text": "微信公众号",
+              "url": "http://weixin.sogou.com/weixin?query=%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202103/bg2021030402.jpg"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-210.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-210.md"
+}

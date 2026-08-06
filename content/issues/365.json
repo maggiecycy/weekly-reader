@@ -1,0 +1,653 @@
+{
+  "number": 365,
+  "title": "流量变现正在崩塌",
+  "date": "2025-10-22",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202509/bg2025091001.webp",
+  "coverCaption": "深圳海贝湾有一家便利店，坐落在悬崖之上，面朝大海，在网上被称为“深圳最美便利店”。（via）",
+  "summary": "上周，Cloudflare 创始人兼 CEO 马修·普林斯（Matthew Prince）接受了访谈。 他说了一个全新的观点，互联网“流量为王”的时代就要结束了，AI 将终结传统的互联网商业模式。 我觉得，他表达得很完整，很有说服力，不愧是…",
+  "sections": [
+    {
+      "id": "封面图",
+      "title": "封面图",
+      "items": [
+        {
+          "content": "<p>深圳海贝湾有一家便利店，坐落在悬崖之上，面朝大海，在网上被称为“深圳最美便利店”。（<a href=\"https://www.nfnews.com/content/j3kdGR106A.html\" target=\"_blank\" rel=\"noopener noreferrer\">via</a>）</p>",
+          "links": [
+            {
+              "text": "via",
+              "url": "https://www.nfnews.com/content/j3kdGR106A.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091001.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "流量变现正在崩塌",
+      "title": "流量变现正在崩塌",
+      "items": [
+        {
+          "content": "<p>上周，Cloudflare 创始人兼 CEO 马修·普林斯（Matthew Prince）接受了<a href=\"https://stratechery.com/2025/an-interview-with-cloudflare-founder-and-ceo-matthew-prince-about-internet-history-and-pay-per-crawl/\" target=\"_blank\" rel=\"noopener noreferrer\">访谈</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025091002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他说了一个全新的观点，<strong>互联网“流量为王”的时代就要结束了</strong>，AI 将终结传统的互联网商业模式。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025091109.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>我觉得，他表达得很完整，很有说服力，不愧是英语系和法学院的毕业生。我整理出来，分享给大家。</p>",
+          "links": [
+            {
+              "text": "访谈",
+              "url": "https://stratechery.com/2025/an-interview-with-cloudflare-founder-and-ceo-matthew-prince-about-internet-history-and-pay-per-crawl/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091002.webp",
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091109.webp"
+          ]
+        },
+        {
+          "title": "过",
+          "content": "<p>去25年，互联网的操作入口一直是搜索。你想要什么，就要去搜索。</p>\n<p>谷歌主宰着搜索。</p>\n<p>为了自己的利益，它有动机推动互联网发展。<strong>互联网越多样化，越混乱，对谷歌越有利</strong>，因为人们就会离不开搜索，来处理混乱的信息。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025091003.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>所以，谷歌一直激励人们为互联网创造内容。只有源源不断的内容，才能提升搜索的价值。</p>",
+          "links": [],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091003.webp"
+          ]
+        },
+        {
+          "title": "*",
+          "content": "<p><em>作为回报，它为内容生产商提供流量</em>*，并帮助生产者将流量货币化（主要方法是为内容配上广告）。</p>\n<p>谷歌是世界最大的搜索引擎，也是世界最大的广告商，这绝非偶然。</p>\n<p>实际上，谷歌是过去25年互联网最大的赞助商。如果没有像谷歌这样的公司来创造流量激励机制，让内容生产商可以把流量变成金钱，互联网就不会是今天蓬勃发展的样子。</p>",
+          "links": []
+        },
+        {
+          "title": "情",
+          "content": "<p>况现在发生了变化。<strong>互联网的操作入口，正从搜索引擎变成答案引擎。</strong></p>\n<p>以前，谷歌给你一张藏宝图，你需要自己去访问链接找出答案。现在，大模型直接给你答案，省去了藏宝图。</p>\n<p>甚至就连谷歌都有单独的 <a href=\"https://search.google/ways-to-search/ai-mode/\" target=\"_blank\" rel=\"noopener noreferrer\">AI 模式</a>，只有答案，不需要访问链接。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025091004.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这确实方便了用户，<strong>但这样就无法产生流量了，整个基于流量的互联网模式就开始崩溃</strong>。</p>",
+          "links": [
+            {
+              "text": "AI 模式",
+              "url": "https://search.google/ways-to-search/ai-mode/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091004.webp"
+          ]
+        },
+        {
+          "title": "一",
+          "content": "<p>旦没有了流量，内容生产商就没有了货币化方式。他赚不到钱，只能减少或放弃内容生产。</p>\n<p>现在互联网上，人类生产的内容已经萎缩了，根本原因就是传统的“流量变现”模式行不通了。</p>\n<p>未来有两种可能。一种是大模型公司和平台公司，自己雇人来生产内容；另一种是它们分出一部分收入给内容生产者，换取后者向它们提供内容。</p>\n<p>无论是哪一种可能，都意味着我们熟悉的互联网形态将不复存在。</p>",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "科技动态",
+      "title": "科技动态",
+      "items": [
+        {
+          "title": "旧",
+          "content": "<p>金山街头出现了一块<a href=\"https://www.nibzard.com/berghain/\" target=\"_blank\" rel=\"noopener noreferrer\">神秘的广告牌</a>，上面只有五个数字，没有任何解释。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090702.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<blockquote>\n<p>https:// {64659, 123310, 75584, 8138, 38271}</p>\n</blockquote>\n<p>这个谜题在网络上疯传，得到了很好的广告效果。</p>\n<p>有人很快破解了，这些数字是 OpenAI 词元库（tokenizer）的标记 ID。换成对应的单词后，你会得到一个网址： <a href=\"https://listenlabs.ai/puzzle\" target=\"_blank\" rel=\"noopener noreferrer\">listenlabs.ai/puzzle</a> 。</p>",
+          "links": [
+            {
+              "text": "神秘的广告牌",
+              "url": "https://www.nibzard.com/berghain/"
+            },
+            {
+              "text": "listenlabs.ai/puzzle",
+              "url": "https://listenlabs.ai/puzzle"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090702.webp"
+          ]
+        },
+        {
+          "title": "O",
+          "content": "<p>penAI 公司支持的动画片<a href=\"https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0\" target=\"_blank\" rel=\"noopener noreferrer\">《Critterz》</a>，预计明年5月在戛纳电影节首映。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090909.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个电影大量使用 AI 工具制作。它的故事是 OpenAI 的一个员工构思的，讲的是一群森林生物在村庄遭到陌生人袭击后的冒险。</p>\n<p>制作团队聘请艺术家绘制草图，然后将草图输入 AI 模型（包括 GPT-5）来生成画面（下图）。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090908.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这样做成本低，速度快，《Critterz》的制作成本预计为3000万美元，制作周期9个月，都远远小于传统动画电影。</p>\n<p>OpenAI 希望通过这部电影，证明 AI 制作动画电影的潜力。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090910.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "《Critterz》",
+              "url": "https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090909.webp",
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090908.webp",
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090910.webp"
+          ]
+        },
+        {
+          "title": "两",
+          "content": "<p>位美国计算机科学家，使用实物材料（木材、纸张、亚克力）制作出 <a href=\"https://erikdemaine.org/prints/QR/\" target=\"_blank\" rel=\"noopener noreferrer\">3D 二维码</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090705.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>上面的二维码就是用胶合板做的，有实物的层次感。</p>\n<p>这种二维码依然可以扫描，同时也是很好的装饰品，我觉得值得推广。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090706.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "3D 二维码",
+              "url": "https://erikdemaine.org/prints/QR/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090705.webp",
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090706.webp"
+          ]
+        },
+        {
+          "title": "不需要外部电力的电动列车",
+          "content": "<p>一家澳大利亚矿业公司，正在建造不需要（外部）充电的电动列车。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202506/bg2025062602.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他们的矿山位于山顶，列车装满沉重的矿石后，将一路开到山下。</p>\n<p>他们设想，重力会推动火车下行，在这个过程中，可以让势能转变为电能，为电池充电。</p>\n<p>当列车回到平地，再次开上山时，列车是空载，自身重量不大，可以使用下山时产生的电能来推动。因此理论上，它可以不需要外部电力而长期运行。</p>",
+          "links": [
+            {
+              "text": "不需要外部电力的电动列车",
+              "url": "https://newatlas.com/transport/fortescue-wae-infinity-train-electric/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202506/bg2025062602.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "数据库表名使用单数名词",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090707.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文解释为什么数据库的表名，user 好于 users。</p>",
+          "links": [
+            {
+              "text": "数据库表名使用单数名词",
+              "url": "https://www.teamten.com/lawrence/programming/use-singular-nouns-for-database-table-names.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090707.webp"
+          ]
+        },
+        {
+          "title": "一次 NPM 供应链攻击剖析",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025091104.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本周，几个流行的 npm 软件包（包括 Chalk 和 strip-ansi）被植入恶意代码，它们的周下载量达到10亿次。本文介绍这次攻击的详细情况。</p>",
+          "links": [
+            {
+              "text": "一次 NPM 供应链攻击剖析",
+              "url": "https://jdstaerk.substack.com/p/we-just-found-malicious-code-in-the"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091104.webp"
+          ]
+        },
+        {
+          "title": "Markdown 文件如何转成精美文档",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090704.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文介绍通过 Pandoc 模版功能，使用一行命令将 Markdown 文件转成精美文档。</p>",
+          "links": [
+            {
+              "text": "Markdown 文件如何转成精美文档",
+              "url": "https://www.xda-developers.com/markdown-notes-convert-documents-fast-pandoc-templates/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090704.webp"
+          ]
+        },
+        {
+          "title": "CSS 和 SVG 模拟液态玻璃",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090912.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文介绍只使用 CSS 和 SVG 文件来模拟苹果的液态玻璃效果。大家可以先看结尾的效果展示，非常惊艳（只限于 Chrome 浏览器）。</p>",
+          "links": [
+            {
+              "text": "CSS 和 SVG 模拟液态玻璃",
+              "url": "https://kube.io/blog/liquid-glass-css-svg/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090912.webp"
+          ]
+        },
+        {
+          "title": "成为一名独立数字音乐作者",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090703.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者没有任何乐理基础，使用 AI 做出了完全属于自己的第一首纯音乐，并且发布到 QQ 音乐。（<a href=\"https://github.com/ruanyf/weekly/issues/7723\" target=\"_blank\" rel=\"noopener noreferrer\">@theodoruszq</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "成为一名独立数字音乐作者",
+              "url": "https://theodoruszq.wordpress.com/2025/09/06/%e7%8b%ac%e7%ab%8b%e6%95%b0%e5%ad%97%e9%9f%b3%e4%b9%90%e4%bd%9c%e8%80%85-independent-digital-musician/"
+            },
+            {
+              "text": "@theodoruszq",
+              "url": "https://github.com/ruanyf/weekly/issues/7723"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090703.webp"
+          ]
+        },
+        {
+          "title": "如何解决队列的吵闹邻居问题",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090711.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>如果有一个用户向队列提交了大量任务，会影响其他所有用户，这叫做“吵闹邻居问题”。本文介绍了一种解决方法。</p>",
+          "links": [
+            {
+              "text": "如何解决队列的吵闹邻居问题",
+              "url": "https://densumesh.dev/blog/fair-queue/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090711.webp"
+          ]
+        },
+        {
+          "title": "美国的地理位置",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090708.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文详细解释美国的地理位置是多么优越，自然条件适合经济发展，外敌又很难入侵。</p>",
+          "links": [
+            {
+              "text": "美国的地理位置",
+              "url": "https://unchartedterritories.tomaspueyo.com/p/never-bet-against-america"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090708.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "nuclear",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090709.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个跨平台的桌面音乐播放器，可以搜索/播放/下载流媒体平台的音乐，免费无广告。</p>",
+          "links": [
+            {
+              "text": "nuclear",
+              "url": "https://nuclearplayer.com"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090709.webp"
+          ]
+        },
+        {
+          "title": "Voice Isolator",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202407/bg2024071108.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个从嘈杂音频提取清晰语音的在线工具。</p>",
+          "links": [
+            {
+              "text": "Voice Isolator",
+              "url": "https://elevenlabs.io/voice-isolator"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202407/bg2024071108.webp"
+          ]
+        },
+        {
+          "title": "Counterscale",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202407/bg2024071114.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>基于 Cloudflare Worker 的网站访问统计工具。</p>",
+          "links": [
+            {
+              "text": "Counterscale",
+              "url": "https://counterscale.dev/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202407/bg2024071114.webp"
+          ]
+        },
+        {
+          "title": "Malai",
+          "content": "<p>一个命令行工具，将本机的 TCP 端口分享出去。</p>",
+          "links": [
+            {
+              "text": "Malai",
+              "url": "https://malai.sh/hello-tcp/"
+            }
+          ]
+        },
+        {
+          "title": "Optique",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090701.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个 JS 模块，验证命令行传入的参数是否正确，采用整体判断的方式，比较新颖，参见<a href=\"https://optique.dev/tutorial\" target=\"_blank\" rel=\"noopener noreferrer\">文档</a>。</p>",
+          "links": [
+            {
+              "text": "Optique",
+              "url": "https://github.com/dahlia/optique"
+            },
+            {
+              "text": "文档",
+              "url": "https://optique.dev/tutorial"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090701.webp"
+          ]
+        },
+        {
+          "title": "koreader",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202404/bg2024041106.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个专为墨水屏设备开发的阅读器软件。</p>",
+          "links": [
+            {
+              "text": "koreader",
+              "url": "https://koreader.rocks/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202404/bg2024041106.webp"
+          ]
+        },
+        {
+          "title": "PocketBase",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090602.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个单文件的网站通用后端，包含数据库、用户管理、Web 后台、RESTful API 等。（<a href=\"https://github.com/ruanyf/weekly/issues/7710\" target=\"_blank\" rel=\"noopener noreferrer\">@moreant</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "PocketBase",
+              "url": "https://github.com/pocketbase/pocketbase"
+            },
+            {
+              "text": "@moreant",
+              "url": "https://github.com/ruanyf/weekly/issues/7710"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090602.webp"
+          ]
+        },
+        {
+          "title": "PicSharp",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090603.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>图片文件压缩的开源桌面软件，跨平台，底层使用 Rust 语言编写。（<a href=\"https://github.com/ruanyf/weekly/issues/7717\" target=\"_blank\" rel=\"noopener noreferrer\">@AkiraBit</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "PicSharp",
+              "url": "https://github.com/AkiraBit/PicSharp"
+            },
+            {
+              "text": "@AkiraBit",
+              "url": "https://github.com/ruanyf/weekly/issues/7717"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090603.webp"
+          ]
+        },
+        {
+          "title": "潦草头像馆",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090902.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的微信小程序，生成随机头像。（<a href=\"https://github.com/ruanyf/weekly/issues/7728\" target=\"_blank\" rel=\"noopener noreferrer\">@xingxingc</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "潦草头像馆",
+              "url": "https://github.com/xingxingc/stray_avatar"
+            },
+            {
+              "text": "@xingxingc",
+              "url": "https://github.com/ruanyf/weekly/issues/7728"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090902.webp"
+          ]
+        },
+        {
+          "title": "vue-renderer-markdown",
+          "content": "<p>Vue 框架的 markdown 渲染组件，针对 AI 的 markdown 流式传输场景。（<a href=\"https://github.com/ruanyf/weekly/issues/7747\" target=\"_blank\" rel=\"noopener noreferrer\">@Simon-He95</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "vue-renderer-markdown",
+              "url": "https://github.com/Simon-He95/vue-markdown-render"
+            },
+            {
+              "text": "@Simon-He95",
+              "url": "https://github.com/ruanyf/weekly/issues/7747"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-相关",
+      "title": "AI 相关",
+      "items": [
+        {
+          "title": "MetaToolkit",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090901.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个 Python 库，向文件添加元信息，主要用来标识 AI 生成内容，符合新颁布的<a href=\"https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F32EA2A561F1886CD8D606513512D547\" target=\"_blank\" rel=\"noopener noreferrer\">《人工智能生成合成内容标识办法》</a>。（<a href=\"https://github.com/ruanyf/weekly/issues/7727\" target=\"_blank\" rel=\"noopener noreferrer\">@ihmily</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "MetaToolkit",
+              "url": "https://github.com/ihmily/metatoolkit"
+            },
+            {
+              "text": "《人工智能生成合成内容标识办法》",
+              "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F32EA2A561F1886CD8D606513512D547"
+            },
+            {
+              "text": "@ihmily",
+              "url": "https://github.com/ruanyf/weekly/issues/7727"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090901.webp"
+          ]
+        },
+        {
+          "title": "LazyTyper",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090903.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>免费的 AI 语音输入法，支持 Mac 和 Windows，5 个免费语音识别引擎可选。（<a href=\"https://github.com/ruanyf/weekly/issues/7730\" target=\"_blank\" rel=\"noopener noreferrer\">@oldcai</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "LazyTyper",
+              "url": "https://lazytyper.com/zh"
+            },
+            {
+              "text": "@oldcai",
+              "url": "https://github.com/ruanyf/weekly/issues/7730"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090903.webp"
+          ]
+        },
+        {
+          "title": "小红书 MCP",
+          "content": "<p>网友写的 MCP 服务器，可以通过 AI 在小红书发帖、获取推荐列表、搜索内容。（<a href=\"https://github.com/ruanyf/weekly/issues/7719\" target=\"_blank\" rel=\"noopener noreferrer\">@xpzouying</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "小红书 MCP",
+              "url": "https://github.com/xpzouying/xiaohongshu-mcp"
+            },
+            {
+              "text": "@xpzouying",
+              "url": "https://github.com/ruanyf/weekly/issues/7719"
+            }
+          ]
+        },
+        {
+          "title": "如何自己打造一个微型大模型",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025091101.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源电子书，介绍大模型基础知识，教你怎么打造一个微型大模型（以 Qwen 大模型为例）。</p>",
+          "links": [
+            {
+              "text": "如何自己打造一个微型大模型",
+              "url": "https://skyzh.github.io/tiny-llm/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091101.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "星球大战官方地图",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090604.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>卢卡斯影业公司在官网上，发布了《星球大战官方地图》，标识了电影里面出现过的所有星球的位置。</p>",
+          "links": [
+            {
+              "text": "星球大战官方地图",
+              "url": "https://kottke.org/25/09/the-official-map-of-the-star-wars-galaxy"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090604.webp"
+          ]
+        },
+        {
+          "title": "CSS Bed",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025091103.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>CSS 框架效果展示网站（类似 <a href=\"https://csszengarden.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CSS 禅意花园</a>），收集各种无类（classless）的 CSS 框架。</p>",
+          "links": [
+            {
+              "text": "CSS Bed",
+              "url": "https://www.cssbed.com/"
+            },
+            {
+              "text": "CSS 禅意花园",
+              "url": "https://csszengarden.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091103.webp"
+          ]
+        },
+        {
+          "title": "浏览器指纹检测",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025091105.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网站告诉你，访问一个网页会泄漏多少个人信息。这些信息可以生成你的浏览器指纹，用来追踪你。</p>",
+          "links": [
+            {
+              "text": "浏览器指纹检测",
+              "url": "https://fingerprint.goldenowl.ai/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025091105.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "安斯康姆四重奏",
+          "content": "<p>1973年，英国统计学家弗朗西斯·安斯康姆提出了四张数据散点图。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090913.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这四个数据集的分布截然不同，但是它们的平均值、方差、相关系数、线性回归，都是一样的。</p>\n<p>安斯康姆通过这四张图，证明了不能只看统计指标，必须关注散点图和异常值。</p>",
+          "links": [
+            {
+              "text": "安斯康姆四重奏",
+              "url": "https://en.wikipedia.org/wiki/Anscombe%27s_quartet"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090913.webp"
+          ]
+        },
+        {
+          "title": "Minecraft 版九龙城寨",
+          "content": "<p>上个世纪90年代被拆除的香港九龙城寨，可能是历史上人口密度最大的地方。四个足球场大小的地方，住着几万人。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090904.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个国外建筑师在 Minecraft 游戏里面，重建了九龙城寨。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090905.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090906.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090907.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "Minecraft 版九龙城寨",
+              "url": "https://www.thisiscolossal.com/2025/09/sluda-builds-minecraft-kowloon-walled-city/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090904.webp",
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090905.webp",
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090906.webp",
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090907.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "类型系统不是解决方案",
+          "content": "<p>最近数十年，软件行业的一大共识是，类型系统非常有用，至关重要。</p>\n<p>大家认定，通过类型系统，在编译阶段就能发现错误，所以人们开发出了越来越强大的类型系统。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202509/bg2025090601.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>我不这样想。我认为，类型系统并不是解决复杂性的根本办法，反而创造出不必要的复杂性。</p>\n<p><strong>不使用类型系统，也可以构建出可靠的大型复杂系统。</strong></p>\n<p>作为例子，我们可以想一下复杂的硬件系统。电子工程师经常构建包含数百万个元件、充满复杂交互的系统，怎么保证可靠性？</p>\n<p>他们主要依赖的是架构原则：<strong>模块化、显式接口、严格的调用顺序</strong>。</p>\n<p>如果你有良好的架构设计，类型系统其实不是必需的，下面就是两个例子。</p>\n<p>（1）UNIX 管道可以将数十个程序组合成复杂的工作流，不需要进行类型检查，因为每个组件都遵守约定：内部发生的事情不暴露到组件外部，外部通信仅通过显式的、简单的文本数据进行。</p>\n<p>（2）互联网本身也没有集中式的类型检查。HTTP 服务器、客户端、电子邮件系统、DNS 解析器，都通过简单的协议进行互操作，遵循组件松耦合和接口简洁的架构原则。</p>\n<p>总之，当组件真正隔离，并通过简单、明确的接口进行通信时，即使是大型系统也能保持可理解性。</p>\n<p>编程的未来不在于更好地分析复杂系统，而在于更好地构建简单系统。</p>",
+          "links": [
+            {
+              "text": "类型系统不是解决方案",
+              "url": "https://programmingsimplicity.substack.com/p/type-checking-is-a-symptom-not-a"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202509/bg2025090601.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "O",
+          "content": "<p>penAI 最近计划开一个网上学院，教授 AI 知识，帮助用户找到新工作。讽刺的是，第一批加入该计划的公司是沃尔玛。</p>\n<p>-- <a href=\"https://www.theregister.com/2025/09/05/openai_jobs_board/\" target=\"_blank\" rel=\"noopener noreferrer\">《OpenAI 吃掉工作，然后主动提出帮你在沃尔玛找工作》</a></p>",
+          "links": [
+            {
+              "text": "《OpenAI 吃掉工作，然后主动提出帮你在沃尔玛找工作》",
+              "url": "https://www.theregister.com/2025/09/05/openai_jobs_board/"
+            }
+          ]
+        },
+        {
+          "title": "如",
+          "content": "<p>果美国想效仿中国，就应该从中国的优点开始效仿，比如在学校真正学习数学。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=45151719\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 网友</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 网友",
+              "url": "https://news.ycombinator.com/item?id=45151719"
+            }
+          ]
+        },
+        {
+          "title": "假",
+          "content": "<p>设一个大模型被要求回答某人的生日，但它不知道。如果它猜测“9月10日”，那么它有1/365的概率猜对。回答“我不知道”，则猜对的概率为零。</p>\n<p>-- <a href=\"https://openai.com/index/why-language-models-hallucinate/\" target=\"_blank\" rel=\"noopener noreferrer\">《为什么大模型会产生幻觉》</a></p>",
+          "links": [
+            {
+              "text": "《为什么大模型会产生幻觉》",
+              "url": "https://openai.com/index/why-language-models-hallucinate/"
+            }
+          ]
+        },
+        {
+          "title": "英",
+          "content": "<p>国最近出版了一本魔幻小说，讲的是剑桥大学的研究生前往地狱，拯救导师的灵魂，以便导师能给他们写一封推荐信。</p>\n<p>任何读过研究生的人，都能理解这个故事并非玩笑。</p>\n<p>-- <a href=\"https://www.publicbooks.org/dark-academia-grows-up/\" target=\"_blank\" rel=\"noopener noreferrer\">PublicBooks.org</a></p>",
+          "links": [
+            {
+              "text": "PublicBooks.org",
+              "url": "https://www.publicbooks.org/dark-academia-grows-up/"
+            }
+          ]
+        },
+        {
+          "title": "我",
+          "content": "<p>最近加入一家 AI 公司，发现一位同事已经好几周没看过实际的代码了。他只用简单的英语编写设计文档，然后交给 AI 处理实现。当需要修复某些问题时，他会编辑文档，而不是代码。</p>\n<p>这让我深刻地意识到：我们正经历着人类手工将想法转化为代码的时代的终结。</p>\n<p>-- <a href=\"https://www.xipu.li/posts/the-last-programmers\" target=\"_blank\" rel=\"noopener noreferrer\">《最后的程序员》</a></p>",
+          "links": [
+            {
+              "text": "《最后的程序员》",
+              "url": "https://www.xipu.li/posts/the-last-programmers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "往年回顾",
+      "title": "往年回顾",
+      "items": [
+        {
+          "content": "<p><a href=\"https://www.ruanyifeng.com/blog/2024/09/weekly-issue-318.html\" target=\"_blank\" rel=\"noopener noreferrer\">创业咖啡馆的记忆</a>（#318）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2023/08/weekly-issue-268.html\" target=\"_blank\" rel=\"noopener noreferrer\">生产力是形容机器，不是形容人</a>（#268）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2022/08/weekly-issue-218.html\" target=\"_blank\" rel=\"noopener noreferrer\">葡萄酒，樱花，全球变暖</a>（#218）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2021/07/weekly-issue-168.html\" target=\"_blank\" rel=\"noopener noreferrer\">游戏《底特律：变人》</a>（#168）</p>",
+          "links": [
+            {
+              "text": "创业咖啡馆的记忆",
+              "url": "https://www.ruanyifeng.com/blog/2024/09/weekly-issue-318.html"
+            },
+            {
+              "text": "生产力是形容机器，不是形容人",
+              "url": "https://www.ruanyifeng.com/blog/2023/08/weekly-issue-268.html"
+            },
+            {
+              "text": "葡萄酒，樱花，全球变暖",
+              "url": "https://www.ruanyifeng.com/blog/2022/08/weekly-issue-218.html"
+            },
+            {
+              "text": "游戏《底特律：变人》",
+              "url": "https://www.ruanyifeng.com/blog/2021/07/weekly-issue-168.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-365.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-365.md"
+}

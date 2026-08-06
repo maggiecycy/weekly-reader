@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# synced raw markdown cache (JSON is the source of truth)
+/content/raw/
+
+# editor scaffolding
+AGENTS.md
+CLAUDE.md
+

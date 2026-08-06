@@ -1,0 +1,797 @@
+{
+  "number": 343,
+  "title": "如何阻止 AI 爬虫",
+  "date": "2025-05-21",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202503/bg2025032602.webp",
+  "coverCaption": "杭州临平的“天空草莓”农场，草莓种在悬空的钢架上，可以按需升降。（via）",
+  "summary": "AI 大模型公司，正在疯狂收集训练数据。 它们派出无数爬虫，在互联网上无节制地抓取数据。爬虫数量之多、频率之高，堪比 DDoS 攻击。 上周，代码托管网站 SourceHut 的站长，公开发表文章（下图），痛斥 AI 爬虫太过份，服务器无法…",
+  "sections": [
+    {
+      "id": "封面图",
+      "title": "封面图",
+      "items": [
+        {
+          "content": "<p>杭州临平的“天空草莓”农场，草莓种在悬空的钢架上，可以按需升降。（<a href=\"https://www.163.com/dy/article/JRHE1LAS05149IKJ.html\" target=\"_blank\" rel=\"noopener noreferrer\">via</a>）</p>",
+          "links": [
+            {
+              "text": "via",
+              "url": "https://www.163.com/dy/article/JRHE1LAS05149IKJ.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032602.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "如何阻止-ai-爬虫",
+      "title": "如何阻止 AI 爬虫",
+      "items": [
+        {
+          "content": "<p>AI 大模型公司，正在疯狂收集训练数据。</p>\n<p><strong>它们派出无数爬虫，在互联网上无节制地抓取数据</strong>。爬虫数量之多、频率之高，堪比 DDoS 攻击。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032303.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>上周，代码托管网站 SourceHut 的站长，公开发表<a href=\"https://thelibre.news/foss-infrastructure-is-under-attack-by-ai-companies/\" target=\"_blank\" rel=\"noopener noreferrer\">文章</a>（下图），痛斥 <strong>AI 爬虫太过份</strong>，服务器无法承受访问压力，中断服务。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032304.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他非常生气，这些爬虫根本不遵守 robots.txt 文件，Git 仓库的每个页面、每个链接、每个提交都要爬取。</p>\n<p>它们来自全球数万个 IP 地址，用户代理（user-agent 字段）也是随机的，伪装得像真实用户，难以有效拦截。</p>\n<p>最可气的是，它们今天爬完了，过了六小时，又来爬同样的内容！</p>\n<p>每一周，他要用20%～100%的工作时间，处理这些爬虫造成的服务器压力。SourceHut 已经中断服务好几次，对于一个 SaaS 工具，这是致命的。</p>\n<p>最后，他说不只他遇到这种事，整个行业都深受其害。</p>\n<blockquote>\n<p>“我的系统管理员朋友，都在处理同样的问题。每次我坐下来和他们喝啤酒或吃晚餐时，我们很快就会抱怨机器人。这些对话中的绝望是显而易见的。”</p>\n</blockquote>\n<p>那么，有什么办法，可以对付这些 AI 爬虫？</p>\n<p>最简单的方法，就是使用 Cloudflare 公司的<a href=\"https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click/\" target=\"_blank\" rel=\"noopener noreferrer\">免费防护</a>，它的 CDN 可以帮你挡掉 AI 爬虫。</p>\n<p>但是，有些企业级服务不适合使用 Cloudflare，这时你就必须自己来挡爬虫。</p>\n<p>今天，向大家介绍一个专门对付爬虫的工具 <a href=\"https://anubis.techaro.lol/\" target=\"_blank\" rel=\"noopener noreferrer\">Anubis</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032306.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它是一个采用工作量证明的反向代理。所谓反向代理，就是<strong>目标网站的所有访问请求，都会重定向给它</strong>。</p>\n<p>你首先要架设一个它的实例，然后把这个实例放在目标网站之前，当作反向代理（比如像下面设置）。</p>\n<p>```<br />reverse_proxy http://localhost:3000<br />```</p>\n<p>于是，用户访问网站时，首先看到不是目标网站，而是 Anubis 的页面（下图）。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032305.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个页面会在用户的浏览器上，执行一段 JS 程序，进行大量的数学计算。直到计算答案正确，才可以访问目标网站。</p>\n<p>这个过程有时很耗时，可能需要1～2分钟。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032307.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>（图片说明：上图的手机浏览器用了1分53秒，才计算完毕。）</p>\n<p>对于爬虫来说，如果每个请求都要耗费大量计算，才能拿到数据，这会极大地消耗它的服务器资源，从而达到阻止爬虫访问的目的。</p>\n<p>当然，真实的访问者也必须完成这样一个计算，这非常影响使用体验。但是，总比听任爬虫造成访问中断要好。</p>\n<p>那么，Anubis 到底让爬虫计算什么？</p>\n<p>具体来说，就是下面这行代码，计算一个哈希值。</p>\n<p>```<br />const hash = await sha256(`${challenge}${nonce}`);<br />```</p>\n<p>可以看到，它就是用 SHA256 算法，计算一个字符串的哈希值。</p>\n<p>这个字符串由两部分组成，第一部分`challenge`，由用户的一些公开信息连接而成，包括用户的 IP 地址、浏览器 user-agent 字段、当前日期、Anubis 的公钥等。</p>\n<p>第二部分`nonce`，表示迭代次数，第一次计算就是1，第二次计算就是2，以此类推。</p>\n<p>Anubis 的默认设定是，<strong>计算出来的哈希值的前五位必须都为0</strong>，否则 nonce 自动加1，再次进行计算，直到满足要求为止。</p>\n<p>有时，可能需要计算几百万次，才能得到合格的哈希值。熟悉比特币的同学，应该一眼看出来了，<strong>这就是比特币的算法</strong>。比特币是非常耗费算力的，所以 Anubis 也能很有效地消耗爬虫的 CPU。</p>\n<p>当客户端终于算出满足要求的哈希值时（前五位为0），就会把这时的 nonce 值传给 Anubis 实例服务器，让后者验证哈希值是否正确。没问题的话，Anubis 就会将客户端重定向到目标网站，并在客户端写入一个 Cookie，以免后续请求再触发工作量验证。</p>\n<p>这就是阻止爬虫的整个过程，不知道说清楚了没有，原理很简单，实施也不难。</p>\n<p>事实证明，它很有效。一个站长说，两个半小时内，他的网站总共收到了81000个请求，其中只有3%通过了 Anubis 的工作量证明，这意味着97%的流量可能都是机器人！</p>\n<p>这太疯狂了，可见现在的 AI 爬虫有多猖獗。如果你的网站也遇到了同样问题，又没法使用 Cloudflare，那可以试试 Anubis 的工作量证明。</p>",
+          "links": [
+            {
+              "text": "文章",
+              "url": "https://thelibre.news/foss-infrastructure-is-under-attack-by-ai-companies/"
+            },
+            {
+              "text": "免费防护",
+              "url": "https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click/"
+            },
+            {
+              "text": "Anubis",
+              "url": "https://anubis.techaro.lol/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032303.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032304.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032306.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032305.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032307.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "科技动态",
+      "title": "科技动态",
+      "items": [
+        {
+          "title": "中",
+          "content": "<p>国矿业大学研发了一款<a href=\"https://news.qq.com/rain/a/20250316A05V5Z00\" target=\"_blank\" rel=\"noopener noreferrer\">太空挖矿机器人</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032605.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>它共有6足，其中3个是前进的轮子，3个是挖矿的爪子。</p>",
+          "links": [
+            {
+              "text": "太空挖矿机器人",
+              "url": "https://news.qq.com/rain/a/20250316A05V5Z00"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032605.webp"
+          ]
+        },
+        {
+          "title": "英",
+          "content": "<p>国民众本周纷纷报告，夜空中发现<a href=\"https://news.sky.com/story/glowing-spiral-appears-in-night-sky-as-met-office-reveals-likely-cause-13335297\" target=\"_blank\" rel=\"noopener noreferrer\">螺旋状的云</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032610.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>英国气象局调查后宣布，那是猎鹰9号火箭发射时，快速旋转的箭体喷出的尾气。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032611.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>尾气在太空中瞬间冻结，经过太阳光反射，看上去像云一样。</p>",
+          "links": [
+            {
+              "text": "螺旋状的云",
+              "url": "https://news.sky.com/story/glowing-spiral-appears-in-night-sky-as-met-office-reveals-likely-cause-13335297"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032610.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032611.webp"
+          ]
+        },
+        {
+          "title": "科",
+          "content": "<p>学家提出，<a href=\"https://ethz.ch/en/news-and-events/eth-news/news/2025/03/were-large-soda-lakes-the-cradle-of-life.html\" target=\"_blank\" rel=\"noopener noreferrer\">生命起源地</a>可能不是大海，而是封闭的大型碳酸钠湖泊。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032604.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>因为生命起源的化学反应，需要很高的磷浓度，但是自然界（包括大海）的磷含量很低，只有富含磷的碳酸钠湖泊符合条件。</p>",
+          "links": [
+            {
+              "text": "生命起源地",
+              "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/03/were-large-soda-lakes-the-cradle-of-life.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032604.webp"
+          ]
+        },
+        {
+          "title": "盈",
+          "content": "<p>通公司推出一款<a href=\"https://www.tomshardware.com/pc-components/gpus/this-scent-dispensing-rx-9070-assures-at-least-one-gpu-launch-this-year-doesnt-stink\" target=\"_blank\" rel=\"noopener noreferrer\">有香味的 GPU</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032607.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这款 GPU 内置了香味剂。运行时，它的散热风扇就会将香味吹出去。</p>",
+          "links": [
+            {
+              "text": "有香味的 GPU",
+              "url": "https://www.tomshardware.com/pc-components/gpus/this-scent-dispensing-rx-9070-assures-at-least-one-gpu-launch-this-year-doesnt-stink"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032607.webp"
+          ]
+        },
+        {
+          "title": "*",
+          "content": "<p><em>其他</em>*</p>\n<p>（1）根据 Cloudflare 统计，<a href=\"https://blog.cloudflare.com/password-reuse-rampant-half-user-logins-compromised/\" target=\"_blank\" rel=\"noopener noreferrer\">41%的互联网登录</a>使用泄漏的密码，原因是大部分用户习惯复用同样的密码。</p>\n<p>（2）中国睡眠研究会统计，2025年<a href=\"https://finance.sina.cn/7x24/2025-03-21/detail-ineqmmwi9524193.d.html\" target=\"_blank\" rel=\"noopener noreferrer\">中国人夜间平均睡眠</a>6.85个小时，比去年增加6分钟。入睡时间平均为0点18分，比去年晚了17分钟。</p>\n<p>（3）<a href=\"https://www.nia.nih.gov/news/timeframe-8-hour-restricted-eating-irrelevant-weight-loss\" target=\"_blank\" rel=\"noopener noreferrer\">一项研究</a>提出，每天的进食时间限制在8小时之内，其他16小时不进食，有利于肥胖者减肥，改善健康。</p>",
+          "links": [
+            {
+              "text": "41%的互联网登录",
+              "url": "https://blog.cloudflare.com/password-reuse-rampant-half-user-logins-compromised/"
+            },
+            {
+              "text": "中国人夜间平均睡眠",
+              "url": "https://finance.sina.cn/7x24/2025-03-21/detail-ineqmmwi9524193.d.html"
+            },
+            {
+              "text": "一项研究",
+              "url": "https://www.nia.nih.gov/news/timeframe-8-hour-restricted-eating-irrelevant-weight-loss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "*",
+          "content": "<p><em>Gemini 2.5 Pro 模型</em>*</p>\n<p>本周，谷歌发布它的最强模型 <a href=\"https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/\" target=\"_blank\" rel=\"noopener noreferrer\">Gemini 2.5 Pro</a>，迅速登顶。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032801.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>著名程序员 Simon Willison 对其<a href=\"https://simonwillison.net/2025/Mar/25/gemini/\" target=\"_blank\" rel=\"noopener noreferrer\">进行测评</a>，评价很高。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032714.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><a href=\"https://everything.intellectronica.net/p/negotiating-with-the-machine\" target=\"_blank\" rel=\"noopener noreferrer\">另有一个程序员</a>让其执行一个非常复杂的任务，它想了半天后说，这个任务太复杂，不可能在一个步骤中完成，只能做出一个简化版。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032701.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这让人非常震惊，因为以前的 AI 遇到做不了的事情，只会给出错误的答案，而现在竟然会在分析后，承认超出了自己能力。</p>",
+          "links": [
+            {
+              "text": "Gemini 2.5 Pro",
+              "url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
+            },
+            {
+              "text": "进行测评",
+              "url": "https://simonwillison.net/2025/Mar/25/gemini/"
+            },
+            {
+              "text": "另有一个程序员",
+              "url": "https://everything.intellectronica.net/p/negotiating-with-the-machine"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032801.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032714.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032701.webp"
+          ]
+        },
+        {
+          "title": "谷歌将不开放安卓的开发",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032702.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这篇报道称，谷歌将完全私有化安卓的开发，不再接受外部的代码提交，以避免安卓开源版 AOSP 与内部版本之间合并分支的麻烦。</p>\n<p>以后，谷歌会把安卓新版本先提供给 OEM 厂商，然后再发一个不接受外部提交的开源 AOSP 版。</p>",
+          "links": [
+            {
+              "text": "谷歌将不开放安卓的开发",
+              "url": "https://www.androidauthority.com/google-android-development-aosp-3538503/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032702.webp"
+          ]
+        },
+        {
+          "title": "Next.js 的中间件漏洞",
+          "content": "<p>本周，Next.js 爆出一个高危漏洞。如果登录步骤是在中间件里面完成，那么可以绕过这个步骤，直接进入登录状态。本文简要介绍什么代码导致了这个漏洞。</p>",
+          "links": [
+            {
+              "text": "Next.js 的中间件漏洞",
+              "url": "https://simonwillison.net/2025/Mar/23/nextjs-and-the-corrupt-middleware/"
+            }
+          ]
+        },
+        {
+          "title": "TypeScript 如何写函数类型",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032201.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文是一篇初级教程，介绍函数的类型在 TypeScript 的三种写法。</p>",
+          "links": [
+            {
+              "text": "TypeScript 如何写函数类型",
+              "url": "https://bhoot.dev/2025/typescript-function-type-syntaxes/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032201.webp"
+          ]
+        },
+        {
+          "title": "我对 MCP 的批评",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032501.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>MCP 是 Anthropic 公司提出的一个 AI 应用的接口协议，作者认为它并不好用，给出了自己的理由。</p>",
+          "links": [
+            {
+              "text": "我对 MCP 的批评",
+              "url": "https://taoofmac.com/space/notes/2025/03/22/1900"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032501.webp"
+          ]
+        },
+        {
+          "title": "只使用 ESM 模块",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032612.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文提出，现在可以放弃 JS 语言的 CommonJS 模块了，只使用 ESM 模块，一个原因是`require`命令已经支持加载 ESM 模块了。</p>",
+          "links": [
+            {
+              "text": "只使用 ESM 模块",
+              "url": "https://antfu.me/posts/move-on-to-esm-only"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032612.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "CSS FlexCode",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032202.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的 VS Code 插件，通过图标生成 flex、grid 布局的 CSS 代码。（<a href=\"https://github.com/ruanyf/weekly/issues/6347\" target=\"_blank\" rel=\"noopener noreferrer\">@xutao-o</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "CSS FlexCode",
+              "url": "https://github.com/xutao-o/css-flex-code"
+            },
+            {
+              "text": "@xutao-o",
+              "url": "https://github.com/ruanyf/weekly/issues/6347"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032202.webp"
+          ]
+        },
+        {
+          "title": "StreamCap",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032703.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个桌面应用（支持 Windows 和 Mac），基于 FFmpeg 进行直播录制，覆盖40+国内外主流直播平台。（<a href=\"https://github.com/ruanyf/weekly/issues/6393\" target=\"_blank\" rel=\"noopener noreferrer\">@ihmily</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "StreamCap",
+              "url": "https://github.com/ihmily/StreamCap"
+            },
+            {
+              "text": "@ihmily",
+              "url": "https://github.com/ruanyf/weekly/issues/6393"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032703.webp"
+          ]
+        },
+        {
+          "title": "Bilibili History Analyzer",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032301.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>B 站历史观看记录管理工具，可以保存观看记录，支持视频下载、数据分析、AI 摘要等功能，采用 Python + SQLite 开发，分为前端和后端。（<a href=\"https://github.com/ruanyf/weekly/issues/6366\" target=\"_blank\" rel=\"noopener noreferrer\">@2977094657</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Bilibili History Analyzer",
+              "url": "https://github.com/2977094657/BilibiliHistoryFetcher"
+            },
+            {
+              "text": "@2977094657",
+              "url": "https://github.com/ruanyf/weekly/issues/6366"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032301.webp"
+          ]
+        },
+        {
+          "title": "GoRead",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032614.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个用 Go 语言编写的终端里面的 EPUB 阅读器。（<a href=\"https://github.com/ruanyf/weekly/issues/6369\" target=\"_blank\" rel=\"noopener noreferrer\">@Ray-D-Song</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "GoRead",
+              "url": "https://github.com/Ray-D-Song/goread"
+            },
+            {
+              "text": "@Ray-D-Song",
+              "url": "https://github.com/ruanyf/weekly/issues/6369"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032614.webp"
+          ]
+        },
+        {
+          "title": "GateShift",
+          "content": "<p>一个 Go 语言写的命令行工具，用于一行命令切换网关，适合同时有 OpenWrt 路由和默认路由的环境。（<a href=\"https://github.com/ruanyf/weekly/issues/6353\" target=\"_blank\" rel=\"noopener noreferrer\">@ourines</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "GateShift",
+              "url": "https://github.com/ourines/GateShift"
+            },
+            {
+              "text": "@ourines",
+              "url": "https://github.com/ruanyf/weekly/issues/6353"
+            }
+          ]
+        },
+        {
+          "title": "Drawnix",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032616.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的在线白板工具，集成了思维导图、流程图、画笔。（<a href=\"https://github.com/ruanyf/weekly/issues/6379\" target=\"_blank\" rel=\"noopener noreferrer\">@pubuzhixing8</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Drawnix",
+              "url": "https://github.com/plait-board/drawnix"
+            },
+            {
+              "text": "@pubuzhixing8",
+              "url": "https://github.com/ruanyf/weekly/issues/6379"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032616.webp"
+          ]
+        },
+        {
+          "title": "小米笔记的 Obsidian 插件",
+          "content": "<p>它将小米云服务里面的小米笔记，转换为 Markdown 格式保存到 Obsidian 文件夹。（<a href=\"https://github.com/ruanyf/weekly/issues/6355\" target=\"_blank\" rel=\"noopener noreferrer\">@emac</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "小米笔记的 Obsidian 插件",
+              "url": "https://github.com/emac/obsidian-minote-plugin"
+            },
+            {
+              "text": "@emac",
+              "url": "https://github.com/ruanyf/weekly/issues/6355"
+            }
+          ]
+        },
+        {
+          "title": "wxlogin",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032615.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个基于 Next.js 的开源应用，基于微信公众号的网站登录，用户通过公众号获取验证码，从而在网页端登录。（<a href=\"https://github.com/ruanyf/weekly/issues/6372\" target=\"_blank\" rel=\"noopener noreferrer\">@liyaodev</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "wxlogin",
+              "url": "https://github.com/liyaodev/wxlogin"
+            },
+            {
+              "text": "@liyaodev",
+              "url": "https://github.com/ruanyf/weekly/issues/6372"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032615.webp"
+          ]
+        },
+        {
+          "title": "Docxy",
+          "content": "<p>开源的 Docker Hub 镜像代理服务，可以通过它拉取容器镜像。（<a href=\"https://github.com/ruanyf/weekly/issues/6395\" target=\"_blank\" rel=\"noopener noreferrer\">@harrisonwang</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Docxy",
+              "url": "https://github.com/harrisonwang/docxy"
+            },
+            {
+              "text": "@harrisonwang",
+              "url": "https://github.com/ruanyf/weekly/issues/6395"
+            }
+          ]
+        },
+        {
+          "title": "Bondma",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032618.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个开源的多语言翻译管理平台，提供直观的 Web 界面。（<a href=\"https://github.com/ruanyf/weekly/issues/6389\" target=\"_blank\" rel=\"noopener noreferrer\">@HeroIsUseless</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Bondma",
+              "url": "https://github.com/HeroIsUseless/bondma"
+            },
+            {
+              "text": "@HeroIsUseless",
+              "url": "https://github.com/ruanyf/weekly/issues/6389"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032618.webp"
+          ]
+        },
+        {
+          "title": "DeepPDF",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032705.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>免费的 PDF 文件翻译网站，比如英文 PDF 翻译成中文，保留排版不变。（<a href=\"https://github.com/ruanyf/weekly/issues/6398\" target=\"_blank\" rel=\"noopener noreferrer\">@icaohongyuan</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "DeepPDF",
+              "url": "https://deeppdf.ai/pdf-translator"
+            },
+            {
+              "text": "@icaohongyuan",
+              "url": "https://github.com/ruanyf/weekly/issues/6398"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032705.webp"
+          ]
+        },
+        {
+          "title": "RSSPod",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032706.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>收听、订阅播客的网站。（<a href=\"https://github.com/ruanyf/weekly/issues/6399\" target=\"_blank\" rel=\"noopener noreferrer\">@Jaksay</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "RSSPod",
+              "url": "https://rsspod.pro"
+            },
+            {
+              "text": "@Jaksay",
+              "url": "https://github.com/ruanyf/weekly/issues/6399"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032706.webp"
+          ]
+        },
+        {
+          "title": "Supa Simple Socket",
+          "content": "<p>网友投稿的 WebSocket 的 JS 客户端库，支持心跳机制、断点重连、事件订阅和文件传输。（<a href=\"https://github.com/ruanyf/weekly/issues/6406\" target=\"_blank\" rel=\"noopener noreferrer\">@JustinGastby</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Supa Simple Socket",
+              "url": "https://github.com/JustinGastby/supa-simple-socket"
+            },
+            {
+              "text": "@JustinGastby",
+              "url": "https://github.com/ruanyf/weekly/issues/6406"
+            }
+          ]
+        },
+        {
+          "title": "Inscribed.app",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032707.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一款在线工具，基于幻灯片制作创意草图和动画。 （<a href=\"https://github.com/ruanyf/weekly/issues/6388\" target=\"_blank\" rel=\"noopener noreferrer\">@chunrapeepat</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Inscribed.app",
+              "url": "https://inscribed.app/"
+            },
+            {
+              "text": "@chunrapeepat",
+              "url": "https://github.com/ruanyf/weekly/issues/6388"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032707.webp"
+          ]
+        },
+        {
+          "title": "LinkAndroid",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032709.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的手机连接助手，方便连接 Android 和电脑。（<a href=\"https://github.com/ruanyf/weekly/issues/6408\" target=\"_blank\" rel=\"noopener noreferrer\">@modstart</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "LinkAndroid",
+              "url": "https://github.com/modstart-lib/linkandroid"
+            },
+            {
+              "text": "@modstart",
+              "url": "https://github.com/ruanyf/weekly/issues/6408"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032709.webp"
+          ]
+        },
+        {
+          "title": "Teleprompter.today",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032711.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个在线的提词器，为演讲者、视频创作者和直播主播提供文本提示，可以定制各种属性。（<a href=\"https://github.com/ruanyf/weekly/issues/6412\" target=\"_blank\" rel=\"noopener noreferrer\">@s87343472</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Teleprompter.today",
+              "url": "https://www.teleprompter.today/"
+            },
+            {
+              "text": "@s87343472",
+              "url": "https://github.com/ruanyf/weekly/issues/6412"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032711.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-相关",
+      "title": "AI 相关",
+      "items": [
+        {
+          "title": "Web Design AI Agent",
+          "content": "<p>开源的 AI 应用，根据文字描述和图片生成网页，使用 Claude AI 模型，部署在 Cloudflare worker。（<a href=\"https://github.com/ruanyf/weekly/issues/6371\" target=\"_blank\" rel=\"noopener noreferrer\">@mggger</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Web Design AI Agent",
+              "url": "https://github.com/mggger/WebCraft"
+            },
+            {
+              "text": "@mggger",
+              "url": "https://github.com/ruanyf/weekly/issues/6371"
+            }
+          ]
+        },
+        {
+          "title": "AigcPanel",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032708.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的 AI 数字人生成工具。（<a href=\"https://github.com/ruanyf/weekly/issues/6407\" target=\"_blank\" rel=\"noopener noreferrer\">@modstart</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "AigcPanel",
+              "url": "https://github.com/modstart-lib/aigcpanel"
+            },
+            {
+              "text": "@modstart",
+              "url": "https://github.com/ruanyf/weekly/issues/6407"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032708.webp"
+          ]
+        },
+        {
+          "title": "EmojiMyFace",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032710.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>免费的 AI 挡脸工具，将脸部替换成 Emoji 符号。（<a href=\"https://github.com/ruanyf/weekly/issues/6410\" target=\"_blank\" rel=\"noopener noreferrer\">@Takea-nap</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "EmojiMyFace",
+              "url": "https://emojimyface.com/"
+            },
+            {
+              "text": "@Takea-nap",
+              "url": "https://github.com/ruanyf/weekly/issues/6410"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032710.webp"
+          ]
+        },
+        {
+          "title": "aisubtranslate.top",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032704.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>AI 模型翻译字幕文件的免费网站。（<a href=\"https://github.com/ruanyf/weekly/issues/6397\" target=\"_blank\" rel=\"noopener noreferrer\">@LetheTK</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "aisubtranslate.top",
+              "url": "https://aisubtranslate.top/"
+            },
+            {
+              "text": "@LetheTK",
+              "url": "https://github.com/ruanyf/weekly/issues/6397"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032704.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "DNS 速度测试",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032606.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网站测试从你的计算机到世界主要公共 DNS 服务器的速度。</p>\n<p>另有一个类似的命令行工具 <a href=\"https://github.com/xxnuo/dns-benchmark\" target=\"_blank\" rel=\"noopener noreferrer\">dnspy</a>。（<a href=\"https://github.com/ruanyf/weekly/issues/6368\" target=\"_blank\" rel=\"noopener noreferrer\">@xxnuo</a> 投稿）</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032613.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "DNS 速度测试",
+              "url": "https://dnsspeedtest.online/"
+            },
+            {
+              "text": "dnspy",
+              "url": "https://github.com/xxnuo/dns-benchmark"
+            },
+            {
+              "text": "@xxnuo",
+              "url": "https://github.com/ruanyf/weekly/issues/6368"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032606.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032613.webp"
+          ]
+        },
+        {
+          "title": "Orbit",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032601.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>该网站提供一种可视化的方式，发现你喜欢的新音乐。</p>",
+          "links": [
+            {
+              "text": "Orbit",
+              "url": "https://www.bbc.co.uk/orbitmusic"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032601.webp"
+          ]
+        },
+        {
+          "title": "Top Hacker News",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032617.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>该网站展示“黑客新闻”实时的热门文章，有插图和内容总结。（<a href=\"https://github.com/ruanyf/weekly/issues/6384\" target=\"_blank\" rel=\"noopener noreferrer\">@heyppen</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Top Hacker News",
+              "url": "https://www.tophn.co/"
+            },
+            {
+              "text": "@heyppen",
+              "url": "https://github.com/ruanyf/weekly/issues/6384"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032617.webp"
+          ]
+        },
+        {
+          "title": "MusicMint",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032204.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个 AI 音乐网站。（<a href=\"https://github.com/ruanyf/weekly/issues/6361\" target=\"_blank\" rel=\"noopener noreferrer\">@250465043</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "MusicMint",
+              "url": "https://www.musicmint.ai/"
+            },
+            {
+              "text": "@250465043",
+              "url": "https://github.com/ruanyf/weekly/issues/6361"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032204.webp"
+          ]
+        },
+        {
+          "title": "旅行插头顾问",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032203.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>该网站查询世界各地的插头类型和电压。（<a href=\"https://github.com/ruanyf/weekly/issues/6351\" target=\"_blank\" rel=\"noopener noreferrer\">@imowen</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "旅行插头顾问",
+              "url": "https://remit.ee/tools/check-plug-travel-adapter/"
+            },
+            {
+              "text": "@imowen",
+              "url": "https://github.com/ruanyf/weekly/issues/6351"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032203.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "地球和太阳的大小",
+          "content": "<p>太阳的大小远超地球，直径是地球是109倍，体积是130万倍。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032603.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>上图中，左下角的蓝点就是地球。</p>\n<p>所以，一丁点的太阳能，就足够地球使用。</p>",
+          "links": [
+            {
+              "text": "地球和太阳的大小",
+              "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0xD8yB6UiCKtNhvyfM6w8ARCRXzxukjMgfYcShuAcNAthBbBToy9j3LC3vDExaz1yl&id=100064747956101"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032603.webp"
+          ]
+        },
+        {
+          "title": "AI 生成表情包",
+          "content": "<p>上周，OpenAI 开放了 GPT-4o 的<a href=\"https://openai.com/index/introducing-4o-image-generation/\" target=\"_blank\" rel=\"noopener noreferrer\">图片生成功能</a>。网友发现，只要上传一张图片，就可以用它生成表情包，效果极佳。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032712.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><a href=\"https://www.ettoday.net/news/20250327/2932962.htm\" target=\"_blank\" rel=\"noopener noreferrer\">提示词</a>是：“请把照片里面的角色画成 Q 版，并用12个动作和文字做成表情包。”</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202503/bg2025032713.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "AI 生成表情包",
+              "url": "https://www.facebook.com/Coyoter.Huang/posts/pfbid0gq7MrwSf7R1nM4ETzDoS2o8a4w4neu65We7fZBhEGgM9xr1W1fwX6U9qgrNcd9TJl"
+            },
+            {
+              "text": "图片生成功能",
+              "url": "https://openai.com/index/introducing-4o-image-generation/"
+            },
+            {
+              "text": "提示词",
+              "url": "https://www.ettoday.net/news/20250327/2932962.htm"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032712.webp",
+            "https://cdn.beekka.com/blogimg/asset/202503/bg2025032713.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "为什么重新发明轮子",
+          "content": "<p>我喜欢从头开始写东西，经常有人说，我在重新发明轮子。</p>\n<p>我这样做有好几个理由。</p>\n<p>（1）学习。通过重新发明轮子，我学到了很多东西，知道了工作原理，以及怎么动手做。</p>\n<p>（2）定制。没有一种轮子适合所有情况。通过创建自己的轮子，我可以根据具体情况定制，让它更适合我。</p>\n<p>（3）创新。现有的一些轮子很糟糕，重新发明轮子时，就有机会探索新的可能性。</p>\n<p>（4）享受。事实上，前面三条理由可以不存在，重新发明轮子只是因为我喜欢动手，出色完成工作时，我会有一种满足感。</p>\n<p>但是，我不推荐你也这样做。重新发明轮子并不都那么美好，有一些不可忽视的缺点。</p>\n<p>（5）重新发明轮子可能很耗时，需要投入大量时间。</p>\n<p>（6）最终产品可能不如现有解决方案。</p>\n<p>（7）容易陷入无限递推的困境。为了制造轮子，我还必须重新发明锤子吗？</p>\n<p>所以，如果你想重新发明轮子，一定要想清楚两点。第一，你有足够时间吗，尤其是涉及其他人的情况下。第二，重新发明的范围（或者说，你不打算重新发明什么），以免不必要地偏离主题。</p>",
+          "links": [
+            {
+              "text": "为什么重新发明轮子",
+              "url": "https://tobloef.com/blog/wheel-reinventors-principles/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "一",
+          "content": "<p>个优秀程序员，最开始是实施者（implementer），然后进化到解决者（solver），最后变成发现者（finder）。</p>\n<p>-- <a href=\"https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html\" target=\"_blank\" rel=\"noopener noreferrer\">《实施者、解决者和发现者》</a></p>",
+          "links": [
+            {
+              "text": "《实施者、解决者和发现者》",
+              "url": "https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html"
+            }
+          ]
+        },
+        {
+          "title": "如",
+          "content": "<p>果你正在开发一款希望长久使用的产品，那么前端框架就是你最不需要做的技术决策。你争论哪一个框架好的时间，都是在浪费精力。</p>\n<p>无论你选择什么框架，5年后都会过时，即使那时你选择的框架还存在，也会变得完全不同，这就是前端社区的运作方式。</p>\n<p>-- <a href=\"https://polotek.net/posts/the-frontend-treadmill/\" target=\"_blank\" rel=\"noopener noreferrer\">《前端跑步机》</a></p>",
+          "links": [
+            {
+              "text": "《前端跑步机》",
+              "url": "https://polotek.net/posts/the-frontend-treadmill/"
+            }
+          ]
+        },
+        {
+          "title": "在",
+          "content": "<p>2025年开发 Web 应用，有点像组装宜家家具。你必须拼凑和配置许多单独的服务：前端、后端、cdn、https、数据库、身份验证、付款……</p>\n<p>你的工作不是写代码，而是配置、管道、编排、工作流、最佳实践。</p>\n<p>-- <a href=\"https://x.com/karpathy/status/1905051558783418370\" target=\"_blank\" rel=\"noopener noreferrer\">Andrej Karpath</a>，著名 AI 科学家</p>",
+          "links": [
+            {
+              "text": "Andrej Karpath",
+              "url": "https://x.com/karpathy/status/1905051558783418370"
+            }
+          ]
+        },
+        {
+          "title": "愤",
+          "content": "<p>怒是一种具有破坏性的情绪，会让人产生报复的欲望，这不利于你的根本利益。更理性的方法是，不要先想到报复，而要想想你与对方有没有共同利益，寻求合作和谅解。</p>\n<p>-- <a href=\"https://aeon.co/essays/there-s-no-emotion-we-ought-to-think-harder-about-than-anger\" target=\"_blank\" rel=\"noopener noreferrer\">《超越愤怒》</a></p>",
+          "links": [
+            {
+              "text": "《超越愤怒》",
+              "url": "https://aeon.co/essays/there-s-no-emotion-we-ought-to-think-harder-about-than-anger"
+            }
+          ]
+        },
+        {
+          "title": "各",
+          "content": "<p>种宗教都驱逐异教徒，不是因为他可能是错的，而是因为他可能是对的。</p>\n<p>-- <a href=\"https://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD831.html\" target=\"_blank\" rel=\"noopener noreferrer\">Edsger W. Dijkstra</a></p>",
+          "links": [
+            {
+              "text": "Edsger W. Dijkstra",
+              "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD831.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "往年回顾",
+      "title": "往年回顾",
+      "items": [
+        {
+          "content": "<p><a href=\"http://www.ruanyifeng.com/blog/2024/04/weekly-issue-296.html\" target=\"_blank\" rel=\"noopener noreferrer\">xz 后门的作者 Jia Tan 是谁？</a>（#296）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2023/03/weekly-issue-246.html\" target=\"_blank\" rel=\"noopener noreferrer\">永不丢失的网络身份</a>（#246）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2022/02/weekly-issue-196.html\" target=\"_blank\" rel=\"noopener noreferrer\">掌机的未来</a>（#196）</p>\n<p><a href=\"http://www.ruanyifeng.com/blog/2021/02/weekly-issue-146.html\" target=\"_blank\" rel=\"noopener noreferrer\">网课应该怎么上？</a>（#146）</p>",
+          "links": [
+            {
+              "text": "xz 后门的作者 Jia Tan 是谁？",
+              "url": "http://www.ruanyifeng.com/blog/2024/04/weekly-issue-296.html"
+            },
+            {
+              "text": "永不丢失的网络身份",
+              "url": "http://www.ruanyifeng.com/blog/2023/03/weekly-issue-246.html"
+            },
+            {
+              "text": "掌机的未来",
+              "url": "http://www.ruanyifeng.com/blog/2022/02/weekly-issue-196.html"
+            },
+            {
+              "text": "网课应该怎么上？",
+              "url": "http://www.ruanyifeng.com/blog/2021/02/weekly-issue-146.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-343.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-343.md"
+}

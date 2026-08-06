@@ -1,0 +1,644 @@
+{
+  "number": 31,
+  "title": "第 31 期",
+  "date": "2019-05-29",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/201811/bg2018111601.jpg",
+  "summary": "这里记录过去一周，我看到的值得分享的东西，每周五发布。 欢迎投稿，请前往 GitHub 的 ruanyf/weekly 提交 issue。 （题图：天荒坪，安吉，2018） 计算机科学家 Tim Bray 最近写了一篇博客，他觉得自己可能应…",
+  "sections": [
+    {
+      "id": "新闻",
+      "title": "新闻",
+      "items": [
+        {
+          "title": "鸟类标本与污染",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111602.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>美国芝加哥的三家博物馆共收藏了1,347个鸟类标本，时间跨度三个世纪（1880年至2015年）。最近，生物学家调查了这些标本与空气污染之间的关系。</p>\n<p>19世纪时，芝加哥是一个煤烟污染严重的城市，鸟类的羽毛受影响都变成了灰色（上图的左侧）。后来，污染越来越小，鸟类的羽毛越变越白（上图的右侧）。</p>",
+          "links": [
+            {
+              "text": "鸟类标本与污染",
+              "url": "https://www.audubon.org/magazine/winter-2017/sooty-feathers-tell-history-pollution-american"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111602.jpg"
+          ]
+        },
+        {
+          "title": "抗生素杀死有益细菌",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111603.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>人体肠道有数万亿细菌，其中很多细菌对人体有益。而且，丰富多样的肠道微生物群被认为可以促进健康，如果细菌种类过少，反而是慢性疾病的一个特征。</p>\n<p>哥本哈根大学的科学家，最近通过调查证实，服用抗生素以后，肠道细菌几乎会根除，随后六个月大多数细菌会逐步恢复。但是，六个月之后，研究参与者仍然缺少九种常见的有益细菌。这就是说，如果多次服用抗生素，肠道内的有益细菌可能永久丧失。西方人的肠道微生物多样性，显著低于非洲和南美丛林原始人，一种可能的解释就是抗生素的广泛使用。</p>",
+          "links": [
+            {
+              "text": "抗生素杀死有益细菌",
+              "url": "https://phys.org/news/2018-10-composition-gut-bacteria-recovers-antibiotics.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111603.jpg"
+          ]
+        },
+        {
+          "title": "流动电池",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111604.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>电动汽车正变得流行，但是司机们还是担心，开到一半没电了怎么办，毕竟充电桩并不好找。现在，美国一家创业公司推出了流动电池充电服务，如果你的电动车没电了，可以用 App 预约电池，到你指定的地点为车充电。</p>\n<p>流动电池大约是一个背包大小、充电一次可以行驶160公里左右，每次收费20美元。该公司的目标是与救援公司合作，你可以打救援公司的电话，让他们把电池送过来。</p>",
+          "links": [
+            {
+              "text": "流动电池",
+              "url": "https://www.forbes.com/sites/jeffkart/2018/10/24/charging-an-electric-vehicle-with-sparkcharge-as-easy-as-ordering-a-pizza/#237f3fa04c65"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111604.jpg"
+          ]
+        },
+        {
+          "title": "AR 协作",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111605.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>远程办公的时候，如何与同事协作？美国一家创业公司推出了一种 AR 眼镜，只要戴上眼镜，远程的同事就会出现在眼前，跟周围环境叠加在一起，跟你互动。</p>",
+          "links": [
+            {
+              "text": "AR 协作",
+              "url": "https://spatial.is/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111605.jpg"
+          ]
+        },
+        {
+          "title": ".new 域名",
+          "content": "<p>谷歌注册了一系列 .new 域名，访问这些域名，会自动跳转在 G suite 创建新文档。</p>\n<blockquote>\n<p>* 文档：doc.new, docs.new, document.new</p>\n<p>* 表格：sheet.new,  sheets.new, spreadsheet.new</p>\n<p>* 幻灯片：slide.new, slides.new, deck.new,  presentation.new</p>\n<p>* 表单：form.new, forms.new;</p>\n<p>* 网站：site.new, sites.new, website.new</p>\n</blockquote>",
+          "links": [
+            {
+              "text": ".new 域名",
+              "url": "https://www.theverge.com/2018/10/25/18024918/google-new-shortcut-g-suite-apps-docs-sheets"
+            }
+          ]
+        },
+        {
+          "title": "野生动物消失了60%",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111606.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>世界野生动物基金会发布了一份报告，称1970年以来，全世界的野生动物减少了60%。</p>\n<p>此外，到2050年，不受人类影响的野生土地比例，预计将从全球的1/4减少到1/10。大海里的珊瑚可以保护陆地上的人类免受风暴潮和波浪袭击，预计到本世纪中叶也将消失90％。据估计，90％的海鸟现在的胃部都有塑料，与1960年估计的5％相比，急剧增加。科学家称，人类引发了地球的第六次生物大灭绝。</p>",
+          "links": [
+            {
+              "text": "野生动物消失了60%",
+              "url": "https://www.salon.com/2018/10/30/human-activity-has-obliterated-more-than-half-of-all-wildlife-since-1970/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111606.jpg"
+          ]
+        },
+        {
+          "title": "AI 主播",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111607.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>新华社与搜狗合作，在乌镇的第五届世界互联网大会上，发布了 AI 主播。该系统首先对真人的脸部建模，然后提取语音、表情、嘴唇动作，重构一个 AI 分身模型。以后，只要输入文本，该分身就会像真人一样播报新闻。<a href=\"https://www.weibo.com/tv/v/H21eIubGE\" target=\"_blank\" rel=\"noopener noreferrer\">这里</a>是一段 AI 主播播报英语新闻的视频。</p>",
+          "links": [
+            {
+              "text": "AI 主播",
+              "url": "https://www.inkstonenews.com/tech/xinhua-and-sogou-show-news-anchors-powered-artificial-intelligence/article/2172460"
+            },
+            {
+              "text": "这里",
+              "url": "https://www.weibo.com/tv/v/H21eIubGE"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111607.jpg"
+          ]
+        },
+        {
+          "title": "外科学生的手失去灵活性",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111608.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一位英国外科教授表示说，医学院的学生花了很多时间在电子设备前，手部动作简化为在二维平面屏幕上滑动，缺少更多练习的时间，他们的手已经失去了缝合病人的灵活性。</p>",
+          "links": [
+            {
+              "text": "外科学生的手失去灵活性",
+              "url": "https://www.bbc.com/news/education-46019429"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111608.jpg"
+          ]
+        },
+        {
+          "title": "三星的可折叠手机",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111609.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111610.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>11月的三星开发者大会上，三星公司正式预告将发布可折叠手机。这个手机有一个外屏，折叠屏是在内部。早先，国内发布的  Royole 可折叠手机，折叠屏是在外屏。相比来说，三星的难度更大，因为它需要将屏幕近乎完全对折，这要求屏幕有更大的强度。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111611.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "三星的可折叠手机",
+              "url": "https://arstechnica.com/gadgets/2018/11/samsung-shows-off-foldable-phone-prototype-promises-launch-next-year/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111609.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111610.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111611.jpg"
+          ]
+        },
+        {
+          "title": "_",
+          "content": "<p>_一句话新闻__</p>\n<p>* <a href=\"https://www.axios.com/a-year-after-tweets-doubled-in-size--brevity-still-rules-610efb0f-7799-4874-8d65-a0f3e807b310.html\" target=\"_blank\" rel=\"noopener noreferrer\">推特公司</a>统计发现，每条推文的平均长度是33个字符，也就是五六个单词。</p>\n<p>* <a href=\"https://www.theclassroom.com/cost-analysis\" target=\"_blank\" rel=\"noopener noreferrer\">据统计</a>，2015年美国大学生每年平均花费1.7万美元（学费+住宿费），相当于12万元人民币，美国读大学还是很贵的。美国东北部的大学（纽约州附近）最贵，阿拉斯加州最便宜。</p>\n<p>* <a href=\"https://www.space.com/42234-weird-square-iceberg-antarctica.html?utm_source=twitter&utm_medium=social\" target=\"_blank\" rel=\"noopener noreferrer\">NASA</a> 在南极洲发现一块天然形成的矩形冰川。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111612.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "推特公司",
+              "url": "https://www.axios.com/a-year-after-tweets-doubled-in-size--brevity-still-rules-610efb0f-7799-4874-8d65-a0f3e807b310.html"
+            },
+            {
+              "text": "据统计",
+              "url": "https://www.theclassroom.com/cost-analysis"
+            },
+            {
+              "text": "NASA",
+              "url": "https://www.space.com/42234-weird-square-iceberg-antarctica.html?utm_source=twitter&utm_medium=social"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111612.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "教程",
+      "title": "教程",
+      "items": [
+        {
+          "title": "等待时间悖论",
+          "content": "<p>公共汽车的间隔时间为10分钟，那么平均等待时间应该为5分钟，但是如果进行抽样，你会发现抽样得到的平均时间为10分钟，这是为什么？简单说，原因就是等待时间越长的人，越容易被抽样到。</p>",
+          "links": [
+            {
+              "text": "等待时间悖论",
+              "url": "http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/"
+            }
+          ]
+        },
+        {
+          "title": "我为什么喜欢 Java 语言？",
+          "content": "<p>一个程序员解释他眼中 Java 语言的优点。</p>",
+          "links": [
+            {
+              "text": "我为什么喜欢 Java 语言？",
+              "url": "https://dev.to/acoh3n/why-i-love-java-5c14"
+            }
+          ]
+        },
+        {
+          "title": "需要学习的是编程，而不是编程语言",
+          "content": "<p>作者注意到，编程与编程语言几乎没有关系，学生可能只是在学编程语言，而不是在学编程。</p>",
+          "links": [
+            {
+              "text": "需要学习的是编程，而不是编程语言",
+              "url": "https://phpocean.com/blog/article/learning-programming-is-different-from-learning-a-programming-language/80"
+            }
+          ]
+        },
+        {
+          "title": "你可能不需要单页应用",
+          "content": "<p>现在的前端开发大量使用单页应用 SPA，使得前端的复杂性急剧增加。这篇文章提出，SPA 可能被过度使用了，大部分情况下，你可能不需要单页应用。</p>",
+          "links": [
+            {
+              "text": "你可能不需要单页应用",
+              "url": "https://tinnedfruit.com/articles/create-your-own-dysfunctional-single-page-app.html"
+            }
+          ]
+        },
+        {
+          "title": "新人要学习的机器学习十大算法",
+          "content": "<p>本文介绍了机器学习最基本的十种算法，比如线性回归、朴素贝叶斯、KNN聚合等。</p>",
+          "links": [
+            {
+              "text": "新人要学习的机器学习十大算法",
+              "url": "https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11"
+            }
+          ]
+        },
+        {
+          "title": "10月21日 GitHub 故障分析",
+          "content": "<p>10月21日，GitHub 发生了一次持续24小时的故障，本文是该公司的事后故障分析。主要原因是，当天两个数据中心之间的光纤断了43秒，导致主库与从库之间数据不同步，而且没法确定哪一个镜像是数据完整的，不得不从头做数据恢复。</p>",
+          "links": [
+            {
+              "text": "10月21日 GitHub 故障分析",
+              "url": "https://blog.github.com/2018-10-30-oct21-post-incident-analysis/"
+            }
+          ]
+        },
+        {
+          "title": "圆周率 Pi 需要使用多少位小数？",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111613.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>美国国家航天局计算时，使用 Pi 小数点后15位。这样的话，即使轨道半径是250亿英里，计算误差也小于手指的长度（几厘米）。</p>",
+          "links": [
+            {
+              "text": "圆周率 Pi 需要使用多少位小数？",
+              "url": "https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111613.jpg"
+          ]
+        },
+        {
+          "title": "Pandoc 生成静态网站",
+          "content": "<p>Pandoc 是一个文档格式转换工具，本文介绍如何使用它，将 Markdown 源码转成网页，发布到 AWS S3。</p>",
+          "links": [
+            {
+              "text": "Pandoc 生成静态网站",
+              "url": "https://christianfei.com/posts/2018-10-31-my-current-blogging-stack/"
+            }
+          ]
+        },
+        {
+          "title": "QR 二维码是怎么生成的？",
+          "content": "<p>本文通过一个实例，一步步演示二维码的生成算法。</p>",
+          "links": [
+            {
+              "text": "QR 二维码是怎么生成的？",
+              "url": "https://www.nayuki.io/page/creating-a-qr-code-step-by-step"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "木材数据库",
+          "content": "<p>该网站收集全世界各种木材的信息。链接给出的是全世界硬度最高的十种木材。</p>",
+          "links": [
+            {
+              "text": "木材数据库",
+              "url": "https://www.wood-database.com/wood-articles/top-ten-hardest-woods/"
+            }
+          ]
+        },
+        {
+          "title": "Erlang by Example",
+          "content": "<p>Erlang 语言的入门教程。</p>",
+          "links": [
+            {
+              "text": "Erlang by Example",
+              "url": "http://erlangbyexample.org/"
+            }
+          ]
+        },
+        {
+          "title": "漫威 API",
+          "content": "<p>漫威公司将自己的漫画资源做成 API 开放。</p>",
+          "links": [
+            {
+              "text": "漫威 API",
+              "url": "https://developer.marvel.com/"
+            }
+          ]
+        },
+        {
+          "title": "DeepLearningProject",
+          "content": "<p>哈佛大学深度学习开源教程，附有代码实例。</p>",
+          "links": [
+            {
+              "text": "DeepLearningProject",
+              "url": "https://github.com/Spandan-Madan/DeepLearningProject"
+            }
+          ]
+        },
+        {
+          "title": "符号清单",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111614.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>常用符号的 Unicode 码点、HTML 代码和 HTML 实体写法。（@<a href=\"https://github.com/ruanyf/weekly/issues/33\" target=\"_blank\" rel=\"noopener noreferrer\">amenzai</a>__ __投稿）</p>",
+          "links": [
+            {
+              "text": "符号清单",
+              "url": "https://www.toptal.com/designers/htmlarrows/"
+            },
+            {
+              "text": "amenzai",
+              "url": "https://github.com/ruanyf/weekly/issues/33"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111614.jpg"
+          ]
+        },
+        {
+          "title": "600门在线课程",
+          "content": "<p>过去9年，全球超过600所高校，在网上发布了超过10000门公开课程。本文收集了最近发布的600门课程，基本都是英文的。</p>",
+          "links": [
+            {
+              "text": "600门在线课程",
+              "url": "https://qz.com/1437623/600-free-online-courses-you-can-take-from-universities-worldwide/"
+            }
+          ]
+        },
+        {
+          "title": "React.js 小书",
+          "content": "<p>国人编写的 React 入门教程。（@<a href=\"https://github.com/ruanyf/weekly/issues/49\" target=\"_blank\" rel=\"noopener noreferrer\">LeeChar</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "React.js 小书",
+              "url": "http://huziketang.mangojuice.top/books/react/"
+            },
+            {
+              "text": "LeeChar",
+              "url": "https://github.com/ruanyf/weekly/issues/49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "发送短消息的 App",
+          "content": "<p>谷歌官方推出了一个网页应用，使你可以在浏览器上远程通过自己的手机发短消息。有人使用了它的底层 API，做成一个<a href=\"https://github.com/maxchehab/Unofficial-Google-Messages-Desktop-App/blob/master/README.md\" target=\"_blank\" rel=\"noopener noreferrer\">桌面 App</a>，可以在电脑桌面上发短信。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111615.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "发送短消息的 App",
+              "url": "https://messages.android.com/"
+            },
+            {
+              "text": "桌面 App",
+              "url": "https://github.com/maxchehab/Unofficial-Google-Messages-Desktop-App/blob/master/README.md"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111615.jpg"
+          ]
+        },
+        {
+          "title": "texme",
+          "content": "<p>一个自动渲染 Markdown + Latex 文档的 JS 库。</p>",
+          "links": [
+            {
+              "text": "texme",
+              "url": "https://github.com/susam/texme"
+            }
+          ]
+        },
+        {
+          "title": "Gophish",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111616.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的网络钓鱼框架，用来评估网络钓鱼的风险。它首先导入像素级别的网页钓鱼模板，然后发出钓鱼邮件，并且提供后台，监控结果。</p>",
+          "links": [
+            {
+              "text": "Gophish",
+              "url": "https://getgophish.com/#"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111616.jpg"
+          ]
+        },
+        {
+          "title": "fastscan",
+          "content": "<p>JS 的敏感词过滤库，基于 ahocorasick 字符串匹配算法，浏览器和服务端都可以使用。 （@<a href=\"https://github.com/ruanyf/weekly/issues/38\" target=\"_blank\" rel=\"noopener noreferrer\">ctolib</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "fastscan",
+              "url": "https://github.com/pyloque/fastscan"
+            },
+            {
+              "text": "ctolib",
+              "url": "https://github.com/ruanyf/weekly/issues/38"
+            }
+          ]
+        },
+        {
+          "title": "weekly-email-subscribe",
+          "content": "<p>网友开发的本周刊的邮件订阅，订阅需要提交 MR 。</p>",
+          "links": [
+            {
+              "text": "weekly-email-subscribe",
+              "url": "https://github.com/chenjiandongx/weekly-email-subscribe"
+            }
+          ]
+        },
+        {
+          "title": "turtle.audio",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111617.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个通过绘制视觉形状，进行谱曲的网页编辑器。</p>",
+          "links": [
+            {
+              "text": "turtle.audio",
+              "url": "http://turtle.audio/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111617.jpg"
+          ]
+        },
+        {
+          "title": "Osada",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111618.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个分布式的社交网络，使用 ActivePub 协议，可以与其他使用该协议的应用交换信息。</p>",
+          "links": [
+            {
+              "text": "Osada",
+              "url": "https://zotlabs.com/osada/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111618.jpg"
+          ]
+        },
+        {
+          "title": "色彩测试",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111619.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网站测试你的色彩分辨能力，检测有无色盲。它显示四个色带，每个色带头尾的色块是固定的，中间的色块都打乱了，你必须将它们还原成正确的顺序。</p>",
+          "links": [
+            {
+              "text": "色彩测试",
+              "url": "https://www.xrite.com/hue-test"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111619.jpg"
+          ]
+        },
+        {
+          "title": "ByteScout SQL Trainer",
+          "content": "<p>一个互动式的在线 SQL 语法教程，针对新手。答对一个问题，才能进入下一个。</p>",
+          "links": [
+            {
+              "text": "ByteScout SQL Trainer",
+              "url": "https://app.bytescout.com/sql-trainer/index.html"
+            }
+          ]
+        },
+        {
+          "title": "draw.io",
+          "content": "<p>在线图表制作工具。（@<a href=\"https://github.com/ruanyf/weekly/issues/52\" target=\"_blank\" rel=\"noopener noreferrer\">wisezhao</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "draw.io",
+              "url": "https://www.draw.io/"
+            },
+            {
+              "text": "wisezhao",
+              "url": "https://github.com/ruanyf/weekly/issues/52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文摘",
+      "title": "文摘",
+      "items": [
+        {
+          "title": "勇敢的太空狗",
+          "content": "<p>1957年10月，前苏联的航天器 Sputnik 1 发射成功后，苏联领导人决定11月发射 Sputnik 2，这意味着工程师必须在不到四周的时间内完成组装并发射第二艘飞船。</p>\n<p>Sputnik 2 的主要任务是将一名活着的乘客送到太空，工程师选择狗作为乘客，因此开始寻找合适的狗。他们从莫斯科街头捡到一只三岁的流浪狗，把她带回总部，起名为莱卡。科学家选择使用流浪狗，因为他们认为这些动物已经学会忍受极度寒冷和饥饿的状况。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111620.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>航天器很小，为了让它们适应这种限制，所有四只候选的狗都被关在一个小笼子里，长达20天左右。它们还被放置在离心机中，模拟火箭发射的加速，并被放置在噪音的机器中，让它们适应航天器的噪音。这些狗吃一种特殊的高营养凝胶，这将是他们的太空食物。这些举动对它们的健康产生了不良影响，狗的脉搏加快了一倍，血压增加了很多。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111621.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>发射之前，一位科学家带着莱卡回家，与他的孩子一起玩。因为科学家知道，莱卡不会活着回到地球。这是一次完全单向的自杀任务，苏联当时没有将 Sputnik 2 带回地球的技术。</p>\n<p>莱卡在任务开始前三天被放置在太空舱内。当时天气很冷，用加热器的软管保持容器温暖。前往发射场之前，对狗进行了手术，测量他们的呼吸，脉搏，血压。最终升空关闭舱门之前，技术人员亲吻莱卡的鼻子，希望她一路顺风，大家知道她无法活着回来。</p>\n<p>火箭发射后开始加速，传回地球的信号表示莱卡的心率开始加快。到达轨道后，Sputnik 2 的一部分没有按计划分离，这阻止了热控制器正常运行，机舱的温度开始升高。几个小时之后，科学家们再也没有收到任何生命迹象。多年以来，莱卡的死亡原因一直没有披露。直到2002年10月，一位在场的科学家才透露，莱卡死于第四圈飞行时，死因是机舱温度过高。</p>\n<p>五个月之后，1958年4月14日，经过2,570次轨道运行后，Sputnik 2 返回地球，进入大气层后解体。</p>\n<p>1959年，罗马尼亚发行了一张邮票，内容是“Laika，第一个进入宇宙的旅行者”。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111622.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>1997年，俄罗斯航天城的入口，建起了莱卡的塑像。</p>",
+          "links": [
+            {
+              "text": "勇敢的太空狗",
+              "url": "https://palash.tk/Untold-Story-Of-The-Brave-Space-Dog"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111620.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111621.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111622.jpg"
+          ]
+        },
+        {
+          "title": "埋葬在月球的人",
+          "content": "<p>科学家尤金·舒梅克（Eugene Shoemaker）是目前唯一一个埋葬在月球的人。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111623.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他主要研究陨石坑。20世纪60年代初期，他帮助阿波罗计划的宇航员了解他们可能在月球表面遇到的地质情况。1997年7月18日他在澳大利亚探索一个流星陨石坑时死于车祸。</p>\n<p>他的一位亲密同事提出，希望把他的骨灰带到月球上，美国宇航局同意了。1998年1月6日，美国国家航空航天局的月球探测器降落在月球的南极，进行考察，并且携带了一盎司的骨灰。骨灰放在一个聚碳酸酯胶囊里面，外面包裹了黄铜箔片，刻着死者的名字和生日忌日，还有一个亚利桑那州的流星陨石坑的图像，尤金·舒梅克在那里训练了阿波罗宇航员。</p>\n<p>1999年7月31日，考察结束，飞船留下了骨灰，使他成为第一个也是唯一一个被埋葬在月球的人。</p>\n<p>现在，随着 SpaceX 这样的私人航天公司的兴起，太空埋葬可能成为一门有利可图的生意。一枚火箭就可以将大量骨灰进入太空，未来也许会有更多的人埋葬在月球，以及更远的深空。</p>",
+          "links": [
+            {
+              "text": "埋葬在月球的人",
+              "url": "https://www.atlasobscura.com/articles/eugene-shoemaker-buried-moon-celestis-nasa"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111623.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "本周图片",
+      "title": "本周图片",
+      "items": [
+        {
+          "title": "彩色的古希腊雕像",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111624.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>我们现在看到的古希腊雕像，都是白色的大理石。但是，它们的原始样子是有颜色的，科学家正在尝试恢复那些雕像的原始颜色。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111625.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111626.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "彩色的古希腊雕像",
+              "url": "https://www.newyorker.com/magazine/2018/10/29/the-myth-of-whiteness-in-classical-sculpture"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111624.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111625.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111626.jpg"
+          ]
+        },
+        {
+          "title": "视觉的错觉",
+          "content": "<p>下图的水平线都是平行的。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111627.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>下图的圆圈都是同一种颜色。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111628.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>下图的两张图片是一样的。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111629.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "视觉的错觉",
+              "url": "http://nautil.us/blog/12-mind_bending-perceptual-illusions"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111627.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111628.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111629.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "新奇",
+      "title": "新奇",
+      "items": [
+        {
+          "title": "OpenCat",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111630.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>中国物理博士、机器人专家李荣仲使用树莓派，开发的 OpenCat AI 项目正在众筹。该项目是一只会走路的机器猫，名叫 Nybble。</p>\n<p>用户可以编程，改进它的走路技巧，帮助它思考！国内读者可以观看<a href=\"https://v.youku.com/v_show/id_XMzQxMzA1NjM0OA==.html\" target=\"_blank\" rel=\"noopener noreferrer\">优酷视频</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111631.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/201811/bg2018111632.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "OpenCat",
+              "url": "https://www.raspberrypi.org/magpi/nybble-open-source-kitten/"
+            },
+            {
+              "text": "优酷视频",
+              "url": "https://v.youku.com/v_show/id_XMzQxMzA1NjM0OA==.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111630.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111631.jpg",
+            "https://cdn.beekka.com/blogimg/asset/201811/bg2018111632.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "本周金句",
+      "title": "本周金句",
+      "items": [
+        {
+          "title": "微",
+          "content": "<p>软购买 GitHub，意味着甲骨文、IBM 等无法购买它，这消除了很多风险。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=18309232\" target=\"_blank\" rel=\"noopener noreferrer\">Hacker News 的一个读者</a></p>",
+          "links": [
+            {
+              "text": "Hacker News 的一个读者",
+              "url": "https://news.ycombinator.com/item?id=18309232"
+            }
+          ]
+        },
+        {
+          "title": "创",
+          "content": "<p>新可能是好的，也可能是坏的。如果我们让公司决定使用哪些创新，他们将选择那些让他们利润最大化的创新。</p>\n<p>-- <a href=\"https://newleftreview.org/II/113/richard-stallman-talking-to-the-mailman\" target=\"_blank\" rel=\"noopener noreferrer\">理查德·斯托曼</a></p>",
+          "links": [
+            {
+              "text": "理查德·斯托曼",
+              "url": "https://newleftreview.org/II/113/richard-stallman-talking-to-the-mailman"
+            }
+          ]
+        },
+        {
+          "title": "与",
+          "content": "<p>开源软件相比，IBM 销售的所有东西都非常糟糕（DB2，RAD，WebSphere，Clear Case，Tivoli）。你购买 IBM 软件的唯一原因是，你是一家老公司（比如银行、保险公司），很早以前就购买了他们的软件，并且你不关心效率或成本。</p>\n<p>-- <a href=\"https://news.ycombinator.com/item?id=18323110\" target=\"_blank\" rel=\"noopener noreferrer\">一位用户对 IBM 收购 Red Hat 的评论</a></p>",
+          "links": [
+            {
+              "text": "一位用户对 IBM 收购 Red Hat 的评论",
+              "url": "https://news.ycombinator.com/item?id=18323110"
+            }
+          ]
+        },
+        {
+          "title": "加",
+          "content": "<p>密是简单的，难的是保管密钥。</p>\n<p>-- 推特<a href=\"https://twitter.com/compscifact/status/1058066235378802689\" target=\"_blank\" rel=\"noopener noreferrer\">@ CompSciFact</a></p>",
+          "links": [
+            {
+              "text": "@ CompSciFact",
+              "url": "https://twitter.com/compscifact/status/1058066235378802689"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "欢迎订阅",
+      "title": "欢迎订阅",
+      "items": [
+        {
+          "content": "<p>这个专栏每周五发布，同步更新在我的<a href=\"http://www.ruanyifeng.com/blog\" target=\"_blank\" rel=\"noopener noreferrer\">个人网站</a>、<a href=\"http://weixin.sogou.com/weixin?query=%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97\" target=\"_blank\" rel=\"noopener noreferrer\">微信公众号</a>和<a href=\"https://yuque.com/ruanyf/share/\" target=\"_blank\" rel=\"noopener noreferrer\">语雀</a>。</p>\n<p>微信搜索“__阮一峰的网络日志__”或者扫描二维码，即可订阅。</p>\n<p><img src=\"http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042311.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "个人网站",
+              "url": "http://www.ruanyifeng.com/blog"
+            },
+            {
+              "text": "微信公众号",
+              "url": "http://weixin.sogou.com/weixin?query=%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97"
+            },
+            {
+              "text": "语雀",
+              "url": "https://yuque.com/ruanyf/share/"
+            }
+          ],
+          "images": [
+            "http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042311.jpg"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-31.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-31.md"
+}
