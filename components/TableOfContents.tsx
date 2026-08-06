@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useI18n } from "@/lib/i18n/provider";
 import type { Section } from "@/lib/types";
 
 function TocList({
@@ -59,6 +60,7 @@ export function useActiveSection(sections: Section[]) {
 
 /** Mobile accordion TOC */
 export function MobileToc({ sections }: { sections: Section[] }) {
+  const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const active = useActiveSection(sections);
 
@@ -71,8 +73,10 @@ export function MobileToc({ sections }: { sections: Section[] }) {
         onClick={() => setOpen((v) => !v)}
         className="flex w-full items-center justify-between rounded-xl border border-border bg-card px-4 py-3 text-sm font-medium"
       >
-        目录
-        <span className="text-muted">{open ? "收起" : "展开"}</span>
+        {t.issue.toc}
+        <span className="text-muted">
+          {open ? t.issue.tocCollapse : t.issue.tocExpand}
+        </span>
       </button>
       {open ? (
         <div className="mt-2 rounded-xl border border-border bg-card p-3">
@@ -87,16 +91,17 @@ export function MobileToc({ sections }: { sections: Section[] }) {
   );
 }
 
-/** Desktop sticky TOC — must be a direct grid/flex child with self-start */
+/** Desktop sticky TOC */
 export function DesktopToc({ sections }: { sections: Section[] }) {
+  const { t } = useI18n();
   const active = useActiveSection(sections);
 
   if (!sections.length) return null;
 
   return (
-    <aside className="sticky top-20 self-start max-h-[calc(100vh-5.5rem)] overflow-y-auto pb-8">
+    <aside className="sticky top-20 max-h-[calc(100vh-5.5rem)] self-start overflow-y-auto pb-8">
       <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">
-        目录
+        {t.issue.toc}
       </p>
       <TocList sections={sections} active={active} />
     </aside>

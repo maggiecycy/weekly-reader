@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useI18n } from "@/lib/i18n/provider";
 import type { ManifestIssue } from "@/lib/types";
 
 function formatDate(date: string) {
@@ -7,6 +10,8 @@ function formatDate(date: string) {
 }
 
 export function IssueCard({ issue }: { issue: ManifestIssue }) {
+  const { t } = useI18n();
+
   return (
     <Link
       href={`/issue/${issue.number}`}
@@ -22,8 +27,8 @@ export function IssueCard({ issue }: { issue: ManifestIssue }) {
           className="aspect-[16/9] w-full object-cover transition duration-300 group-hover:scale-[1.02]"
         />
       ) : (
-        <div className="flex aspect-[16/9] w-full items-center justify-center bg-surface text-muted text-sm">
-          无封面
+        <div className="flex aspect-[16/9] w-full items-center justify-center bg-surface text-sm text-muted">
+          {t.card.noCover}
         </div>
       )}
       <div className="p-5">

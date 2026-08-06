@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useI18n } from "@/lib/i18n/provider";
 
 type Theme = "light" | "dark";
 
@@ -14,13 +15,14 @@ function getPreferred(): Theme {
 }
 
 export function ThemeToggle() {
+  const { t } = useI18n();
   const [theme, setTheme] = useState<Theme>("light");
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const t = getPreferred();
-    setTheme(t);
-    document.documentElement.classList.toggle("dark", t === "dark");
+    const next = getPreferred();
+    setTheme(next);
+    document.documentElement.classList.toggle("dark", next === "dark");
     setMounted(true);
   }, []);
 
@@ -36,7 +38,7 @@ export function ThemeToggle() {
       <button
         type="button"
         className="h-9 w-9 rounded-lg border border-border bg-card"
-        aria-label="切换主题"
+        aria-label={t.theme.toggle}
       />
     );
   }
@@ -46,10 +48,10 @@ export function ThemeToggle() {
       type="button"
       onClick={toggle}
       className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-card text-sm text-muted transition hover:border-accent hover:text-foreground"
-      aria-label={theme === "dark" ? "切换到浅色模式" : "切换到深色模式"}
-      title={theme === "dark" ? "浅色模式" : "深色模式"}
+      aria-label={theme === "dark" ? t.theme.toLight : t.theme.toDark}
+      title={theme === "dark" ? t.theme.light : t.theme.dark}
     >
-      {theme === "dark" ? "光" : "夜"}
+      {theme === "dark" ? t.theme.lightShort : t.theme.darkShort}
     </button>
   );
 }

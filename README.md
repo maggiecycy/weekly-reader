@@ -9,6 +9,7 @@
 - 首页最新 4 期 + 加载更多
 - 详情页重排版（TOC / 上期下期 / 原文链接）
 - 全站搜索、归档、Light/Dark
+- **UI 中英切换**（正文仍为中文原文）
 
 ## 本地运行
 
@@ -19,10 +20,6 @@ npm run dev        # http://localhost:3000
 ```
 
 日常增量：`npm run sync`
-
-## 部署
-
-导入 [Vercel](https://vercel.com) 即可。GitHub Actions（`.github/workflows/sync.yml`）会定时检查新期并提交 `content/`。
 
 ## 版权
 

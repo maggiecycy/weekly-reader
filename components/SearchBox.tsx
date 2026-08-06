@@ -3,16 +3,11 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, useTransition } from "react";
+import { useI18n } from "@/lib/i18n/provider";
 import type { SearchHit } from "@/lib/search";
 
-const MATCH_LABEL: Record<SearchHit["matchIn"], string> = {
-  title: "标题",
-  summary: "摘要",
-  content: "正文",
-  section: "栏目",
-};
-
 export function SearchBox() {
+  const { t } = useI18n();
   const router = useRouter();
   const [q, setQ] = useState("");
   const [hits, setHits] = useState<SearchHit[]>([]);
@@ -20,6 +15,13 @@ export function SearchBox() {
   const [pending, startTransition] = useTransition();
   const wrapRef = useRef<HTMLDivElement>(null);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const matchLabel: Record<SearchHit["matchIn"], string> = {
+    title: t.nav.matchTitle,
+    summary: t.nav.matchSummary,
+    content: t.nav.matchContent,
+    section: t.nav.matchSection,
+  };
 
   useEffect(() => {
     const onDoc = (e: MouseEvent) => {
@@ -66,10 +68,10 @@ export function SearchBox() {
   };
 
   return (
-    <div ref={wrapRef} className="relative w-full max-w-xs">
+    <div ref={wrapRef} className="relative w-full max-w-[11rem] sm:max-w-xs">
       <form onSubmit={submit}>
         <label className="sr-only" htmlFor="site-search">
-          搜索周刊
+          {t.nav.searchAria}
         </label>
         <input
           id="site-search"
@@ -77,18 +79,18 @@ export function SearchBox() {
           value={q}
           onChange={(e) => setQ(e.target.value)}
           onFocus={() => hits.length && setOpen(true)}
-          placeholder="搜索期号 / 标题 / 关键词…"
-          className="w-full rounded-lg border border-border bg-card px-3 py-1.5 text-sm text-foreground placeholder:text-muted outline-none transition focus:border-accent"
+          placeholder={t.nav.searchPlaceholder}
+          className="w-full rounded-lg border border-border bg-card px-3 py-1.5 text-sm text-foreground outline-none transition placeholder:text-muted focus:border-accent"
           autoComplete="off"
         />
       </form>
 
       {open && q.trim() ? (
-        <div className="absolute right-0 left-0 top-full z-50 mt-1.5 overflow-hidden rounded-xl border border-border bg-card shadow-lg">
+        <div className="absolute right-0 left-0 top-full z-50 mt-1.5 overflow-hidden rounded-xl border border-border bg-card shadow-lg sm:left-auto sm:w-80">
           {pending && !hits.length ? (
-            <p className="px-3 py-3 text-xs text-muted">搜索中…</p>
+            <p className="px-3 py-3 text-xs text-muted">{t.nav.searchPending}</p>
           ) : hits.length === 0 ? (
-            <p className="px-3 py-3 text-xs text-muted">无匹配结果</p>
+            <p className="px-3 py-3 text-xs text-muted">{t.nav.searchEmpty}</p>
           ) : (
             <ul className="max-h-80 overflow-y-auto py-1">
               {hits.map((hit) => (
@@ -100,7 +102,7 @@ export function SearchBox() {
                   >
                     <div className="flex items-center gap-2 text-xs text-muted">
                       <span className="font-mono text-accent">#{hit.number}</span>
-                      <span>{MATCH_LABEL[hit.matchIn]}</span>
+                      <span>{matchLabel[hit.matchIn]}</span>
                     </div>
                     <p className="mt-0.5 truncate text-sm font-medium">
                       {hit.title}
@@ -123,7 +125,7 @@ export function SearchBox() {
             }}
             className="w-full border-t border-border px-3 py-2 text-left text-xs text-accent hover:bg-surface"
           >
-            查看全部结果 →
+            {t.nav.searchViewAll}
           </button>
         </div>
       ) : null}
