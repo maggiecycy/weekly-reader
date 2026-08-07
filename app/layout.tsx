@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   },
   description:
     "Personal reader for Ruan Yifeng’s Weekly. Modern layout, bilingual UI. Copyright belongs to the original author.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
