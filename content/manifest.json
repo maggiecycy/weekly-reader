@@ -1,8 +1,16 @@
 {
-  "latest": 406,
-  "syncedAt": "2026-08-06T09:03:28.520Z",
-  "total": 406,
+  "latest": 407,
+  "syncedAt": "2026-08-07T13:35:16.956Z",
+  "total": 407,
   "issues": [
+    {
+      "number": 407,
+      "title": "国家为什么需要开源软件？",
+      "date": "2026-08-07",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202608/bg2026080619.webp",
+      "summary": "上个月，大模型 Kimi K3 发布。大家可能不知道，它在美国引起的反响，比中国大。 它的性能略逊于美国的顶尖模型，但是它是开源的，任何人都可以自己架设。这对大公司非常有吸引力。 美国目前的经济增长，全靠巨额的 AI 投资，其他行业其实不怎…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-407.html"
+    },
     {
       "number": 406,
       "title": "道可，道非，常道",
