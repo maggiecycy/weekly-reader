@@ -2,6 +2,8 @@
 
 阮一峰「[科技爱好者周刊](https://github.com/ruanyf/weekly)」个人阅读器：现代排版、全站搜索、自动同步。
 
+**Demo：** [https://weekly-reader-sandy.vercel.app](https://weekly-reader-sandy.vercel.app)
+
 > 内容版权归阮一峰所有。本站仅供个人阅读，非官方镜像；每期保留原文链接与署名。
 
 ## 功能
