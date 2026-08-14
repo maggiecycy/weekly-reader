@@ -1,8 +1,16 @@
 {
-  "latest": 407,
-  "syncedAt": "2026-08-12T09:06:29.273Z",
-  "total": 407,
+  "latest": 408,
+  "syncedAt": "2026-08-14T00:45:57.960Z",
+  "total": 408,
   "issues": [
+    {
+      "number": 408,
+      "title": "你需要知道的 AI 缓存知识",
+      "date": "2026-08-14",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202608/bg2026081308.webp",
+      "summary": "大模型的价格，主要是 Token 的输入价格和输出价格，这个很容易理解。 但是，还有一项“输入 Token 的缓存命中价格”，这是什么东西？ 上图是 DeepSeek V4 Flash 模型的定价，可以看到缓存命中的输入价格只有2分钱，足足…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html"
+    },
     {
       "number": 407,
       "title": "国家为什么需要开源软件？",
