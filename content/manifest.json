@@ -1,8 +1,16 @@
 {
-  "latest": 408,
-  "syncedAt": "2026-08-20T08:30:30.685Z",
-  "total": 408,
+  "latest": 409,
+  "syncedAt": "2026-08-21T00:35:18.472Z",
+  "total": 409,
   "issues": [
+    {
+      "number": 409,
+      "title": "程序员的职业未来",
+      "date": "2026-08-21",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202608/bg2026082001.webp",
+      "summary": "程序员这个职业，将来会怎样？现在有很多说法。 一些人认为，将来的代码都是 AI 生成，市场不需要那么多程序员。极端情况下，程序员职业可能会消失。 另一些人认为，不必杞人忧天，AI 不过替代一部分手工编码，替代不了人类的判断。AI 让世界需要…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-409.html"
+    },
     {
       "number": 408,
       "title": "你需要知道的 AI 缓存知识",
