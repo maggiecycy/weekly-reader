@@ -1,8 +1,16 @@
 {
-  "latest": 409,
-  "syncedAt": "2026-08-27T18:43:05.481Z",
-  "total": 409,
+  "latest": 410,
+  "syncedAt": "2026-08-28T07:24:27.524Z",
+  "total": 410,
   "issues": [
+    {
+      "number": 410,
+      "title": "你需要知道的 AI 三种机制",
+      "date": "2026-08-28",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202608/bg2026082701.webp",
+      "summary": "这是“AI 小知识系列”的第三篇，前两篇分别是《大模型需要多少内存》和《AI 缓存是什么》。 我分享一些自己的学习笔记，用来理清对于 AI 技术的理解。我尽量写得通俗，希望对大家有用。 今天谈一个基本问题：AI 为什么能够回答我们的提问，它…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-410.html"
+    },
     {
       "number": 409,
       "title": "程序员的职业未来",
