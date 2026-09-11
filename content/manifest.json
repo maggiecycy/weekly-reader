@@ -1,8 +1,16 @@
 {
-  "latest": 411,
-  "syncedAt": "2026-09-10T12:36:13.469Z",
-  "total": 411,
+  "latest": 412,
+  "syncedAt": "2026-09-11T01:49:04.997Z",
+  "total": 412,
   "issues": [
+    {
+      "number": 412,
+      "title": "禁止 issue，只用 PR",
+      "date": "2026-09-11",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202609/bg2026090901.webp",
+      "summary": "上海前滩太古里举办的“英雄联盟15周年”展览。（via）",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html"
+    },
     {
       "number": 411,
       "title": "OpenClaw 2.0 是一个缩影",
