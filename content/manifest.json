@@ -1,8 +1,16 @@
 {
-  "latest": 412,
-  "syncedAt": "2026-09-17T12:56:27.894Z",
-  "total": 412,
+  "latest": 413,
+  "syncedAt": "2026-09-18T01:55:05.070Z",
+  "total": 413,
   "issues": [
+    {
+      "number": 413,
+      "title": "再见了，React Native",
+      "date": "2026-09-18",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202609/bg2026091701.webp",
+      "summary": "Spotify 宣布，放弃 React Native，改用 Swift 和 Kotlin 开发它的移动版。 也就是说，它决定采用原生语言，开发 iOS 和安卓客户端，不再采用 Web 技术开发一个中间版本，再编译成各平台的客户端。 这不禁让…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html"
+    },
     {
       "number": 412,
       "title": "禁止 issue，只用 PR",
