@@ -1,8 +1,16 @@
 {
-  "latest": 413,
-  "syncedAt": "2026-10-08T15:07:23.440Z",
-  "total": 413,
+  "latest": 414,
+  "syncedAt": "2026-10-09T03:25:25.985Z",
+  "total": 414,
   "issues": [
+    {
+      "number": 414,
+      "title": "Jev 决策模型有什么用",
+      "date": "2026-10-09",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202610/bg2026100816.webp",
+      "summary": "上个月，最大的 AI 新闻不是 GPT 或 Claude 模型的新版本，而是一家名不见经传的公司 TypeSafe AI 发布了一种新类型的模型 Jev。 这种新模型跟以前的模型截然不同，叫做“决策模型”。 我看了以后，觉得不可置信，这么有…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-414.html"
+    },
     {
       "number": 413,
       "title": "再见了，React Native",

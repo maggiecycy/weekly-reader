@@ -1,0 +1,714 @@
+{
+  "number": 414,
+  "title": "Jev 决策模型有什么用",
+  "date": "2026-10-09",
+  "coverImage": "https://cdn.beekka.com/blogimg/asset/202610/bg2026100816.webp",
+  "coverCaption": "国产首列数字地铁列车 VELLINK，完全无人驾驶，车头改成了大幅玻璃，用于观光。（via）",
+  "summary": "上个月，最大的 AI 新闻不是 GPT 或 Claude 模型的新版本，而是一家名不见经传的公司 TypeSafe AI 发布了一种新类型的模型 Jev。 这种新模型跟以前的模型截然不同，叫做“决策模型”。 我看了以后，觉得不可置信，这么有…",
+  "sections": [
+    {
+      "id": "封面图",
+      "title": "封面图",
+      "items": [
+        {
+          "content": "<p>国产首列数字地铁列车 VELLINK，完全无人驾驶，车头改成了大幅玻璃，用于观光。（<a href=\"https://jl.chinadaily.com.cn/a/202609/23/WS6ab3be35e4b09a165c78c53d.html\" target=\"_blank\" rel=\"noopener noreferrer\">via</a>）</p>",
+          "links": [
+            {
+              "text": "via",
+              "url": "https://jl.chinadaily.com.cn/a/202609/23/WS6ab3be35e4b09a165c78c53d.html"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100816.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jev-决策模型有什么用",
+      "title": "Jev 决策模型有什么用",
+      "items": [
+        {
+          "content": "<p>上个月，最大的 AI 新闻不是 GPT 或 Claude 模型的新版本，而是一家名不见经传的公司 <a href=\"https://typesafe.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">TypeSafe AI</a> 发布了一种新类型的模型 <a href=\"https://typesafe.ai/blog/introducing-system-one-models-and-jev\" target=\"_blank\" rel=\"noopener noreferrer\">Jev</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100817.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这种新模型跟以前的模型截然不同，叫做“决策模型”。</p>\n<p>我看了以后，觉得不可置信，这么有用又这么（概念）简单的东西，以前怎么会没人想到？</p>\n<p>Jev 模型的最大特点就是，其他模型返回文字，<strong>它返回一个浮点数，表示概率</strong>。</p>\n<p>为什么返回概率就有用呢？因为我们可以用它处理“是非题”了。你问它“‘明天下雨’这句话对不对”。它返回 0，表示正确的概率为0，即明天肯定不下雨；如果返回0.99，表示有99%的可能，这句话是真的，也就是明天必定下雨。</p>\n<p>除了是非题，它还能处理“选择题”。你给它 ABCD 四个选项，它会返回每个选项正确的概率，因此你马上知道哪个选项最可能为真。</p>\n<p>最后，它还有一个神奇的功能，叫做“评分”（score）。你告诉它一组评分标准，然后再给它一篇原始材料，它就会根据评分标准，对原始材料进行打分。</p>\n<p>下面，我给大家看两个真实例子，你就会知道这个模型多么有用。它们都是使用 Jev 模型的浏览器插件。</p>\n<p>第一个例子是<a href=\"https://blog.tymscar.com/posts/hunchsemanticfind/\" target=\"_blank\" rel=\"noopener noreferrer\">《我用 Ctrl + F 寻找答案》</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100818.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>大家知道，Ctrl + F 是浏览器的“查找”快捷键，用来查找某个单词或句子出现在哪里。</p>\n<p>但是，作者把这个快捷键改造成“语义查找”。比如，在一个人物传记网页上，你按 Ctrl + F 输入“青少年时代”，查找的不是这个词，而真的是讲述人物小时候经历的那个段落。</p>\n<p>它的实现原理很简单，就是依次拿出文章的每个段落，去问 Jev 模型“本段落是否跟用户的搜索词相关？”（是非题）。Jev 会返回一个相关度的概率，那么相关度最高的几个段落，就是用户需要的语义查找结果。</p>\n<p>第二个是例子<a href=\"https://pub.towardsai.net/build-a-browser-extension-with-jev-22e026255cb7\" target=\"_blank\" rel=\"noopener noreferrer\">《我用 Jev 为网页打分》</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100819.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者给出了一组标准，从低分到高分。</p>\n<blockquote>\n<p>- 论点缺乏依据，或者纯粹在堆砌辞藻。</p>\n<p>- 理由寥寥，或论证松散、流于修辞。</p>\n<p>- 理由清晰，逻辑结构连贯。</p>\n<p>- 推理结构严密，有实据支撑，并回应了反方观点。</p>\n</blockquote>\n<p>他让 Jev 根据这些标准，自动为新打开的网页打分（评分题）。这样一来，他不用读网页，就能知道内容的质量。</p>\n<p>上面两篇文章，里面都有代码，大家可以自己去看。看完你就明白了，<strong>一旦 AI 模型返回量化的结果，许多以前无法数字化处理的问题，顿时都能用计算机处理了</strong>。</p>\n<p>著名开发者西蒙·威利斯（Simon Willison）的 <a href=\"https://simonwillison.net/2026/Sep/21/jev/\" target=\"_blank\" rel=\"noopener noreferrer\">Jev 介绍文章</a>，我也推荐大家阅读。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100820.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>他的评价一针见血：“Jev 实际上代表着机器学习系统的倒退，走向黑箱系统。以前的大模型虽然不能保证正确，但至少你可以要求它们解释它们的决定。Jev 甚至连这点都不给你：你只会得到一个浮点数，这个数字是怎么来的，不知道。”</p>\n<p>他很担忧，有人会用 Jev 给求职者排名。</p>\n<p>有了 Jev 以后，公司筛选简历、挑选面试人从未如此容易，复杂的评估被简化成一个评分题。</p>",
+          "links": [
+            {
+              "text": "TypeSafe AI",
+              "url": "https://typesafe.ai/"
+            },
+            {
+              "text": "Jev",
+              "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+            },
+            {
+              "text": "《我用 Ctrl + F 寻找答案》",
+              "url": "https://blog.tymscar.com/posts/hunchsemanticfind/"
+            },
+            {
+              "text": "《我用 Jev 为网页打分》",
+              "url": "https://pub.towardsai.net/build-a-browser-extension-with-jev-22e026255cb7"
+            },
+            {
+              "text": "Jev 介绍文章",
+              "url": "https://simonwillison.net/2026/Sep/21/jev/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100817.webp",
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100818.webp",
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100819.webp",
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100820.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markdown-正在变成源码",
+      "title": "Markdown 正在变成源码",
+      "items": [
+        {
+          "content": "<p>Markdown 格式以前只用于写文档。最近，我看到一篇文章，作者提出一个大胆的命题：<a href=\"https://htmx.org/essays/markdown-in-src/\" target=\"_blank\" rel=\"noopener noreferrer\">Markdown 正在变成源码</a>。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100821.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者的理由听起来很有道理。</p>\n<p>（1）Markdown 是纯文本，差异比较、搜索、审查都很容易。</p>\n<p>（2）AI 可以像母语一样读写 Markdown。</p>\n<p>（3）人类无需工具即可阅读和编辑 Markdown。</p>\n<p>既然代码是 AI 根据 Markdown 提示词生成的，那么 Markdown 提示词就应该和生成的源码一起，提交到`/src`目录。</p>\n<p>事实上，Markdown 已经作为 AGENTS.md 文件，成为了源码的一部分。</p>\n<p>以后，我们必须要习惯，Markdown 文档也是源码。</p>",
+          "links": [
+            {
+              "text": "Markdown 正在变成源码",
+              "url": "https://htmx.org/essays/markdown-in-src/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100821.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "不能摄像的摄像头",
+      "title": "不能摄像的摄像头",
+      "items": [
+        {
+          "content": "<p>据传，苹果公司最近将发布一款<a href=\"https://www.theapplepost.com/2026/10/01/72882/apples-smart-home-camera-reportedly-wont-record-video/\" target=\"_blank\" rel=\"noopener noreferrer\">智能家居摄像头</a>。</p>\n<p>这款产品最奇特的地方在于，它虽然是摄像头，但是不能录制视频。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100512.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>你能想象吗，摄像头不能摄像，那还叫摄像头吗？</p>\n<p>它完全依靠 AI 分析周围环境，并报告检测到的内容。比如，陌生人敲门。其他摄像头会提供视频，它只会提供详细的文字描述。</p>\n<p>虽然文字处理比较方便，但是很多时候确实需要视频记录（入室盗窃、包裹被盗等等），不知道苹果会如何处理这些情况。</p>",
+          "links": [
+            {
+              "text": "智能家居摄像头",
+              "url": "https://www.theapplepost.com/2026/10/01/72882/apples-smart-home-camera-reportedly-wont-record-video/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100512.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rsa-因素分解的新纪录",
+      "title": "RSA 因素分解的新纪录",
+      "items": [
+        {
+          "content": "<p>RSA 是一种常用的密钥算法。如果被破解，许多软件顿时就毫无秘密可言了。</p>\n<p>RSA 的破解难度，完全取决于它的公钥能否被因数分解。加密位数越多，越难破解，RSA 密钥破解以前的最高纪录是768位（二进制位）。</p>\n<p>就是今年9月20日，Anthropic 公司的一位软件工程师<a href=\"https://saweis.net/posts/rsa-896.html\" target=\"_blank\" rel=\"noopener noreferrer\">宣布</a>，他在 Claude 模型的帮助下，破解了896位的 RSA 密钥。</p>\n<p>下面就是他放出来的被破解的密钥，以及这个密钥分解后的两个质因子。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>据他<a href=\"https://nitter.netbub.com/sweis/status/2101484464807596264\" target=\"_blank\" rel=\"noopener noreferrer\">透露</a>，他用 Claude 模型将质因数分解的软件库 CADO-NFS 移植到 GPU 运行，在2048个 GPU 上运行了10天，就得到了结果。</p>\n<p>这件事的启示是，一个个人就能调用资源，破解这么长的密钥了，那么大机构可以破解多少位的密钥？都不敢想象啊。</p>\n<p>所以，目前都建议，RSA 密钥最少也要2048位。</p>",
+          "links": [
+            {
+              "text": "宣布",
+              "url": "https://saweis.net/posts/rsa-896.html"
+            },
+            {
+              "text": "透露",
+              "url": "https://nitter.netbub.com/sweis/status/2101484464807596264"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092002.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "文章",
+      "title": "文章",
+      "items": [
+        {
+          "title": "JavaScript 技术栈2026最新动态",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092401.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>CodePen 和 CSS-Tricks 创始人克里斯·科耶（Chris Coyier）的文章，介绍 JS 技术栈各方面（语法、运行时、框架、工具等）的最新进展，推荐阅读。</p>",
+          "links": [
+            {
+              "text": "JavaScript 技术栈2026最新动态",
+              "url": "https://blog.master.dev/what-to-know-in-javascript-2026-edition/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092401.webp"
+          ]
+        },
+        {
+          "title": "我从 Deno 转投 Node.js",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100518.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者表达了对 Deno 的失望，认为该项目已经失败，反而是 Node.js 变得更好用。</p>",
+          "links": [
+            {
+              "text": "我从 Deno 转投 Node.js",
+              "url": "https://dbushell.com/2026/10/03/deno-to-node/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100518.webp"
+          ]
+        },
+        {
+          "title": "example.com 更改页面的解释",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100513.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><a href=\"https://example.com/\" target=\"_blank\" rel=\"noopener noreferrer\">example.com</a> 是一个示例网站，只有一个页面，很少发生变化。</p>\n<p>但是最近，这个页面突然发生了变动。本文告诉你，到底是谁架设了这个页面，又为什么要更改它。</p>",
+          "links": [
+            {
+              "text": "example.com 更改页面的解释",
+              "url": "https://www.oliverdunk.com/2026/09/30/iana-reply"
+            },
+            {
+              "text": "example.com",
+              "url": "https://example.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100513.webp"
+          ]
+        },
+        {
+          "title": "AI 竞赛变得尴尬起来",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100815.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>本文认为，最近 Opus 5.5 和 GPT 6.1 Sol 的价格下降，完全是因为这两家公司偷偷使用了 DeepSeek 的开源成果。</p>",
+          "links": [
+            {
+              "text": "AI 竞赛变得尴尬起来",
+              "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100815.webp"
+          ]
+        },
+        {
+          "title": "C 语言的灵活整数大小不是设计失误",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026093001.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一篇 C 语言科普文章，解释为什么它的数据类型的字节大小是可变的，比如 int 类型可以是4个字节，也可以是两个字节。</p>",
+          "links": [
+            {
+              "text": "C 语言的灵活整数大小不是设计失误",
+              "url": "https://pikuma.com/blog/c-integer-sizes-not-a-mistake"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026093001.webp"
+          ]
+        },
+        {
+          "title": "我如何让一个二维码指向两个应用商店",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026093002.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>作者为自己的产品设计了一个纸质卡片，只能印上一个下载二维码。</p>\n<p>他介绍怎么设置服务器后端，区分扫描二维码手机是安卓还是苹果，然后重定向到各自的应用商店。</p>",
+          "links": [
+            {
+              "text": "我如何让一个二维码指向两个应用商店",
+              "url": "https://matthuggins.com/blog/posts/qr-codes-that-route-to-the-appropriate-app-store"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026093002.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "工具",
+      "title": "工具",
+      "items": [
+        {
+          "title": "Crafting Apps",
+          "content": "<p>有人让 AI 使用 Rust 语言重写了 Adobe 套件。Adobe 的7个主力产品，都有对应的重写版，而且全部开源。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100810.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>其中的 <a href=\"https://github.com/storytold/photocraft\" target=\"_blank\" rel=\"noopener noreferrer\">PhotoCraft</a>，界面跟 PhotoShop 简直一模一样。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100811.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>我看到一条评论说，这件事的结果不是 Adobe 公司完蛋，就是美国修改版权法。</p>",
+          "links": [
+            {
+              "text": "Crafting Apps",
+              "url": "https://getartcraft.com/apps"
+            },
+            {
+              "text": "PhotoCraft",
+              "url": "https://github.com/storytold/photocraft"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100810.webp",
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100811.webp"
+          ]
+        },
+        {
+          "title": "Pass Designer",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100508.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>苹果公司官方推出的一款二维码卡片设计软件，用来设计二维码的背景卡片。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100509.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "Pass Designer",
+              "url": "https://developer.apple.com/pass-designer/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100508.webp",
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100509.webp"
+          ]
+        },
+        {
+          "title": "tui-dashboard",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026091901.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个可以自定义的终端面板，通过配置定义不同的布局和内容。（<a href=\"https://github.com/ruanyf/weekly/issues/11718\" target=\"_blank\" rel=\"noopener noreferrer\">@lyuangg</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "tui-dashboard",
+              "url": "https://github.com/lyuangg/tui-dashboard"
+            },
+            {
+              "text": "@lyuangg",
+              "url": "https://github.com/ruanyf/weekly/issues/11718"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026091901.webp"
+          ]
+        },
+        {
+          "title": "yovoice",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026091903.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个桌面的本地 TTS 配音工具，支持音色复刻和情绪调节，可以按照文稿生成配音，语音在本地生成。（<a href=\"https://github.com/ruanyf/weekly/issues/11764\" target=\"_blank\" rel=\"noopener noreferrer\">@leemysw</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "yovoice",
+              "url": "https://github.com/leemysw/yovoice"
+            },
+            {
+              "text": "@leemysw",
+              "url": "https://github.com/ruanyf/weekly/issues/11764"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026091903.webp"
+          ]
+        },
+        {
+          "title": "sh.cd",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026091905.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个服务器体检脚本，检查硬件、性能、IP 质量、网络质量等。（<a href=\"https://github.com/ruanyf/weekly/issues/11781\" target=\"_blank\" rel=\"noopener noreferrer\">@gentpan</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "sh.cd",
+              "url": "https://github.com/CleanIP/sh.cd"
+            },
+            {
+              "text": "@gentpan",
+              "url": "https://github.com/ruanyf/weekly/issues/11781"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026091905.webp"
+          ]
+        },
+        {
+          "title": "AirStats",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092601.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>macOS 菜单栏上的系统监控器。（<a href=\"https://github.com/ruanyf/weekly/issues/11877\" target=\"_blank\" rel=\"noopener noreferrer\">@byrencheema</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "AirStats",
+              "url": "https://github.com/byrencheema/airstats"
+            },
+            {
+              "text": "@byrencheema",
+              "url": "https://github.com/ruanyf/weekly/issues/11877"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092601.webp"
+          ]
+        },
+        {
+          "title": "Video Transcript",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092602.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>识别视频语音、并自动添加字幕的 Web 应用。通过本地模型完成识别，视频、字幕、导出结果均在本地完成，不上传服务器。（<a href=\"https://github.com/ruanyf/weekly/issues/11881\" target=\"_blank\" rel=\"noopener noreferrer\">@anghunk</a> 投稿）</p>\n<p>另有一个同类应用 <a href=\"https://github.com/open-subs/opensubs\" target=\"_blank\" rel=\"noopener noreferrer\">OpenSubs</a>。（<a href=\"https://github.com/ruanyf/weekly/issues/11895\" target=\"_blank\" rel=\"noopener noreferrer\">@open-subs</a> 投稿）</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092603.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "Video Transcript",
+              "url": "https://github.com/anghunk/video-transcript"
+            },
+            {
+              "text": "@anghunk",
+              "url": "https://github.com/ruanyf/weekly/issues/11881"
+            },
+            {
+              "text": "OpenSubs",
+              "url": "https://github.com/open-subs/opensubs"
+            },
+            {
+              "text": "@open-subs",
+              "url": "https://github.com/ruanyf/weekly/issues/11895"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092602.webp",
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092603.webp"
+          ]
+        },
+        {
+          "title": "PecoFence",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092604.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>免费开源的 Windows 11 桌面图标管理工具，整理桌面上的程序快捷方式、文件和文件夹。（<a href=\"https://github.com/ruanyf/weekly/issues/11887\" target=\"_blank\" rel=\"noopener noreferrer\">@DayuanJiang</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "PecoFence",
+              "url": "https://github.com/DayuanJiang/PecoFence"
+            },
+            {
+              "text": "@DayuanJiang",
+              "url": "https://github.com/ruanyf/weekly/issues/11887"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092604.webp"
+          ]
+        },
+        {
+          "title": "skillsgist",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092605.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>基于 Cloudflare Worker 的私有 Skill 仓库，下载 Skill 需要口令，使用小团队内部使用。（<a href=\"https://github.com/ruanyf/weekly/issues/11897\" target=\"_blank\" rel=\"noopener noreferrer\">@Qsnh</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "skillsgist",
+              "url": "https://github.com/Qsnh/skillsgist"
+            },
+            {
+              "text": "@Qsnh",
+              "url": "https://github.com/ruanyf/weekly/issues/11897"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092605.webp"
+          ]
+        },
+        {
+          "title": "Pebrel",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092606.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>一个跨平台的终端，适合 Windows 使用，以前的名字是 Nebula。（<a href=\"https://github.com/ruanyf/weekly/issues/11909\" target=\"_blank\" rel=\"noopener noreferrer\">@Kuddev</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Pebrel",
+              "url": "https://github.com/Kuddev/pebrel"
+            },
+            {
+              "text": "@Kuddev",
+              "url": "https://github.com/ruanyf/weekly/issues/11909"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092606.webp"
+          ]
+        },
+        {
+          "title": "WallpaperMachine",
+          "content": "<p>开源的 macOS 动态壁纸应用，在 Mac 上运行 Wallpaper Engine 壁纸。（<a href=\"https://github.com/ruanyf/weekly/issues/11935\" target=\"_blank\" rel=\"noopener noreferrer\">@fzlzjerry</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "WallpaperMachine",
+              "url": "https://github.com/WallpaperMachine/WallpaperMachine"
+            },
+            {
+              "text": "@fzlzjerry",
+              "url": "https://github.com/ruanyf/weekly/issues/11935"
+            }
+          ]
+        },
+        {
+          "title": "LiteZip",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100602.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>免费开源的 macOS 压缩与解压工具，把打包、加密、分卷和查看压缩包内容等操作放进一个窗口。（<a href=\"https://github.com/ruanyf/weekly/issues/12025\" target=\"_blank\" rel=\"noopener noreferrer\">@gentpan</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "LiteZip",
+              "url": "https://github.com/gentpan/LiteZip"
+            },
+            {
+              "text": "@gentpan",
+              "url": "https://github.com/ruanyf/weekly/issues/12025"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100602.webp"
+          ]
+        },
+        {
+          "title": "Burrow",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100603.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>面向小团队和自托管的轻量 OIDC 单点登录服务，使用密码和验证器登录，通过 OpenID Connect 接入支持该协议的应用。（<a href=\"https://github.com/ruanyf/weekly/issues/12039\" target=\"_blank\" rel=\"noopener noreferrer\">@logic3579</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Burrow",
+              "url": "https://github.com/ArkGravity/burrow"
+            },
+            {
+              "text": "@logic3579",
+              "url": "https://github.com/ruanyf/weekly/issues/12039"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100603.webp"
+          ]
+        },
+        {
+          "title": "atv-core",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100604.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>让 iPhone 控制中心自带的 Apple TV 遥控器，可以直接操控 Android TV 和 Mac。iPhone 无需安装额外 App，也不需要购买 Apple TV。（<a href=\"https://github.com/ruanyf/weekly/issues/12051\" target=\"_blank\" rel=\"noopener noreferrer\">@corvofeng</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "atv-core",
+              "url": "https://github.com/corvofeng/atv-core"
+            },
+            {
+              "text": "@corvofeng",
+              "url": "https://github.com/ruanyf/weekly/issues/12051"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100604.webp"
+          ]
+        },
+        {
+          "title": "open-compute",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100807.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>Cloudflare Workers 的开源兼容平台，让 worker 脚本不用修改就能跑在自己的机器上。（<a href=\"https://github.com/ruanyf/weekly/issues/12062\" target=\"_blank\" rel=\"noopener noreferrer\">@elliothux</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "open-compute",
+              "url": "https://github.com/elliothux/open-compute"
+            },
+            {
+              "text": "@elliothux",
+              "url": "https://github.com/ruanyf/weekly/issues/12062"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100807.webp"
+          ]
+        },
+        {
+          "title": "Snitch",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100808.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>开源的实时网络流量可视化工具，查看你的电脑建立的每一个连接，什么程序正在与谁通信。（<a href=\"https://github.com/ruanyf/weekly/issues/12063\" target=\"_blank\" rel=\"noopener noreferrer\">@aixisstudio</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Snitch",
+              "url": "https://github.com/aixisstudio/Snitch"
+            },
+            {
+              "text": "@aixisstudio",
+              "url": "https://github.com/ruanyf/weekly/issues/12063"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100808.webp"
+          ]
+        },
+        {
+          "title": "EdgeChat",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100809.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>基于 Cloudflare 的开源自部署聊天系统，支持群聊与私信，可以与 Telegram 群组双向同步消息。（<a href=\"https://github.com/ruanyf/weekly/issues/12081\" target=\"_blank\" rel=\"noopener noreferrer\">@aozorae</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "EdgeChat",
+              "url": "https://github.com/aozorae/Edgechat"
+            },
+            {
+              "text": "@aozorae",
+              "url": "https://github.com/ruanyf/weekly/issues/12081"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100809.webp"
+          ]
+        },
+        {
+          "title": "DockTerm",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100601.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>让 Claude Code 的权限请求从 Mac 刘海里弹出，方便让其在后台工作。（<a href=\"https://github.com/ruanyf/weekly/issues/12024\" target=\"_blank\" rel=\"noopener noreferrer\">@munvard</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "DockTerm",
+              "url": "https://github.com/munvard/dockterm"
+            },
+            {
+              "text": "@munvard",
+              "url": "https://github.com/ruanyf/weekly/issues/12024"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100601.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "资源",
+      "title": "资源",
+      "items": [
+        {
+          "title": "Naive Icons",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026091902.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>手绘风格的 React SVG 图标库。（<a href=\"https://github.com/ruanyf/weekly/issues/11740\" target=\"_blank\" rel=\"noopener noreferrer\">@guokaigdg</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "Naive Icons",
+              "url": "https://github.com/guokaigdg/naive-icons"
+            },
+            {
+              "text": "@guokaigdg",
+              "url": "https://github.com/ruanyf/weekly/issues/11740"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026091902.webp"
+          ]
+        },
+        {
+          "title": "阅古文",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026092001.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>免费的古籍阅读网站，不仅提供传统注释，还可以鼠标选中文本，进行 AI 解读。（<a href=\"https://github.com/ruanyf/weekly/issues/11824\" target=\"_blank\" rel=\"noopener noreferrer\">@monsoonw</a> 投稿）</p>",
+          "links": [
+            {
+              "text": "阅古文",
+              "url": "https://yueguwen.com/"
+            },
+            {
+              "text": "@monsoonw",
+              "url": "https://github.com/ruanyf/weekly/issues/11824"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026092001.webp"
+          ]
+        },
+        {
+          "title": "艺术史步行之旅",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100812.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网站将维基百科上面的画作，按照艺术流派，变成可以步行参观的 3D 画廊。</p>",
+          "links": [
+            {
+              "text": "艺术史步行之旅",
+              "url": "https://artmuseum.artfrompixels.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100812.webp"
+          ]
+        },
+        {
+          "title": "stillwet",
+          "content": "<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100510.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>这个网站提供 AI 生成的油画，它模仿人类的油画笔触，一笔笔绘制，非常逼真，根本看不出这是 AI 的作品。</p>",
+          "links": [
+            {
+              "text": "stillwet",
+              "url": "https://stillwet.art/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100510.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "图片",
+      "title": "图片",
+      "items": [
+        {
+          "title": "旧金山有轨电车",
+          "content": "<p>旧金山有很多古老的有轨电车，一直作为旅游项目在开行。</p>\n<p>它们沿着太平洋海岸线开行，真的非常漂亮。下面都是今年拍摄的照片。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026093013.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026093014.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026093015.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026093016.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202609/bg2026093017.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>",
+          "links": [
+            {
+              "text": "旧金山有轨电车",
+              "url": "https://daniel.lawrence.lu/blog/2026-09-20-muni-heritage-weekend/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026093013.webp",
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026093014.webp",
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026093015.webp",
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026093016.webp",
+            "https://cdn.beekka.com/blogimg/asset/202609/bg2026093017.webp"
+          ]
+        },
+        {
+          "title": "大公司的利润率",
+          "content": "<p>下图根据各大公司的年度报告，列出了它们每100美元的收入当中，有多少利润。</p>\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202610/bg2026100516.webp\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" /></p>\n<p>可以看到 IT 公司的利润率普遍非常高，最高的是英伟达，100美元收入可以获得55.6美元的利润，其次是微软36.1美元，第三是谷歌的32.8美元。</p>\n<p>苹果公司的利润率26.9美元，只排名第五。但是，它是硬件公司，更新换代极快的 IT 制造业能有这样的利润率，其实更惊人。</p>",
+          "links": [
+            {
+              "text": "大公司的利润率",
+              "url": "https://www.visualcapitalist.com/ranked-how-profitable-are-the-worlds-largest-companies/"
+            }
+          ],
+          "images": [
+            "https://cdn.beekka.com/blogimg/asset/202610/bg2026100516.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "言论",
+      "title": "言论",
+      "items": [
+        {
+          "title": "致",
+          "content": "<p>AI 代理：去其他地方冲击高分吧，没必要黑我们。</p>\n<p>-- <a href=\"https://archive.is/1BDwZ\" target=\"_blank\" rel=\"noopener noreferrer\">Huggingface 的 security.txt 文件</a></p>",
+          "links": [
+            {
+              "text": "Huggingface 的 security.txt 文件",
+              "url": "https://archive.is/1BDwZ"
+            }
+          ]
+        },
+        {
+          "title": "我",
+          "content": "<p>的收入来自图书销售，2024年还足以维持我的生活，2026年却变为零。</p>\n<p>我的博客和书籍都是免费在线阅读，它们的访问量增长迅猛，已经超出了我的承受能力。几乎所有流量都来自 AI 爬虫，所以没有任何广告收入。</p>\n<p>因此，我决定将我的博客和书籍下线，以便决定下一步该怎么做。</p>\n<p>-- <a href=\"https://molily.de/web-dev-education/\" target=\"_blank\" rel=\"noopener noreferrer\">Axel Rauschmayer</a>，著名的技术作家，解释为什么将自己的网站下线</p>",
+          "links": [
+            {
+              "text": "Axel Rauschmayer",
+              "url": "https://molily.de/web-dev-education/"
+            }
+          ]
+        },
+        {
+          "title": "我",
+          "content": "<p>觉得，AI 个人助理用处不大。我一年也就点五次外卖，根本不需要它代劳，我平时也不怎么收到邮件，自己管理日程安排也挺方便的。</p>\n<p>我真正觉得它好用的地方是，它可以自动收集和处理网上的大量数据。它能够快速扫描1000个 Youtube 频道，找到匹配我兴趣的视频。</p>\n<p>-- <a href=\"https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/\" target=\"_blank\" rel=\"noopener noreferrer\">《Meta 的 Muse 非常适合网页抓取》</a></p>",
+          "links": [
+            {
+              "text": "《Meta 的 Muse 非常适合网页抓取》",
+              "url": "https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/"
+            }
+          ]
+        },
+        {
+          "title": "几",
+          "content": "<p>乎所有人都夸大了中国模型对美国模型公司的威胁，其实那只是美国模型供不应求的结果。</p>\n<p>-- <a href=\"https://stratechery.com/2026/frontier-overhangs/\" target=\"_blank\" rel=\"noopener noreferrer\">stratechery.com</a></p>",
+          "links": [
+            {
+              "text": "stratechery.com",
+              "url": "https://stratechery.com/2026/frontier-overhangs/"
+            }
+          ]
+        },
+        {
+          "title": "一",
+          "content": "<p>个艺术家得了晚期癌症，即将死去。一位经常采访他的主持人问他：你现在对生死有什么新的理解吗？</p>\n<p>他回答：你知道吗，吃三明治是一件多享受的事情。</p>\n<p>我现在感觉生活更珍贵了，时刻提醒自己要珍惜每一份三明治，每一分钟，以及所有的一切。</p>\n<p>-- <a href=\"https://bradmontague.substack.com/p/enjoy-every-sandwich\" target=\"_blank\" rel=\"noopener noreferrer\">《尽情享用每一份三明治》</a></p>",
+          "links": [
+            {
+              "text": "《尽情享用每一份三明治》",
+              "url": "https://bradmontague.substack.com/p/enjoy-every-sandwich"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "往年回顾",
+      "title": "往年回顾",
+      "items": [
+        {
+          "content": "<p><a href=\"https://www.ruanyifeng.com/blog/2025/09/weekly-issue-367.html\" target=\"_blank\" rel=\"noopener noreferrer\">Nano Banana 的几个妙用</a>（#367）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2024/09/weekly-issue-317.html\" target=\"_blank\" rel=\"noopener noreferrer\">驴子、老虎和狮子的寓言</a>（#317）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2023/08/weekly-issue-267.html\" target=\"_blank\" rel=\"noopener noreferrer\">5G 的春天要来了</a>（#267）</p>\n<p><a href=\"https://www.ruanyifeng.com/blog/2022/08/weekly-issue-217.html\" target=\"_blank\" rel=\"noopener noreferrer\">沙特的新未来城</a>（#217）</p>",
+          "links": [
+            {
+              "text": "Nano Banana 的几个妙用",
+              "url": "https://www.ruanyifeng.com/blog/2025/09/weekly-issue-367.html"
+            },
+            {
+              "text": "驴子、老虎和狮子的寓言",
+              "url": "https://www.ruanyifeng.com/blog/2024/09/weekly-issue-317.html"
+            },
+            {
+              "text": "5G 的春天要来了",
+              "url": "https://www.ruanyifeng.com/blog/2023/08/weekly-issue-267.html"
+            },
+            {
+              "text": "沙特的新未来城",
+              "url": "https://www.ruanyifeng.com/blog/2022/08/weekly-issue-217.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-414.html",
+  "githubUrl": "https://github.com/ruanyf/weekly/blob/master/docs/issue-414.md"
+}
