@@ -1,8 +1,16 @@
 {
-  "latest": 414,
-  "syncedAt": "2026-10-15T13:00:08.755Z",
-  "total": 414,
+  "latest": 415,
+  "syncedAt": "2026-10-16T01:59:07.334Z",
+  "total": 415,
   "issues": [
+    {
+      "number": 415,
+      "title": "3D 版《看不见的城市》",
+      "date": "2026-10-16",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202610/bg2026101524.webp",
+      "summary": "意大利小说家卡尔维诺有一本著名的幻想小说《看不见的城市》。 小说讲述旅行家马可波罗，向年迈的元朝皇帝忽必烈介绍他旅行中经过的55座城市。 这些城市没有图片或模型，只有文字描述，所以叫做“看不见的城市”。比如，有一个城市叫做艾琳，马可波罗这样…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-415.html"
+    },
     {
       "number": 414,
       "title": "Jev 决策模型有什么用",
