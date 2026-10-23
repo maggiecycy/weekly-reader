@@ -1,8 +1,16 @@
 {
-  "latest": 415,
-  "syncedAt": "2026-10-22T13:21:51.522Z",
-  "total": 415,
+  "latest": 416,
+  "syncedAt": "2026-10-23T02:19:13.889Z",
+  "total": 416,
   "issues": [
+    {
+      "number": 416,
+      "title": "编程已经面目全非",
+      "date": "2026-10-23",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202610/bg2026102201.webp",
+      "summary": "大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。 AI 推翻了传统的软件开发，编程现在已经面目全非。 即使将来泡沫破灭，AI 也不可能从编程工具链中消失，已经永久成为软件开发的一部分，再也无法移除。 一个国外的…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-416.html"
+    },
     {
       "number": 415,
       "title": "3D 版《看不见的城市》",
