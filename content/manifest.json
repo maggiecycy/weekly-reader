@@ -1,8 +1,16 @@
 {
-  "latest": 416,
-  "syncedAt": "2026-10-29T14:52:35.488Z",
-  "total": 416,
+  "latest": 417,
+  "syncedAt": "2026-10-30T03:16:55.920Z",
+  "total": 417,
   "issues": [
+    {
+      "number": 417,
+      "title": "不要让 AI 代表你",
+      "date": "2026-10-30",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202610/bg2026102923.webp",
+      "summary": "现在，不少人让 AI 代表自己做事，比如购买奶茶、回复邮件。 我建议不要这样。你可以用 AI 帮助自己学习和工作，但不要让它代表你，因为会造成社会混乱。 前不久，有人做了一个实验。他让6个 AI 模型代表自己去退火车票，但是这张票已经过了退…",
+      "sourceUrl": "https://www.ruanyifeng.com/blog/weekly-issue-417.html"
+    },
     {
       "number": 416,
       "title": "编程已经面目全非",
