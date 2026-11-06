@@ -1,8 +1,16 @@
 {
-  "latest": 417,
-  "syncedAt": "2026-11-05T15:59:18.617Z",
-  "total": 417,
+  "latest": 418,
+  "syncedAt": "2026-11-06T03:57:14.933Z",
+  "total": 418,
   "issues": [
+    {
+      "number": 418,
+      "title": "如果科技停止在21世纪初",
+      "date": "2026-11-06",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202611/bg2026110501.webp",
+      "summary": "（1） 网上流行一道题目，大家应该都见过：“如果可以穿越，你愿意生活在哪个朝代？” 我觉得，这个题目有点侮辱智商，因为答案显而易见。正常人肯定只愿意生活在现代，而且越现代越好。 理由很简单，古人没有科技，生活之艰难，现代人难以想象，更不要说…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html"
+    },
     {
       "number": 417,
       "title": "不要让 AI 代表你",
