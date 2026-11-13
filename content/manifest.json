@@ -1,8 +1,16 @@
 {
-  "latest": 418,
-  "syncedAt": "2026-11-12T16:29:16.895Z",
-  "total": 418,
+  "latest": 419,
+  "syncedAt": "2026-11-13T03:53:17.079Z",
+  "total": 419,
   "issues": [
+    {
+      "number": 419,
+      "title": "机房来了，写字楼走了",
+      "date": "2026-11-13",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202611/bg2026111203.webp",
+      "summary": "前几天，我看到一个短视频。有个博主来到内蒙古乌兰察布，拍下自己看到的景象，非常震惊。 那里现在是真正的“热土”，曾经的草原遍布工地，聚集了几万个建筑工人，到处都在开工建设机房。 你敢相信吗？一个内陆地级市，最新统计是已经有100多个数据中心…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html"
+    },
     {
       "number": 418,
       "title": "如果科技停止在21世纪初",
