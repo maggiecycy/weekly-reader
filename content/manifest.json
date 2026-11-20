@@ -1,8 +1,16 @@
 {
-  "latest": 419,
-  "syncedAt": "2026-11-19T16:58:59.873Z",
-  "total": 419,
+  "latest": 420,
+  "syncedAt": "2026-11-20T04:40:36.429Z",
+  "total": 420,
   "issues": [
+    {
+      "number": 420,
+      "title": "最分心的一年",
+      "date": "2026-11-20",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202611/bg2026111901.webp",
+      "summary": "法国开发者亚历杭德罗·奥（Alejandro AO），是世界最大的大模型社区 Hugging Face 的布道师。 他做了很多视频，向初学者科普 AI 知识，都放在他的 Youtube 频道。 他的内容以实操为主，也会涉及一些原理，容易看懂…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html"
+    },
     {
       "number": 419,
       "title": "机房来了，写字楼走了",
