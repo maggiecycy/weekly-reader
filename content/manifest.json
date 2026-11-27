@@ -1,8 +1,16 @@
 {
-  "latest": 420,
-  "syncedAt": "2026-11-26T18:01:27.438Z",
-  "total": 420,
+  "latest": 421,
+  "syncedAt": "2026-11-27T05:40:15.084Z",
+  "total": 421,
   "issues": [
+    {
+      "number": 421,
+      "title": "AI 的疯狂造富",
+      "date": "2026-11-27",
+      "coverImage": "https://cdn.beekka.com/blogimg/asset/202611/bg2026112608.webp",
+      "summary": "上周，模型公司 Anthropic 公司上市，创造出巨额财富。 这是一家历史很短的公司。它成立于2021年，当时规模很小，正式的大量对外招聘是2023年开始的。 大家知道吗，这么短的成立时间，又有这么高的估值，意味着什么？ 说得庸俗一点，就…",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-421.html"
+    },
     {
       "number": 420,
       "title": "最分心的一年",
